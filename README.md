@@ -5,3 +5,17 @@ my_config_i3
 config and i3status.conf should be placed into .i3 directory in your personnal folder too
 
 i think the .bashrc file is note necessary
+
+TODO
+============
+- refaire la config i3
+- plugin ?
+- bar d'info ?
+- conky ?
+- tmux terminal
+- tmux customization
+- tmux vim split keybinding
+- vim-tmux-navigator
+- guake terminal
+- guake dracula skin
+- tmux skin = 
