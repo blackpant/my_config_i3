@@ -8,8 +8,7 @@ i think the .bashrc file is note necessary
 
 TODO
 ============
-- refaire la config i3
-- plugin ?
+- py3status installer
 - bar d'info ?
 - conky ?
 - tmux terminal

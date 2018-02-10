@@ -1,96 +1,135 @@
-!-------------------------------------------------------------------------------
-! Xft settings
-!-------------------------------------------------------------------------------
- 
-Xft.dpi: 96
-Xft.antialias: false
+! freetype2-infinality
+Xft.autohint: 0
+Xft.lcdfilter:  lcddefault
+Xft.hintstyle:  hintslight
+Xft.hinting: 1
+Xft.antialias: 1
 Xft.rgba: rgb
-Xft.hinting: true
-Xft.hintstyle: hintslight
- 
-!-------------------------------------------------------------------------------
-! URxvt settings
-! Colours lifted from Solarized (http://ethanschoonover.com/solarized)
-! More info at:
-! http://pod.tst.eu/http://cvs.schmorp.de/rxvt-unicode/doc/rxvt.1.pod
-!-------------------------------------------------------------------------------
- 
-URxvt.depth: 32
-URxvt.geometry: 90x30
+
+! Tango colors for urxvt
+URxvt.foreground: #C0C0C0
+URxvt.background: #171717
+URxvt.color0:     #2E3436
+URxvt.color1:     #CC0000
+URxvt.color2:     #4E9A06
+URxvt.color3:     #C4A000
+URxvt.color4:     #3465A4
+URxvt.color5:     #75507B
+URxvt.color6:     #06989A
+URxvt.color7:     #D3D7CF
+URxvt.color8:     #555753
+URxvt.color9:     #EF2929
+URxvt.color10:    #8AE234
+URxvt.color11:    #FCE94F
+URxvt.color12:    #729FCF
+URxvt.color13:    #AD7FA8
+URxvt.color14:    #34E2E2
+URxvt.color15:    #EEEEEC
+
+URxvt.termName:    rxvt-256color
 URxvt.transparent: true
-URxvt*.shading: 35
-URxvt.fading: 0
-! URxvt.urgentOnBell: true
-! URxvt.visualBell: true
-URxvt.loginShell: true
-URxvt.saveLines: 50
-URxvt.internalBorder: 3
-URxvt.lineSpace: 0
- 
-! Fonts
-URxvt.allow_bold: false
-/* URxvt.font: -*-terminus-medium-r-normal-*-12-120-72-72-c-60-iso8859-1 */
-URxvt*font: xft:Monospace:pixelsize=14
-URxvt*boldFont: xft:Monospace:pixelsize=14
- 
-! Fix font space
-URxvt*letterSpace: -1
- 
-! Scrollbar
-URxvt.scrollStyle: rxvt
-URxvt.scrollBar: false
- 
-! Perl extensions
-URxvt.perl-ext-common: default,matcher
-URxvt.matcher.button: 1
-URxvt.urlLauncher: firefox
- 
-! Cursor
-URxvt.cursorBlink: true
-URxvt.cursorColor: #657b83
-URxvt.cursorUnderline: false
- 
-! Pointer
-URxvt.pointerBlank: true
- 
-!!Source http://github.com/altercation/solarized
- 
-*background: #002b36
-*foreground: #657b83
-!!*fading: 40
-*fadeColor: #002b36
-*cursorColor: #93a1a1
-*pointerColorBackground: #586e75
-*pointerColorForeground: #93a1a1
- 
-!! black dark/light
-*color0: #073642
-*color8: #002b36
- 
-!! red dark/light
-*color1: #dc322f
-*color9: #cb4b16
- 
-!! green dark/light
-*color2: #859900
-*color10: #586e75
- 
-!! yellow dark/light
-*color3: #b58900
-*color11: #657b83
- 
-!! blue dark/light
-*color4: #268bd2
-*color12: #839496
- 
-!! magenta dark/light
-*color5: #d33682
-*color13: #6c71c4
- 
-!! cyan dark/light
-*color6: #2aa198
-*color14: #93a1a1
- 
-!! white dark/light
-*color7: #eee8d5
-*color15: #fdf6e3
+URxvt.shading:     20
+URxvt.fading:      15
+! URxvt.font:        xft:Iosevka Medium:pixelsize=12.5, xft:Kochi Gothic:antialias=false,xft:Code2000:antialias=false
+URxvt.font:        xft:Source Code Pro for Powerline:pixelsize=11.5,xft:Source Code Pro Black:style=Black,Regular
+
+
+URxvt.saveLines:         4096
+URxvt.scrollBar:         false
+URxvt.scrollTtyOutput:   false
+URxvt.scrollWithBuffer:  true
+URxvt.scrollTtyKeypress: true
+URxvt.urgentOnBell:      true
+URxvt.iconFile:          /usr/share/icons/Numix-Circle/48x48/apps/xterm-color_48x48.svg
+
+! URxvt.perl-lib:       /home/schnouki/.config/urxvt
+! URxvt.perl-ext:       default,cspace,font-size,url-select,tabbedex
+
+URxvt.url-launcher:   /usr/bin/xdg-open
+
+! Tabbedex features
+URxvt.tabbed.new-button:       no
+URxvt.tabbed.autohide:         yes
+URxvt.tabbed.no-tabbedex-keys: yes
+
+! Tabbedex colors
+URxvt.tabbed.tabbar-fg:   244
+URxvt.tabbed.tabbar-bg:   16
+URxvt.tabbed.tab-fg:      255
+URxvt.tabbed.tab-bg:      52
+URxvt.tabbed.bell-tab-fg: 255
+URxvt.tabbed.bell-tab-bg: 160
+URxvt.tabbed.bell-fg:     244
+URxvt.tabbed.bell-bg:     17
+URxvt.tabbed.title-fg:    28
+URxvt.tabbed.title-bg:    16
+
+! Tabbedex keybindings (4-1: Super + Alt)
+URxvt.keysym.4-1-Down:    perl:tabbedex:new_tab
+URxvt.keysym.4-1-Left:    perl:tabbedex:prev_tab
+URxvt.keysym.4-1-Right:   perl:tabbedex:next_tab
+URxvt.keysym.4-1-Up:      perl:tabbedex:rename_tab
+URxvt.keysym.4-1-C-Left:  perl:tabbedex:move_tab_left
+URxvt.keysym.4-1-C-Right: perl:tabbedex:move_tab_right
+
+! Font-size (C-1: Ctrl + Alt)
+URxvt.keysym.C-1-Up:     perl:font-size:increase
+URxvt.keysym.C-1-Down:   perl:font-size:decrease
+URxvt.keysym.C-S-1-Up:   perl:font-size:incglobal
+URxvt.keysym.C-S-1-Down: perl:font-size:decglobal
+
+! url-select
+URxvt.keysym.M-u: perl:url-select:select_next
+URxvt.url-select.launcher: /usr/bin/xdg-open
+URxvt.url-select.underline: yes
+
+! Something similar for XTerm, just in case...
+XTerm*foreground: #C0C0C0
+XTerm*background: #171717
+XTerm*color0:     #2E3436
+XTerm*color1:     #CC0000
+XTerm*color2:     #4E9A06
+XTerm*color3:     #C4A000
+XTerm*color4:     #3465A4
+XTerm*color5:     #75507B
+XTerm*color6:     #06989A
+XTerm*color7:     #D3D7CF
+XTerm*color8:     #555753
+XTerm*color9:     #EF2929
+XTerm*color10:    #8AE234
+XTerm*color11:    #FCE94F
+XTerm*color12:    #729FCF
+XTerm*color13:    #AD7FA8
+XTerm*color14:    #34E2E2
+XTerm*color15:    #EEEEEC
+
+XTerm*faceName: Iosevka Medium
+XTerm*faceSize: 7.5
+
+! rofi -- dmenu clone
+rofi.opacity:  100
+rofi.width:    90
+rofi.lines:    25
+rofi.font:     Iosevka Medium 10
+rofi.location: 0
+rofi.padding:  5
+
+rofi.color-enabled: true
+rofi.color-window: #3f3f3f, #000000, #000000
+
+! State:           bg,      fg,      bgalt    hlbg,    hlfg
+! zenburn:         bg,      fg,      bg-05,   bg+1,    fg+1
+rofi.color-normal: #3f3f3f, #dcdccc, #383838, #4f4f4f, #ffffef
+!                  blue-4,  fg,      blue-5,  blue-3,  fg+1
+rofi.color-active: #4c7073, #dcdccc, #366060, #5c888b, #ffffef
+!                  red-4,   fg,      red-5,   red-3,   fg+1
+rofi.color-urgent: #8c5353, #dcdccc, #7c4343, #9c6363, #ffffef
+
+!(call-process-shell-command "xrdb -load ~/.Xresources")
+
+Vim*useSchemes:			all
+Vim*sgiMode:			true
+Vim*useEnhancedFSB:		true
+Vim.foreground:			Black
+Vim.background:			Wheat
+Vim*fontList:			7x13
