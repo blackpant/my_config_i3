@@ -8,6 +8,9 @@
 # fichier .Xdefault
 # dossier Images/Wallpapers
 # fichier .zshrc
+# install rofi
+# install python-pip
+#
 yaourt -Syua
 yaourt -Sy antigen-git
 # ajout de quelque ligne dans .zshrc pour utiliser oh-my-zsh et pour choisir bundle et theme
@@ -70,14 +73,12 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 # Wallpapers
 blackpant@anarchy  ~/Images/Wallpapers  cp * ~/Images/Wallpapers                                                                                                                                                             (02-12 15:59)
 
-# installation de bspwm
-#
-yaourt -Sy bspwm
 
 # installation de librairies python pour le bon fonctionnement de py3status
 #
 #
 
+yaourt -S python-pip
   726  sudo pip install py3status
   730  sudo pip install pytz
   731  sudo pip install tzlocal
@@ -108,3 +109,9 @@ pour desactiver youcompleteme probleme lors de l'installation !!
 
 
 vraiment se pencher sur neovim !!!
+
+# ROFI install
+#
+
+
+# 
