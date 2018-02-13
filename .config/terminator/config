@@ -1,0 +1,43 @@
+[global_config]
+  borderless = True
+  title_font = Source Code Pro for Powerline Medium 10
+  title_inactive_bg_color = "#1c232b"
+  title_inactive_fg_color = "#888a85"
+  title_receive_bg_color = "#2e3436"
+  title_transmit_bg_color = "#1c232b"
+  title_transmit_fg_color = "#98971a"
+  title_use_system_font = False
+  window_state = maximise
+[keybindings]
+  next_profile = <Shift>F1
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+[plugins]
+[profiles]
+  [[default]]
+    background_darkness = 0.89
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Source Code Pro for Powerline Semi-Bold 10
+    foreground_color = "#839496"
+    scroll_on_keystroke = False
+    scrollback_lines = 2500
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[test]]
+    background_color = "#002b36"
+    background_darkness = 0.9
+    background_type = transparent
+    cursor_color = "#aaaaaa"
+    font = Source Code Pro for Powerline Semi-Bold 10
+    foreground_color = "#839496"
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    scrollbar_position = hidden
+    use_system_font = False
