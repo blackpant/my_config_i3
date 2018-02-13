@@ -1,0 +1,110 @@
+# fichier de config 
+# .vimrc
+# .vim_runtime/sources_non_forked
+# dossier .config
+# dossier conky
+# fichier .conkyrc
+# mise a jour
+# fichier .Xdefault
+# dossier Images/Wallpapers
+# fichier .zshrc
+yaourt -Syua
+yaourt -Sy antigen-git
+# ajout de quelque ligne dans .zshrc pour utiliser oh-my-zsh et pour choisir bundle et theme
+source /usr/share/zsh/share/antigen.zsh
+antigen use oh-my-zsh
+antigen bundle git
+antigen bundle pip
+antigen theme agnoster
+antigen apply
+# installation de i3-gaps
+yaourt -Sy i3
+git clone https://github.com/blackpant/my_config_i3
+cd my_config_i3
+cd i3
+cp config ~/.config/i3/
+cp i3status.conf ~/.config/i3/
+
+# ajout de gaps global
+# set gaps
+gaps inner 15
+gaps outer 1
+
+# ajout de l'option "smart_gaps"
+smart_gaps on
+
+# installation de feh
+yaourt -Sy feh
+
+# creation du dossier ~/Images/Wallpapers/
+mkdir ~/Images/Wallpapers/
+
+# pour changement automatique du wallpaper 
+# avec l'image ninja.jpg dans
+# ~/Images/Wallpapers/
+
+# Dans .zshrc
+# Ajout de plusieurs alias 
+# A voir pour d'autre
+#
+
+### Set alias
+#############
+alias ls='ls --color=auto '
+alias la='ls -a --color=auto'
+alias ll='ls -l --color=auto'
+alias cls='clear'
+
+# installation de polybar
+#
+$ install -Dm644 /usr/share/doc/polybar/config \$HOME/.config/polybar/config
+$ polybar example
+
+# Launching polybar routine
+#
+https://github.com/jaagr/polybar/wiki
++ add line to always launch the script in config of i3
+like :
+exec_always --no-startup-id $HOME/.config/polybar/launch.sh
+
+# Wallpapers
+blackpant@anarchy  ~/Images/Wallpapers  cp * ~/Images/Wallpapers                                                                                                                                                             (02-12 15:59)
+
+# installation de bspwm
+#
+yaourt -Sy bspwm
+
+# installation de librairies python pour le bon fonctionnement de py3status
+#
+#
+
+  726  sudo pip install py3status
+  730  sudo pip install pytz
+  731  sudo pip install tzlocal
+
+# installation de conky
+#
+# fichier de config conky
+#
+# ~/conky/
+# ~/.conkyrc
+# il doit manquer quelque dependences
+#
+# vim config
+#
+
+  802  git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+  803  sh ~/.vim_runtime/install_awesome_vimrc.sh
+  812  yaourt -S neovim
+
+copy de mon dossier source_non_fork dans celui courant
+~/.vim_runtime/sources_non_forked 
+
+dans sources_non_forked 
+mkdir archives
+mv youcompleteme archives/ 
+
+pour desactiver youcompleteme probleme lors de l'installation !!
+
+
+vraiment se pencher sur neovim !!!
