@@ -162,4 +162,11 @@ yaourt -S roficlip
 # installation de docker
 yaourt -S docker
 
-
+# installation client ssh
+#
+# installation clé privé + clé public !!
+#
+# installation de polybar + config
+#
+# refaire fonctionner conky + connfig + noter les dependences
+#
