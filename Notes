@@ -158,4 +158,8 @@ yaourt -S roficlip
 # ajout du dossier de config rofi pour avoir deux themes differents les deux sont pas mal
 # roficlip peut marcher dans un terminal directement 
 # ou dans rofi en faisant => rofi -show run => tapez roficlip => entrer pour le lancer
-#
+
+# installation de docker
+yaourt -S docker
+
+
