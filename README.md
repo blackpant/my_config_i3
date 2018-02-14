@@ -11,10 +11,16 @@ TODO
 - py3status installer
 - bar d'info ?
 - conky ?
-- tmux terminal
-- tmux customization
-- tmux vim split keybinding
-- vim-tmux-navigator
-- guake terminal
-- guake dracula skin
-- tmux skin = 
+- dmenu
+- source code pro font for powerline
+- hack fonts
+- python-pip
+- gvim
+- test de neo
+-
+- Principalement voir le fichier "Notes"
+
+divers
+=====
+**Notes**
+
