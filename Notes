@@ -106,12 +106,49 @@ mkdir archives
 mv youcompleteme archives/ 
 
 pour desactiver youcompleteme probleme lors de l'installation !!
-
+# INSTALLATION DE YOUCOMPLETEME VIA LE GIT ET COMPILATION POUR TOUS OU CERTAIN LANGAGES
+#
 
 vraiment se pencher sur neovim !!!
+
+# installation de dmenu si pas installé
+#
+yaourt -S dmenu
 
 # ROFI install
 #
 
 
-# 
+# install de compton
+yaourt -S compton
+#
+# déplacer le compton.conf dans $HOME/.config/
+#
+
+# installation de flake pour que l'installation de youcompleteme fonctionne bien
+#
+sudo pip install flake8
+
+
+# bon alors j'ai binder $mod+d sur un mode
+# si touche d => lance dmenu
+# si touche r => lance le mode Rofi
+# si touche r => lance rofi -show run
+# si touche w => lance rofi -show window
+# si touche s => lance rofi -show ssh
+#
+
+# faire un rofi-theme-selector
+# pour previsualiser les themes de disponible
+#
+
+# installation de roficlip 
+# pour afficer dans rofi l'historique du presspapier/ clipboard
+#
+yaourt -S roficlip
+
+# Modification du lancement de urxvt
+# maintenant à chaque chargemnt de i3 lancement de urxvtd - daemon server de urxvt
+# $mod+Return exec urxvtc => ouvre des terminaux lié au daemon => plus rapide prends moins de memoire apparemment
+#
+
