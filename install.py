@@ -7,7 +7,6 @@ import os.path as p
 import glob
 
 def CheckFolder() :
-    #
     if "HOME" in os.environ:
         userPath = os.getenv('HOME')
         configPath = userPath + "/.config"
@@ -38,7 +37,7 @@ def CheckFolderBis():
     # copy .zshrc from repositery to $HOME
     # install vim ultimate config
     # copy from repositerie vim_runtime/source_non_forked/ to ~/.vim_runtine/
-    subprocess.check_call()
+    pass
 
 def Main():
     pass

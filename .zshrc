@@ -168,9 +168,20 @@ zstyle '*' single-ignored show
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 source /usr/share/zsh/share/antigen.zsh
 
+# load the oh-my-zsh library
 antigen use oh-my-zsh
 
+# Bundles from the default repo oh-my-zsh repo
+#
 antigen bundle git
 antigen bundle pip
+antigen bundle colored-man-pages
+antigen bundle colorize
+
+
+# Use theme agnoster from oh-my-zsh
 antigen theme agnoster
+
+# Apply the settings and it's done
+#
 antigen apply
