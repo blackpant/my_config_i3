@@ -177,7 +177,7 @@ antigen bundle git
 antigen bundle pip
 antigen bundle colored-man-pages
 antigen bundle colorize
-
+antigen bundle docker
 
 # Use theme agnoster from oh-my-zsh
 antigen theme agnoster
