@@ -152,3 +152,10 @@ yaourt -S roficlip
 # $mod+Return exec urxvtc => ouvre des terminaux lié au daemon => plus rapide prends moins de memoire apparemment
 #
 
+# Plein de choses !!
+# mise a jours du git 
+# suppression de dossier de config inutile
+# ajout du dossier de config rofi pour avoir deux themes differents les deux sont pas mal
+# roficlip peut marcher dans un terminal directement 
+# ou dans rofi en faisant => rofi -show run => tapez roficlip => entrer pour le lancer
+#
