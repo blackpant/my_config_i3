@@ -20,25 +20,26 @@ gaps outer 1
 
 smart_gaps on
 
+#keybindings perso
+bindsym Mod4+n exec firefox # lance firefox
+bindsym Mod4+v exec $vim #lancement de $vim
+bindsym Mod4+Return exec terminator # lance terminator
+bindsym $mod+Return exec urxvtc # lance urxvt client
+
 # font for window titles. ISO 10646 = Unicode
 #font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
-font pango:Source Code Pro for Powerline Regular 10
+font pango:Source Code Pro for Powerline Bold 10
+# font pango:Font Awesome 5 Free Regular 10
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
-
-# start a terminal
-bindsym $mod+Return exec urxvt 
-#bindsym Mod4+Return exec urxvt -e ~/Documents/TMUX/tmux/tmux -2f ~/.tmux 
-# bindsym Mod4+Return exec tmuxinator
-bindsym Mod4+Return exec terminator
 
 # kill focused window
 bindsym $mod+Shift+Q kill
 
 # start dmenu (a program launcher)
 #bindsym $mod+d exec dmenu_run
-bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+# bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
 
 # change focus
 bindsym $mod+j focus left
@@ -90,13 +91,13 @@ bindsym $mod+q focus parent
 # focus the child container
 #bindcode $mod+d focus child
 
-#set des workspace
+#set des workspace name
 set $tag1 "1: www"
 set $tag2 "2: code"
 set $tag3 "3: term"
 set $tag4 "4: im"
 set $tag5 "5: LogicMonitor"
-set $tag6 "6: mon"
+set $tag6 "6: "
 
 
 # switch to workspace
@@ -182,9 +183,8 @@ client.unfocused #666666 #666666 #ffffff
 client.urgent #aa0000 #990000 #ffffff
 
 #mode $vim ouverture de different fichier de config
-mode "config" {
+mode "Config" {
      bindsym i exec $vim ~/.config/i3/config
-     bindsym t exec $vim ~/.bashrc
      bindsym s exec $vim ~/.config/i3/i3status.conf
      bindsym x exec $vim ~/.Xdefaults
      bindsym c exec $vim ~/.conkyrc 
@@ -192,23 +192,42 @@ mode "config" {
      bindsym Return mode "default"
      bindsym Escape mode "default"
 }
-bindsym Mod4+c mode "config"
+bindsym Mod4+c mode "Config"
 
-mode "focused" {
+mode "Focused" {
      bindsym u [class="URxvt"] focus
      bindsym v [class="vim"] focus
-     bindsym i [class="Firefox"] focus
+     bindsym f [class="Firefox"] focus
      bindsym t [class="Terminator"] focus
 
 
      bindsym Return mode "default"
      bindsym Escape mode "default"
 }
-bindsym Mod4+f mode "focused"
+bindsym Mod4+f mode "Focused"
 
-#keybindings perso
-bindsym Mod4+n exec firefox
-bindsym Mod4+v exec $vim #lancement de $vim
+# mode menu pour lancer dmenu ou rofi si rofi choisir le mode
+bindsym $mod+d mode "Menu"
+mode "Menu" {
+    bindsym d exec --no-startup-id i3-dmenu-desktop
+    bindsym r mode "Rofi"
+
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+mode "Rofi" {
+    bindsym r exec --no-startup-id rofi -show run
+    bindsym w exec --no-startup-id rofi -show window
+    bindsym s exec --no-startup-id rofi -show ssh
+
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+
+# focus the new windows created
+# to automatically switch to the new window created
+for_window [urgent=latest] focus
 
 
 #workspace backandforth
@@ -237,4 +256,5 @@ exec_always --no-startup-id feh --bg-fill ~/Images/Wallpapers/ninja.jpg
 #set du wallpaper
 #lancement de conky config black pearl
 #exec --no-startup-id ~/.conky/startconky.sh
-#exec --no-startup-id rxvtd
+exec_always --no-startup-id urxvtd -q
+exec --no-startup-id clipster -d
