@@ -164,6 +164,7 @@ yaourt -S docker
 
 
 # installation client ssh
+# openssh ?! à voir !!
 #
 # installation clé privé + clé public !!
 #
@@ -171,3 +172,10 @@ yaourt -S docker
 #
 # refaire fonctionner conky + connfig + noter les dependences
 #
+#
+# installation 
+# installation de slim
+yaourt -S slim
+
+# installation de vulscan + nmap !!!
+# est-ce que ca sert !!! aucune idée xD
