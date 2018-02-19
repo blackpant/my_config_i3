@@ -179,3 +179,89 @@ yaourt -S slim
 
 # installation de vulscan + nmap !!!
 # est-ce que ca sert !!! aucune idée xD
+#
+#
+# installation de cmus
+# console music player
+yaourt -S cmus
+
+# installation de cava !!
+# console light visualizer
+yaourt -S cava
+
+# installation de i3lock 
+# installation de i3lock-fancy
+# installation via recherche interactive de yaourt -a
+#
+
+# changement de keybinding 
+# ajout d'un mode terminal
+# pour ensuite choisir le terminal à lancer
+# urxvtc ou terminator ou peut etre guake
+
+
+# modification de la configuration de terminator
+# touche "Play" => hide_window_visibility
+# réduit les terminaux terminator
+#
+# Ajout du workspace "Music" => $tag7 => "Alt+è" pour y accèder
+#
+#
+# update config i3
+# lancement de cmus directement dans le workspace "Music" soit Alt+7
+# fait avec for_window
+# partie "for_window config" du fichier i3 config
+#
+# ajout dans le mode "focused"
+# d'une touche pour focus "CMUS"
+# en mode "Focused" 
+# => touche "m" => focus sur cmus
+#
+#
+# ajout d'un for_window pour Htop ? ou un autre system de monitoring !!
+# Htop est déplacé automatiquement dans le workspace 6
+#
+# installation de deepin !!
+# Avoir ?? pour l'instant ne ma pas l'air tres personnalisable !!
+# Htop et mieux je trouve.
+#
+# installation et test de termite terminal
+#
+#
+# installation et test de escrotum => screenshot tool 
+# possibilité de mettre le screenshot pris dans le pressepapier
+# la selection de fenetre pour un screenshot focus se fait via la souris !!
+#
+#
+# Avec scrot cest bon
+# Lexemple ci-dessous fait un screenshot
+#
+#
+# installation de xclip => Command line interface to the X11 clipboard
+#
+# combinaison xclip + scrot => pas besoin de escrotum tant mieux
+# screenshot de la fenetre courante vers le pressepapier ensuite
+#
+scrot -u -e 'xclip $f -selection clipboard -t image/png'
+
+# va dans le dossier $Home/Images/ prend un screenshot qui s'enregistre à cette location et mais l'image dans le clipboard
+cd ~/Images/ && scrot -u -e 'xclip $f -selection clipboard -t image/png'
+
+
+# Update du fichier de config i3
+# regroupement des configs
+# Ajout du lancement de cava lors du lancement de cmus
+# floating enable pour cmus et cava
+# definir la taille et l'emplacement ?!
+#
+# Ajout d'un mode "Power"
+# comme ca augmentation des keybindings dispo en en libérant un.
+#
+#
+# installation de nitrogen pour les fonds d'ecran !!
+# il y a deja feh mais cest un en plus léger aussi.
+#
+#
+# regarde les differntes possibilités avec rofi , plugins et tout
+# rofi-top-git
+#
