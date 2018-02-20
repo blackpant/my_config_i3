@@ -33,19 +33,19 @@ Divers
 Keybindings
 ====
 
-**Mod4** = *Super ( touche windows )* 
-**Mod4+n** *lancement de chromium*
-**Mod4+v** *lancement de gvim*
-**Mod4+c** *mode config*
-**Mod4+f** *mode focused*
-**Alt+d** *mode menu*
+**Mod4** = Super ( touche windows )
+**Mod4+n** lancement de chromium
+**Mod4+v** lancement de gvim
+**Mod4+c** mode config
+**Mod4+f** mode focused
+**Alt+d** mode menu
     r mode rofi
-**Mod4+Left** *workspace précédent*
-**Mod4+Right** *workspace suivant*
-**Mod4+m** *workspace suivant*
-**Mod4+j** *workspace précédent*
-**Mod4+Down** *move the container to scratch*
-**Mod4+Up** *move from scratch*
+**Mod4+Left** workspace précédent
+**Mod4+Right** workspace suivant
+**Mod4+m** workspace suivant
+**Mod4+j** workspace précédent
+**Mod4+Down** move the container to scratch
+**Mod4+Up** move from scratch
 
 **mode terminal**
 
