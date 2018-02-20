@@ -33,7 +33,7 @@ Divers
 Keybindings
 ====
 
-**Mod4** = *Super ( touche windows )*
+**Mod4** = *Super ( touche windows )* 
 **Mod4+n** *lancement de chromium*
 **Mod4+v** *lancement de gvim*
 **Mod4+c** *mode config*
