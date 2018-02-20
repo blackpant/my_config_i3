@@ -235,6 +235,7 @@ yaourt -S cava
 #
 # Avec scrot cest bon
 # Lexemple ci-dessous fait un screenshot
+# i3-scrot => script scrot i3
 #
 #
 # installation de xclip => Command line interface to the X11 clipboard
@@ -244,7 +245,7 @@ yaourt -S cava
 #
 scrot -u -e 'xclip $f -selection clipboard -t image/png'
 
-# va dans le dossier $Home/Images/ prend un screenshot qui s'enregistre à cette location et mais l'image dans le clipboard
+# va dans le dossier $Home/Images/ prend un screenshot qui s'enregistre à cette location et mets l'image dans le clipboard
 cd ~/Images/ && scrot -u -e 'xclip $f -selection clipboard -t image/png'
 
 
@@ -260,7 +261,7 @@ cd ~/Images/ && scrot -u -e 'xclip $f -selection clipboard -t image/png'
 #
 # installation de nitrogen pour les fonds d'ecran !!
 # il y a deja feh mais cest un en plus léger aussi.
-#
+# feh est tres bien laisser Nitrogen de coté !!!
 #
 # regarde les differntes possibilités avec rofi , plugins et tout
 # rofi-top-git
