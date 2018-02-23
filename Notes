@@ -247,6 +247,7 @@ scrot -u -e 'xclip $f -selection clipboard -t image/png'
 
 # va dans le dossier $Home/Images/ prend un screenshot qui s'enregistre à cette location et mets l'image dans le clipboard
 cd ~/Images/ && scrot -u -e 'xclip $f -selection clipboard -t image/png'
+# !!ne fonctionne pas ^^
 
 
 # Update du fichier de config i3
@@ -266,3 +267,21 @@ cd ~/Images/ && scrot -u -e 'xclip $f -selection clipboard -t image/png'
 # regarde les differntes possibilités avec rofi , plugins et tout
 # rofi-top-git
 #
+# réarrangement du script d'import de fichier de configuration import.py
+#
+# modification du dossier par defaut ou sont enregistrés les screenshots => ~/.config/i3-scrot.conf , dossier par default ~/Images/Screen/
+#
+# move a floating window to the top right corner
+# move absolute position 0 0 
+#
+# si je change de definition decrna ne s'adapte pas automatique
+# xrandr -q => recupere la configuration actuelle de l'ecran
+
+for_window [title="cmus*" class="Terminator"] move container to workspace $tag7, floating enable, move absolute position 0 0, resize set 800 900
+# script ?! variable dans i3 ??!
+#
+# dans le fichier pour importer mes fichiers de configs dans mon git
+# faire un 
+cp -u [liste des fichiers] -t [dossier de destination]
+
+

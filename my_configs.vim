@@ -18,6 +18,3 @@ endif
 colorscheme solarized
 " set background=dark
 set number
-"let g:lightline = {
-      "\ 'colorscheme': 'solarized',
-      "\ }

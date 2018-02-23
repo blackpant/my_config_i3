@@ -1,7 +1,4 @@
-1. [my_config_i3](#my_config_i3)
-2. [TODO](#todo)
-3. [divers](#divers)
-4. [Keybindings](#keybindings)
+% Toto
 
 my_config_i3
 ============
@@ -26,6 +23,21 @@ TODO
 - CMus Music Player
 - Principalement voir le fichier "Notes"
 
+```bash
+ls -al
+```
+~~~{.bash}
+ssh tsm1
+root@tsm1 / > dsmadmc
+~~~
+
+```python
+import os
+import subprocess
+
+print("Hello World")
+```
+
 Divers
 =====
 **Notes**
@@ -33,61 +45,61 @@ Divers
 Keybindings
 ====
 
-**Mod4** = Super ( touche windows )
-**Mod4+n** lancement de chromium
-**Mod4+v** lancement de gvim
-**Mod4+c** mode config
-**Mod4+f** mode focused
-**Alt+d** mode menu
-    r mode rofi
-**Mod4+Left** workspace précédent
-**Mod4+Right** workspace suivant
-**Mod4+m** workspace suivant
-**Mod4+j** workspace précédent
-**Mod4+Down** move the container to scratch
-**Mod4+Up** move from scratch
+ - **Mod4** = Super ( touche windows )
+ - **Mod4+n** lancement de chromium
+ - **Mod4+v** lancement de gvim
+ - **Mod4+c** mode config
+ - **Mod4+f** mode focused
+ - **Alt+d** mode menu
+     - r mode rofi
+ - **Mod4+Left** workspace précédent
+ - **Mod4+Right** workspace suivant
+ - **Mod4+m** workspace suivant
+ - **Mod4+j** workspace précédent
+ - **Mod4+Down** move the container to scratch
+ - **Mod4+Up** move from scratch
 
-**mode terminal**
+## mode terminal
 
-*e => Terminator
-a => urxvtc
-Return => sortie du mode
-Esc => sortie du mode*
+- e => Terminator
+- a => urxvtc
+- Return => sortie du mode
+- Esc => sortie du mode*
 
 
-**mode config**
+## mode config
 
-*i => ouvre le fichier de config i3
-s => le fichier de config i3status
-x => le fichier de config .Xdefaults
-c => le fichier de config .conkyrc
-Return => sortie du mode
-Esc => sortie du mode*
+- i => ouvre le fichier de config i3
+- s => le fichier de config i3status
+- x => le fichier de config .Xdefaults
+- c => le fichier de config .conkyrc
+- Return => sortie du mode
+- Esc => sortie du mode
 
-**mode focused**
+## mode focused
 
-*u => focus la premiere fenetre urxvt
-v => focus le premier vim(gvim plutot)
-f => focus firefox
-t => focus terminator
-m => focus cmus music player
-c => focus chrome ??
-*enlever firefox focus et changer le focus chromium par la touche n ?!*
-Return => sortie du mode
-Esc => sortie du mode*
+- u => focus la premiere fenetre urxvt
+- v => focus le premier vim(gvim plutot)
+- f => focus firefox
+- t => focus terminator
+- m => focus cmus music player
+- c => focus chrome ??
+- *enlever firefox focus et changer le focus chromium par la touche n ?!*
+- Return => sortie du mode
+- Esc => sortie du mode
 
-**mode menu**
+## mode menu
 
-*d => dmenu
-r => rofi mode
-Return => sortie du mode
-Esc => sortie du mode*
+- d => dmenu
+- r => rofi mode
+- Return => sortie du mode
+- Esc => sortie du mode*
 
-**mode rofi**
+## mode rofi
 
-r => rofi run
-w => rofi window
-s => rofi ssh
-d => rofi drun
-Return => sortie du mode
-Esc => sortie du mode
+- r => rofi run
+- w => rofi window
+- s => rofi ssh
+- d => rofi drun
+- Return => sortie du mode
+- Esc => sortie du mode
