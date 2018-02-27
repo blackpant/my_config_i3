@@ -6,6 +6,7 @@
   title_transmit_bg_color = "#1c232b"
   title_transmit_fg_color = "#98971a"
 [keybindings]
+  hide_window = AudioPlay
   next_profile = <Shift>F1
 [layouts]
   [[default]]
@@ -16,11 +17,29 @@
     [[[window0]]]
       parent = ""
       type = Window
+  [[Nouvel agencement]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = a7d365e4-2323-49b4-8b44-261d400a7f75
+      last_active_window = True
+      maximised = False
+      order = 0
+      parent = ""
+      position = 460:9
+      size = 445, 725
+      title = blackpant@BlackAnarchy: ~
+      type = Window
+    [[[terminal1]]]
+      order = 0
+      parent = child0
+      profile = black
+      type = Terminal
+      uuid = a7d365e4-2323-49b4-8b44-261d400a7f75
 [plugins]
 [profiles]
   [[default]]
     background_color = "#1c232b"
-    background_darkness = 0.92
+    background_darkness = 0.7
     background_type = transparent
     cursor_color = "#aaaaaa"
     font = Source Code Pro for Powerline Semi-Bold 10
@@ -32,7 +51,7 @@
     show_titlebar = False
     use_system_font = False
   [[black]]
-    background_darkness = 0.88
+    background_darkness = 0.67
     background_type = transparent
     cursor_color = "#aaaaaa"
     font = Source Code Pro for Powerline Semi-Bold 10
@@ -42,8 +61,7 @@
     use_system_font = False
   [[solarized]]
     background_color = "#002b36"
-    background_darkness = 0.9
-    background_type = transparent
+    background_darkness = 1.0
     cursor_color = "#aaaaaa"
     font = Source Code Pro for Powerline Semi-Bold 10
     foreground_color = "#839496"

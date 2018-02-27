@@ -76,6 +76,7 @@ alias cls='clear'
 alias logs="find /var/log -type f -exec file {} \; | grep 'text' | cut -d' ' -f1 | sed -e's/:$//g' | grep -v '[0-9]$' | xargs tail -f"
 alias histg="history | grep"
 alias lsl="ls -lhFA | less"
+alias chrome="chromium"
 
 ### Bind keys
 #############

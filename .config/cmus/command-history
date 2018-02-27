@@ -1,0 +1,25 @@
+player-next
+shell ls
+bind -f browser backspace browser-up 
+shell 
+bind common <key> filter
+help 
+add ~/Musique/
+update-cache 
+refresh 
+add Musique/
+add
+player-pause
+player-stop
+q
+player-stop 
+colorscheme zenburn
+colorscheme solarized-light
+colorscheme solarized-dark
+colorscheme cyan
+colorscheme default
+colorscheme 
+colorscheme solarized
+?
+p
+h

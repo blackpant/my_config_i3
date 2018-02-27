@@ -21,15 +21,17 @@ gaps outer 1
 smart_gaps on
 
 #keybindings perso
-bindsym Mod4+n exec firefox # lance firefox
-bindsym Mod4+v exec $vim #lancement de $vim
-bindsym Mod4+Return exec terminator # lance terminator
-bindsym $mod+Return exec urxvtc # lance urxvt client
+# bindsym Mod4+n exec firefox # lance firefox
+bindsym Mod4+n exec --no-startup-id chromium # lance chromium
+bindsym Mod4+v exec --no-startup-id $vim #lancement de $vim
+# bindsym Mod4+Return exec terminator # lance terminator
+# bindsym $mod+Return exec --no-startup-id urxvtc # lance urxvt client
+# keybinding i3lock-fancy ou i3lock
 
 # font for window titles. ISO 10646 = Unicode
 #font -misc-fixed-medium-r-normal--13-120-75-75-C-70-iso10646-1
-font pango:Source Code Pro for Powerline Bold 10
-# font pango:Font Awesome 5 Free Regular 10
+#font pango:Source Code Pro for Powerline Bold 10
+font pango:Font Awesome 5 Free Regular 10
 
 # Use Mouse+$mod to drag floating windows to their wanted position
 floating_modifier $mod
@@ -40,6 +42,9 @@ bindsym $mod+Shift+Q kill
 # start dmenu (a program launcher)
 #bindsym $mod+d exec dmenu_run
 # bindsym $mod+d exec --no-startup-id i3-dmenu-desktop
+
+# default orientation
+# default_orientation auto
 
 # change focus
 bindsym $mod+j focus left
@@ -92,13 +97,16 @@ bindsym $mod+q focus parent
 #bindcode $mod+d focus child
 
 #set des workspace name
-set $tag1 "1: www"
-set $tag2 "2: code"
-set $tag3 "3: term"
-set $tag4 "4: im"
-set $tag5 "5: LogicMonitor"
-set $tag6 "6: "
-
+set $tag1 "1 "
+set $tag2 "2 "
+set $tag3 "3 "
+set $tag4 "4 "
+set $tag5 "5 "
+set $tag6 "6 "
+set $tag7 "7 "
+set $tag8
+set $tag9
+set $tag10
 
 # switch to workspace
 bindsym $mod+ampersand workspace $tag1
@@ -107,16 +115,18 @@ bindsym $mod+quotedbl workspace $tag3
 bindsym $mod+apostrophe workspace $tag4
 bindsym $mod+parenleft workspace $tag5
 bindsym $mod+minus workspace $tag6
-bindsym $mod+egrave workspace 7
-bindsym $mod+underscore workspace 8
-bindsym $mod+ccedilla workspace 9
-bindsym $mod+agrave workspace 10
+bindsym $mod+egrave workspace $tag7 
+bindsym $mod+underscore workspace $tag8
+bindsym $mod+ccedilla workspace $tag9
+bindsym $mod+agrave workspace $tag10
 
 # moving to next workspace
 bindsym Mod4+m workspace next
+bindsym Mod4+Right workspace next
 
 #moving to previous workspace
 bindsym Mod4+j workspace prev
+bindsym Mod4+Left workspace prev
 
 #moving the windows
 bindsym Mod4+Down move scratchpad
@@ -131,10 +141,10 @@ bindsym $mod+Shift+3 move container to workspace $tag3
 bindsym $mod+Shift+4 move container to workspace $tag4
 bindsym $mod+Shift+5 move container to workspace $tag5
 bindsym $mod+Shift+6 move container to workspace $tag6
-bindsym $mod+Shift+7 move container to workspace 7
-bindsym $mod+Shift+8 move container to workspace 8
-bindsym $mod+Shift+9 move container to workspace 9
-bindsym $mod+Shift+0 move container to workspace 10
+bindsym $mod+Shift+7 move container to workspace $tag7
+bindsym $mod+Shift+8 move container to workspace $tag8
+bindsym $mod+Shift+9 move container to workspace $tag9
+bindsym $mod+Shift+0 move container to workspace $tag10
 
 # reload the configuration file
 bindsym $mod+Shift+C reload
@@ -143,6 +153,23 @@ bindsym $mod+Shift+R restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+E exit
 
+
+# Start i3bar to display a workspace bar (plus the system information i3status
+# finds out, if available)
+bar {
+        font pango:Font Awesome 5 Solid Bold 11
+        # font pango:Source Code Pro for Powerline Bold 11
+        status_command py3status -c ~/.config/i3/i3status.conf
+	
+}
+
+# Colors
+client.focused #007fbf #007fbf #ffffff
+client.unfocused #666666 #666666 #ffffff
+client.urgent #aa0000 #990000 #ffffff
+
+# Mode setting / configuration
+#
 # resize window (you can also use the mouse for that)
 mode "resize" {
         # These bindings trigger as soon as you enter the resize mode
@@ -158,29 +185,16 @@ mode "resize" {
         bindsym m resize grow width 10 px or 10 ppt
 
         # same bindings, but for the arrow keys
-        bindsym 113 resize shrink width 10 px or 10 ppt
-        bindsym 116 resize grow height 10 px or 10 ppt
-        bindsym 111 resize shrink height 10 px or 10 ppt
-        bindsym 114 resize grow width 10 px or 10 ppt
+        bindsym Left resize shrink width 10 px or 10 ppt
+        bindsym Down resize grow height 10 px or 10 ppt
+        bindsym Up resize shrink height 10 px or 10 ppt
+        bindsym Right resize grow width 10 px or 10 ppt
 
         # back to normal: Enter or Escape
         bindsym Return mode "default"
         bindsym Escape mode "default"
 }
-
 bindsym $mod+r mode "resize"
-
-# Start i3bar to display a workspace bar (plus the system information i3status
-# finds out, if available)
-bar {
-        status_command py3status -c ~/.config/i3/i3status.conf
-	
-}
-
-# Colors
-client.focused #007fbf #007fbf #ffffff
-client.unfocused #666666 #666666 #ffffff
-client.urgent #aa0000 #990000 #ffffff
 
 #mode $vim ouverture de different fichier de config
 mode "Config" {
@@ -196,10 +210,12 @@ bindsym Mod4+c mode "Config"
 
 mode "Focused" {
      bindsym u [class="URxvt"] focus
-     bindsym v [class="vim"] focus
+     bindsym v [class="Gvim"] focus
      bindsym f [class="Firefox"] focus
      bindsym t [class="Terminator"] focus
-
+     bindsym m [title="cmus*"] focus
+     bindsym h [title="htop" class="Terminator"] focus
+     bindsym h [title="htop" class="URxvt"] focus
 
      bindsym Return mode "default"
      bindsym Escape mode "default"
@@ -215,30 +231,64 @@ mode "Menu" {
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
+
 mode "Rofi" {
     bindsym r exec --no-startup-id rofi -show run
     bindsym w exec --no-startup-id rofi -show window
     bindsym s exec --no-startup-id rofi -show ssh
+    bindsym d exec --no-startup-id rofi -show drun
 
     bindsym Return mode "default"
     bindsym Escape mode "default"
 }
 
+bindsym $mod+Return mode "Terminal"
+mode "Terminal" {
+    bindsym a exec --no-startup-id urxvtc
+    bindsym e exec --no-startup-id terminator
 
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+bindcode 107 mode "screenshot"
+mode "screenshot" {
+    bindsym f exec --no-startup-id scrot -u -e 'xclip $f -selection clipboard -t image/png'
+    bindsym m exec --no-startup-id scrot -m -e 'xclip $f -selection clipboard -t image/png'
+    bindsym t exec --no-startup-id i3-scrot -d
+    bindsym y exec --no-startup-id i3-scrot -w
+
+    bindsym Return mode "default"
+    bindsym Escape mode "default"
+}
+
+# mode power ?? ou avec polybar ou py3status ??
+# Trouver une combinaison de touches !!
+
+
+# for_window config
 # focus the new windows created
 # to automatically switch to the new window created
+for_window [title="cmus*" class="Terminator"] move container to workspace $tag7, floating enable, move absolute position 0 0, resize set 800 900
+for_window [title="cmus*" class="URxvt"] move container to workspace $tag7
+for_window [title="cmus*" class="Terminator"] exec --no-startup-id urxvtc -e cava
+for_window [title="cmus*" class="URxvt"] exec --no-startup-id urxvtc -e cava
 for_window [urgent=latest] focus
-
+for_window [title="cava"] move container to workspace $tag7, split toggle,floating enable,resize set 600 300, move absolute position 900 600
+for_window [title="^htop$" class="URxvt"] move workspace $tag6, focus
+for_window [title="^htop$" class="Terminator"] move workspace $tag6, focus
+# for_window [title="ping*" class="URxvt"] move workspace current, floating enable
 
 #workspace backandforth
 workspace_auto_back_and_forth yes
 
-#assign programmes
-assign [class="vim"] 2: code
-assign [class="URxvt"] 3: term
-assign [class="Terminator"] 3: term
-assign [class="Firefox"] 1: www
-assign [class="Conky"] 6: mon
+#assign programmes à un workspace
+assign [class="Gvim"] $tag2 
+assign [class="URxvt"] $tag3
+assign [class="Terminator"] $tag3
+assign [class="Firefox"] $tag1
+assign [class="Chromium"] $tag1
+# assign [class="Conky"] $tag6
 
 
 
@@ -248,13 +298,14 @@ new_window pixel 1
 
 
 #exec --no-startup-id guake
-exec --no-startup-id compton --config ~/.config/compton.conf
-exec_always --no-startup-id feh --bg-fill ~/Images/Wallpapers/ninja.jpg
 # exec_always --no-startup-id conky ~/.conkyrc
 # exec_always --no-startup-id python jedihttp.py --log 'debug'
 
-#set du wallpaper
-#lancement de conky config black pearl
-#exec --no-startup-id ~/.conky/startconky.sh
-exec_always --no-startup-id urxvtd -q
+# Autostart Application
+#
+exec --no-startup-id urxvtd -q
 exec --no-startup-id clipster -d
+exec --no-startup-id compton -fb --config ~/.config/compton.conf
+exec --no-startup-id feh --bg-fill ~/Images/Wallpapers/ninja.jpg
+exec --no-startup-id nm-applet
+exec --no-startup-id pa-applet
