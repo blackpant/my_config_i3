@@ -300,4 +300,101 @@ let g:netrw_nogx = 1 " disable netrw's gx mapping
 nmap gx <Plug>(openbrowser-smart-search)
 vmap gx <Plug>(openbrowser-smart-search)
 
+**CHANGEMENT DE GESTIONNAIRE DE CONNEXION**
+- modifier le fichier utilisateur .xinitrc avec la ligne suivante :  
+```sh
+exec $1
+```
+
+- modifier le fichier /etc/slim.conf :  
+```sh
+```
+
+- disable lightdm ou le précédent gestionnaire de connexion :  
+```sh
+systemctl disable lightdm.service
+```
+
+- enable slim :  
+```sh
+systemctl enable slim.service
+```
+
+- changement de clipboard display dans rofi. "greenclip"
+    + ajout du lancement du daemon greenclip dans le fichier de config de i3
+    + modification du fichier de config de rofi dans $HOME/.config/rofi/
+    + roficlip est toujours la et utilisable mais je n'arrive pas a la lancer directement comme mode de rofi.
+    + [link du github](https://github.com/erebe/greenclip)
+
+
+- ajout et modification du fichier de configuration config de ssh.
+    + ajout des hosts
+    +
+
+- a voir pour screenshot dans rofi
+    + [link github](https://github.com/carnager/teiler)
+
+- ajout d'un indicateur du nombre de fenetre dans le scratch i3, dans la barre i3status
+    + a faire avec py3status
+
+
+- enable ntop  
+```sh
+sudo systemctl enable ntop.service
+```
+
+- start ntop  
+```sh
+sudo systemctl start ntop.service
+```
+
+- lancement de ntop
+```sh
+sudo ntop
+```
+
+le premier lancement demandera un nouveau mot de passe root.  
+
+- y accéder via cette URL:  
+
+```
+http://127.0.0.1:3000
+```
+
+- ajout de plugin zsh simple mais puissant ?!!
+    + ssh-connect
+    + solarized-man
+    + pretty-time-zsh
+    + zsh-completion-generator
+    + simple-agnoster theme à voir !!
+    + sysadmin-util
+    + plugin tmux si tmux installé !!
+    + zsh-pandoc-completion
+
+- installer tmux + keybinding vim !!
+    + [tuto](https://blog.bugsnag.com/tmux-and-vim/)
+
+- installation de tmux :
+```zsh
+yaourt -a tmux
+```
+
+- installation de fzf :
+
+    ```zsh
+    yaourt -S fzf
+    ```
+
+- fichier de config tmux :
+```
+```
+
+- installation de pylint :
+```zsh
+yaourt -S pylint
+```
+
+- rofi + tmux ?
+- changer zsh mode emacs pour les keybinding
+
 
