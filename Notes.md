@@ -8,17 +8,17 @@ title: Notes
 - .vimrc
 - .vim_runtime/sources_non_forked/
 - dossier .config
-    + compton.conf
-    + i3-scrop.conf
-    + i3/
-    + terminator/
-    + cava/
-    + cmus/
-    + htop/
-    + polybar/
-    + ranger/
-    + rofi/
-    + vlc/
+    + compton.conf - ok
+    + i3-scrop.conf - ok
+    + i3/ - ok 
+    + terminator/ - ok 
+    + cava/ - ok
+    + cmus/ - ok
+    + htop/ - ok
+    + polybar/ - ok
+    + ranger/ - ok
+    + rofi/ - ok
+    + vlc/ - ok
     + nvim/
     + tmux/
     
@@ -30,6 +30,10 @@ title: Notes
 - fichier `~/.ssh/config`  
 - `~/.tmux.conf`
 - `~/tmuxline`
+- `.task/`
+- `.taskrc`
+- `.xinitrc`
+-
 
 
 - install rofi
