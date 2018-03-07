@@ -2,9 +2,6 @@
 import os
 import subprocess
 import shutil
-# import sys
-# import os.path as p
-# import glob
 
 
 def updateFilesGit():
