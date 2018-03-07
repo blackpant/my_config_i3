@@ -100,7 +100,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 - **Wallpapers**
 ```
-blackpant@anarchy  ~/Images/Wallpapers  cp * ~/Images/Wallpapers                                                                                                                                                             (02-12 15:59) 
+blackpant@anarchy  ~/Images/Wallpapers  cp * ~/Images/Wallpapers   (02-12 15:59) 
 ```
 
 - installation de librairies python pour le bon fonctionnement de py3status
@@ -497,7 +497,16 @@ map <Leader>vc :VimuxCloseRunner<CR>
 - ajout de quelque ligne pour faciliter la creation de 'pane' dans tmux.
 -
 
-- ack install
+- installation de the_silver_search
+```sh
+yaourt -S the_silver_search
+```
+
+- ajout du plugin `tmux` + `wd` dans le fichier de config `.zshrc`.
+> `tmux` ajoute des alias à zsh, et avec la ligne ci-dessous d'ajouter démarre tmux lorsqu'une session zsh est démarré.
+> `wd` [Lien](https://github.com/robbyrussel/oh-my-zsh/wiki/Plugins#tmux)
+
+
 - darkstat
 
 # Exuberant ctag !!
