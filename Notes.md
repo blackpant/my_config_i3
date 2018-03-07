@@ -551,4 +551,20 @@ Modif de ~/.vim_runtime/my_config.vim :
 > :set tags=./tags;
 > :let g:easytags_dynamic_files = 1
 
+# TaskWarrior
+
+Installation :  
+```sh
+sudo pacman -S task
+```
+
+Ajout du plugin `taskwarrior` dans la config `.zshrc`.
+
+Installation de task-dashboard
+Installation de tasksh
+
+
+## Best Practices
+
+[Lien](https://taskwarrior.org/docs/best-practices.html)
 
