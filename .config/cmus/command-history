@@ -1,12 +1,13 @@
+refresh 
+update-cache 
+update-cache
+help 
 player-next
 shell ls
 bind -f browser backspace browser-up 
 shell 
 bind common <key> filter
-help 
 add ~/Musique/
-update-cache 
-refresh 
 add Musique/
 add
 player-pause

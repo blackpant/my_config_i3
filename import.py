@@ -12,7 +12,13 @@ def updateFilesGit():
     subprocess.call(["cp", "-u", userPath + "/.vimrc", "."])
     subprocess.call(["cp", "-u", userPath + "/.conkyrc", "."])
     subprocess.call(["cp", "-u", userPath + "/.Xdefaults", "."])
+    subprocess.call(["cp", "-u", userPath + "/tmuxline", "."])
+    subprocess.call(["cp", "-u", userPath + "/.xinitrc", "."])
+    subprocess.call(["cp", "-u", userPath + "/.tmux.conf", "."])
+    subprocess.call(["cp", "-u", userPath + "/.taskrc", "."])
+    subprocess.call(["cp", "-uR", userPath + "/.task", "."])
     subprocess.call(["cp", "-u", userPath + "/.config/compton.conf","./.config"])
+    subprocess.call(["cp", "-u", userPath + "/.config/i3-scrot.conf", "./.config"])
     subprocess.call(["cp", "-u", userPath + "/.config/i3-scrot.conf", "./.config"])
     subprocess.call(["cp", "-uR", userPath + "/.config/i3", "./.config"])
     subprocess.call(["cp", "-uR", userPath + "/.config/terminator", "./.config"])
@@ -23,6 +29,8 @@ def updateFilesGit():
     subprocess.call(["cp", "-uR", userPath + "/.config/ranger", "./.config"])
     subprocess.call(["cp", "-uR", userPath + "/.config/rofi", "./.config"])
     subprocess.call(["cp", "-uR", userPath + "/.config/vlc", "./.config"])
+    subprocess.call(["cp", "-uR", userPath + "/.config/tmux", "./.config"])
+    subprocess.call(["cp", "-uR", userPath + "/.config/tmuxinator", "./.config"])
 
 
 def Main():

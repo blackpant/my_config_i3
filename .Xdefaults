@@ -86,4 +86,3 @@ URxvt.url-select.underline: yes
 
 
 !(call-process-shell-command "xrdb -load ~/.Xresources")
-

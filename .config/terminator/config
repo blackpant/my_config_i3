@@ -6,7 +6,6 @@
   title_transmit_bg_color = "#1c232b"
   title_transmit_fg_color = "#98971a"
 [keybindings]
-  hide_window = AudioPlay
   next_profile = <Shift>F1
 [layouts]
   [[default]]
@@ -39,8 +38,9 @@
 [profiles]
   [[default]]
     background_color = "#1c232b"
-    background_darkness = 0.7
+    background_darkness = 0.93
     background_type = transparent
+    copy_on_selection = True
     cursor_color = "#aaaaaa"
     font = Source Code Pro for Powerline Semi-Bold 10
     foreground_color = "#ebdbb2"
@@ -65,6 +65,16 @@
     cursor_color = "#aaaaaa"
     font = Source Code Pro for Powerline Semi-Bold 10
     foreground_color = "#839496"
+    icon_bell = False
+    palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
+    scrollbar_position = hidden
+    show_titlebar = False
+    use_system_font = False
+  [[solarized-light]]
+    background_color = "#eee8d5"
+    cursor_color = "#002b36"
+    font = Source Code Pro for Powerline Semi-Bold 10
+    foreground_color = "#002b36"
     icon_bell = False
     palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
     scrollbar_position = hidden

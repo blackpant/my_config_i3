@@ -1,0 +1,326 @@
+time 1520439220
+new [description:"Continuer la configuration de elasticsearch" entry:"1520439220" modified:"1520439220" status:"pending" uuid:"ebf768a3-5750-4d52-b666-7575c357f157"]
+---
+time 1520439261
+new [description:"Ranger Notes.md my_config_i3" entry:"1520439261" modified:"1520439261" status:"pending" uuid:"42a79a23-41d8-4f0d-a2d2-b77387b2259f"]
+---
+time 1520439413
+old [description:"Continuer la configuration de elasticsearch" entry:"1520439220" modified:"1520439220" status:"pending" uuid:"ebf768a3-5750-4d52-b666-7575c357f157"]
+new [description:"Continuer la configuration de elasticsearch" entry:"1520439220" modified:"1520439413" project:"Elastic Stack" status:"pending" uuid:"ebf768a3-5750-4d52-b666-7575c357f157"]
+---
+time 1520439460
+old [description:"Ranger Notes.md my_config_i3" entry:"1520439261" modified:"1520439261" status:"pending" uuid:"42a79a23-41d8-4f0d-a2d2-b77387b2259f"]
+new [description:"Ranger Notes.md my_config_i3" entry:"1520439261" modified:"1520439460" project:"My Config i3wm" status:"pending" uuid:"42a79a23-41d8-4f0d-a2d2-b77387b2259f"]
+---
+time 1520439512
+new [description:"installation darkstat Config i3wm" entry:"1520439512" modified:"1520439512" project:"My" status:"pending" uuid:"8fbb2867-0efb-4d17-b493-dc87c361a6aa"]
+---
+time 1520439523
+old [description:"installation darkstat Config i3wm" entry:"1520439512" modified:"1520439512" project:"My" status:"pending" uuid:"8fbb2867-0efb-4d17-b493-dc87c361a6aa"]
+new [description:"installation darkstat Config i3wm" entry:"1520439512" modified:"1520439523" project:"My Config i3wm" status:"pending" uuid:"8fbb2867-0efb-4d17-b493-dc87c361a6aa"]
+---
+time 1520440885
+new [description:"config taskwarrior" entry:"1520440885" modified:"1520440885" project:"My Config i3wm" status:"pending" uuid:"20f40396-7e78-482a-bdb1-ea8c3cd8d339"]
+---
+time 1520441140
+new [description:"ajout dun bindkey pour task-dashboard Config i3wm" entry:"1520441140" modified:"1520441140" project:"My" status:"pending" uuid:"129aea88-504c-446a-a31e-37dbb2ef0c09"]
+---
+time 1520441172
+old [description:"ajout dun bindkey pour task-dashboard Config i3wm" entry:"1520441140" modified:"1520441140" project:"My" status:"pending" uuid:"129aea88-504c-446a-a31e-37dbb2ef0c09"]
+new [description:"ajout dun bindkey pour task-dashboard Config i3wm" entry:"1520441140" modified:"1520441172" project:"My Config i3wm" status:"pending" uuid:"129aea88-504c-446a-a31e-37dbb2ef0c09"]
+---
+time 1520448906
+new [description:"update config i3" entry:"1520448906" modified:"1520448906" project:"My Config i3wm" status:"pending" uuid:"caab573b-9025-4f94-978a-373ec6f54360"]
+---
+time 1520448964
+new [description:"ajout nouveau fichiers de config à garder" entry:"1520448964" modified:"1520448964" project:"My Config i3wm" status:"pending" uuid:"fc238897-ce57-4b14-a86b-ecb36efb8134"]
+---
+time 1520450820
+new [description:"modif config task-dashboard.json" entry:"1520450820" modified:"1520450820" status:"pending" uuid:"00a5b7ce-3201-425b-81cc-cceabf3bb20f"]
+---
+time 1520503149
+new [description:"translate doc powershell" entry:"1520503149" modified:"1520503149" status:"pending" uuid:"17b7482d-1605-4f77-a355-5b7ed5e15019"]
+---
+time 1520503156
+old [description:"translate doc powershell" entry:"1520503149" modified:"1520503149" status:"pending" uuid:"17b7482d-1605-4f77-a355-5b7ed5e15019"]
+new [description:"translate doc powershell" entry:"1520503149" modified:"1520503156" start:"1520503156" status:"pending" uuid:"17b7482d-1605-4f77-a355-5b7ed5e15019"]
+---
+time 1520504599
+old [description:"translate doc powershell" entry:"1520503149" modified:"1520503156" start:"1520503156" status:"pending" uuid:"17b7482d-1605-4f77-a355-5b7ed5e15019"]
+new [description:"translate doc powershell" end:"1520504599" entry:"1520503149" modified:"1520504599" status:"completed" uuid:"17b7482d-1605-4f77-a355-5b7ed5e15019"]
+---
+time 1520505459
+old [description:"Continuer la configuration de elasticsearch" entry:"1520439220" modified:"1520439413" project:"Elastic Stack" status:"pending" uuid:"ebf768a3-5750-4d52-b666-7575c357f157"]
+new [description:"Continuer la configuration de elasticsearch" due:"1520850960" entry:"1520439220" modified:"1520505426" project:"Elastic Stack" status:"pending" uuid:"ebf768a3-5750-4d52-b666-7575c357f157"]
+---
+time 1520506134
+new [description:"choose theme for taskwarrior" entry:"1520506134" modified:"1520506134" status:"pending" uuid:"040567b5-7f59-4df7-bff2-7945ecb36378"]
+---
+time 1520506191
+old [description:"choose theme for taskwarrior" entry:"1520506134" modified:"1520506134" status:"pending" uuid:"040567b5-7f59-4df7-bff2-7945ecb36378"]
+new [description:"choose theme for taskwarrior" entry:"1520506134" modified:"1520506191" start:"1520506191" status:"pending" uuid:"040567b5-7f59-4df7-bff2-7945ecb36378"]
+---
+time 1520506506
+old [description:"choose theme for taskwarrior" entry:"1520506134" modified:"1520506191" start:"1520506191" status:"pending" uuid:"040567b5-7f59-4df7-bff2-7945ecb36378"]
+new [description:"choose theme for taskwarrior" end:"1520506506" entry:"1520506134" modified:"1520506506" status:"completed" uuid:"040567b5-7f59-4df7-bff2-7945ecb36378"]
+---
+time 1520510564
+old [description:"installation darkstat Config i3wm" entry:"1520439512" modified:"1520439523" project:"My Config i3wm" status:"pending" uuid:"8fbb2867-0efb-4d17-b493-dc87c361a6aa"]
+new [description:"installation darkstat Config i3wm" end:"1520510564" entry:"1520439512" modified:"1520510564" project:"My Config i3wm" status:"completed" uuid:"8fbb2867-0efb-4d17-b493-dc87c361a6aa"]
+---
+time 1520510925
+new [description:"plugin vim fzf" entry:"1520510925" modified:"1520510925" status:"pending" uuid:"aab80292-e648-4278-b31a-717c4aa1091f"]
+---
+time 1520519676
+new [description:"modif vim statuslins lightline" entry:"1520519676" modified:"1520519676" status:"pending" uuid:"095cad60-b5ab-47da-ac13-15f37cf708c6"]
+---
+time 1520519846
+old [description:"plugin vim fzf" entry:"1520510925" modified:"1520510925" status:"pending" uuid:"aab80292-e648-4278-b31a-717c4aa1091f"]
+new [description:"plugin vim fzf" end:"1520519846" entry:"1520510925" modified:"1520519846" status:"completed" uuid:"aab80292-e648-4278-b31a-717c4aa1091f"]
+---
+time 1520519865
+old [description:"Ranger Notes.md my_config_i3" entry:"1520439261" modified:"1520439460" project:"My Config i3wm" status:"pending" uuid:"42a79a23-41d8-4f0d-a2d2-b77387b2259f"]
+new [description:"Ranger Notes.md my_config_i3" entry:"1520439261" modified:"1520519865" project:"My Config i3wm" start:"1520519865" status:"pending" uuid:"42a79a23-41d8-4f0d-a2d2-b77387b2259f"]
+---
+time 1520521614
+new [description:"modif config my_config.vim" entry:"1520521614" modified:"1520521614" status:"pending" uuid:"c6be8b6f-4dc2-4df0-bb36-2e6cb4925368"]
+---
+time 1520521638
+old [description:"modif config my_config.vim" entry:"1520521614" modified:"1520521614" status:"pending" uuid:"c6be8b6f-4dc2-4df0-bb36-2e6cb4925368"]
+new [description:"modif config my_config.vim" entry:"1520521614" modified:"1520521638" start:"1520521638" status:"pending" uuid:"c6be8b6f-4dc2-4df0-bb36-2e6cb4925368"]
+---
+time 1520537095
+old [description:"modif config my_config.vim" entry:"1520521614" modified:"1520521638" start:"1520521638" status:"pending" uuid:"c6be8b6f-4dc2-4df0-bb36-2e6cb4925368"]
+new [description:"modif config my_config.vim" end:"1520537095" entry:"1520521614" modified:"1520537095" status:"completed" uuid:"c6be8b6f-4dc2-4df0-bb36-2e6cb4925368"]
+---
+time 1520593866
+old [description:"modif config my_config.vim" end:"1520537095" entry:"1520521614" modified:"1520537095" status:"completed" uuid:"c6be8b6f-4dc2-4df0-bb36-2e6cb4925368"]
+new [description:"modif config my_config.vim" entry:"1520521614" modified:"1520521831" status:"pending" uuid:"c6be8b6f-4dc2-4df0-bb36-2e6cb4925368"]
+---
+time 1520593866
+old [description:"modif config my_config.vim" entry:"1520521614" modified:"1520521831" status:"pending" uuid:"c6be8b6f-4dc2-4df0-bb36-2e6cb4925368"]
+new [description:"modif config my_config.vim" end:"1520537095" entry:"1520521614" modified:"1520537095" status:"completed" uuid:"c6be8b6f-4dc2-4df0-bb36-2e6cb4925368"]
+---
+time 1520593885
+old [description:"Ranger Notes.md my_config_i3" entry:"1520439261" modified:"1520519865" project:"My Config i3wm" start:"1520519865" status:"pending" uuid:"42a79a23-41d8-4f0d-a2d2-b77387b2259f"]
+new [description:"Ranger Notes.md my_config_i3" end:"1520593885" entry:"1520439261" modified:"1520593885" project:"My Config i3wm" status:"completed" uuid:"42a79a23-41d8-4f0d-a2d2-b77387b2259f"]
+---
+time 1520593896
+old [description:"modif vim statuslins lightline" entry:"1520519676" modified:"1520519676" status:"pending" uuid:"095cad60-b5ab-47da-ac13-15f37cf708c6"]
+new [description:"modif vim statuslins lightline" end:"1520593896" entry:"1520519676" modified:"1520593896" status:"completed" uuid:"095cad60-b5ab-47da-ac13-15f37cf708c6"]
+---
+time 1520594146
+old [description:"modif config task-dashboard.json" entry:"1520450820" modified:"1520450820" status:"pending" uuid:"00a5b7ce-3201-425b-81cc-cceabf3bb20f"]
+new [description:"modif config task-dashboard.json" entry:"1520450820" modified:"1520594146" status:"pending" tags:"config" uuid:"00a5b7ce-3201-425b-81cc-cceabf3bb20f"]
+---
+time 1520594280
+old [description:"config taskwarrior" entry:"1520440885" modified:"1520440885" project:"My Config i3wm" status:"pending" uuid:"20f40396-7e78-482a-bdb1-ea8c3cd8d339"]
+new [description:"config taskwarrior" entry:"1520440885" modified:"1520594280" project:"My Config i3wm" status:"pending" tags:"config" uuid:"20f40396-7e78-482a-bdb1-ea8c3cd8d339"]
+---
+time 1520594280
+old [description:"ajout dun bindkey pour task-dashboard Config i3wm" entry:"1520441140" modified:"1520441172" project:"My Config i3wm" status:"pending" uuid:"129aea88-504c-446a-a31e-37dbb2ef0c09"]
+new [description:"ajout dun bindkey pour task-dashboard Config i3wm" entry:"1520441140" modified:"1520594280" project:"My Config i3wm" status:"pending" tags:"config" uuid:"129aea88-504c-446a-a31e-37dbb2ef0c09"]
+---
+time 1520594280
+old [description:"update config i3" entry:"1520448906" modified:"1520448906" project:"My Config i3wm" status:"pending" uuid:"caab573b-9025-4f94-978a-373ec6f54360"]
+new [description:"update config i3" entry:"1520448906" modified:"1520594280" project:"My Config i3wm" status:"pending" tags:"config" uuid:"caab573b-9025-4f94-978a-373ec6f54360"]
+---
+time 1520594280
+old [description:"ajout nouveau fichiers de config à garder" entry:"1520448964" modified:"1520448964" project:"My Config i3wm" status:"pending" uuid:"fc238897-ce57-4b14-a86b-ecb36efb8134"]
+new [description:"ajout nouveau fichiers de config à garder" entry:"1520448964" modified:"1520594280" project:"My Config i3wm" status:"pending" tags:"config" uuid:"fc238897-ce57-4b14-a86b-ecb36efb8134"]
+---
+time 1520594280
+old [description:"Ranger Notes.md my_config_i3" end:"1520593885" entry:"1520439261" modified:"1520593885" project:"My Config i3wm" status:"completed" uuid:"42a79a23-41d8-4f0d-a2d2-b77387b2259f"]
+new [description:"Ranger Notes.md my_config_i3" end:"1520593885" entry:"1520439261" modified:"1520594280" project:"My Config i3wm" status:"completed" tags:"config" uuid:"42a79a23-41d8-4f0d-a2d2-b77387b2259f"]
+---
+time 1520594280
+old [description:"installation darkstat Config i3wm" end:"1520510564" entry:"1520439512" modified:"1520510564" project:"My Config i3wm" status:"completed" uuid:"8fbb2867-0efb-4d17-b493-dc87c361a6aa"]
+new [description:"installation darkstat Config i3wm" end:"1520510564" entry:"1520439512" modified:"1520594280" project:"My Config i3wm" status:"completed" tags:"config" uuid:"8fbb2867-0efb-4d17-b493-dc87c361a6aa"]
+---
+time 1520594349
+new [description:"list application install" entry:"1520594349" modified:"1520594349" status:"pending" uuid:"428593e8-297e-4b8c-95ff-4839f90779fc"]
+---
+time 1520594415
+new [description:"review i3 config file" entry:"1520594415" modified:"1520594415" status:"pending" uuid:"af31640a-909d-4d27-9c18-f4044c647c93"]
+---
+time 1520594451
+new [description:"doc elastic stack" entry:"1520594451" modified:"1520594451" status:"pending" uuid:"c1c850be-2dd4-4461-85f4-baceb70b91b3"]
+---
+time 1520594505
+new [description:"script install.py myconfig" entry:"1520594505" modified:"1520594505" status:"pending" uuid:"4f97ffb1-6655-4253-99a5-becfd94cc435"]
+---
+time 1520602753
+old [description:"Continuer la configuration de elasticsearch" due:"1520850960" entry:"1520439220" modified:"1520505426" project:"Elastic Stack" status:"pending" uuid:"ebf768a3-5750-4d52-b666-7575c357f157"]
+new [description:"Continuer la configuration de elasticsearch" due:"1520850960" entry:"1520439220" modified:"1520602753" project:"Elastic Stack" start:"1520602753" status:"pending" uuid:"ebf768a3-5750-4d52-b666-7575c357f157"]
+---
+time 1520611250
+old [description:"modif config task-dashboard.json" entry:"1520450820" modified:"1520594146" status:"pending" tags:"config" uuid:"00a5b7ce-3201-425b-81cc-cceabf3bb20f"]
+new [description:"modif config task-dashboard.json" entry:"1520450820" modified:"1520594053" project:"My Config i3wm" status:"pending" uuid:"00a5b7ce-3201-425b-81cc-cceabf3bb20f"]
+---
+time 1520611250
+old [description:"modif config task-dashboard.json" entry:"1520450820" modified:"1520594053" project:"My Config i3wm" status:"pending" uuid:"00a5b7ce-3201-425b-81cc-cceabf3bb20f"]
+new [description:"modif config task-dashboard.json" entry:"1520450820" modified:"1520594146" project:"My Config i3wm" status:"pending" tags:"config" uuid:"00a5b7ce-3201-425b-81cc-cceabf3bb20f"]
+---
+time 1520612863
+old [description:"Continuer la configuration de elasticsearch" due:"1520850960" entry:"1520439220" modified:"1520602753" project:"Elastic Stack" start:"1520602753" status:"pending" uuid:"ebf768a3-5750-4d52-b666-7575c357f157"]
+new [description:"Continuer la configuration de elasticsearch" due:"1520850960" entry:"1520439220" modified:"1520612863" project:"Elastic Stack" status:"pending" uuid:"ebf768a3-5750-4d52-b666-7575c357f157"]
+---
+time 1520612888
+new [description:"ecrire config logstash jboss" entry:"1520612888" modified:"1520612888" status:"pending" uuid:"b9aa218d-b6c5-4cca-9336-7d1ccf285742"]
+---
+time 1520612922
+new [description:"creer user pour fichier de config logstash" entry:"1520612922" modified:"1520612922" status:"pending" uuid:"f5b9962d-27ea-4494-a919-668035e3def9"]
+---
+time 1520613025
+new [description:"step pour install winlogbeat sur win server 2016" entry:"1520613025" modified:"1520613025" status:"pending" uuid:"75229a2a-18bf-453e-90cf-d5a75588320f"]
+---
+time 1520613127
+new [description:"ajout beats server web de docuemntation" entry:"1520613127" modified:"1520613127" status:"pending" uuid:"80651e55-3eda-41e1-9202-3c760005ae98"]
+---
+time 1520670956
+new [description:"supprimer module de langage que je nutilise pas" entry:"1520670956" modified:"1520670956" status:"pending" uuid:"af6c8ba9-6d11-457b-914b-24c7ff291902"]
+---
+time 1520671081
+old [description:"config taskwarrior" entry:"1520440885" modified:"1520594280" project:"My Config i3wm" status:"pending" tags:"config" uuid:"20f40396-7e78-482a-bdb1-ea8c3cd8d339"]
+new [description:"config taskwarrior" entry:"1520440885" modified:"1520671081" project:"config" status:"pending" tags:"config" uuid:"20f40396-7e78-482a-bdb1-ea8c3cd8d339"]
+---
+time 1520671090
+old [description:"ajout dun bindkey pour task-dashboard Config i3wm" entry:"1520441140" modified:"1520594280" project:"My Config i3wm" status:"pending" tags:"config" uuid:"129aea88-504c-446a-a31e-37dbb2ef0c09"]
+new [description:"ajout dun bindkey pour task-dashboard Config i3wm" entry:"1520441140" modified:"1520671090" project:"config" status:"pending" tags:"config" uuid:"129aea88-504c-446a-a31e-37dbb2ef0c09"]
+---
+time 1520671093
+old [description:"update config i3" entry:"1520448906" modified:"1520594280" project:"My Config i3wm" status:"pending" tags:"config" uuid:"caab573b-9025-4f94-978a-373ec6f54360"]
+new [description:"update config i3" entry:"1520448906" modified:"1520671093" project:"config" status:"pending" tags:"config" uuid:"caab573b-9025-4f94-978a-373ec6f54360"]
+---
+time 1520671097
+old [description:"ajout nouveau fichiers de config à garder" entry:"1520448964" modified:"1520594280" project:"My Config i3wm" status:"pending" tags:"config" uuid:"fc238897-ce57-4b14-a86b-ecb36efb8134"]
+new [description:"ajout nouveau fichiers de config à garder" entry:"1520448964" modified:"1520671097" project:"config" status:"pending" tags:"config" uuid:"fc238897-ce57-4b14-a86b-ecb36efb8134"]
+---
+time 1520671101
+old [description:"modif config task-dashboard.json" entry:"1520450820" modified:"1520594146" project:"My Config i3wm" status:"pending" tags:"config" uuid:"00a5b7ce-3201-425b-81cc-cceabf3bb20f"]
+new [description:"modif config task-dashboard.json" entry:"1520450820" modified:"1520671101" project:"config" status:"pending" tags:"config" uuid:"00a5b7ce-3201-425b-81cc-cceabf3bb20f"]
+---
+time 1520671149
+old [description:"Ranger Notes.md my_config_i3" end:"1520593885" entry:"1520439261" modified:"1520594280" project:"My Config i3wm" status:"completed" tags:"config" uuid:"42a79a23-41d8-4f0d-a2d2-b77387b2259f"]
+new [description:"Ranger Notes.md my_config_i3" end:"1520593885" entry:"1520439261" modified:"1520671149" project:"config" status:"completed" tags:"config" uuid:"42a79a23-41d8-4f0d-a2d2-b77387b2259f"]
+---
+time 1520671157
+old [description:"installation darkstat Config i3wm" end:"1520510564" entry:"1520439512" modified:"1520594280" project:"My Config i3wm" status:"completed" tags:"config" uuid:"8fbb2867-0efb-4d17-b493-dc87c361a6aa"]
+new [description:"installation darkstat Config i3wm" end:"1520510564" entry:"1520439512" modified:"1520671157" project:"config" status:"completed" tags:"config" uuid:"8fbb2867-0efb-4d17-b493-dc87c361a6aa"]
+---
+time 1520671585
+old [description:"list application install" entry:"1520594349" modified:"1520594349" status:"pending" uuid:"428593e8-297e-4b8c-95ff-4839f90779fc"]
+new [description:"list application install" entry:"1520594349" modified:"1520671585" project:"config" status:"pending" tags:"app,archlinux,i3" uuid:"428593e8-297e-4b8c-95ff-4839f90779fc"]
+---
+time 1520671714
+old [description:"config taskwarrior" entry:"1520440885" modified:"1520671081" project:"config" status:"pending" tags:"config" uuid:"20f40396-7e78-482a-bdb1-ea8c3cd8d339"]
+new [description:"config taskwarrior" entry:"1520440885" modified:"1520671714" project:"config" status:"pending" uuid:"20f40396-7e78-482a-bdb1-ea8c3cd8d339"]
+---
+time 1520671714
+old [description:"ajout dun bindkey pour task-dashboard Config i3wm" entry:"1520441140" modified:"1520671090" project:"config" status:"pending" tags:"config" uuid:"129aea88-504c-446a-a31e-37dbb2ef0c09"]
+new [description:"ajout dun bindkey pour task-dashboard Config i3wm" entry:"1520441140" modified:"1520671714" project:"config" status:"pending" uuid:"129aea88-504c-446a-a31e-37dbb2ef0c09"]
+---
+time 1520671714
+old [description:"update config i3" entry:"1520448906" modified:"1520671093" project:"config" status:"pending" tags:"config" uuid:"caab573b-9025-4f94-978a-373ec6f54360"]
+new [description:"update config i3" entry:"1520448906" modified:"1520671714" project:"config" status:"pending" uuid:"caab573b-9025-4f94-978a-373ec6f54360"]
+---
+time 1520671714
+old [description:"ajout nouveau fichiers de config à garder" entry:"1520448964" modified:"1520671097" project:"config" status:"pending" tags:"config" uuid:"fc238897-ce57-4b14-a86b-ecb36efb8134"]
+new [description:"ajout nouveau fichiers de config à garder" entry:"1520448964" modified:"1520671714" project:"config" status:"pending" uuid:"fc238897-ce57-4b14-a86b-ecb36efb8134"]
+---
+time 1520671714
+old [description:"modif config task-dashboard.json" entry:"1520450820" modified:"1520671101" project:"config" status:"pending" tags:"config" uuid:"00a5b7ce-3201-425b-81cc-cceabf3bb20f"]
+new [description:"modif config task-dashboard.json" entry:"1520450820" modified:"1520671714" project:"config" status:"pending" uuid:"00a5b7ce-3201-425b-81cc-cceabf3bb20f"]
+---
+time 1520671714
+old [description:"Ranger Notes.md my_config_i3" end:"1520593885" entry:"1520439261" modified:"1520671149" project:"config" status:"completed" tags:"config" uuid:"42a79a23-41d8-4f0d-a2d2-b77387b2259f"]
+new [description:"Ranger Notes.md my_config_i3" end:"1520593885" entry:"1520439261" modified:"1520671714" project:"config" status:"completed" uuid:"42a79a23-41d8-4f0d-a2d2-b77387b2259f"]
+---
+time 1520671714
+old [description:"installation darkstat Config i3wm" end:"1520510564" entry:"1520439512" modified:"1520671157" project:"config" status:"completed" tags:"config" uuid:"8fbb2867-0efb-4d17-b493-dc87c361a6aa"]
+new [description:"installation darkstat Config i3wm" end:"1520510564" entry:"1520439512" modified:"1520671714" project:"config" status:"completed" uuid:"8fbb2867-0efb-4d17-b493-dc87c361a6aa"]
+---
+time 1520671743
+old [description:"review i3 config file" entry:"1520594415" modified:"1520594415" status:"pending" uuid:"af31640a-909d-4d27-9c18-f4044c647c93"]
+new [description:"review i3 config file" entry:"1520594415" modified:"1520671743" project:"config" status:"pending" uuid:"af31640a-909d-4d27-9c18-f4044c647c93"]
+---
+time 1520671764
+old [description:"doc elastic stack" entry:"1520594451" modified:"1520594451" status:"pending" uuid:"c1c850be-2dd4-4461-85f4-baceb70b91b3"]
+new [description:"doc elastic stack" entry:"1520594451" modified:"1520671764" project:"elastic" status:"pending" uuid:"c1c850be-2dd4-4461-85f4-baceb70b91b3"]
+---
+time 1520671779
+old [description:"script install.py myconfig" entry:"1520594505" modified:"1520594505" status:"pending" uuid:"4f97ffb1-6655-4253-99a5-becfd94cc435"]
+new [description:"script install.py myconfig" entry:"1520594505" modified:"1520671779" project:"config" status:"pending" uuid:"4f97ffb1-6655-4253-99a5-becfd94cc435"]
+---
+time 1520671798
+old [description:"ecrire config logstash jboss" entry:"1520612888" modified:"1520612888" status:"pending" uuid:"b9aa218d-b6c5-4cca-9336-7d1ccf285742"]
+new [description:"ecrire config logstash jboss" entry:"1520612888" modified:"1520671798" project:"elastic" status:"pending" uuid:"b9aa218d-b6c5-4cca-9336-7d1ccf285742"]
+---
+time 1520671886
+old [description:"creer user pour fichier de config logstash" entry:"1520612922" modified:"1520612922" status:"pending" uuid:"f5b9962d-27ea-4494-a919-668035e3def9"]
+new [description:"creer user pour fichier de config logstash" entry:"1520612922" modified:"1520671886" project:"elastic" status:"pending" uuid:"f5b9962d-27ea-4494-a919-668035e3def9"]
+---
+time 1520671891
+old [description:"step pour install winlogbeat sur win server 2016" entry:"1520613025" modified:"1520613025" status:"pending" uuid:"75229a2a-18bf-453e-90cf-d5a75588320f"]
+new [description:"step pour install winlogbeat sur win server 2016" entry:"1520613025" modified:"1520671891" project:"elastic" status:"pending" uuid:"75229a2a-18bf-453e-90cf-d5a75588320f"]
+---
+time 1520671893
+old [description:"ajout beats server web de docuemntation" entry:"1520613127" modified:"1520613127" status:"pending" uuid:"80651e55-3eda-41e1-9202-3c760005ae98"]
+new [description:"ajout beats server web de docuemntation" entry:"1520613127" modified:"1520671893" project:"elastic" status:"pending" uuid:"80651e55-3eda-41e1-9202-3c760005ae98"]
+---
+time 1520671906
+old [description:"supprimer module de langage que je nutilise pas" entry:"1520670956" modified:"1520670956" status:"pending" uuid:"af6c8ba9-6d11-457b-914b-24c7ff291902"]
+new [description:"supprimer module de langage que je nutilise pas" entry:"1520670956" modified:"1520671906" project:"config" status:"pending" uuid:"af6c8ba9-6d11-457b-914b-24c7ff291902"]
+---
+time 1520671918
+old [description:"supprimer module de langage que je nutilise pas" entry:"1520670956" modified:"1520671906" project:"config" status:"pending" uuid:"af6c8ba9-6d11-457b-914b-24c7ff291902"]
+new [description:"supprimer module de langage que je nutilise pas" entry:"1520670956" modified:"1520671918" project:"config" status:"pending" tags:"vim" uuid:"af6c8ba9-6d11-457b-914b-24c7ff291902"]
+---
+time 1520671956
+old [description:"config taskwarrior" entry:"1520440885" modified:"1520671714" project:"config" status:"pending" uuid:"20f40396-7e78-482a-bdb1-ea8c3cd8d339"]
+new [description:"config taskwarrior" entry:"1520440885" modified:"1520671956" project:"config" status:"pending" tags:"taskwarrior" uuid:"20f40396-7e78-482a-bdb1-ea8c3cd8d339"]
+---
+time 1520671956
+old [description:"ajout dun bindkey pour task-dashboard Config i3wm" entry:"1520441140" modified:"1520671714" project:"config" status:"pending" uuid:"129aea88-504c-446a-a31e-37dbb2ef0c09"]
+new [description:"ajout dun bindkey pour task-dashboard Config i3wm" entry:"1520441140" modified:"1520671956" project:"config" status:"pending" tags:"taskwarrior" uuid:"129aea88-504c-446a-a31e-37dbb2ef0c09"]
+---
+time 1520671993
+old [description:"update config i3" entry:"1520448906" modified:"1520671714" project:"config" status:"pending" uuid:"caab573b-9025-4f94-978a-373ec6f54360"]
+new [description:"update config i3" entry:"1520448906" modified:"1520671993" project:"config" status:"pending" tags:"i3" uuid:"caab573b-9025-4f94-978a-373ec6f54360"]
+---
+time 1520671993
+old [description:"ajout nouveau fichiers de config à garder" entry:"1520448964" modified:"1520671714" project:"config" status:"pending" uuid:"fc238897-ce57-4b14-a86b-ecb36efb8134"]
+new [description:"ajout nouveau fichiers de config à garder" entry:"1520448964" modified:"1520671993" project:"config" status:"pending" tags:"i3" uuid:"fc238897-ce57-4b14-a86b-ecb36efb8134"]
+---
+time 1520671993
+old [description:"review i3 config file" entry:"1520594415" modified:"1520671743" project:"config" status:"pending" uuid:"af31640a-909d-4d27-9c18-f4044c647c93"]
+new [description:"review i3 config file" entry:"1520594415" modified:"1520671993" project:"config" status:"pending" tags:"i3" uuid:"af31640a-909d-4d27-9c18-f4044c647c93"]
+---
+time 1520672004
+old [description:"modif config task-dashboard.json" entry:"1520450820" modified:"1520671714" project:"config" status:"pending" uuid:"00a5b7ce-3201-425b-81cc-cceabf3bb20f"]
+new [description:"modif config task-dashboard.json" entry:"1520450820" modified:"1520672004" project:"config" status:"pending" tags:"taskwarrior" uuid:"00a5b7ce-3201-425b-81cc-cceabf3bb20f"]
+---
+time 1520672020
+old [description:"script install.py myconfig" entry:"1520594505" modified:"1520671779" project:"config" status:"pending" uuid:"4f97ffb1-6655-4253-99a5-becfd94cc435"]
+new [description:"script install.py myconfig" entry:"1520594505" modified:"1520672020" project:"config" status:"pending" tags:"git" uuid:"4f97ffb1-6655-4253-99a5-becfd94cc435"]
+---
+time 1520672029
+old [description:"script install.py myconfig" entry:"1520594505" modified:"1520672020" project:"config" status:"pending" tags:"git" uuid:"4f97ffb1-6655-4253-99a5-becfd94cc435"]
+new [description:"script install.py myconfig" entry:"1520594505" modified:"1520672029" project:"config" status:"pending" tags:"git,install" uuid:"4f97ffb1-6655-4253-99a5-becfd94cc435"]
+---
+time 1520672035
+old [description:"script install.py myconfig" entry:"1520594505" modified:"1520672029" project:"config" status:"pending" tags:"git,install" uuid:"4f97ffb1-6655-4253-99a5-becfd94cc435"]
+new [description:"script install.py myconfig" entry:"1520594505" modified:"1520672035" project:"config" status:"pending" tags:"git,install,script" uuid:"4f97ffb1-6655-4253-99a5-becfd94cc435"]
+---
+time 1520672060
+old [description:"doc elastic stack" entry:"1520594451" modified:"1520671764" project:"elastic" status:"pending" uuid:"c1c850be-2dd4-4461-85f4-baceb70b91b3"]
+new [description:"doc elastic stack" entry:"1520594451" modified:"1520672060" project:"elastic" status:"pending" tags:"doc" uuid:"c1c850be-2dd4-4461-85f4-baceb70b91b3"]
+---
+time 1520672102
+old [description:"ecrire config logstash jboss" entry:"1520612888" modified:"1520671798" project:"elastic" status:"pending" uuid:"b9aa218d-b6c5-4cca-9336-7d1ccf285742"]
+new [description:"ecrire config logstash jboss" entry:"1520612888" modified:"1520672102" project:"elastic" status:"pending" tags:"config,jboss" uuid:"b9aa218d-b6c5-4cca-9336-7d1ccf285742"]
+---
+time 1520672132
+old [description:"ajout beats server web de docuemntation" entry:"1520613127" modified:"1520671893" project:"elastic" status:"pending" uuid:"80651e55-3eda-41e1-9202-3c760005ae98"]
+new [description:"ajout beats server web de docuemntation" entry:"1520613127" modified:"1520672132" project:"elastic" status:"pending" tags:"beats" uuid:"80651e55-3eda-41e1-9202-3c760005ae98"]
+---

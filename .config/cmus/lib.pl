@@ -1,3 +1,5 @@
+/home/blackpant/Musique/GETTER - Colorblind (xo sad Remix)-pa4PqsTRb94.ogg
+/home/blackpant/Musique/RnB Mix - TrapSoul 5 2017-qLsn5aNaVkI.mp3
 /home/blackpant/Musique/Dedication_6-(DatPiff.com)/Lil Wayne - Dedication 6 (DatPiff.com)/01 - Fly Away (DatPiff Exclusive).mp3
 /home/blackpant/Musique/Dedication_6-(DatPiff.com)/Lil Wayne - Dedication 6 (DatPiff.com)/02 - Everyday We Sick (DatPiff Exclusive).mp3
 /home/blackpant/Musique/Dedication_6-(DatPiff.com)/Lil Wayne - Dedication 6 (DatPiff.com)/03 - Boyz 2 Menace ft Gudda Gudda (DatPiff Exclusive).mp3

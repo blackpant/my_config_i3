@@ -5,7 +5,7 @@
 ### Set/unset ZSH options
 #########################
 # setopt NOHUP
-# setopt NOTIFY
+setopt NOTIFY
 # setopt NO_FLOW_CONTROL
 setopt INC_APPEND_HISTORY SHARE_HISTORY
 setopt APPEND_HISTORY
@@ -45,6 +45,8 @@ HISTSIZE=1000
 SAVEHIST=1000
 HOSTNAME="`hostname`"
 LS_COLORS='rs=0:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:tw=30;42:ow=34;42:st=37;44:ex=01;32:';
+# ZSH_TMUX_AUTOSTART=true
+# ZSH_TMUX_AUTOCONNECT=false
 
 ### Load colors
 ###############
@@ -169,6 +171,10 @@ zstyle ':completion:*:ssh:*' group-order \
    hosts-domain hosts-host users hosts-ipaddr
 zstyle '*' single-ignored show
 
+
+# vi-mode bind
+bindkey -v
+
 ### Source plugins
 ##################
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
@@ -183,11 +189,52 @@ antigen bundle git
 antigen bundle pip
 antigen bundle colored-man-pages
 antigen bundle colorize
-antigen bundle docker
+# antigen bundle vim-plugin
+antigen bundle vi-mode
+# antigen bundle zsh-vimto
+# antigen bundle hacker-quotes
+antigen bundle tmux
+antigen bundle themes
+antigen bundle wd
+antigen bundle taskwarrior
+# antigen bundle docker
 
 # Use theme agnoster from oh-my-zsh
-antigen theme agnoster
+antigen theme robbyrussell
+# antigen theme avit
+# antigen theme agnoster
 
 # Apply the settings and it's done
-#
 antigen apply
+
+export EDITOR="vim"
+
+
+# Better searching in command mode
+# bindkey -M vicmd '?' history-incremental-search-backward
+# bindkey -M vicmd '/' history-incremental-search-forward
+
+# Beginning search with arrow keys
+bindkey "^[OA" up-line-or-beginning-search
+bindkey "^[OB" down-line-or-beginning-search
+bindkey -M vicmd "k" up-line-or-beginning-search
+bindkey -M vicmd "j" down-line-or-beginning-search
+
+# Updates editor information when the keymap changes.
+function zle-keymap-select() {
+  zle reset-prompt
+  zle -R
+}
+
+zle -N zle-keymap-select
+
+function vi_mode_prompt_info() {
+  echo "${${KEYMAP/vicmd/[% NORMAL]%}/(main|viins)/[% INSERT]%}"
+}
+
+# define right prompt, regardless of whether the theme defined it
+RPS1='$(vi_mode_prompt_info)'
+RPS2=$RPS1
+
+# Make Vi mode transitions faster (KEYTIMEOUT is in hundredths of a second)
+export KEYTIMEOUT=1
