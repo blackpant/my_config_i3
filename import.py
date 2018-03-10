@@ -10,6 +10,7 @@ def updateFilesGit():
 
     subprocess.call(["cp", "-u", userPath + "/.zshrc", "."])
     subprocess.call(["cp", "-u", userPath + "/.vimrc", "."])
+    subprocess.call(["cp", "-u", userPath + "/.vim_runtime/my_config.vim", "."])
     subprocess.call(["cp", "-u", userPath + "/.conkyrc", "."])
     subprocess.call(["cp", "-u", userPath + "/.Xdefaults", "."])
     subprocess.call(["cp", "-u", userPath + "/tmuxline", "."])
