@@ -4,6 +4,7 @@ title: Notes
 ...
 
 # fichier de config 
+
 - ~/.vim_runtime/my_config.vim
 - .vimrc
 - .vim_runtime/sources_non_forked/
@@ -36,26 +37,10 @@ title: Notes
 -
 
 
-- install rofi
-- install python-pip
-- yaourt -Syua
-- yaourt -Sy antigen-git
-- ajout de quelque ligne dans .zshrc pour utiliser oh-my-zsh et pour choisir bundle et theme
-- source /usr/share/zsh/share/antigen.zsh
-- antigen use oh-my-zsh
-- antigen bundle git
-- antigen bundle pip
-- antigen theme agnoster
-- antigen apply
-- installation de i3-gaps
-```sh
-yaourt -Sy i3
-git clone https://github.com/blackpant/my_config_i3
-cd my_config_i3
-cd i3
-cp config ~/.config/i3/
-cp i3status.conf ~/.config/i3/
-```
+- rofi
+- python-pip
+- antigen
+- i3-gaps
 
 - ajout de gaps global
 ```
@@ -115,26 +100,6 @@ sudo pip install pytz
 sudo pip install tzlocal
 ```
 
-- vim config
-
-```sh
-git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
-sh ~/.vim_runtime/install_awesome_vimrc.sh
-yaourt -S neovim
-```
-
-copy de mon dossier source_non_fork dans celui courant `~/.vim_runtime/sources_non_forked/`
-
-> dans sources_non_forked 
-> mkdir archives
-> mv youcompleteme archives/  
-
-
-> INSTALLATION DE YOUCOMPLETEME VIA LE GIT ET COMPILATION POUR TOUS OU CERTAIN LANGAGES  
-
-
-> vraiment se pencher sur neovim !!! ou pas -_- !!  
->
 
 
 
@@ -337,16 +302,6 @@ cp -u [liste des fichiers] -t [dossier de destination]
     + configurer et mettre dotfile in the git
     + Utilité ?!
 
-- installation de plugin vim
-    + open-browser
-    + previm
-
-- mapping vim pour plugin vim open-browser.vim:  
-```vim
-let g:netrw_nogx = 1 " disable netrw's gx mapping
-nmap gx <Plug>(openbrowser-smart-search)
-vmap gx <Plug>(openbrowser-smart-search)
-```
 
 
 **CHANGEMENT DE GESTIONNAIRE DE CONNEXION**
@@ -458,43 +413,6 @@ yaourt -S pylint
 
 - redemarrer le serveur tmux pour bien prendre en compte le fichier de config.
 - pour l'instant le ficheir de configuration tmux est ~/.tmux.conf
-- installation du plugin vim `vim-tmux-navigator`
-- ajout dans `~/.vim_runtime/my_config.vim` :  
-
-    ```vim
-    " vv to generate new vertical split
-    nnoremap <silent> vv <C-w>v
-    ```
-    > A enlever, surcharge Leader+vv, qui fait la meme chose.
-    > ou attendre un peut pour voir celle que j'utilise le plus.
-
-
-- suppresstion de `~/.vim_runtime/source_non_forked.save`.  
--
-
-- installation du plugin vim `vimux`
-    pour envoyer des commandes à tmux.
-
-- tagbar plugin pour vim!!
--
-
-- ajout des lignes suivantes pour le binding vim du plugin vimux:
-```vim
-" Prompt for a command to run
-map <Leader>vp :VimuxPromptCommand<CR>
-```
-
-```vim
-" Close vimux runner
-map <Leader>vc :VimuxCloseRunner<CR>
-```
-
-- ajout de quelques ligne dans mon fichier de configuration `vim`. Pour principalement rester en solarized et que ce soit bien affiché dans n'importe quel terminal.
-- config vim : bien configurer le copier/coller dans vim !!
-- ajout d'une status line dans tmux utilisant celle de vim : [Lien](https://github.com/edkolev/tmuxline.vim)
-    + modification du fichier de configuration ~/.tmux.conf
-    + Ajout du plugin tmuxline.vim
-    + Helptags pour tout prendre en compte.
 
 - `bindkey` pour voir tous les keybindings de zsh.
 - suppression des profils inutile dans la config de terminator
@@ -509,9 +427,6 @@ yaourt -S the_silver_search
 - ajout du plugin `tmux` + `wd` dans le fichier de config `.zshrc`.
 > `tmux` ajoute des alias à zsh, et avec la ligne ci-dessous d'ajouter démarre tmux lorsqu'une session zsh est démarré.
 > `wd` [Lien](https://github.com/robbyrussel/oh-my-zsh/wiki/Plugins#tmux)
-
-
-- darkstat
 
 # Exuberant ctag !!
 
@@ -562,13 +477,343 @@ Installation :
 sudo pacman -S task
 ```
 
-Ajout du plugin `taskwarrior` dans la config `.zshrc`.
+Ajout du plugin `taskwarrior` dans la config `.zshrc`.  
 
-Installation de task-dashboard
-Installation de tasksh
+Installation de task-dashboard.   
+Installation de tasksh.  
+Inthe.am : site taskwarrior server.  
+Ajout de ligne dans `.taskrc`.  
+```conf
+# Files
+data.location=~/.task
 
+# Color theme (uncomment one to use)
+#include /usr/share/doc/task/rc/light-16.theme
+#include /usr/share/doc/task/rc/light-256.theme
+#include /usr/share/doc/task/rc/dark-16.theme
+#include /usr/share/doc/task/rc/dark-256.theme
+#include /usr/share/doc/task/rc/dark-red-256.theme
+#include /usr/share/doc/task/rc/dark-green-256.theme
+#include /usr/share/doc/task/rc/dark-blue-256.theme
+#include /usr/share/doc/task/rc/dark-violets-256.theme
+#include /usr/share/doc/task/rc/dark-yellow-green.theme
+#include /usr/share/doc/task/rc/dark-gray-256.theme
+#include /usr/share/doc/task/rc/dark-gray-blue-256.theme
+include /usr/share/doc/task/rc/solarized-dark-256.theme
+#include /usr/share/doc/task/rc/solarized-light-256.theme
+#include /usr/share/doc/task/rc/no-color.theme
+
+taskd.certificate=~/.task/intheam_config/private.certificate.pem
+taskd.key=~/.task/intheam_config/private.key.pem
+taskd.ca=~/.task/intheam_config/ca.cert.pem
+taskd.server=taskwarrior.inthe.am:53589
+taskd.credentials=inthe_am/ianishammam/832e2186-f4ce-463d-9aa0-b5e610239087
+taskd.trust=ignore hostname
+```
+
+- Modification du contenu du dossier `~/.task/`.  
+```
+.task
+├── backlog.data
+├── completed.data
+├── dashboard.json
+├── hooks
+│   └── on-exit_dashboard -> /home/blackpant/Documents/task-dashboard/task-dashboard
+├── intheam_config
+│   ├── ca.cert.pem
+│   ├── private.certificate.pem
+│   └── private.key.pem
+├── pending.data
+├── undo.data
+└── .vim_tw.history
+```
 
 ## Best Practices
 
 [Lien](https://taskwarrior.org/docs/best-practices.html)
 
+# Vim
+
+- vim config
+
+```sh
+git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+sh ~/.vim_runtime/install_awesome_vimrc.sh
+yaourt -S neovim
+```
+
+copy de mon dossier source_non_fork dans celui courant `~/.vim_runtime/sources_non_forked/`
+
+> dans sources_non_forked 
+> mkdir archives
+> mv youcompleteme archives/  
+
+
+> INSTALLATION DE YOUCOMPLETEME VIA LE GIT ET COMPILATION POUR TOUS OU CERTAIN LANGAGES  
+
+
+> vraiment se pencher sur neovim !!! ou pas -_- !!  
+
+- installation du plugin vim `vim-tmux-navigator`
+- ajout dans `~/.vim_runtime/my_config.vim` :  
+
+    ```vim
+    " vv to generate new vertical split
+    nnoremap <silent> vv <C-w>v
+    ```
+    > A enlever, surcharge Leader+vv, qui fait la meme chose.
+    > ou attendre un peut pour voir celle que j'utilise le plus.
+
+
+- suppresstion de `~/.vim_runtime/source_non_forked.save`.  
+-
+
+- installation du plugin vim `vimux`
+    pour envoyer des commandes à tmux.
+
+- tagbar plugin pour vim!!
+-
+
+- ajout des lignes suivantes pour le binding vim du plugin vimux:
+```vim
+" Prompt for a command to run
+map <Leader>vp :VimuxPromptCommand<CR>
+```
+
+```vim
+" Close vimux runner
+map <Leader>vc :VimuxCloseRunner<CR>
+```
+
+- ajout de quelques ligne dans mon fichier de configuration `vim`. Pour principalement rester en solarized et que ce soit bien affiché dans n'importe quel terminal.
+- config vim : bien configurer le copier/coller dans vim !!
+- ajout d'une status line dans tmux utilisant celle de vim : [Lien](https://github.com/edkolev/tmuxline.vim)
+    + modification du fichier de configuration ~/.tmux.conf
+    + Ajout du plugin tmuxline.vim
+    + Helptags pour tout prendre en compte.
+
+
+- installation de plugin vim
+    + open-browser
+    + previm
+
+- mapping vim pour plugin vim open-browser.vim:  
+```vim
+let g:netrw_nogx = 1 " disable netrw's gx mapping
+nmap gx <Plug>(openbrowser-smart-search)
+vmap gx <Plug>(openbrowser-smart-search)
+```
+
+- Installation du plugin `fzf.vim`
+    > super de la mort qui tue
+    > `:Maps` très utile liste tous mes binds
+    > [FZF VIM](https://github.com/junegunn/fzf.vim)
+    > `vim $(fzf --height 40%)` ou `vim $(fzf)`
+
+
+
+- Lire et se familiariser avec les differentes facon de copier/coller
+[Vim Wiki Copy Cut Paste](http://vim.wikia.com/wiki/Copy,_cut_and_paste)
+[Vim Wiki System Clipboard](http://vim.wikia.com/wiki/Accessing_the_system_clipboard)
+
+- Documentation pour modifier `lightline.vim`, statusline de vim:  
+    
+    
+- changement de la combinaison pour sortir du `mode insertion` dans le fichier de coonfiguration `my_config.vim`:  
+    ```vim
+    :inoremap kj <Esc>
+    ```
+
+- Modification de mon fichier de config vim `.vimrc` pour modifier légèrement l'apparence de la `statusline` de vim.
+- nouveau theme d'installer pour vim, airline, et lightline : **`tender.vim`**
+```vim
+let g:lightline = {
+    \ 'colorscheme': 'tender',
+    \ 'separator': {'left':'', 'right': ''},
+    \ 'subseparator': {'left':'', 'right': ''},
+    \ }
+```
+
+------------
+
+- Fichier de config `my_config.vim`:  
+```vim
+syntax on
+filetype on
+
+
+" Lightline setting
+let g:lightline = {
+    \ 'colorscheme': 'tender',
+    \ 'separator': {'left':'', 'right': ''},
+    \ 'subseparator': {'left':'', 'right': ''},
+    \ }
+
+" Set font according to system
+if has("mac") || has("macunix")
+    set gfn=Hack:h14,Source\ Code\ Pro:h15,Menlo:h15
+elseif has("win16") || has("win32")
+    set gfn=Hack:h14,Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
+elseif has("gui_gtk2")
+    set gfn=Hack\ 11,Source\ Code\ Pro\ 11,Bitstream\ Vera\ Sans\ Mono\ 10
+elseif has("linux")
+    set gfn=Hack\ 11,Source\ Code\ Pro\ 11,Bitstream\ Vera\ Sans\ Mono\ 10
+elseif has("unix")
+    set gfn=Monospace\ 11
+endif
+
+set number
+
+" Colorscheme
+let g:solarized_termtrans = 1
+colorscheme solarized
+set background=dark
+call togglebg#map("<F5>")
+
+" syntastic python checker
+let g:syntastic_python_checkers = ['flake8']
+
+" open-browser plugin binding key
+let g:netrw_nogx = 1 " disable netrw's gx mapping
+nmap gx <Plug>(openbrowser-smart-search)
+vmap gx <Plug>(openbrowser-smart-search)
+
+" vv to generate new vertical split
+nnoremap <silent> vv <C-w>v
+
+" Prompt for a command to run
+map <Leader>vp :VimuxPromptCommand<CR>
+
+" Close vimux runner
+map <Leader>vc :VimuxCloseRunner<CR>
+
+" set up easytags
+set tags=./tags;
+let g:easytags_dynamic_files = 1
+" let g:easytags_events = ['BufWritePost']
+
+" Tagbar setting
+nmap <F8> :TagbarToggle<CR>
+
+" config ack-vim
+map <Leader>g :Ack! 
+
+" Escape character remap exit mode insert
+inoremap kj <Esc>
+
+" taskwarrior.vim setting
+let g:task_rc_override = 'rc.defaultheight=0'
+```
+
+# Tmux
+
+Fichier de config de tmux `.tmux.conf`:  
+```conf
+# tmuxline
+if-shell "test -f ~/tmuxline" "source ~/tmuxline"
+
+is_vim="ps -o state= -o comm= -t '#{pane_tty}' | grep -iqE '^[^TXZ ]+ +(\\S+\\/)?g?(view|n?vim?x?)(diff)?$'"
+
+bind-key -n C-h if-shell "$is_vim" "send-keys C-h"  "select-pane -L"
+bind-key -n C-j if-shell "$is_vim" "send-keys C-j"  "select-pane -D"
+bind-key -n C-k if-shell "$is_vim" "send-keys C-k"  "select-pane -U"
+bind-key -n C-l if-shell "$is_vim" "send-keys C-l"  "select-pane -R"
+bind-key -n C-\ if-shell "$is_vim" "send-keys C-\\" "select-pane -l"
+
+# binding vertical split
+bind | split-window -h -c "#{pane_current_path}"
+bind - split-window -v -c "#{pane_current_path}"
+
+# copy from tmux to sytem clipboard
+bind -T copy-mode-vi y send-keys -X copy-pipe-and-cancel 'xclip -in -selection clipboard'
+```
+
+# ZSH
+
+- Configuration de `zsh` avec `antigen`.  
+- liste de bundles/plugins:  
+```zsh
+### Source plugins
+##################
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source /usr/share/zsh/share/antigen.zsh
+
+# load the oh-my-zsh library
+antigen use oh-my-zsh
+
+# Bundles from the default repo oh-my-zsh repo
+#
+antigen bundle git
+antigen bundle pip
+antigen bundle colored-man-pages
+antigen bundle colorize
+antigen bundle vim-plugin
+antigen bundle vi-mode
+# antigen bundle zsh-vimto
+# antigen bundle hacker-quotes
+antigen bundle tmux
+antigen bundle wd
+antigen bundle taskwarrior
+# antigen bundle docker
+
+# Use theme agnoster from oh-my-zsh
+antigen theme robbyrussell
+# antigen theme avit
+# antigen theme agnoster
+
+# Apply the settings and it's done
+antigen apply
+```
+
+- `vi-mode` keybindings :  
+[git lien](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vi-mode)
+
+# Tree command
+Installation :
+```sh
+yaourt -S tree
+```
+
+Utilisation :
+```sh
+cd ~/Documents
+tree -d MarkdownProj/
+```
+
+```
+➜  Documents tree -d MarkdownProj
+MarkdownProj
+├── pandoc-bootstrap-template
+├── pandoc-latex-template
+│   └── examples
+│       ├── basic-example
+│       ├── book
+│       ├── custom-titlepage
+│       ├── default-titlepage
+│       ├── german
+│       ├── green-titlepage
+│       ├── images-and-tables
+│       ├── japanese
+│       ├── listings
+│       └── without-listings
+└── screen
+```
+
+# Tips
+
+tree like command with installing any additionnal packages:  
+```sh
+ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'
+```
+
+# i3
+
+Installation
+```sh
+yaourt -Sy i3
+git clone https://github.com/blackpant/my_config_i3
+cd my_config_i3
+cd i3
+cp config ~/.config/i3/
+cp i3status.conf ~/.config/i3/
+```
