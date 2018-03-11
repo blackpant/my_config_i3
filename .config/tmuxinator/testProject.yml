@@ -51,6 +51,6 @@ windows:
       panes:
         - vim
         - htop
-        - clock-mode
+        - tmux clock-mode
   - server: bundle exec rails s
   - logs: tail -f log/development.log

@@ -2,42 +2,23 @@
 
 import os
 import subprocess
-import sys
-import os.path as p
-import glob
+# import shutil as sht
 
-def CheckFolder() :
+
+def CheckFolder():
     if "HOME" in os.environ:
         userPath = os.getenv('HOME')
-        configPath = userPath + "/.config"
+        # configPath = userPath + "/.config"
 
-        if ".config" in os.listdir(userPath):
-            folderConfFile = ["i3","rofi","compton"]
-            for conf in folderConfFile:
-                if conf in os.listdir(configPath):
-                    print("OK")
-                else:
-                    print("Création du dossier %s",conf)
-                    print("###################################################")
-                    try:
-                        subprocess.call(["mkdir", configPath + "/" + conf])
-                    except subprocess.CalledProcessError as error:
-                        print("Erreur : \r")
-                        sys.exit(error.returncode)
-
-        else :
-            print("NO")
+        subprocess.run(['cp', '-ur', '.config', userPath])
+        subprocess.run(['cp', '-ur', '.task', userPath])
+        subprocess.run(['cp', '-u', '.taskrc', userPath])
+        subprocess.run(['cp', '-u', '.tmux.conf', userPath])
+        subprocess.run(['cp', '-u', '.zshrc', userPath])
+        subprocess.run(['cp', '-u', 'my_config.vim',  userPath + '/.vim_runtime/'])
+        subprocess.run(['cp', '-u', 'tmuxline', userPath])
+        subprocess.run(['mkdir', userPath + '/Images/Wallpapers'])
+        subprocess.run(['cp', 'leopard2.jpg', userPath + '/Images/Wallpapers'])
 
 
-def CheckFolderBis():
-    # change current directory
-    # get environnement variable $HOME
-    # copy .config from repositery to user home folder
-    # install antigen + dependencies
-    # copy .zshrc from repositery to $HOME
-    # install vim ultimate config
-    # copy from repositerie vim_runtime/source_non_forked/ to ~/.vim_runtine/
-    pass
-
-def Main():
-    pass
+CheckFolder()
