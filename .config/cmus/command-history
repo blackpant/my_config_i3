@@ -1,8 +1,9 @@
-refresh 
+player-next
+q
 update-cache 
+refresh 
 update-cache
 help 
-player-next
 shell ls
 bind -f browser backspace browser-up 
 shell 
@@ -12,7 +13,6 @@ add Musique/
 add
 player-pause
 player-stop
-q
 player-stop 
 colorscheme zenburn
 colorscheme solarized-light

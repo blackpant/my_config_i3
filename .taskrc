@@ -35,3 +35,5 @@ taskd.ca=~/.task/intheam_config/ca.cert.pem
 taskd.server=taskwarrior.inthe.am:53589
 taskd.credentials=inthe_am/ianishammam/832e2186-f4ce-463d-9aa0-b5e610239087
 taskd.trust=ignore hostname
+uda.reviewed.type=date
+uda.reviewed.label=Reviewed

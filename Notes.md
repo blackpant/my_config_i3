@@ -3,6 +3,48 @@ author: Ianis HAMMAM
 title: Notes
 ...
 
+```sh
+                   -`                    aurera@Lenovo-sans-touches
+                  .o+`                   --------------------------
+                 `ooo/                   OS: Arch Linux x86_64
+                `+oooo:                  Host: 20378 Lenovo Y50-70
+               `+oooooo:                 Kernel: 4.15.8-1-ARCH
+               -+oooooo+:                Uptime: 4 hours, 25 mins
+             `/:-:++oooo+:               Packages: 845
+            `/++++/+++++++:              Shell: zsh 5.4.2
+           `/++++++++++++++:             Resolution: 1920x1080
+          `/+++ooooooooooooo/`           WM: i3
+         ./ooosssso++osssssso+`          Theme: Arc-Darker [GTK2/3]
+        .oossssso-````/ossssss+`         Icons: Arc [GTK2/3]
+       -osssssso.      :ssssssso.        CPU: Intel i7-4720HQ (8) @ 3.600GHz
+      :osssssss/        osssso+++.       GPU: NVIDIA GeForce GTX 960M
+     /ossssssss/        +ssssooo/-       GPU: Intel Integrated Graphics
+   `/ossssso+/:-        -:/+osssso+-     Memory: 2314MiB / 7896MiB
+  `+sso+:-`                 `.-/+oso:
+ `++:.                           `-/+/
+ .`                                 `/
+
+```
+
+# Applications principales
+
+* Web browser : Chromium et Firefox
+* File Manager : Nemo + ranger
+* Desktop background : feh
+* Text and Code Editor : vim
+* Music Player : Cmus + Spotify
+* Launcher : Rofi
+* Email Client : Thunderbird
+* Bureautique : LibreOffice
+* Réseaux :  
+    - Wireshark
+    - Tshark
+    - Ntop
+* Session Manager : Slim
+* Screen Recorder : byzanz
+* xclip
+
+
 # fichier de config 
 
 - ~/.vim_runtime/my_config.vim
@@ -703,6 +745,28 @@ inoremap kj <Esc>
 
 " taskwarrior.vim setting
 let g:task_rc_override = 'rc.defaultheight=0'
+```
+
+## Profiler vim plugins
+
+```sh
+Running vim to generate startup logs... done.
+Loading and processing logs... done.
+Plugin directory: /home/aurera/.vim_runtime/sources_non_forked
+====================================
+Top 10 plugins slowing vim's startup
+====================================
+1        16.664   nerdtree
+2         7.992   syntastic
+3         5.663   vim-colors-solarized
+4         2.996   vim-fugitive
+5         2.111   tabular
+6         2.056   vim-gitgutter
+7         1.669   YouCompleteMe
+8         1.171   mru.vim
+9         1.046   tpope-vim-abolish
+10        0.971   vim-yankstack
+====================================
 ```
 
 # Tmux

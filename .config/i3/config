@@ -101,7 +101,7 @@ set $tag1 ""
 set $tag2 ""
 set $tag3 ""
 set $tag4 ""
-set $tag5 "5 "
+set $tag5 "5"
 set $tag6 ""
 set $tag7 ""
 set $tag8
@@ -160,9 +160,10 @@ bar {
         colors {
             background #0D0C07
         }
+        height 30
         position top
-        font pango:Font Awesome 5 Solid Regular 11
-        # font pango:Source Code Pro for Powerline Bold 11
+        # font pango:Font Awesome 5 Solid Regular 11
+        font pango:Source Code Pro for Powerline SemiBold 11
         status_command py3status -c ~/.config/i3/i3status.conf
 	
 }
@@ -275,12 +276,12 @@ mode "screenshot" {
 # for_window config
 # focus the new windows created
 # to automatically switch to the new window created
-for_window [title="cmus*" class="Terminator"] move container to workspace $tag7, floating enable, move absolute position 0 0, resize set 800 900
-for_window [title="cmus*" class="URxvt"] move container to workspace $tag7
-for_window [title="cmus*" class="Terminator"] exec --no-startup-id urxvtc -e cava
-for_window [title="cmus*" class="URxvt"] exec --no-startup-id urxvtc -e cava
-for_window [urgent=latest] focus
-for_window [title="cava"] move container to workspace $tag7, split toggle,floating enable,resize set 600 300, move absolute position 900 600
+# for_window [title="cmus*" class="Terminator"] move container to workspace $tag7, floating enable, move absolute position 0 0, resize set 800 900
+# for_window [title="cmus*" class="URxvt"] move container to workspace $tag7
+# for_window [title="cmus*" class="Terminator"] exec --no-startup-id urxvtc -e cava
+# for_window [title="cmus*" class="URxvt"] exec --no-startup-id urxvtc -e cava
+# for_window [urgent=latest] focus
+# for_window [title="cava"] move container to workspace $tag7, split toggle,floating enable,resize set 600 300, move absolute position 900 600
 for_window [title="^htop$" class="URxvt"] move workspace $tag6, focus
 for_window [title="^htop$" class="Terminator"] move workspace $tag6, focus
 # for_window [title="ping*" class="URxvt"] move workspace current, floating enable
@@ -311,10 +312,11 @@ new_window pixel 2
 # Autostart Application
 #
 exec --no-startup-id urxvtd -q
-exec --no-startup-id clipster -d
+# exec --no-startup-id clipster -d
 exec --no-startup-id compton -fb --config ~/.config/compton.conf
 exec --no-startup-id feh --bg-fill ~/Images/Wallpapers/leopard2.jpg
-exec --no-startup-id nm-applet
-exec --no-startup-id pa-applet
+# exec --no-startup-id nm-applet
+# exec --no-startup-id pa-applet
 exec --no-startup-id ssh-add ~/.ssh/rsaopenssh
 exec --no-startup-id greenclip daemon
+# exec --no-startup-id xfce4-power-manager

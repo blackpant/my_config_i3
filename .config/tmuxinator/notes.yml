@@ -1,7 +1,7 @@
-# ~/.tmuxinator/testProject.yml
+# ~/.tmuxinator/notes.yml
 
-name: testProject
-root: ~/Documents/
+name: notes
+root: ~/Documents/my_config_i3
 
 # Optional tmux socket
 # socket_name: foo
@@ -34,23 +34,21 @@ root: ~/Documents/
 # startup_window: editor
 
 # Specifies (by index) which pane of the specified window will be selected on project startup. If not set, the first pane is used.
-# startup_pane: 1
+startup_pane: 2
 
 # Controls whether the tmux session should be attached to automatically. Defaults to true.
 # attach: false
 
 # Runs after everything. Use it to attach to tmux with custom options etc.
-# post: tmux -CC attach -t testProject
+post: tmux select-pane -L
 
 windows:
   - editor:
-      layout: tiled
+      layout: main-vertical
       # Synchronize all panes of this window, can be enabled before or after the pane commands run.
       # 'before' represents legacy functionality and will be deprecated in a future release, in favour of 'after'
       # synchronize: after
       panes:
+        - vim Notes.md
+        - neofetch
         - tmux clock-mode
-        - vim
-        - htop
-  # - server: bundle exec rails s
-  # - logs: tail -f log/development.log
