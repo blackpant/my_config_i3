@@ -63,3 +63,7 @@ inoremap kj <Esc>
 
 " taskwarrior.vim setting
 let g:task_rc_override = 'rc.defaultheight=0'
+
+" set new line caracter
+set listchars=tab:ˉ\ ,eol:¬
+set list
