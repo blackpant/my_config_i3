@@ -197,6 +197,9 @@ antigen bundle tmux
 antigen bundle themes
 antigen bundle wd
 antigen bundle taskwarrior
+antigen bundle tmux_pane-words
+# antigen bundle tmux-rename
+# antigen bundle titles
 # antigen bundle docker
 
 # Use theme agnoster from oh-my-zsh
@@ -238,3 +241,7 @@ RPS2=$RPS1
 
 # Make Vi mode transitions faster (KEYTIMEOUT is in hundredths of a second)
 export KEYTIMEOUT=1
+export WORKON_HOME=$HOME/Documents/.virtualenvs
+export PROJECT_HOME=$HOME/Documents/Devel
+export VIRTUALENVWRAPPER_SCRIPT=/usr/bin/virtualenvwrapper.sh
+source /usr/bin/virtualenvwrapper_lazy.sh
