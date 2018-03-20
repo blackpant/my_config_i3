@@ -881,3 +881,19 @@ cd i3
 cp config ~/.config/i3/
 cp i3status.conf ~/.config/i3/
 ```
+
+# Developpement
+
+pip install virtualenv
+pip install virtualenvwrapper
+
+ligne dans `.zshrc` :  
+```sh
+export WORKON_HOME=$HOME/Documents/.virtualenvs
+export PROJECT_HOME=$HOME/Documents/Devel
+export VIRTUALENVWRAPPER_SCRIPT=/usr/bin/virtualenvwrapper.sh
+source /usr/bin/virtualenvwrapper_lazy.sh
+```
+# Dossier de developpemnt qui contiendra tous les projets virtualenv
+mkdir ~/Documents/Devel/
+
