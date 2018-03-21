@@ -36,7 +36,7 @@ title: Notes
 * Launcher : Rofi
 * Email Client : Thunderbird
 * Bureautique : LibreOffice
-* Réseaux :  
+* Réseaux :
     - Wireshark
     - Tshark
     - Ntop
@@ -45,7 +45,7 @@ title: Notes
 * xclip
 
 
-# fichier de config 
+# fichier de config
 
 - ~/.vim_runtime/my_config.vim
 - .vimrc
@@ -53,8 +53,8 @@ title: Notes
 - dossier .config
     + compton.conf - ok
     + i3-scrop.conf - ok
-    + i3/ - ok 
-    + terminator/ - ok 
+    + i3/ - ok
+    + terminator/ - ok
     + cava/ - ok
     + cmus/ - ok
     + htop/ - ok
@@ -64,13 +64,13 @@ title: Notes
     + vlc/ - ok
     + nvim/
     + tmux/
-    
+
 - dossier conky !!
 - fichier .conkyrc
 - fichier .Xdefault
 - dossier ~/Images/Wallpapers
 - fichier ~/.zshrc
-- fichier `~/.ssh/config`  
+- fichier `~/.ssh/config`
 - `~/.tmux.conf`
 - `~/tmuxline`
 - `.task/`
@@ -103,7 +103,7 @@ gaps outer 1
 - pour changement automatique du wallpaper avec l'image ninja.jpg dans `~/Images/Wallpapers/`
 
 - Dans .zshrc
-    + Ajout de plusieurs alias 
+    + Ajout de plusieurs alias
     + A voir pour d'autre
 
 
@@ -131,7 +131,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 
 - **Wallpapers**
 ```
-blackpant@anarchy  ~/Images/Wallpapers  cp * ~/Images/Wallpapers   (02-12 15:59) 
+blackpant@anarchy  ~/Images/Wallpapers  cp * ~/Images/Wallpapers   (02-12 15:59)
 ```
 
 - installation de librairies python pour le bon fonctionnement de py3status
@@ -173,11 +173,11 @@ sudo pip install flake8
     + si touche s => lance rofi -show ssh
 
 
-- run rofi-theme-selector  
+- run rofi-theme-selector
     pour previsualiser les themes de disponible
 
 
-- installation de roficlip clipboard manager rofi  
+- installation de roficlip clipboard manager rofi
 pour afficer dans rofi l'historique du presspapier/ clipboard
 
 ```sh
@@ -190,22 +190,22 @@ $mod+Return exec urxvtc => ouvre des terminaux lié au daemon => plus rapide pre
 # Plein de choses !!
 
 ---------
-mise a jours du git   
-suppression de dossier de config inutile  
-ajout du dossier de config rofi pour avoir deux themes differents les deux sont pas mal.  
-roficlip peut marcher dans un terminal directement.  
-ou dans rofi en faisant => rofi -show run => tapez roficlip => entrer pour le lancer.  
+mise a jours du git
+suppression de dossier de config inutile
+ajout du dossier de config rofi pour avoir deux themes differents les deux sont pas mal.
+roficlip peut marcher dans un terminal directement.
+ou dans rofi en faisant => rofi -show run => tapez roficlip => entrer pour le lancer.
 
 ---------
 
 
-- installation de docker :  
+- installation de docker :
 ```sh
 yaourt -S docker
 ```
 
 
-- installation client ssh.  
+- installation client ssh.
 > openssh installé !
 >
 
@@ -223,11 +223,11 @@ yaourt -S slim
 # installation de vulscan + nmap !!!
 yaourt -a vulscan
 ```
-  
+
 > est-ce que ca sert !!! aucune idée xD
 
 
-- installation de cmus (console music player) +  cava (console light visualizer) :  
+- installation de cmus (console music player) +  cava (console light visualizer) :
 ```sh
 # installation de cmus
 yaourt -S cmus
@@ -236,11 +236,11 @@ yaourt -S cmus
 yaourt -S cava
 ```
 
-- installation de i3lock 
+- installation de i3lock
 - installation de i3lock-fancy
 > Juste i3lock-fancy suffit je crois !!
 
-- Changement de keybinding 
+- Changement de keybinding
     + ajout d'un mode terminal
 pour ensuite choisir le terminal à lancer
 urxvtc ou terminator ou peut etre guake
@@ -257,7 +257,7 @@ urxvtc ou terminator ou peut etre guake
 -----
 > ajout dans le mode "focused"
 > d'une touche pour focus "CMUS"
-> en mode "Focused" 
+> en mode "Focused"
 > => touche "m" => focus sur cmus
 
 -----
@@ -271,14 +271,14 @@ Avoir ?? pour l'instant ne ma pas l'air tres personnalisable !!
     > Donc désinstallation de deepin
     >
 
-- installation et test de termite terminal ?  
+- installation et test de termite terminal ?
 
-- installation et test de escrotum => screenshot tool 
+- installation et test de escrotum => screenshot tool
 possibilité de mettre le screenshot pris dans le pressepapier
 la selection de fenetre pour un screenshot focus se fait via la souris !!
 > Du coup désinstallation de escrotum !!
 
-- installation et configuration de scrot + i3-scrot + ajout d'un mode screenshot avec keybinding + ajout dans la barre i3status d'un icone screen avec click event( voir dans la config de `i3status.conf`.  
+- installation et configuration de scrot + i3-scrot + ajout d'un mode screenshot avec keybinding + ajout dans la barre i3status d'un icone screen avec click event( voir dans la config de `i3status.conf`.
 Avec scrot cest bon
 Lexemple ci-dessous fait un screenshot
 i3-scrot => script scrot i3
@@ -287,7 +287,7 @@ i3-scrot => script scrot i3
 - installation de xclip => Command line interface to the X11 clipboard
 
 > *combinaison xclip + scrot => pas besoin de escrotum tant mieux*
->  
+>
 > screenshot de la fenetre courante vers le pressepapier ensuite
 
 ```sh
@@ -326,7 +326,7 @@ move absolute position 0 0
 ```
 
 
-- script python `my_config_i3`  
+- script python `my_config_i3`
 > si je change de definition d'écran, ne s'adapte pas automatique
 > xrandr -q => recupere la configuration actuelle de l'ecran
 
@@ -335,7 +335,7 @@ for_window [title="cmus*" class="Terminator"] move container to workspace $tag7,
 ```
 - *script ?! variable dans i3 ??!*
 
-- Dans le fichier pour importer mes fichiers de configs `import.py` dans mon git faire un :  
+- Dans le fichier pour importer mes fichiers de configs `import.py` dans mon git faire un :
 ```sh
 cp -u [liste des fichiers] -t [dossier de destination]
 ```
@@ -347,21 +347,21 @@ cp -u [liste des fichiers] -t [dossier de destination]
 
 
 **CHANGEMENT DE GESTIONNAIRE DE CONNEXION**
-- modifier le fichier utilisateur .xinitrc avec la ligne suivante :  
+- modifier le fichier utilisateur .xinitrc avec la ligne suivante :
 ```sh
 exec $1
 ```
 
-- modifier le fichier /etc/slim.conf :  
+- modifier le fichier /etc/slim.conf :
 ```sh
 ```
 
-- disable lightdm ou le précédent gestionnaire de connexion :  
+- disable lightdm ou le précédent gestionnaire de connexion :
 ```sh
 systemctl disable lightdm.service
 ```
 
-- enable slim :  
+- enable slim :
 ```sh
 systemctl enable slim.service
 ```
@@ -373,9 +373,9 @@ systemctl enable slim.service
     + [link du github](https://github.com/erebe/greenclip)
 
 
-- ajout et modification du fichier de configuration config de ssh.  
-    + ajout des hosts  
-    + bien comprendre le `~/.ssh/config`  
+- ajout et modification du fichier de configuration config de ssh.
+    + ajout des hosts
+    + bien comprendre le `~/.ssh/config`
 
 - a voir pour screenshot dans rofi
     + [link github](https://github.com/carnager/teiler)
@@ -384,22 +384,22 @@ systemctl enable slim.service
     + a faire avec py3status
     + scratchpad_counter
 
-- modification dans config i3status.conf:  
+- modification dans config i3status.conf:
     + ajout de `screenshot` module
         * screenshot_command = scrot or i3-scrot
         * save_path = ~/Images/Screen/
         * push = False
-    + Ajout de `keyboard_locks` module  
-        * ...  
+    + Ajout de `keyboard_locks` module
+        * ...
 
 
 
-- enable ntop  
+- enable ntop
 ```sh
 sudo systemctl enable ntop.service
 ```
 
-- start ntop  
+- start ntop
 ```sh
 sudo systemctl start ntop.service
 ```
@@ -409,9 +409,9 @@ sudo systemctl start ntop.service
 sudo ntop
 ```
 
-le premier lancement demandera un nouveau mot de passe root.  
+le premier lancement demandera un nouveau mot de passe root.
 
-- y accéder via cette URL:  
+- y accéder via cette URL:
 
 ```
 http://127.0.0.1:3000
@@ -474,57 +474,57 @@ yaourt -S the_silver_search
 
 ## Universal-ctags
 
-Installation de universal-ctags:  
+Installation de universal-ctags:
 ```sh
 yaourt -a universal-ctags
 ```
 
-Installation du plugin `Tagbar` dans vim:  
+Installation du plugin `Tagbar` dans vim:
 ```sh
 cd ~/.vim_runtime/sources_non_forked/
 git clone https://github.com/...
 ```
 
-Installation du plugin `easytag` dans vim:  
+Installation du plugin `easytag` dans vim:
 ```sh
 cd ~/.vim_runtime/sources_non_forked/
 git clone https://github.com/xolox/vim-easytags
 ```
 
-Installer `ctags` + désinstaller `universal-ctags`:  
+Installer `ctags` + désinstaller `universal-ctags`:
 ```sh
 yaourt -S ctags
 ```
 > universale-ctags sera en conflit avec `ctags` et sera donc désinstallé.
 
-Donc garder:  
+Donc garder:
 - ctags
 - tagbar
 - easytags
 -
 
-Ensuite ajouter des keybinding pour:  
+Ensuite ajouter des keybinding pour:
 - appeler TagbarToggle
-- 
+-
 
-Modif de ~/.vim_runtime/my_config.vim :  
-- `g:easytags_dynamic_files` like:  
+Modif de ~/.vim_runtime/my_config.vim :
+- `g:easytags_dynamic_files` like:
 > :set tags=./tags;
 > :let g:easytags_dynamic_files = 1
 
 # TaskWarrior
 
-Installation :  
+Installation :
 ```sh
 sudo pacman -S task
 ```
 
-Ajout du plugin `taskwarrior` dans la config `.zshrc`.  
+Ajout du plugin `taskwarrior` dans la config `.zshrc`.
 
-Installation de task-dashboard.   
-Installation de tasksh.  
-Inthe.am : site taskwarrior server.  
-Ajout de ligne dans `.taskrc`.  
+Installation de task-dashboard.
+Installation de tasksh.
+Inthe.am : site taskwarrior server.
+Ajout de ligne dans `.taskrc`.
 ```conf
 # Files
 data.location=~/.task
@@ -553,7 +553,7 @@ taskd.credentials=inthe_am/ianishammam/832e2186-f4ce-463d-9aa0-b5e610239087
 taskd.trust=ignore hostname
 ```
 
-- Modification du contenu du dossier `~/.task/`.  
+- Modification du contenu du dossier `~/.task/`.
 ```
 .task
 ├── backlog.data
@@ -586,18 +586,18 @@ yaourt -S neovim
 
 copy de mon dossier source_non_fork dans celui courant `~/.vim_runtime/sources_non_forked/`
 
-> dans sources_non_forked 
+> dans sources_non_forked
 > mkdir archives
-> mv youcompleteme archives/  
+> mv youcompleteme archives/
 
 
-> INSTALLATION DE YOUCOMPLETEME VIA LE GIT ET COMPILATION POUR TOUS OU CERTAIN LANGAGES  
+> INSTALLATION DE YOUCOMPLETEME VIA LE GIT ET COMPILATION POUR TOUS OU CERTAIN LANGAGES
 
 
-> vraiment se pencher sur neovim !!! ou pas -_- !!  
+> vraiment se pencher sur neovim !!! ou pas -_- !!
 
 - installation du plugin vim `vim-tmux-navigator`
-- ajout dans `~/.vim_runtime/my_config.vim` :  
+- ajout dans `~/.vim_runtime/my_config.vim` :
 
     ```vim
     " vv to generate new vertical split
@@ -607,7 +607,7 @@ copy de mon dossier source_non_fork dans celui courant `~/.vim_runtime/sources_n
     > ou attendre un peut pour voir celle que j'utilise le plus.
 
 
-- suppresstion de `~/.vim_runtime/source_non_forked.save`.  
+- suppresstion de `~/.vim_runtime/source_non_forked.save`.
 -
 
 - installation du plugin vim `vimux`
@@ -639,7 +639,7 @@ map <Leader>vc :VimuxCloseRunner<CR>
     + open-browser
     + previm
 
-- mapping vim pour plugin vim open-browser.vim:  
+- mapping vim pour plugin vim open-browser.vim:
 ```vim
 let g:netrw_nogx = 1 " disable netrw's gx mapping
 nmap gx <Plug>(openbrowser-smart-search)
@@ -658,10 +658,10 @@ vmap gx <Plug>(openbrowser-smart-search)
 [Vim Wiki Copy Cut Paste](http://vim.wikia.com/wiki/Copy,_cut_and_paste)
 [Vim Wiki System Clipboard](http://vim.wikia.com/wiki/Accessing_the_system_clipboard)
 
-- Documentation pour modifier `lightline.vim`, statusline de vim:  
-    
-    
-- changement de la combinaison pour sortir du `mode insertion` dans le fichier de coonfiguration `my_config.vim`:  
+- Documentation pour modifier `lightline.vim`, statusline de vim:
+
+
+- changement de la combinaison pour sortir du `mode insertion` dans le fichier de coonfiguration `my_config.vim`:
     ```vim
     :inoremap kj <Esc>
     ```
@@ -678,7 +678,7 @@ let g:lightline = {
 
 ------------
 
-- Fichier de config `my_config.vim`:  
+- Fichier de config `my_config.vim`:
 ```vim
 syntax on
 filetype on
@@ -738,7 +738,7 @@ let g:easytags_dynamic_files = 1
 nmap <F8> :TagbarToggle<CR>
 
 " config ack-vim
-map <Leader>g :Ack! 
+map <Leader>g :Ack!
 
 " Escape character remap exit mode insert
 inoremap kj <Esc>
@@ -771,7 +771,7 @@ Top 10 plugins slowing vim's startup
 
 # Tmux
 
-Fichier de config de tmux `.tmux.conf`:  
+Fichier de config de tmux `.tmux.conf`:
 ```conf
 # tmuxline
 if-shell "test -f ~/tmuxline" "source ~/tmuxline"
@@ -791,11 +791,21 @@ bind - split-window -v -c "#{pane_current_path}"
 # copy from tmux to sytem clipboard
 bind -T copy-mode-vi y send-keys -X copy-pipe-and-cancel 'xclip -in -selection clipboard'
 ```
+- Ajout du mode mouse, pour pouvoir scroller dans l'historique du terminal. De base l'option mouse est sur off.
+- Ajout de la possibilité de resize les panes avec la souris.
+-
+## Tmuxinator
+
+[Lien explication tmuxinator](https://collectiveidea.com/blog/archives/2017/03/27/using-tmuxinator-to-automate-your-environment)
+[Lien explication tmuxinator un peu plus détaillé](https://fabianfranke.de/2013/11/19/use-tmuxinator-to-recreate-tmux-panes-and-windows/)
+> Ne pas ajouter les options `set -g base-index 1` et `set -g pane-base-index 1`. Sinon task-dashboard ne fonctionne plus apparemment!!.
+>
+
 
 # ZSH
 
-- Configuration de `zsh` avec `antigen`.  
-- liste de bundles/plugins:  
+- Configuration de `zsh` avec `antigen`.
+- liste de bundles/plugins:
 ```zsh
 ### Source plugins
 ##################
@@ -829,7 +839,7 @@ antigen theme robbyrussell
 antigen apply
 ```
 
-- `vi-mode` keybindings :  
+- `vi-mode` keybindings :
 [git lien](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vi-mode)
 
 # Tree command
@@ -865,7 +875,7 @@ MarkdownProj
 
 # Tips
 
-tree like command with installing any additionnal packages:  
+tree like command with installing any additionnal packages:
 ```sh
 ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'
 ```
@@ -887,13 +897,41 @@ cp i3status.conf ~/.config/i3/
 pip install virtualenv
 pip install virtualenvwrapper
 
-ligne dans `.zshrc` :  
+ligne dans `.zshrc` :
 ```sh
 export WORKON_HOME=$HOME/Documents/.virtualenvs
 export PROJECT_HOME=$HOME/Documents/Devel
 export VIRTUALENVWRAPPER_SCRIPT=/usr/bin/virtualenvwrapper.sh
 source /usr/bin/virtualenvwrapper_lazy.sh
 ```
+
+
 # Dossier de developpemnt qui contiendra tous les projets virtualenv
 mkdir ~/Documents/Devel/
+
+
+# Link
+
+[TaskWarrior Command Reference](https://wiki.archlinux.org/index.php/Apache_HTTP_Server#Installation)
+
+# VIM client-server
+```vim
+vim --servername FOO
+```
+
+```vim
+vim --servername foo --remote-silent bar.hs
+
+
++-----------------------+
+|           |~$         |
+|           |           |
+|           |-----------+
+|    Vim    |~$         |
+|   Server  |           |
+|           |-----------+
+|           |~$         |
+|           |           |
++-----------------------+
+```
 
