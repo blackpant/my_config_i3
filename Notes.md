@@ -934,4 +934,8 @@ vim --servername foo --remote-silent bar.hs
 |           |           |
 +-----------------------+
 ```
+- Ajout d'un alias pour `vim --servername` ?!.
+- Lancement de gvim dans le fichier o3 config comme `gvim --servername NAME_SERVEUR` ?!
+-
+
 
