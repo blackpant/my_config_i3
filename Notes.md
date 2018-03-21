@@ -935,3 +935,6 @@ vim --servername foo --remote-silent bar.hs
 +-----------------------+
 ```
 
+- Dans i3 config, changer gvim par gvim --servername NAME ?!
+- alias pour `vim --servername` ?!
+-
