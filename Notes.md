@@ -936,6 +936,20 @@ vim --servername foo --remote-silent bar.hs
 ```
 - Ajout d'un alias pour `vim --servername` ?!.
 - Lancement de gvim dans le fichier o3 config comme `gvim --servername NAME_SERVEUR` ?!
--
+- `vim --servername FOO --remote-silent $(fzf)` :lance fuzzyf et ouvre le fichier trouvé dans le serveur vim FOO.
 
+# Cheat sheet
+
+[Site pour créer des fiches de rappels](https://www.cheatography.com/create/)
+```py
+subprocess.run(['vlc', '--play-and-exit', '/home/blackpant/Musique/ringtones/Slap-SoundMaster13-49669815.wav'])
+```
+
+[Lien python à lire](https://null-byte.wonderhowto.com/how-to/hack-like-pro-python-scripting-for-aspiring-hacker-part-1-0159118/)
+
+[Languages for Hackers](https://www.tech2hack.com/programming-languages-hackers/)
+
+# IDEAS Python Script
+- script d'envoie d'une documentation (docx + html ou l'un ou l'autre) à une liste de mail ou à mail en particulier !! A voir !
+- [mini exercices pour pratique python](https://projecteuler.net/archives)
 
