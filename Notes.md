@@ -26,9 +26,9 @@ title: Notes
 
 ```
 
-# Applications principales
 
-* Web browser : Chromium et Firefox
+# Applications principales
+* Web browser : Firefox
 * File Manager : Nemo + ranger
 * Desktop background : feh
 * Text and Code Editor : vim
@@ -43,10 +43,7 @@ title: Notes
 * Session Manager : Slim
 * Screen Recorder : byzanz
 * xclip
-
-
 # fichier de config
-
 - ~/.vim_runtime/my_config.vim
 - .vimrc
 - .vim_runtime/sources_non_forked/
@@ -71,14 +68,11 @@ title: Notes
 - dossier ~/Images/Wallpapers
 - fichier ~/.zshrc
 - fichier `~/.ssh/config`
-- `~/.tmux.conf`
-- `~/tmuxline`
-- `.task/`
-- `.taskrc`
-- `.xinitrc`
--
-
-
+- fichier `~/.tmux.conf`
+- fichier `~/tmuxline`
+- fichier `.task/`
+- fichier `.taskrc`
+- fichier `.xinitrc`
 - rofi
 - python-pip
 - antigen
@@ -117,7 +111,7 @@ alias cls='clear'
 
 - installation de polybar
 ```sh
-$ install -Dm644 /usr/share/doc/polybar/config \$HOME/.config/polybar/config
+install -Dm644 /usr/share/doc/polybar/config \$HOME/.config/polybar/config
 $ polybar example
 ```
 
@@ -182,8 +176,8 @@ pour afficer dans rofi l'historique du presspapier/ clipboard
 
 ```sh
 yaourt -S roficlip
-# Modification du lancement de urxvt
-# maintenant à chaque chargemnt de i3 lancement de urxvtd - daemon server de urxvt
+> Modification du lancement de urxvt
+> maintenant à chaque chargemnt de i3 lancement de urxvtd - daemon server de urxvt
 $mod+Return exec urxvtc => ouvre des terminaux lié au daemon => plus rapide prends moins de memoire apparemment
 ```
 
@@ -219,9 +213,9 @@ yaourt -S docker
 
 - installation de slim
 ```sh
-yaourt -S slim
-# installation de vulscan + nmap !!!
-yaourt -a vulscan
+    yaourt -S slim
+    # installation de vulscan + nmap !!!
+    yaourt -a vulscan
 ```
 
 > est-ce que ca sert !!! aucune idée xD
@@ -229,11 +223,11 @@ yaourt -a vulscan
 
 - installation de cmus (console music player) +  cava (console light visualizer) :
 ```sh
-# installation de cmus
-yaourt -S cmus
-
-# installation de cava !!
-yaourt -S cava
+    # installation de cmus
+    yaourt -S cmus
+    
+    # installation de cava !!
+    yaourt -S cava
 ```
 
 - installation de i3lock
@@ -512,7 +506,9 @@ Modif de ~/.vim_runtime/my_config.vim :
 > :set tags=./tags;
 > :let g:easytags_dynamic_files = 1
 
+
 # TaskWarrior
+
 
 Installation :
 ```sh
@@ -526,31 +522,31 @@ Installation de tasksh.
 Inthe.am : site taskwarrior server.
 Ajout de ligne dans `.taskrc`.
 ```conf
-# Files
-data.location=~/.task
-
-# Color theme (uncomment one to use)
-#include /usr/share/doc/task/rc/light-16.theme
-#include /usr/share/doc/task/rc/light-256.theme
-#include /usr/share/doc/task/rc/dark-16.theme
-#include /usr/share/doc/task/rc/dark-256.theme
-#include /usr/share/doc/task/rc/dark-red-256.theme
-#include /usr/share/doc/task/rc/dark-green-256.theme
-#include /usr/share/doc/task/rc/dark-blue-256.theme
-#include /usr/share/doc/task/rc/dark-violets-256.theme
-#include /usr/share/doc/task/rc/dark-yellow-green.theme
-#include /usr/share/doc/task/rc/dark-gray-256.theme
-#include /usr/share/doc/task/rc/dark-gray-blue-256.theme
-include /usr/share/doc/task/rc/solarized-dark-256.theme
-#include /usr/share/doc/task/rc/solarized-light-256.theme
-#include /usr/share/doc/task/rc/no-color.theme
-
-taskd.certificate=~/.task/intheam_config/private.certificate.pem
-taskd.key=~/.task/intheam_config/private.key.pem
-taskd.ca=~/.task/intheam_config/ca.cert.pem
-taskd.server=taskwarrior.inthe.am:53589
-taskd.credentials=inthe_am/ianishammam/832e2186-f4ce-463d-9aa0-b5e610239087
-taskd.trust=ignore hostname
+    # Files
+    data.location=~/.task
+    
+    # Color theme (uncomment one to use)
+    #include /usr/share/doc/task/rc/light-16.theme
+    #include /usr/share/doc/task/rc/light-256.theme
+    #include /usr/share/doc/task/rc/dark-16.theme
+    #include /usr/share/doc/task/rc/dark-256.theme
+    #include /usr/share/doc/task/rc/dark-red-256.theme
+    #include /usr/share/doc/task/rc/dark-green-256.theme
+    #include /usr/share/doc/task/rc/dark-blue-256.theme
+    #include /usr/share/doc/task/rc/dark-violets-256.theme
+    #include /usr/share/doc/task/rc/dark-yellow-green.theme
+    #include /usr/share/doc/task/rc/dark-gray-256.theme
+    #include /usr/share/doc/task/rc/dark-gray-blue-256.theme
+    include /usr/share/doc/task/rc/solarized-dark-256.theme
+    #include /usr/share/doc/task/rc/solarized-light-256.theme
+    #include /usr/share/doc/task/rc/no-color.theme
+    
+    taskd.certificate=~/.task/intheam_config/private.certificate.pem
+    taskd.key=~/.task/intheam_config/private.key.pem
+    taskd.ca=~/.task/intheam_config/ca.cert.pem
+    taskd.server=taskwarrior.inthe.am:53589
+    taskd.credentials=inthe_am/ianishammam/832e2186-f4ce-463d-9aa0-b5e610239087
+    taskd.trust=ignore hostname
 ```
 
 - Modification du contenu du dossier `~/.task/`.
@@ -570,9 +566,11 @@ taskd.trust=ignore hostname
 └── .vim_tw.history
 ```
 
+
 ## Best Practices
 
 [Lien](https://taskwarrior.org/docs/best-practices.html)
+
 
 # Vim
 
@@ -750,46 +748,46 @@ let g:task_rc_override = 'rc.defaultheight=0'
 ## Profiler vim plugins
 
 ```sh
-Running vim to generate startup logs... done.
-Loading and processing logs... done.
-Plugin directory: /home/aurera/.vim_runtime/sources_non_forked
-====================================
-Top 10 plugins slowing vim's startup
-====================================
-1        16.664   nerdtree
-2         7.992   syntastic
-3         5.663   vim-colors-solarized
-4         2.996   vim-fugitive
-5         2.111   tabular
-6         2.056   vim-gitgutter
-7         1.669   YouCompleteMe
-8         1.171   mru.vim
-9         1.046   tpope-vim-abolish
-10        0.971   vim-yankstack
-====================================
+    Running vim to generate startup logs... done.
+    Loading and processing logs... done.
+    Plugin directory: /home/aurera/.vim_runtime/sources_non_forked
+    ====================================
+    Top 10 plugins slowing vim's startup
+    ====================================
+    1        16.664   nerdtree
+    2         7.992   syntastic
+    3         5.663   vim-colors-solarized
+    4         2.996   vim-fugitive
+    5         2.111   tabular
+    6         2.056   vim-gitgutter
+    7         1.669   YouCompleteMe
+    8         1.171   mru.vim
+    9         1.046   tpope-vim-abolish
+    10        0.971   vim-yankstack
+    ====================================
 ```
 
 # Tmux
 
 Fichier de config de tmux `.tmux.conf`:
 ```conf
-# tmuxline
-if-shell "test -f ~/tmuxline" "source ~/tmuxline"
-
-is_vim="ps -o state= -o comm= -t '#{pane_tty}' | grep -iqE '^[^TXZ ]+ +(\\S+\\/)?g?(view|n?vim?x?)(diff)?$'"
-
-bind-key -n C-h if-shell "$is_vim" "send-keys C-h"  "select-pane -L"
-bind-key -n C-j if-shell "$is_vim" "send-keys C-j"  "select-pane -D"
-bind-key -n C-k if-shell "$is_vim" "send-keys C-k"  "select-pane -U"
-bind-key -n C-l if-shell "$is_vim" "send-keys C-l"  "select-pane -R"
-bind-key -n C-\ if-shell "$is_vim" "send-keys C-\\" "select-pane -l"
-
-# binding vertical split
-bind | split-window -h -c "#{pane_current_path}"
-bind - split-window -v -c "#{pane_current_path}"
-
-# copy from tmux to sytem clipboard
-bind -T copy-mode-vi y send-keys -X copy-pipe-and-cancel 'xclip -in -selection clipboard'
+    # tmuxline
+    if-shell "test -f ~/tmuxline" "source ~/tmuxline"
+    
+    is_vim="ps -o state= -o comm= -t '#{pane_tty}' | grep -iqE '^[^TXZ ]+ +(\\S+\\/)?g?(view|n?vim?x?)(diff)?$'"
+    
+    bind-key -n C-h if-shell "$is_vim" "send-keys C-h"  "select-pane -L"
+    bind-key -n C-j if-shell "$is_vim" "send-keys C-j"  "select-pane -D"
+    bind-key -n C-k if-shell "$is_vim" "send-keys C-k"  "select-pane -U"
+    bind-key -n C-l if-shell "$is_vim" "send-keys C-l"  "select-pane -R"
+    bind-key -n C-\ if-shell "$is_vim" "send-keys C-\\" "select-pane -l"
+    
+    # binding vertical split
+    bind | split-window -h -c "#{pane_current_path}"
+    bind - split-window -v -c "#{pane_current_path}"
+    
+    # copy from tmux to sytem clipboard
+    bind -T copy-mode-vi y send-keys -X copy-pipe-and-cancel 'xclip -in -selection clipboard'
 ```
 - Ajout du mode mouse, pour pouvoir scroller dans l'historique du terminal. De base l'option mouse est sur off.
 - Ajout de la possibilité de resize les panes avec la souris.
@@ -804,45 +802,48 @@ bind -T copy-mode-vi y send-keys -X copy-pipe-and-cancel 'xclip -in -selection c
 
 # ZSH
 
+
 - Configuration de `zsh` avec `antigen`.
 - liste de bundles/plugins:
 ```zsh
-### Source plugins
-##################
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-source /usr/share/zsh/share/antigen.zsh
-
-# load the oh-my-zsh library
-antigen use oh-my-zsh
-
-# Bundles from the default repo oh-my-zsh repo
-#
-antigen bundle git
-antigen bundle pip
-antigen bundle colored-man-pages
-antigen bundle colorize
-antigen bundle vim-plugin
-antigen bundle vi-mode
-# antigen bundle zsh-vimto
-# antigen bundle hacker-quotes
-antigen bundle tmux
-antigen bundle wd
-antigen bundle taskwarrior
-# antigen bundle docker
-
-# Use theme agnoster from oh-my-zsh
-antigen theme robbyrussell
-# antigen theme avit
-# antigen theme agnoster
-
-# Apply the settings and it's done
-antigen apply
+    ### Source plugins
+    ##################
+    source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+    source /usr/share/zsh/share/antigen.zsh
+    
+    # load the oh-my-zsh library
+    antigen use oh-my-zsh
+    
+    # Bundles from the default repo oh-my-zsh repo
+    #
+    antigen bundle git
+    antigen bundle pip
+    antigen bundle colored-man-pages
+    antigen bundle colorize
+    antigen bundle vim-plugin
+    antigen bundle vi-mode
+    # antigen bundle zsh-vimto
+    # antigen bundle hacker-quotes
+    antigen bundle tmux
+    antigen bundle wd
+    antigen bundle taskwarrior
+    # antigen bundle docker
+    
+    # Use theme agnoster from oh-my-zsh
+    antigen theme robbyrussell
+    # antigen theme avit
+    # antigen theme agnoster
+    
+    # Apply the settings and it's done
+    antigen apply
 ```
 
 - `vi-mode` keybindings :
 [git lien](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vi-mode)
 
 # Tree command
+
+
 Installation :
 ```sh
 yaourt -S tree
@@ -894,6 +895,7 @@ cp i3status.conf ~/.config/i3/
 
 # Developpement
 
+
 pip install virtualenv
 pip install virtualenvwrapper
 
@@ -907,6 +909,8 @@ source /usr/bin/virtualenvwrapper_lazy.sh
 
 
 # Dossier de developpemnt qui contiendra tous les projets virtualenv
+
+
 mkdir ~/Documents/Devel/
 
 
@@ -915,6 +919,7 @@ mkdir ~/Documents/Devel/
 [TaskWarrior Command Reference](https://wiki.archlinux.org/index.php/Apache_HTTP_Server#Installation)
 
 # VIM client-server
+
 ```vim
 vim --servername FOO
 ```
@@ -939,7 +944,6 @@ vim --servername foo --remote-silent bar.hs
 - `vim --servername FOO --remote-silent $(fzf)` :lance fuzzyf et ouvre le fichier trouvé dans le serveur vim FOO.
 
 # Cheat sheet
-
 [Site pour créer des fiches de rappels](https://www.cheatography.com/create/)
 ```py
 subprocess.run(['vlc', '--play-and-exit', '/home/blackpant/Musique/ringtones/Slap-SoundMaster13-49669815.wav'])
@@ -950,6 +954,8 @@ subprocess.run(['vlc', '--play-and-exit', '/home/blackpant/Musique/ringtones/Sla
 [Languages for Hackers](https://www.tech2hack.com/programming-languages-hackers/)
 
 # IDEAS Python Script
+
+
 - script d'envoie d'une documentation (docx + html ou l'un ou l'autre) à une liste de mail ou à mail en particulier !! A voir !
 - [mini exercices pour pratique python](https://projecteuler.net/archives)
 
