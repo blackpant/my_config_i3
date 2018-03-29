@@ -32,6 +32,11 @@ def CheckFolder():
         subprocess.run(['cp', 'leopard2.jpg', userPath + '/Images/Wallpapers'])
 
 
+def install_vim_ult():
+    subprocess.run(['git', 'clone', '--depth=1', 'https://github.com/amix/vimrc.git', os.path.join(user_home, '.vim_runtime')])
+    subprocess(['sh', os.path.join(user_home, '.vim_runtime') + '/install_awesome_vimrc.sh'])
+
+
 # fonction pour installer les plugins supp pour vim
 def install_git_plugin(url):
     subprocess.run(['git', 'clone', url])
