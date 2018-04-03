@@ -1,8 +1,3 @@
----
-author: Ianis HAMMAM
-title: Notes
-...
-
 ```sh
                    -`                    aurera@Lenovo-sans-touches
                   .o+`                   --------------------------
@@ -28,6 +23,7 @@ title: Notes
 
 
 # Applications principales
+
 * Web browser : Firefox
 * File Manager : Nemo + ranger
 * Desktop background : feh
@@ -43,7 +39,9 @@ title: Notes
 * Session Manager : Slim
 * Screen Recorder : byzanz
 * xclip
-# fichier de config
+
+
+# Fichier de config
 - ~/.vim_runtime/my_config.vim
 - .vimrc
 - .vim_runtime/sources_non_forked/
@@ -61,7 +59,6 @@ title: Notes
     + vlc/ - ok
     + nvim/
     + tmux/
-
 - dossier conky !!
 - fichier .conkyrc
 - fichier .Xdefault
@@ -181,27 +178,21 @@ yaourt -S roficlip
 $mod+Return exec urxvtc => ouvre des terminaux lié au daemon => plus rapide prends moins de memoire apparemment
 ```
 
+
 # Plein de choses !!
 
----------
-mise a jours du git
-suppression de dossier de config inutile
-ajout du dossier de config rofi pour avoir deux themes differents les deux sont pas mal.
-roficlip peut marcher dans un terminal directement.
-ou dans rofi en faisant => rofi -show run => tapez roficlip => entrer pour le lancer.
-
----------
-
-
+> mise a jours du git
+> suppression de dossier de config inutile
+> ajout du dossier de config rofi pour avoir deux themes differents les deux sont pas mal.
+> roficlip peut marcher dans un terminal directement.
+> ou dans rofi en faisant => rofi -show run => tapez roficlip => entrer pour le lancer.
 - installation de docker :
 ```sh
 yaourt -S docker
 ```
 
-
 - installation client ssh.
 > openssh installé !
->
 
 - installation clé privé + clé public !!
     + converti clé privé avec putty vers clé openssh
@@ -255,7 +246,6 @@ urxvtc ou terminator ou peut etre guake
 > => touche "m" => focus sur cmus
 
 -----
-
 - ajout d'un for_window pour Htop ? ou un autre system de monitoring !!
 - Htop est déplacé automatiquement dans le workspace 6
 
@@ -264,9 +254,7 @@ Avoir ?? pour l'instant ne ma pas l'air tres personnalisable !!
 - Htop et mieux je trouve.
     > Donc désinstallation de deepin
     >
-
 - installation et test de termite terminal ?
-
 - installation et test de escrotum => screenshot tool
 possibilité de mettre le screenshot pris dans le pressepapier
 la selection de fenetre pour un screenshot focus se fait via la souris !!
@@ -292,17 +280,13 @@ va dans le dossier `$Home/Images/` prend un screenshot qui s'enregistre à cette
 ```sh
 cd ~/Images/ && scrot -u -e 'xclip $f -selection clipboard -t image/png'
 ```
-***!!ne fonctionne pas ^^***
-
-
+***!!ne fonctionne pas ^^***  
 - Update du fichier de config i3
     + Regroupement des configs
     + Ajout du lancement de cava lors du lancement de cmus
     + Floating enable pour cmus et cava
     + Definir la taille et l'emplacement ?!
     + Ajout d'un mode "Power" => comme ca augmentation des keybindings dispo en en libérant un.
-
-
 - installation de nitrogen pour les fonds d'ecran !!
 > il y a deja feh mais cest un en plus léger aussi.
 > feh est tres bien laisser Nitrogen de coté !!!
@@ -318,7 +302,6 @@ rofi-top-git
 ```
 move absolute position 0 0
 ```
-
 
 - script python `my_config_i3`
 > si je change de definition d'écran, ne s'adapte pas automatique
@@ -337,8 +320,6 @@ cp -u [liste des fichiers] -t [dossier de destination]
 - installation de cheat / python-cheat
     + configurer et mettre dotfile in the git
     + Utilité ?!
-
-
 
 **CHANGEMENT DE GESTIONNAIRE DE CONNEXION**
 - modifier le fichier utilisateur .xinitrc avec la ligne suivante :
@@ -366,7 +347,6 @@ systemctl enable slim.service
     + roficlip est toujours la et utilisable mais je n'arrive pas a la lancer directement comme mode de rofi.
     + [link du github](https://github.com/erebe/greenclip)
 
-
 - ajout et modification du fichier de configuration config de ssh.
     + ajout des hosts
     + bien comprendre le `~/.ssh/config`
@@ -385,8 +365,6 @@ systemctl enable slim.service
         * push = False
     + Ajout de `keyboard_locks` module
         * ...
-
-
 
 - enable ntop
 ```sh
@@ -453,7 +431,6 @@ yaourt -S pylint
 - `bindkey` pour voir tous les keybindings de zsh.
 - suppression des profils inutile dans la config de terminator
 - ajout de quelque ligne pour faciliter la creation de 'pane' dans tmux.
--
 
 - installation de the_silver_search
 ```sh
@@ -463,6 +440,7 @@ yaourt -S the_silver_search
 - ajout du plugin `tmux` + `wd` dans le fichier de config `.zshrc`.
 > `tmux` ajoute des alias à zsh, et avec la ligne ci-dessous d'ajouter démarre tmux lorsqu'une session zsh est démarré.
 > `wd` [Lien](https://github.com/robbyrussel/oh-my-zsh/wiki/Plugins#tmux)
+
 
 # Exuberant ctag !!
 
@@ -495,11 +473,9 @@ Donc garder:
 - ctags
 - tagbar
 - easytags
--
 
 Ensuite ajouter des keybinding pour:
 - appeler TagbarToggle
--
 
 Modif de ~/.vim_runtime/my_config.vim :
 - `g:easytags_dynamic_files` like:
@@ -508,7 +484,6 @@ Modif de ~/.vim_runtime/my_config.vim :
 
 
 # TaskWarrior
-
 
 Installation :
 ```sh
@@ -604,16 +579,11 @@ copy de mon dossier source_non_fork dans celui courant `~/.vim_runtime/sources_n
     > A enlever, surcharge Leader+vv, qui fait la meme chose.
     > ou attendre un peut pour voir celle que j'utilise le plus.
 
-
 - suppresstion de `~/.vim_runtime/source_non_forked.save`.
--
 
 - installation du plugin vim `vimux`
     pour envoyer des commandes à tmux.
-
 - tagbar plugin pour vim!!
--
-
 - ajout des lignes suivantes pour le binding vim du plugin vimux:
 ```vim
 " Prompt for a command to run
@@ -675,7 +645,6 @@ let g:lightline = {
 ```
 
 ------------
-
 - Fichier de config `my_config.vim`:
 ```vim
 syntax on
@@ -746,26 +715,47 @@ let g:task_rc_override = 'rc.defaultheight=0'
 ```
 
 ## Profiler vim plugins
-
 ```sh
-    Running vim to generate startup logs... done.
-    Loading and processing logs... done.
-    Plugin directory: /home/aurera/.vim_runtime/sources_non_forked
     ====================================
     Top 10 plugins slowing vim's startup
     ====================================
-    1        16.664   nerdtree
-    2         7.992   syntastic
-    3         5.663   vim-colors-solarized
-    4         2.996   vim-fugitive
-    5         2.111   tabular
-    6         2.056   vim-gitgutter
-    7         1.669   YouCompleteMe
-    8         1.171   mru.vim
-    9         1.046   tpope-vim-abolish
-    10        0.971   vim-yankstack
+    1        32.962   vim-virtualenv
+    2        19.958   vim-easytags
+    3        15.199   nerdtree
+    4         7.161   syntastic
+    5         5.085   vim-colors-solarized
+    6         4.114   vim-fugitive
+    7         1.965   tabular
+    8         1.889   tagbar
+    9         1.687   vim-gitgutter
+    10        1.506   YouCompleteMe
     ====================================
 ```
+## VIM client-server
+
+```vim
+vim --servername FOO
+```
+
+```vim
+vim --servername foo --remote-silent bar.hs
+
+
++-----------------------+
+|           |~$         |
+|           |           |
+|           |-----------+
+|    Vim    |~$         |
+|   Server  |           |
+|           |-----------+
+|           |~$         |
+|           |           |
++-----------------------+
+```
+- Ajout d'un alias pour `vim --servername` ?!.
+- Lancement de gvim dans le fichier i3 config comme `gvim --servername NAME_SERVEUR` ?!
+- `vim --servername FOO --remote-silent $(fzf)` :lance fuzzyf(fzf) et ouvre le fichier trouvé dans le serveur vim FOO.
+
 
 # Tmux
 
@@ -791,7 +781,8 @@ Fichier de config de tmux `.tmux.conf`:
 ```
 - Ajout du mode mouse, pour pouvoir scroller dans l'historique du terminal. De base l'option mouse est sur off.
 - Ajout de la possibilité de resize les panes avec la souris.
--
+
+
 ## Tmuxinator
 
 [Lien explication tmuxinator](https://collectiveidea.com/blog/archives/2017/03/27/using-tmuxinator-to-automate-your-environment)
@@ -801,7 +792,6 @@ Fichier de config de tmux `.tmux.conf`:
 
 
 # ZSH
-
 
 - Configuration de `zsh` avec `antigen`.
 - liste de bundles/plugins:
@@ -893,9 +883,8 @@ cp config ~/.config/i3/
 cp i3status.conf ~/.config/i3/
 ```
 
+
 # Developpement
-
-
 pip install virtualenv
 pip install virtualenvwrapper
 
@@ -918,32 +907,9 @@ mkdir ~/Documents/Devel/
 
 [TaskWarrior Command Reference](https://wiki.archlinux.org/index.php/Apache_HTTP_Server#Installation)
 
-# VIM client-server
-
-```vim
-vim --servername FOO
-```
-
-```vim
-vim --servername foo --remote-silent bar.hs
-
-
-+-----------------------+
-|           |~$         |
-|           |           |
-|           |-----------+
-|    Vim    |~$         |
-|   Server  |           |
-|           |-----------+
-|           |~$         |
-|           |           |
-+-----------------------+
-```
-- Ajout d'un alias pour `vim --servername` ?!.
-- Lancement de gvim dans le fichier o3 config comme `gvim --servername NAME_SERVEUR` ?!
-- `vim --servername FOO --remote-silent $(fzf)` :lance fuzzyf et ouvre le fichier trouvé dans le serveur vim FOO.
 
 # Cheat sheet
+
 [Site pour créer des fiches de rappels](https://www.cheatography.com/create/)
 ```py
 subprocess.run(['vlc', '--play-and-exit', '/home/blackpant/Musique/ringtones/Slap-SoundMaster13-49669815.wav'])
@@ -953,9 +919,19 @@ subprocess.run(['vlc', '--play-and-exit', '/home/blackpant/Musique/ringtones/Sla
 
 [Languages for Hackers](https://www.tech2hack.com/programming-languages-hackers/)
 
-# IDEAS Python Script
 
+# IDEAS Python Script
 
 - script d'envoie d'une documentation (docx + html ou l'un ou l'autre) à une liste de mail ou à mail en particulier !! A voir !
 - [mini exercices pour pratique python](https://projecteuler.net/archives)
+
+installation de dunst: pour desktop notification
+utilise `notify-send`.
+configuration de l'appararence des notification de dunst.
+suppression de i3lock-fancy
+suppression de i3lock
+installation de i3lock-color(git)
+installation de i3lock-next(git)
+changement de l'apparence de rofi.
+
 
