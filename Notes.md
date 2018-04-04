@@ -1,4 +1,4 @@
-```sh
+```
                    -`                    aurera@Lenovo-sans-touches
                   .o+`                   --------------------------
                  `ooo/                   OS: Arch Linux x86_64
@@ -21,9 +21,7 @@
 
 ```
 
-
 # Applications principales
-
 * Web browser : Firefox
 * File Manager : Nemo + ranger
 * Desktop background : feh
@@ -74,86 +72,65 @@
 - python-pip
 - antigen
 - i3-gaps
-
 - ajout de gaps global
 ```
-set gaps
-gaps inner 15
-gaps outer 1
+  set gaps
+  gaps inner 15
+  gaps outer 1
 ```
-
-- ajout de l'option "smart_gaps"
-`smart_gaps on`
-
-- installation de feh
-`yaourt -Sy feh`
-
+- ajout de l'option "smart_gaps":  `smart_gaps on`
+- installation de feh: `yaourt -Sy feh`
 - creation du dossier ~/Images/Wallpapers/
-`mkdir ~/Images/Wallpapers/`
+> `mkdir ~/Images/Wallpapers/`
 
 - pour changement automatique du wallpaper avec l'image ninja.jpg dans `~/Images/Wallpapers/`
-
 - Dans .zshrc
     + Ajout de plusieurs alias
     + A voir pour d'autre
-
-
 - Set alias
 ```sh
-alias ls='ls --color=auto '
-alias la='ls -a --color=auto'
-alias ll='ls -l --color=auto'
-alias cls='clear'
+  alias ls='ls --color=auto '
+  alias la='ls -a --color=auto'
+  alias ll='ls -l --color=auto'
+  alias cls='clear'
 ```
 
 - installation de polybar
 ```sh
-install -Dm644 /usr/share/doc/polybar/config \$HOME/.config/polybar/config
-$ polybar example
+  install -Dm644 /usr/share/doc/polybar/config \$HOME/.config/polybar/config
+  polybar example
 ```
 
 - Launching polybar routine
-
-[Lien](https://github.com/jaagr/polybar/wiki)
+  + [Lien](https://github.com/jaagr/polybar/wiki)
 - add line to always launch the script in config of i3 like :
 ```sh
-exec_always --no-startup-id $HOME/.config/polybar/launch.sh
-```
-
-- **Wallpapers**
-```
-blackpant@anarchy  ~/Images/Wallpapers  cp * ~/Images/Wallpapers   (02-12 15:59)
+  exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 ```
 
 - installation de librairies python pour le bon fonctionnement de py3status
 ```sh
-yaourt -S python-pip
-sudo pip install py3status
-sudo pip install pytz
-sudo pip install tzlocal
+  yaourt -S python-pip
+  sudo pip install py3status
+  sudo pip install pytz
+  sudo pip install tzlocal
 ```
-
-
-
 
 - installation de dmenu si pas installé
 ```sh
-yaourt -S dmenu
+  yaourt -S dmenu
 ```
 
 - ROFI install
-
 ```sh
-install de compton
-yaourt -S compton
+  install de compton
+  yaourt -S compton
 ```
 
 - déplacer le compton.conf dans $HOME/.config/
-
-
 - installation de flake pour que l'installation de youcompleteme fonctionne bien
 ```
-sudo pip install flake8
+  sudo pip install flake8
 ```
 
 - bon alors j'ai binder $mod+d sur un mode
@@ -163,19 +140,17 @@ sudo pip install flake8
     + si touche w => lance rofi -show window
     + si touche s => lance rofi -show ssh
 
-
 - run rofi-theme-selector
     pour previsualiser les themes de disponible
-
 
 - installation de roficlip clipboard manager rofi
 pour afficer dans rofi l'historique du presspapier/ clipboard
 
 ```sh
-yaourt -S roficlip
-> Modification du lancement de urxvt
-> maintenant à chaque chargemnt de i3 lancement de urxvtd - daemon server de urxvt
-$mod+Return exec urxvtc => ouvre des terminaux lié au daemon => plus rapide prends moins de memoire apparemment
+  yaourt -S roficlip
+  > Modification du lancement de urxvt
+  > maintenant à chaque chargemnt de i3 lancement de urxvtd - daemon server de urxvt
+  $mod+Return exec urxvtc => ouvre des terminaux lié au daemon => plus rapide prends moins de memoire apparemment
 ```
 
 
@@ -526,19 +501,19 @@ Ajout de ligne dans `.taskrc`.
 
 - Modification du contenu du dossier `~/.task/`.
 ```
-.task
-├── backlog.data
-├── completed.data
-├── dashboard.json
-├── hooks
-│   └── on-exit_dashboard -> /home/blackpant/Documents/task-dashboard/task-dashboard
-├── intheam_config
-│   ├── ca.cert.pem
-│   ├── private.certificate.pem
-│   └── private.key.pem
-├── pending.data
-├── undo.data
-└── .vim_tw.history
+    .task
+    ├── backlog.data
+    ├── completed.data
+    ├── dashboard.json
+    ├── hooks
+    │   └── on-exit_dashboard -> /home/blackpant/Documents/task-dashboard/task-dashboard
+    ├── intheam_config
+    │   ├── ca.cert.pem
+    │   ├── private.certificate.pem
+    │   └── private.key.pem
+    ├── pending.data
+    ├── undo.data
+    └── .vim_tw.history
 ```
 
 
@@ -552,9 +527,9 @@ Ajout de ligne dans `.taskrc`.
 - vim config
 
 ```sh
-git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
-sh ~/.vim_runtime/install_awesome_vimrc.sh
-yaourt -S neovim
+    git clone --depth=1 https://github.com/amix/vimrc.git ~/.vim_runtime
+    sh ~/.vim_runtime/install_awesome_vimrc.sh
+    yaourt -S neovim
 ```
 
 copy de mon dossier source_non_fork dans celui courant `~/.vim_runtime/sources_non_forked/`
@@ -562,37 +537,33 @@ copy de mon dossier source_non_fork dans celui courant `~/.vim_runtime/sources_n
 > dans sources_non_forked
 > mkdir archives
 > mv youcompleteme archives/
-
-
+>
 > INSTALLATION DE YOUCOMPLETEME VIA LE GIT ET COMPILATION POUR TOUS OU CERTAIN LANGAGES
-
-
+>
 > vraiment se pencher sur neovim !!! ou pas -_- !!
 
 - installation du plugin vim `vim-tmux-navigator`
 - ajout dans `~/.vim_runtime/my_config.vim` :
 
-    ```vim
+```vim
     " vv to generate new vertical split
     nnoremap <silent> vv <C-w>v
-    ```
+```
     > A enlever, surcharge Leader+vv, qui fait la meme chose.
     > ou attendre un peut pour voir celle que j'utilise le plus.
 
 - suppresstion de `~/.vim_runtime/source_non_forked.save`.
-
-- installation du plugin vim `vimux`
-    pour envoyer des commandes à tmux.
+- installation du plugin vim `vimux` pour envoyer des commandes à tmux.
 - tagbar plugin pour vim!!
-- ajout des lignes suivantes pour le binding vim du plugin vimux:
+- ajout des lignes suivantes pour le binding vim du plugin vimux:  
 ```vim
-" Prompt for a command to run
-map <Leader>vp :VimuxPromptCommand<CR>
+    " Prompt for a command to run
+    map <Leader>vp :VimuxPromptCommand<CR>
 ```
 
 ```vim
-" Close vimux runner
-map <Leader>vc :VimuxCloseRunner<CR>
+    " Close vimux runner
+    map <Leader>vc :VimuxCloseRunner<CR>
 ```
 
 - ajout de quelques ligne dans mon fichier de configuration `vim`. Pour principalement rester en solarized et que ce soit bien affiché dans n'importe quel terminal.
@@ -601,17 +572,14 @@ map <Leader>vc :VimuxCloseRunner<CR>
     + modification du fichier de configuration ~/.tmux.conf
     + Ajout du plugin tmuxline.vim
     + Helptags pour tout prendre en compte.
-
-
 - installation de plugin vim
     + open-browser
     + previm
-
 - mapping vim pour plugin vim open-browser.vim:
 ```vim
-let g:netrw_nogx = 1 " disable netrw's gx mapping
-nmap gx <Plug>(openbrowser-smart-search)
-vmap gx <Plug>(openbrowser-smart-search)
+    let g:netrw_nogx = 1 " disable netrw's gx mapping
+    nmap gx <Plug>(openbrowser-smart-search)
+    vmap gx <Plug>(openbrowser-smart-search)
 ```
 
 - Installation du plugin `fzf.vim`
@@ -620,101 +588,28 @@ vmap gx <Plug>(openbrowser-smart-search)
     > [FZF VIM](https://github.com/junegunn/fzf.vim)
     > `vim $(fzf --height 40%)` ou `vim $(fzf)`
 
-
-
 - Lire et se familiariser avec les differentes facon de copier/coller
-[Vim Wiki Copy Cut Paste](http://vim.wikia.com/wiki/Copy,_cut_and_paste)
-[Vim Wiki System Clipboard](http://vim.wikia.com/wiki/Accessing_the_system_clipboard)
-
+    + [Vim Wiki Copy Cut Paste](http://vim.wikia.com/wiki/Copy,_cut_and_paste)
+    + [Vim Wiki System Clipboard](http://vim.wikia.com/wiki/Accessing_the_system_clipboard)
 - Documentation pour modifier `lightline.vim`, statusline de vim:
-
-
-- changement de la combinaison pour sortir du `mode insertion` dans le fichier de coonfiguration `my_config.vim`:
-    ```vim
+- Changement de la combinaison pour sortir du `mode insertion` dans le fichier de coonfiguration `my_config.vim`:
+```vim
     :inoremap kj <Esc>
-    ```
+```
 
 - Modification de mon fichier de config vim `.vimrc` pour modifier légèrement l'apparence de la `statusline` de vim.
 - nouveau theme d'installer pour vim, airline, et lightline : **`tender.vim`**
 ```vim
-let g:lightline = {
-    \ 'colorscheme': 'tender',
-    \ 'separator': {'left':'', 'right': ''},
-    \ 'subseparator': {'left':'', 'right': ''},
-    \ }
+    let g:lightline = {
+        \ 'colorscheme': 'tender',
+        \ 'separator': {'left':'', 'right': ''},
+        \ 'subseparator': {'left':'', 'right': ''},
+        \ }
 ```
 
-------------
-- Fichier de config `my_config.vim`:
-```vim
-syntax on
-filetype on
-
-
-" Lightline setting
-let g:lightline = {
-    \ 'colorscheme': 'tender',
-    \ 'separator': {'left':'', 'right': ''},
-    \ 'subseparator': {'left':'', 'right': ''},
-    \ }
-
-" Set font according to system
-if has("mac") || has("macunix")
-    set gfn=Hack:h14,Source\ Code\ Pro:h15,Menlo:h15
-elseif has("win16") || has("win32")
-    set gfn=Hack:h14,Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
-elseif has("gui_gtk2")
-    set gfn=Hack\ 11,Source\ Code\ Pro\ 11,Bitstream\ Vera\ Sans\ Mono\ 10
-elseif has("linux")
-    set gfn=Hack\ 11,Source\ Code\ Pro\ 11,Bitstream\ Vera\ Sans\ Mono\ 10
-elseif has("unix")
-    set gfn=Monospace\ 11
-endif
-
-set number
-
-" Colorscheme
-let g:solarized_termtrans = 1
-colorscheme solarized
-set background=dark
-call togglebg#map("<F5>")
-
-" syntastic python checker
-let g:syntastic_python_checkers = ['flake8']
-
-" open-browser plugin binding key
-let g:netrw_nogx = 1 " disable netrw's gx mapping
-nmap gx <Plug>(openbrowser-smart-search)
-vmap gx <Plug>(openbrowser-smart-search)
-
-" vv to generate new vertical split
-nnoremap <silent> vv <C-w>v
-
-" Prompt for a command to run
-map <Leader>vp :VimuxPromptCommand<CR>
-
-" Close vimux runner
-map <Leader>vc :VimuxCloseRunner<CR>
-
-" set up easytags
-set tags=./tags;
-let g:easytags_dynamic_files = 1
-" let g:easytags_events = ['BufWritePost']
-
-" Tagbar setting
-nmap <F8> :TagbarToggle<CR>
-
-" config ack-vim
-map <Leader>g :Ack!
-
-" Escape character remap exit mode insert
-inoremap kj <Esc>
-
-" taskwarrior.vim setting
-let g:task_rc_override = 'rc.defaultheight=0'
-```
 
 ## Profiler vim plugins
+
 ```sh
     ====================================
     Top 10 plugins slowing vim's startup
@@ -731,30 +626,31 @@ let g:task_rc_override = 'rc.defaultheight=0'
     10        1.506   YouCompleteMe
     ====================================
 ```
-## VIM client-server
 
+## VIM client-server
 ```vim
-vim --servername FOO
+    vim --servername FOO
 ```
 
 ```vim
-vim --servername foo --remote-silent bar.hs
+    vim --servername foo --remote-silent bar.hs
 
 
-+-----------------------+
-|           |~$         |
-|           |           |
-|           |-----------+
-|    Vim    |~$         |
-|   Server  |           |
-|           |-----------+
-|           |~$         |
-|           |           |
-+-----------------------+
+    +-----------------------+
+    |           |~$         |
+    |           |           |
+    |           |-----------+
+    |    Vim    |~$         |
+    |   Server  |           |
+    |           |-----------+
+    |           |~$         |
+    |           |           |
+    +-----------------------+
 ```
 - Ajout d'un alias pour `vim --servername` ?!.
 - Lancement de gvim dans le fichier i3 config comme `gvim --servername NAME_SERVEUR` ?!
 - `vim --servername FOO --remote-silent $(fzf)` :lance fuzzyf(fzf) et ouvre le fichier trouvé dans le serveur vim FOO.
+- ou `vim --servername boring --remote-tab-silent $(fzf)` : lance fzf et ouvre le fichier choisi après la recherche fzf dans un nouvel onglet vim dans le serveur vim BORING.
 
 
 # Tmux
@@ -784,11 +680,9 @@ Fichier de config de tmux `.tmux.conf`:
 
 
 ## Tmuxinator
-
 [Lien explication tmuxinator](https://collectiveidea.com/blog/archives/2017/03/27/using-tmuxinator-to-automate-your-environment)
 [Lien explication tmuxinator un peu plus détaillé](https://fabianfranke.de/2013/11/19/use-tmuxinator-to-recreate-tmux-panes-and-windows/)
 > Ne pas ajouter les options `set -g base-index 1` et `set -g pane-base-index 1`. Sinon task-dashboard ne fonctionne plus apparemment!!.
->
 
 
 # ZSH
@@ -827,96 +721,102 @@ Fichier de config de tmux `.tmux.conf`:
     # Apply the settings and it's done
     antigen apply
 ```
-
 - `vi-mode` keybindings :
 [git lien](https://github.com/robbyrussell/oh-my-zsh/tree/master/plugins/vi-mode)
 
-# Tree command
 
+# Tree command
 
 Installation :
 ```sh
-yaourt -S tree
+    yaourt -S tree
 ```
 
 Utilisation :
 ```sh
-cd ~/Documents
-tree -d MarkdownProj/
+    cd ~/Documents
+    tree -d MarkdownProj/
 ```
 
 ```
-➜  Documents tree -d MarkdownProj
-MarkdownProj
-├── pandoc-bootstrap-template
-├── pandoc-latex-template
-│   └── examples
-│       ├── basic-example
-│       ├── book
-│       ├── custom-titlepage
-│       ├── default-titlepage
-│       ├── german
-│       ├── green-titlepage
-│       ├── images-and-tables
-│       ├── japanese
-│       ├── listings
-│       └── without-listings
-└── screen
+        ➜  Documents tree -d MarkdownProj
+        MarkdownProj
+    ├── pandoc-bootstrap-template
+    ├── pandoc-latex-template
+    │   └── examples
+    │       ├── basic-example
+    │       ├── book
+    │       ├── custom-titlepage
+    │       ├── default-titlepage
+    │       ├── german
+    │       ├── green-titlepage
+    │       ├── images-and-tables
+    │       ├── japanese
+    │       ├── listings
+    │       └── without-listings
+    └── screen
 ```
 
 # Tips
 
 tree like command with installing any additionnal packages:
 ```sh
-ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'
+    ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'
 ```
 
 # i3
 
-Installation
+Installation:  
 ```sh
-yaourt -Sy i3
-git clone https://github.com/blackpant/my_config_i3
-cd my_config_i3
-cd i3
-cp config ~/.config/i3/
-cp i3status.conf ~/.config/i3/
+    yaourt -Sy i3
+    git clone https://github.com/blackpant/my_config_i3
+    cd my_config_i3
+    cd i3
+    cp config ~/.config/i3/
+    cp i3status.conf ~/.config/i3/
 ```
 
 
 # Developpement
+
 pip install virtualenv
 pip install virtualenvwrapper
-
 ligne dans `.zshrc` :
 ```sh
-export WORKON_HOME=$HOME/Documents/.virtualenvs
-export PROJECT_HOME=$HOME/Documents/Devel
-export VIRTUALENVWRAPPER_SCRIPT=/usr/bin/virtualenvwrapper.sh
-source /usr/bin/virtualenvwrapper_lazy.sh
+    export WORKON_HOME=$HOME/Documents/.virtualenvs
+    export PROJECT_HOME=$HOME/Documents/Devel
+    export VIRTUALENVWRAPPER_SCRIPT=/usr/bin/virtualenvwrapper.sh
+    source /usr/bin/virtualenvwrapper_lazy.sh
 ```
 
 
-# Dossier de developpemnt qui contiendra tous les projets virtualenv
+## Dossier de developpemnt qui contiendra tous les projets virtualenv
 
+`mkdir ~/Documents/Devel/`  
 
-mkdir ~/Documents/Devel/
+## Sauvegarde des libraries python avec pip freeze
+
+- sauvegarde librairies :  
+```sh
+    pip freeze > requirements.txt
+```
+
+- reinstallation des librairies sur un autre systeme :
+```sh
+    pip install -r requirements.txt
+```
 
 
 # Link
-
 [TaskWarrior Command Reference](https://wiki.archlinux.org/index.php/Apache_HTTP_Server#Installation)
 
 
 # Cheat sheet
-
 [Site pour créer des fiches de rappels](https://www.cheatography.com/create/)
 ```py
 subprocess.run(['vlc', '--play-and-exit', '/home/blackpant/Musique/ringtones/Slap-SoundMaster13-49669815.wav'])
 ```
-
 [Lien python à lire](https://null-byte.wonderhowto.com/how-to/hack-like-pro-python-scripting-for-aspiring-hacker-part-1-0159118/)
-
 [Languages for Hackers](https://www.tech2hack.com/programming-languages-hackers/)
 
 
@@ -924,14 +824,13 @@ subprocess.run(['vlc', '--play-and-exit', '/home/blackpant/Musique/ringtones/Sla
 
 - script d'envoie d'une documentation (docx + html ou l'un ou l'autre) à une liste de mail ou à mail en particulier !! A voir !
 - [mini exercices pour pratique python](https://projecteuler.net/archives)
-
-installation de dunst: pour desktop notification
-utilise `notify-send`.
-configuration de l'appararence des notification de dunst.
-suppression de i3lock-fancy
-suppression de i3lock
-installation de i3lock-color(git)
-installation de i3lock-next(git)
-changement de l'apparence de rofi.
+- installation de dunst: pour desktop notification
+- utilise `notify-send`.
+- configuration de l'appararence des notification de dunst.
+- suppression de i3lock-fancy
+- suppression de i3lock
+- installation de i3lock-color(git)
+- installation de i3lock-next(git)
+- changement de l'apparence de rofi.
 
 
