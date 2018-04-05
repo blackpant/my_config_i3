@@ -833,4 +833,26 @@ subprocess.run(['vlc', '--play-and-exit', '/home/blackpant/Musique/ringtones/Sla
 - installation de i3lock-next(git)
 - changement de l'apparence de rofi.
 
+changement de la configuration de `compton`:
+lancement avec 
+```
+   exec --no-startup-id compton -fb --config ~/.config/compton.conf -i 0.5 --inactive-opacity-override --inactive-dim 0.5 -G --sw-opti
+```
+
+A ajuster quand meme.
+` compton -fb --config /home/blackpant/.config/compton.conf -i 0.8 --inactive-opacity-override --inactive-dim 0.3 -G --sw-opti`
+
+Installation de Termite
+yaourt -S termite
+
+Installation colorscheme solarized pour termite
+[colors solarized termite](https://github.com/alpha-omega/termite-colors-solarized)
+
+Changement du rofi clipboard manager  
+Greenclip vers roficlip  
+Roficlip integre les notification !!  
+pas sur !!?
+Pourquoi sctrot + xclip fonctionne une fois sur deux ?
+fonctionne avec la fenetre selectionné 
+ne fonctionne pas avec tout l'écran !!
 
