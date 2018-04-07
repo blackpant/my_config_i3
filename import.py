@@ -9,7 +9,7 @@ def updateFilesGit():
         userPath = os.getenv('HOME')
 
     subprocess.call(["cp", "-u", userPath + "/.zshrc", "."])
-    subprocess.call(["cp", "-u", userPath + "/.vimrc", "."])
+    # subprocess.call(["cp", "-u", userPath + "/.vimrc", "."])
     subprocess.call(["cp", "-u", userPath + "/.vim_runtime/my_configs.vim", "."])
     subprocess.call(["cp", "-u", userPath + "/.conkyrc", "."])
     subprocess.call(["cp", "-u", userPath + "/.Xdefaults", "."])
@@ -24,6 +24,7 @@ def updateFilesGit():
     subprocess.call(["cp", "-uR", userPath + "/.config/i3", "./.config"])
     subprocess.call(["cp", "-uR", userPath + "/.config/i3blocks", "./.config"])
     subprocess.call(["cp", "-uR", userPath + "/.config/terminator", "./.config"])
+    subprocess.call(["cp", "-uR", userPath + "/.config/termite", "./.config"])
     subprocess.call(["cp", "-uR", userPath + "/.config/cava", "./.config"])
     subprocess.call(["cp", "-uR", userPath + "/.config/cmus", "./.config"])
     subprocess.call(["cp", "-uR", userPath + "/.config/htop", "./.config"])
