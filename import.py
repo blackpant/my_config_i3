@@ -1,7 +1,7 @@
 #!/usr/bin/python
 import os
 import subprocess
-import shutil
+# import shutil
 
 
 def updateFilesGit():
@@ -22,6 +22,7 @@ def updateFilesGit():
     subprocess.call(["cp", "-u", userPath + "/.config/i3-scrot.conf", "./.config"])
     subprocess.call(["cp", "-u", userPath + "/.config/i3-scrot.conf", "./.config"])
     subprocess.call(["cp", "-uR", userPath + "/.config/i3", "./.config"])
+    subprocess.call(["cp", "-uR", userPath + "/.config/i3blocks", "./.config"])
     subprocess.call(["cp", "-uR", userPath + "/.config/terminator", "./.config"])
     subprocess.call(["cp", "-uR", userPath + "/.config/cava", "./.config"])
     subprocess.call(["cp", "-uR", userPath + "/.config/cmus", "./.config"])

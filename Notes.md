@@ -836,11 +836,11 @@ subprocess.run(['vlc', '--play-and-exit', '/home/blackpant/Musique/ringtones/Sla
 changement de la configuration de `compton`:
 lancement avec 
 ```
-   exec --no-startup-id compton -fb --config ~/.config/compton.conf -i 0.5 --inactive-opacity-override --inactive-dim 0.5 -G --sw-opti
+   exec --no-startup-id compton -fb --config ~/.config/compton.conf -i 0.8 --inactive-opacity-override --inactive-dim 0.1 -G --sw-opti
 ```
 
 A ajuster quand meme.
-` compton -fb --config /home/blackpant/.config/compton.conf -i 0.8 --inactive-opacity-override --inactive-dim 0.3 -G --sw-opti`
+` compton -fb --config /home/blackpant/.config/compton.conf -i 0.8 --inactive-opacity-override --inactive-dim 0.1 -G --sw-opti`
 
 Installation de Termite
 yaourt -S termite
@@ -856,3 +856,18 @@ Pourquoi sctrot + xclip fonctionne une fois sur deux ?
 fonctionne avec la fenetre selectionné 
 ne fonctionne pas avec tout l'écran !!
 
+pour les screenshots maim !!? 
+maim + xclip ?!!
+
+bon alors en mono screen scrot + xclip fonctionne bien !!
+sinon maim + xclip fonctionne aussi. maim est apparemment une version amelioré de scrot !! Donc à voir mais tant qu'a faire autant utiliser maim. A confirmer.
+Est-ce que maim + xclip fonctionnent en dual screen ?
+>[Lien screenshot de l'ecran actif](https://github.com/naelstrof/maim/issues/103)
+
+outil a prendre en compte *xdotool*
+
+envoyer une notification quand un screenshot est pris.
+`basename 2018-04-07-103834_1366x768_scrot.png | while read OUTPUT; do notify-send "$OUTPUT";done`
+S'inspirer de cette commande !!
+
+`maim | xclip -selecetion clipboard -t image/png | notify-send "Screenshot !!" "$filename"`
