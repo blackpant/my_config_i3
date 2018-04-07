@@ -665,3 +665,320 @@ time 1521128579
 old [description:"cours automatetheboringstuff" entry:"1520776894" modified:"1521036101" project:"Perso" status:"pending" uuid:"944431d2-061c-45d3-bd47-f167475d0724"]
 new [description:"cours automatetheboringstuff" entry:"1520776894" modified:"1521128579" project:"Perso" start:"1521128579" status:"pending" uuid:"944431d2-061c-45d3-bd47-f167475d0724"]
 ---
+time 1521188812
+old [description:"cours automatetheboringstuff" entry:"1520776894" modified:"1521128579" project:"Perso" start:"1521128579" status:"pending" uuid:"944431d2-061c-45d3-bd47-f167475d0724"]
+new [description:"cours automatetheboringstuff" entry:"1520776894" modified:"1521188812" project:"Perso" status:"pending" uuid:"944431d2-061c-45d3-bd47-f167475d0724"]
+---
+time 1521188838
+new [description:"vm audit ADP" entry:"1521188838" modified:"1521188838" status:"pending" uuid:"ab74eb4e-99cd-4743-8b46-5db7623539ba"]
+---
+time 1521188977
+new [description:"test" entry:"1521188977" modified:"1521188977" status:"pending" uuid:"429aa229-fe92-4be3-bf40-7df52f96ec21"]
+---
+time 1521188986
+old [description:"test" entry:"1521188977" modified:"1521188977" status:"pending" uuid:"429aa229-fe92-4be3-bf40-7df52f96ec21"]
+new [description:"test" end:"1521188984" entry:"1521188977" modified:"1521188986" status:"deleted" uuid:"429aa229-fe92-4be3-bf40-7df52f96ec21"]
+---
+time 1521189250
+new [description:"test" entry:"1521188973" modified:"1521188973" status:"pending" uuid:"9d3dec1f-a084-4b5e-aa75-e475ed32b40f"]
+---
+time 1521189250
+old [description:"test" entry:"1521188973" modified:"1521188973" status:"pending" uuid:"9d3dec1f-a084-4b5e-aa75-e475ed32b40f"]
+new [description:"test" end:"1521188981" entry:"1521188973" modified:"1521188983" status:"deleted" uuid:"9d3dec1f-a084-4b5e-aa75-e475ed32b40f"]
+---
+time 1521189288
+old [description:"vm audit ADP" entry:"1521188838" modified:"1521188838" status:"pending" uuid:"ab74eb4e-99cd-4743-8b46-5db7623539ba"]
+new [description:"vm audit ADP" entry:"1521188838" modified:"1521189288" project:"ADP" status:"pending" tags:"audit,aurera" uuid:"ab74eb4e-99cd-4743-8b46-5db7623539ba"]
+---
+time 1521191253
+old [description:"cours automatetheboringstuff" entry:"1520776894" modified:"1521188812" project:"Perso" status:"pending" uuid:"944431d2-061c-45d3-bd47-f167475d0724"]
+new [description:"cours automatetheboringstuff" entry:"1520776894" modified:"1521191253" project:"Perso" start:"1521191253" status:"pending" uuid:"944431d2-061c-45d3-bd47-f167475d0724"]
+---
+time 1521216771
+old [description:"cours automatetheboringstuff" entry:"1520776894" modified:"1521191253" project:"Perso" start:"1521191253" status:"pending" uuid:"944431d2-061c-45d3-bd47-f167475d0724"]
+new [description:"cours automatetheboringstuff" entry:"1520776894" modified:"1521216771" project:"Perso" status:"pending" uuid:"944431d2-061c-45d3-bd47-f167475d0724"]
+---
+time 1521216810
+old [description:"vm audit ADP" entry:"1521188838" modified:"1521189288" project:"ADP" status:"pending" tags:"audit,aurera" uuid:"ab74eb4e-99cd-4743-8b46-5db7623539ba"]
+new [description:"vm audit ADP" end:"1521216810" entry:"1521188838" modified:"1521216810" project:"ADP" status:"completed" tags:"audit,aurera" uuid:"ab74eb4e-99cd-4743-8b46-5db7623539ba"]
+---
+time 1521216843
+new [description:"config vm audit adp" entry:"1521216843" modified:"1521216843" project:"ADP" status:"pending" tags:"vm,audit,adp" uuid:"7c64aff3-8516-461f-b9c7-70f3fe4c601d"]
+---
+time 1521534921
+old [description:"cours automatetheboringstuff" entry:"1520776894" modified:"1521216771" project:"Perso" status:"pending" uuid:"944431d2-061c-45d3-bd47-f167475d0724"]
+new [description:"cours automatetheboringstuff" entry:"1520776894" modified:"1521534921" project:"Perso" start:"1521534921" status:"pending" uuid:"944431d2-061c-45d3-bd47-f167475d0724"]
+---
+time 1521537897
+new [description:"install wordpress" entry:"1521537897" modified:"1521537897" status:"pending" uuid:"e56c3bed-95de-48df-bf7c-0d16644a451d"]
+---
+time 1521537911
+new [description:"create first site" entry:"1521537911" modified:"1521537911" status:"pending" uuid:"0c7608e5-b613-44a3-9b8d-7cb745ed5af9"]
+---
+time 1521537929
+old [description:"install wordpress" entry:"1521537897" modified:"1521537897" status:"pending" uuid:"e56c3bed-95de-48df-bf7c-0d16644a451d"]
+new [description:"install wordpress" entry:"1521537897" modified:"1521537929" project:"wordpress" status:"pending" uuid:"e56c3bed-95de-48df-bf7c-0d16644a451d"]
+---
+time 1521537929
+old [description:"create first site" entry:"1521537911" modified:"1521537911" status:"pending" uuid:"0c7608e5-b613-44a3-9b8d-7cb745ed5af9"]
+new [description:"create first site" entry:"1521537911" modified:"1521537929" project:"wordpress" status:"pending" uuid:"0c7608e5-b613-44a3-9b8d-7cb745ed5af9"]
+---
+time 1521537938
+old [description:"install wordpress" entry:"1521537897" modified:"1521537929" project:"wordpress" status:"pending" uuid:"e56c3bed-95de-48df-bf7c-0d16644a451d"]
+new [description:"install wordpress" entry:"1521537897" modified:"1521537938" project:"wordpress" start:"1521537938" status:"pending" uuid:"e56c3bed-95de-48df-bf7c-0d16644a451d"]
+---
+time 1521541548
+old [description:"install wordpress" entry:"1521537897" modified:"1521537938" project:"wordpress" start:"1521537938" status:"pending" uuid:"e56c3bed-95de-48df-bf7c-0d16644a451d"]
+new [description:"install wordpress" end:"1521541548" entry:"1521537897" modified:"1521541548" project:"wordpress" status:"completed" uuid:"e56c3bed-95de-48df-bf7c-0d16644a451d"]
+---
+time 1521541566
+new [description:"start wordpress" entry:"1521541566" modified:"1521541566" status:"pending" uuid:"e7d303f1-0339-4f8d-bb42-628603e95492"]
+---
+time 1521541593
+old [description:"start wordpress" entry:"1521541566" modified:"1521541566" status:"pending" uuid:"e7d303f1-0339-4f8d-bb42-628603e95492"]
+new [description:"start wordpress" entry:"1521541566" modified:"1521541593" project:"wordpress" status:"pending" uuid:"e7d303f1-0339-4f8d-bb42-628603e95492"]
+---
+time 1521541605
+old [description:"cours automatetheboringstuff" entry:"1520776894" modified:"1521534921" project:"Perso" start:"1521534921" status:"pending" uuid:"944431d2-061c-45d3-bd47-f167475d0724"]
+new [description:"cours automatetheboringstuff" entry:"1520776894" modified:"1521541605" project:"Perso" status:"pending" uuid:"944431d2-061c-45d3-bd47-f167475d0724"]
+---
+time 1521542016
+old [description:"cours automatetheboringstuff" entry:"1520776894" modified:"1521541605" project:"Perso" status:"pending" uuid:"944431d2-061c-45d3-bd47-f167475d0724"]
+new [description:"cours automatetheboringstuff" end:"1521542016" entry:"1520776894" modified:"1521542016" project:"Perso" status:"completed" uuid:"944431d2-061c-45d3-bd47-f167475d0724"]
+---
+time 1521552971
+old [description:"start wordpress" entry:"1521541566" modified:"1521541593" project:"wordpress" status:"pending" uuid:"e7d303f1-0339-4f8d-bb42-628603e95492"]
+new [description:"start wordpress" entry:"1521541566" modified:"1521552971" project:"wordpress" start:"1521552971" status:"pending" uuid:"e7d303f1-0339-4f8d-bb42-628603e95492"]
+---
+time 1521553004
+new [description:"problem permission" entry:"1521553004" modified:"1521553004" project:"wordpress" status:"pending" uuid:"9b9a8146-07b3-4314-a60c-8bc7f9682d4f"]
+---
+time 1521553848
+old [description:"start wordpress" entry:"1521541566" modified:"1521552971" project:"wordpress" start:"1521552971" status:"pending" uuid:"e7d303f1-0339-4f8d-bb42-628603e95492"]
+new [description:"start wordpress" entry:"1521541566" modified:"1521553848" project:"wordpress" status:"pending" uuid:"e7d303f1-0339-4f8d-bb42-628603e95492"]
+---
+time 1521553958
+old [description:"ajout nouveau fichiers de config à garder" entry:"1520448964" modified:"1520671993" project:"config" status:"pending" tags:"i3" uuid:"fc238897-ce57-4b14-a86b-ecb36efb8134"]
+new [description:"ajout nouveau fichiers de config à garder" end:"1521553958" entry:"1520448964" modified:"1521553958" project:"config" status:"completed" tags:"i3" uuid:"fc238897-ce57-4b14-a86b-ecb36efb8134"]
+---
+time 1521553973
+old [description:"update config i3" entry:"1520448906" modified:"1520671993" project:"config" status:"pending" tags:"i3" uuid:"caab573b-9025-4f94-978a-373ec6f54360"]
+new [description:"update config i3" end:"1521553973" entry:"1520448906" modified:"1521553973" project:"config" status:"completed" tags:"i3" uuid:"caab573b-9025-4f94-978a-373ec6f54360"]
+---
+time 1521554004
+old [description:"problem dynamics yves log in" entry:"1520954857" modified:"1520954947" project:"Aurera" status:"pending" uuid:"1c8c1935-ecd5-496a-a510-977545b5580d"]
+new [description:"problem dynamics yves log in" end:"1521554004" entry:"1520954857" modified:"1521554004" project:"Aurera" status:"completed" uuid:"1c8c1935-ecd5-496a-a510-977545b5580d"]
+---
+time 1521556384
+old [description:"doc script powershell" entry:"1521024381" modified:"1521024381" project:"admin" status:"pending" tags:"script,azure" uuid:"3582e2fd-328f-43a0-90f8-0cc9add1bc92"]
+new [description:"doc script powershell" end:"1521556384" entry:"1521024381" modified:"1521556384" project:"admin" status:"completed" tags:"script,azure" uuid:"3582e2fd-328f-43a0-90f8-0cc9add1bc92"]
+---
+time 1521558116
+new [description:"explore python library o365" entry:"1521558116" modified:"1521558116" project:"aurera" status:"pending" tags:"script,python,aurera,o365" uuid:"71201880-2874-4c50-ae37-001a422b275a"]
+---
+time 1521559867
+new [description:"cron schedule system" entry:"1521559867" modified:"1521559867" status:"pending" tags:"linux,tache" uuid:"c53758e3-b6cd-4d20-ba08-03ab218fd079"]
+---
+time 1521561729
+old [description:"config vm audit adp" entry:"1521216843" modified:"1521216843" project:"ADP" status:"pending" tags:"vm,audit,adp" uuid:"7c64aff3-8516-461f-b9c7-70f3fe4c601d"]
+new [description:"config vm audit adp" end:"1521561729" entry:"1521216843" modified:"1521561729" project:"ADP" status:"completed" tags:"vm,audit,adp" uuid:"7c64aff3-8516-461f-b9c7-70f3fe4c601d"]
+---
+time 1521561768
+old [description:"creer user pour fichier de config logstash" entry:"1520612922" modified:"1520671886" project:"elastic" status:"pending" uuid:"f5b9962d-27ea-4494-a919-668035e3def9"]
+new [description:"creer user pour fichier de config logstash" entry:"1520612922" modified:"1521561768" project:"elastic" status:"pending" tags:"logstash,conf" uuid:"f5b9962d-27ea-4494-a919-668035e3def9"]
+---
+time 1521628450
+new [description:"mail formation vendredi" entry:"1521628450" modified:"1521628450" project:"mycoach" status:"pending" tags:"pr,mail,formation,masterclass" uuid:"3c9a0d68-f5f5-4e63-8f89-245fe01d8f32"]
+---
+time 1521628492
+old [description:"mail formation vendredi" entry:"1521628450" modified:"1521628450" project:"mycoach" status:"pending" tags:"pr,mail,formation,masterclass" uuid:"3c9a0d68-f5f5-4e63-8f89-245fe01d8f32"]
+new [description:"mail formation vendredi" due:"1521586800" entry:"1521628450" modified:"1521628492" project:"mycoach" status:"pending" tags:"pr,mail,formation,masterclass" uuid:"3c9a0d68-f5f5-4e63-8f89-245fe01d8f32"]
+---
+time 1521628770
+old [description:"dev project" entry:"1520785992" modified:"1520785992" project:"config" status:"pending" tags:"tmux,tmuxinator,vim,fzf,ipython" uuid:"1b7e7108-598d-414e-958e-84529af57e4e"]
+new [description:"dev project" end:"1521628770" entry:"1520785992" modified:"1521628770" project:"config" status:"completed" tags:"tmux,tmuxinator,vim,fzf,ipython" uuid:"1b7e7108-598d-414e-958e-84529af57e4e"]
+---
+time 1521634815
+new [description:"video vim fugitive" entry:"1521634815" modified:"1521634815" status:"pending" tags:"config,vim,plugin" uuid:"6920dc9c-6cf8-4122-b540-1436d789ab10"]
+---
+time 1521638088
+old [description:"mail formation vendredi" due:"1521586800" entry:"1521628450" modified:"1521628492" project:"mycoach" status:"pending" tags:"pr,mail,formation,masterclass" uuid:"3c9a0d68-f5f5-4e63-8f89-245fe01d8f32"]
+new [description:"mail formation vendredi" due:"1521586800" end:"1521638088" entry:"1521628450" modified:"1521638088" project:"mycoach" status:"completed" tags:"pr,mail,formation,masterclass" uuid:"3c9a0d68-f5f5-4e63-8f89-245fe01d8f32"]
+---
+time 1521638151
+new [description:"comprendre vim-session plugin est-ce vraiment utile" entry:"1521638151" modified:"1521638151" status:"pending" tags:"vim,plugin,config" uuid:"be3f0fdd-01eb-4687-9e46-07625027b6f1"]
+---
+time 1521639281
+new [description:"create cheatsheet pour config i3" entry:"1521639281" modified:"1521639281" status:"pending" uuid:"cef7aae7-6fb3-4160-954d-053db73b02fa"]
+---
+time 1521639302
+new [description:"create cheatsheet pour tmux" entry:"1521639302" modified:"1521639302" status:"pending" uuid:"e5a6c924-961c-4e08-8600-2d83240072f2"]
+---
+time 1521639310
+new [description:"create cheatsheet pour vim" entry:"1521639310" modified:"1521639310" status:"pending" uuid:"c64f9364-9844-458b-b41a-52cf425be9a9"]
+---
+time 1521639340
+old [description:"create cheatsheet pour vim" entry:"1521639310" modified:"1521639310" status:"pending" uuid:"c64f9364-9844-458b-b41a-52cf425be9a9"]
+new [description:"create cheatsheet pour vim" entry:"1521639310" modified:"1521639340" status:"pending" tags:"vim,cheat" uuid:"c64f9364-9844-458b-b41a-52cf425be9a9"]
+---
+time 1521639365
+old [description:"create cheatsheet pour tmux" entry:"1521639302" modified:"1521639302" status:"pending" uuid:"e5a6c924-961c-4e08-8600-2d83240072f2"]
+new [description:"create cheatsheet pour tmux" entry:"1521639302" modified:"1521639365" status:"pending" tags:"tmux,cheat" uuid:"e5a6c924-961c-4e08-8600-2d83240072f2"]
+---
+time 1521647021
+new [description:"à lire https:\/\/null-byte.wonderhowto.com\/how-to\/hack-like-pro-python-scripting-for-aspiring-hacker-part-1-0159118\/" entry:"1521647021" modified:"1521647021" project:"learning" status:"pending" tags:"python,hack,tuto" uuid:"9c1d85f2-d4b1-4a53-8df4-d7cff7894dbb"]
+---
+time 1521647939
+new [description:"script envoie doc" entry:"1521647939" modified:"1521647939" project:"alliance" status:"pending" tags:"script,python,doc" uuid:"49863c1c-0cca-4b38-980f-73380229c35d"]
+---
+time 1521649539
+new [description:"completer keep notes avec notes.md" entry:"1521649539" modified:"1521649539" status:"pending" uuid:"60228dc5-149e-48d2-ad2c-d68a8fec1d50"]
+---
+time 1521729261
+old [description:"tmux command pane-active-border-fg colour" entry:"1520681255" modified:"1520681255" project:"config" status:"pending" tags:"tmux" uuid:"716ab42f-19c0-4acf-8c72-17cec118161b"]
+new [description:"tmux command pane-active-border-fg colour" end:"1521710279" entry:"1520681255" modified:"1521710279" project:"config" status:"completed" tags:"tmux" uuid:"716ab42f-19c0-4acf-8c72-17cec118161b"]
+---
+time 1521729290
+new [description:"notes vim-multi-cursor solution" entry:"1521729290" modified:"1521729290" status:"pending" uuid:"d8784d42-f112-4331-a373-6bafa5df6436"]
+---
+time 1521729369
+old [description:"notes vim-multi-cursor solution" entry:"1521729290" modified:"1521729290" status:"pending" uuid:"d8784d42-f112-4331-a373-6bafa5df6436"]
+new [description:"notes vim-multi-cursor solution" entry:"1521729290" modified:"1521729369" project:"config" status:"pending" tags:"vim,config,zsh" uuid:"d8784d42-f112-4331-a373-6bafa5df6436"]
+---
+time 1521729600
+old [description:"trouver tool project management" entry:"1520852498" modified:"1521036101" project:"Perso" status:"pending" uuid:"294a5e63-eb1f-4547-ad6e-82ebf9cecab5"]
+new [description:"trouver tool project management" end:"1521729600" entry:"1520852498" modified:"1521729600" project:"Perso" status:"completed" uuid:"294a5e63-eb1f-4547-ad6e-82ebf9cecab5"]
+---
+time 1521799128
+new [description:"screencast start project tmuxinator" entry:"1521799128" modified:"1521799128" status:"pending" uuid:"10db8739-5bcb-4bf4-8863-a9b4850ee180"]
+---
+time 1521799196
+new [description:"utilisation de tmux avec vim et fzf" entry:"1521799196" modified:"1521799196" project:"screen" status:"pending" tags:"vim,tmux,byzanz,screen" uuid:"0beab9f8-7d92-4109-95ef-1ffcb78d4660"]
+---
+time 1521799227
+new [description:"task-dashboard utilisation" entry:"1521799227" modified:"1521799227" project:"screen" status:"pending" tags:"screen" uuid:"aa0836c7-8be7-4140-aab4-c94a2b38967b"]
+---
+time 1521819921
+old [description:"à lire https:\/\/null-byte.wonderhowto.com\/how-to\/hack-like-pro-python-scripting-for-aspiring-hacker-part-1-0159118\/" entry:"1521647021" modified:"1521647021" project:"learning" status:"pending" tags:"python,hack,tuto" uuid:"9c1d85f2-d4b1-4a53-8df4-d7cff7894dbb"]
+new [description:"à lire https:\/\/null-byte.wonderhowto.com\/how-to\/hack-like-pro-python-scripting-for-aspiring-hacker-part-1-0159118\/" end:"1521819921" entry:"1521647021" modified:"1521819921" project:"learning" status:"completed" tags:"python,hack,tuto" uuid:"9c1d85f2-d4b1-4a53-8df4-d7cff7894dbb"]
+---
+time 1521819956
+old [description:"create cheatsheet pour config i3" entry:"1521639281" modified:"1521639281" status:"pending" uuid:"cef7aae7-6fb3-4160-954d-053db73b02fa"]
+new [description:"create cheatsheet pour config i3" entry:"1521639281" modified:"1521819956" status:"pending" tags:"cheat,i3" uuid:"cef7aae7-6fb3-4160-954d-053db73b02fa"]
+---
+time 1522057581
+new [description:"list plugins \/ extensions" entry:"1522057581" modified:"1522057581" project:"wordpress" status:"pending" tags:"tapis,site,racontetapis,web" uuid:"fbfa37bd-fad9-4966-94e9-df72e5683851"]
+---
+time 1522075401
+new [description:"script image" entry:"1522075401" modified:"1522075401" project:"wordpress" status:"pending" tags:"raconte,scraping,web,img" uuid:"7b39397e-b4ad-4864-8add-11024c62d8e7"]
+---
+time 1522075411
+old [description:"script image" entry:"1522075401" modified:"1522075401" project:"wordpress" status:"pending" tags:"raconte,scraping,web,img" uuid:"7b39397e-b4ad-4864-8add-11024c62d8e7"]
+new [description:"script image" entry:"1522075401" modified:"1522075411" project:"wordpress" status:"pending" tags:"raconte,scraping,web,img,python" uuid:"7b39397e-b4ad-4864-8add-11024c62d8e7"]
+---
+time 1522137198
+old [description:"video vim fugitive" entry:"1521634815" modified:"1521634815" status:"pending" tags:"config,vim,plugin" uuid:"6920dc9c-6cf8-4122-b540-1436d789ab10"]
+new [description:"video vim fugitive" entry:"1521634815" modified:"1522137198" project:"Perso" status:"pending" tags:"config,vim,plugin" uuid:"6920dc9c-6cf8-4122-b540-1436d789ab10"]
+---
+time 1522137198
+old [description:"comprendre vim-session plugin est-ce vraiment utile" entry:"1521638151" modified:"1521638151" status:"pending" tags:"vim,plugin,config" uuid:"be3f0fdd-01eb-4687-9e46-07625027b6f1"]
+new [description:"comprendre vim-session plugin est-ce vraiment utile" entry:"1521638151" modified:"1522137198" project:"Perso" status:"pending" tags:"vim,plugin,config" uuid:"be3f0fdd-01eb-4687-9e46-07625027b6f1"]
+---
+time 1522247007
+new [description:"test" entry:"1522247007" modified:"1522247007" project:"test" status:"pending" uuid:"d4e0e9f3-2bf6-45cc-83c0-a8968a40a422"]
+---
+time 1522314694
+new [description:"transparence en fonction si fenetre focus ou non" entry:"1522314694" modified:"1522314694" project:"config" status:"pending" tags:"micka,compton,focus,config" uuid:"5b33d7e1-fdc5-4a58-905d-a26ebec44f5d"]
+---
+time 1522331879
+new [description:"change i3lock par i3lock-next" entry:"1522331879" modified:"1522331879" project:"config" status:"pending" tags:"config,lock,screen,i3" uuid:"e0492867-2c61-46a4-a944-70f3c6e51b92"]
+---
+time 1522395805
+new [description:"config dunst" entry:"1522395805" modified:"1522395805" project:"config" status:"pending" tags:"config,dunst,notification" uuid:"ebc91436-02b4-4a5d-a923-22de2861edc5"]
+---
+time 1522395814
+old [description:"config dunst" entry:"1522395805" modified:"1522395805" project:"config" status:"pending" tags:"config,dunst,notification" uuid:"ebc91436-02b4-4a5d-a923-22de2861edc5"]
+new [description:"config dunst" entry:"1522395805" modified:"1522395814" project:"config" start:"1522395814" status:"pending" tags:"config,dunst,notification" uuid:"ebc91436-02b4-4a5d-a923-22de2861edc5"]
+---
+time 1522744925
+old [description:"config dunst" entry:"1522395805" modified:"1522395814" project:"config" start:"1522395814" status:"pending" tags:"config,dunst,notification" uuid:"ebc91436-02b4-4a5d-a923-22de2861edc5"]
+new [description:"config dunst" entry:"1522395805" modified:"1522742207" project:"config" status:"pending" tags:"config,dunst,notification" uuid:"ebc91436-02b4-4a5d-a923-22de2861edc5"]
+---
+time 1522744925
+old [description:"change i3lock par i3lock-next" entry:"1522331879" modified:"1522331879" project:"config" status:"pending" tags:"config,lock,screen,i3" uuid:"e0492867-2c61-46a4-a944-70f3c6e51b92"]
+new [description:"change i3lock par i3lock-next" end:"1522742247" entry:"1522331879" modified:"1522742247" project:"config" status:"completed" tags:"config,lock,screen,i3" uuid:"e0492867-2c61-46a4-a944-70f3c6e51b92"]
+---
+time 1522744925
+old [description:"Continuer la configuration de elasticsearch" due:"1520850960" entry:"1520439220" modified:"1520612863" project:"Elastic Stack" status:"pending" uuid:"ebf768a3-5750-4d52-b666-7575c357f157"]
+new [description:"Continuer la configuration de elasticsearch" due:"1520850960" end:"1522742331" entry:"1520439220" modified:"1522742331" project:"Elastic Stack" status:"completed" uuid:"ebf768a3-5750-4d52-b666-7575c357f157"]
+---
+time 1522744925
+old [description:"start wordpress" entry:"1521541566" modified:"1521553848" project:"wordpress" status:"pending" uuid:"e7d303f1-0339-4f8d-bb42-628603e95492"]
+new [description:"start wordpress" end:"1522742406" entry:"1521541566" modified:"1522742406" project:"wordpress" status:"completed" uuid:"e7d303f1-0339-4f8d-bb42-628603e95492"]
+---
+time 1522744925
+old [description:"test" entry:"1522247007" modified:"1522247007" project:"test" status:"pending" uuid:"d4e0e9f3-2bf6-45cc-83c0-a8968a40a422"]
+new [description:"test" end:"1522742489" entry:"1522247007" modified:"1522742489" project:"test" status:"completed" uuid:"d4e0e9f3-2bf6-45cc-83c0-a8968a40a422"]
+---
+time 1522744925
+old [description:"create first site" entry:"1521537911" modified:"1521537929" project:"wordpress" status:"pending" uuid:"0c7608e5-b613-44a3-9b8d-7cb745ed5af9"]
+new [description:"create first site" end:"1522742497" entry:"1521537911" modified:"1522742497" project:"wordpress" status:"completed" uuid:"0c7608e5-b613-44a3-9b8d-7cb745ed5af9"]
+---
+time 1522744925
+old [description:"problem permission" entry:"1521553004" modified:"1521553004" project:"wordpress" status:"pending" uuid:"9b9a8146-07b3-4314-a60c-8bc7f9682d4f"]
+new [description:"problem permission" end:"1522742512" entry:"1521553004" modified:"1522742512" project:"wordpress" status:"completed" uuid:"9b9a8146-07b3-4314-a60c-8bc7f9682d4f"]
+---
+time 1522744956
+new [description:"vim server notes adn all" entry:"1522744956" modified:"1522744956" status:"pending" uuid:"14085c96-cd17-496b-8f86-77538a9d3b66"]
+---
+time 1522744961
+old [description:"vim server notes adn all" entry:"1522744956" modified:"1522744956" status:"pending" uuid:"14085c96-cd17-496b-8f86-77538a9d3b66"]
+new [description:"vim server notes adn all" entry:"1522744956" modified:"1522744961" start:"1522744961" status:"pending" uuid:"14085c96-cd17-496b-8f86-77538a9d3b66"]
+---
+time 1522759813
+old [description:"vim server notes adn all" entry:"1522744956" modified:"1522744961" start:"1522744961" status:"pending" uuid:"14085c96-cd17-496b-8f86-77538a9d3b66"]
+new [description:"vim server notes adn all" end:"1522759813" entry:"1522744956" modified:"1522759813" status:"completed" uuid:"14085c96-cd17-496b-8f86-77538a9d3b66"]
+---
+time 1522766777
+old [description:"liste plugin vim avec lien github pour script plus tard" entry:"1521109581" modified:"1521109608" project:"config" status:"pending" tags:"vim,git,plugins" uuid:"43ad3cca-6d03-41da-999f-6d7bf190b06e"]
+new [description:"liste plugin vim avec lien github pour script plus tard" end:"1522766777" entry:"1521109581" modified:"1522766777" project:"config" status:"completed" tags:"vim,git,plugins" uuid:"43ad3cca-6d03-41da-999f-6d7bf190b06e"]
+---
+time 1522768370
+old [description:"utilisation de tmux avec vim et fzf" entry:"1521799196" modified:"1521799196" project:"screen" status:"pending" tags:"vim,tmux,byzanz,screen" uuid:"0beab9f8-7d92-4109-95ef-1ffcb78d4660"]
+new [description:"utilisation de tmux avec vim et fzf" end:"1522768370" entry:"1521799196" modified:"1522768370" project:"screen" status:"completed" tags:"vim,tmux,byzanz,screen" uuid:"0beab9f8-7d92-4109-95ef-1ffcb78d4660"]
+---
+time 1522768379
+old [description:"task-dashboard utilisation" entry:"1521799227" modified:"1521799227" project:"screen" status:"pending" tags:"screen" uuid:"aa0836c7-8be7-4140-aab4-c94a2b38967b"]
+new [description:"task-dashboard utilisation" end:"1522768379" entry:"1521799227" modified:"1522768379" project:"screen" status:"completed" tags:"screen" uuid:"aa0836c7-8be7-4140-aab4-c94a2b38967b"]
+---
+time 1522768413
+old [description:"supprimer module de langage que je nutilise pas" entry:"1520670956" modified:"1520671918" project:"config" status:"pending" tags:"vim" uuid:"af6c8ba9-6d11-457b-914b-24c7ff291902"]
+new [description:"supprimer module de langage que je nutilise pas" end:"1522768413" entry:"1520670956" modified:"1522768413" project:"config" status:"completed" tags:"vim" uuid:"af6c8ba9-6d11-457b-914b-24c7ff291902"]
+---
+time 1522768428
+old [description:"saving restoring layout" entry:"1520773926" modified:"1520773926" project:"config" status:"pending" tags:"i3,layout" uuid:"6e787069-263a-442b-bebb-40fd2a0a66b1"]
+new [description:"saving restoring layout" end:"1522768428" entry:"1520773926" modified:"1522768428" project:"config" status:"completed" tags:"i3,layout" uuid:"6e787069-263a-442b-bebb-40fd2a0a66b1"]
+---
+time 1522922229
+new [description:"dropdown menu compton" entry:"1522922229" modified:"1522922229" project:"config" status:"pending" tags:"config,compton" uuid:"80242582-b73f-43a8-a900-55172cf56512"]
+---
+time 1522922266
+new [description:"new clipboard manger roficlip" entry:"1522922266" modified:"1522922266" project:"config" status:"pending" tags:"rofi,roficlip,clipboard" uuid:"8fcb19fb-a028-4984-8774-e09745efd8ee"]
+---
+time 1522922417
+new [description:"changer police pour tous les profiles" entry:"1522922417" modified:"1522922417" status:"pending" tags:"terminator" uuid:"552172ea-9110-4992-b8db-3eb5998cc387"]
+---
+time 1522941905
+new [description:"problem xclip gros fichier image" entry:"1522941905" modified:"1522941905" status:"pending" uuid:"29ec55d2-4f5f-4390-89e4-15e0e685ae32"]
+---
+time 1522941934
+new [description:"scrot+xclip ne fonctionne pas sur screenshot fullscreen" entry:"1522941934" modified:"1522941934" status:"pending" uuid:"af58cce1-afed-41a1-a5c7-df31f7dcf8c8"]
+---
+time 1523111533
+old [description:"scrot+xclip ne fonctionne pas sur screenshot fullscreen" entry:"1522941934" modified:"1522941934" status:"pending" uuid:"af58cce1-afed-41a1-a5c7-df31f7dcf8c8"]
+new [description:"scrot+xclip ne fonctionne pas sur screenshot fullscreen" end:"1523111533" entry:"1522941934" modified:"1523111533" status:"completed" uuid:"af58cce1-afed-41a1-a5c7-df31f7dcf8c8"]
+---
+time 1523121893
+old [description:"config dunst" entry:"1522395805" modified:"1522742207" project:"config" status:"pending" tags:"config,dunst,notification" uuid:"ebc91436-02b4-4a5d-a923-22de2861edc5"]
+new [description:"config dunst" end:"1523121893" entry:"1522395805" modified:"1523121893" project:"config" status:"completed" tags:"config,dunst,notification" uuid:"ebc91436-02b4-4a5d-a923-22de2861edc5"]
+---

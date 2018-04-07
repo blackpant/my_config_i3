@@ -1,8 +1,23 @@
-player-next
+set status_display_program=/usr/share/doc/cmus/examples/cmus-status-display
+run cmus_notify "$*"
+set status_display_program=cmus_notify
+set status_display_program=cmus_notify "$*"
+set status_display_program=/home/blackpant/.config/dunst/hook_cmus.sh
+set status_display_program=/home/blackpant/.config/cmus/hook_cmus.sh
 q
-update-cache 
 refresh 
 update-cache
+set status_display_program=/home/blackpant/.config/cmus/status_display_program.sh
+colorscheme cyan
+colorscheme xterm-white
+update-cache 
+colorscheme solarized-dark
+colorscheme solarized-light
+colorscheme green
+colorscheme gray-88
+colorscheme zenburn
+colorscheme night
+player-next
 help 
 shell ls
 bind -f browser backspace browser-up 
@@ -14,10 +29,6 @@ add
 player-pause
 player-stop
 player-stop 
-colorscheme zenburn
-colorscheme solarized-light
-colorscheme solarized-dark
-colorscheme cyan
 colorscheme default
 colorscheme 
 colorscheme solarized

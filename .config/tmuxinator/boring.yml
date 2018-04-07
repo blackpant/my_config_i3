@@ -1,0 +1,18 @@
+# ~/.tmuxinator/boring.yml
+
+name: boring
+root: ~/
+
+pre_window: workon boring_stuff
+
+windows:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim --servername boring
+        - vim --servername boring --remote-tab-silent $(fzf)
+        - lsl
+  - server: 
+      panes:
+        - lsl
+        - pip freeze > requirements.txt

@@ -4,7 +4,7 @@ filetype on
 
 " Lightline setting
 let g:lightline = {
-    \ 'colorscheme': 'tender',
+    \ 'colorscheme': 'solarized',
     \ 'separator': {'left':'', 'right': ''},
     \ 'subseparator': {'left':'', 'right': ''},
     \ }
@@ -15,20 +15,25 @@ if has("mac") || has("macunix")
 elseif has("win16") || has("win32")
     set gfn=Hack:h14,Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
 elseif has("gui_gtk2")
-    set gfn=Hack\ 11,Source\ Code\ Pro\ 11,Bitstream\ Vera\ Sans\ Mono\ 10
+    set gfn=Hack\ 11,Source\ Code\ Pro\ 11
 elseif has("linux")
-    set gfn=Hack\ 11,Source\ Code\ Pro\ 11,Bitstream\ Vera\ Sans\ Mono\ 10
+    set gfn=Hack\ 11,Source\ Code\ Pro\ 11
 elseif has("unix")
-    set gfn=Monospace\ 11
+    set gfn=Hack\ 10
 endif
 
-set number
 
 " Colorscheme
+syntax enable
 let g:solarized_termtrans = 1
-colorscheme solarized
+let g:solarized_contrast="high"    "default value is normal
+let g:solarized_visibility="high"    "default value is normal
+let g:solarized_hitrail=1    "default value is 0
 set background=dark
+colorscheme solarized
 call togglebg#map("<F5>")
+
+set number
 
 " syntastic python checker
 let g:syntastic_python_checkers = ['flake8']
@@ -67,3 +72,7 @@ let g:task_rc_override = 'rc.defaultheight=0'
 " set new line caracter
 set listchars=tab:ˉ\ ,eol:¬
 set list
+
+inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
+inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
+inoremap <expr> <cr> pumvisible() ? "\<C-y>\<cr>" : "\<cr>"

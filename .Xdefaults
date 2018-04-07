@@ -7,31 +7,53 @@ Xft.antialias: 1
 Xft.rgba: rgb
 
 ! Tango colors for urxvt
-URxvt.foreground: #C0C0C0
-URxvt.background: #171717
-URxvt.color0:     #2E3436
-URxvt.color1:     #CC0000
-URxvt.color2:     #4E9A06
-URxvt.color3:     #C4A000
-URxvt.color4:     #3465A4
-URxvt.color5:     #75507B
-URxvt.color6:     #06989A
-URxvt.color7:     #D3D7CF
-URxvt.color8:     #555753
-URxvt.color9:     #EF2929
-URxvt.color10:    #8AE234
-URxvt.color11:    #FCE94F
-URxvt.color12:    #729FCF
-URxvt.color13:    #AD7FA8
-URxvt.color14:    #34E2E2
-URxvt.color15:    #EEEEEC
+/* URxvt.foreground: #C0C0C0 */
+/* URxvt.background: #171717 */
+/* URxvt.color0:     #2E3436 */
+/* URxvt.color1:     #CC0000 */
+/* URxvt.color2:     #4E9A06 */
+/* URxvt.color3:     #C4A000 */
+/* URxvt.color4:     #3465A4 */
+/* URxvt.color5:     #75507B */
+/* URxvt.color6:     #06989A */
+/* URxvt.color7:     #D3D7CF */
+/* URxvt.color8:     #555753 */
+/* URxvt.color9:     #EF2929 */
+/* URxvt.color10:    #8AE234 */
+/* URxvt.color11:    #FCE94F */
+/* URxvt.color12:    #729FCF */
+/* URxvt.color13:    #AD7FA8 */
+/* URxvt.color14:    #34E2E2 */
+/* URxvt.color15:    #EEEEEC */
+
+
+! Dracula Xresources palette
+URxvt.foreground: #F8F8F2
+URxvt.background: #282A36
+URxvt.color0:     #000000
+URxvt.color8:     #4D4D4D
+URxvt.color1:     #FF5555
+URxvt.color9:     #FF6E67
+URxvt.color2:     #50FA7B
+URxvt.color10:    #5AF78E
+URxvt.color3:     #F1FA8C
+URxvt.color11:    #F4F99D
+URxvt.color4:     #BD93F9
+URxvt.color12:    #CAA9FA
+URxvt.color5:     #FF79C6
+URxvt.color13:    #FF92D0
+URxvt.color6:     #8BE9FD
+URxvt.color14:    #9AEDFE
+URxvt.color7:     #BFBFBF
+URxvt.color15:    #E6E6E6
 
 URxvt.termName:    rxvt-256color
-URxvt.transparent: true
+URxvt.transparent: false
 URxvt.shading:     20
 URxvt.fading:      15
 ! URxvt.font:        xft:Iosevka Medium:pixelsize=12.5, xft:Kochi Gothic:antialias=false,xft:Code2000:antialias=false
 URxvt.font:        xft:Source Code Pro for Powerline:pixelsize=11.5,xft:Source Code Pro Black:style=Black,Regular
+/* URxvt.font:        xft:Roboto Mono Light for Powerline Light:pixelsize=10 */
 
 
 URxvt.saveLines:         4096

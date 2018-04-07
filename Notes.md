@@ -852,7 +852,7 @@ Changement du rofi clipboard manager
 Greenclip vers roficlip  
 Roficlip integre les notification !!  
 pas sur !!?
-Pourquoi sctrot + xclip fonctionne une fois sur deux ?
+Pourquoi scrot + xclip fonctionne une fois sur deux ?
 fonctionne avec la fenetre selectionné 
 ne fonctionne pas avec tout l'écran !!
 
@@ -871,3 +871,7 @@ envoyer une notification quand un screenshot est pris.
 S'inspirer de cette commande !!
 
 `maim | xclip -selecetion clipboard -t image/png | notify-send "Screenshot !!" "$filename"`
+
+Une ligne mis en commentaire pour invoquer rofi et tout de suite apres faire un screen, pour pouvoir faire un screen de rofi.
+Maim + xclip + notify-send => permet de faire un screenshot, le mettre dans le clipboard, envoyer une notification comme quoi un screenshot a été fait !!(la notification precise si c'est un screenshot d'une fenetre active ou de tout l'écran).
+

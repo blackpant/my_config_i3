@@ -49,6 +49,6 @@ windows:
       # 'before' represents legacy functionality and will be deprecated in a future release, in favour of 'after'
       # synchronize: after
       panes:
-        - vim
-        - vim ($fzf)
-        - ls
+        - vim --servername dev
+        - vim --servername dev --remote-silent $(fzf)
+        - lsl

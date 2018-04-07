@@ -44,7 +44,8 @@ HISTFILE=$HOME/.zhistory
 HISTSIZE=1000
 SAVEHIST=1000
 HOSTNAME="`hostname`"
-LS_COLORS='rs=0:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:tw=30;42:ow=34;42:st=37;44:ex=01;32:';
+DEFAULT_USER="blackpant"
+# LS_COLORS='rs=0:di=01;34:ln=01;36:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:su=37;41:sg=30;43:tw=30;42:ow=34;42:st=37;44:ex=01;32:';
 # ZSH_TMUX_AUTOSTART=true
 # ZSH_TMUX_AUTOCONNECT=false
 
@@ -69,9 +70,9 @@ unsetopt ALL_EXPORT
 
 ### Set alias
 #############
-alias ls='ls --color=auto '
-alias ll='ls -l --color=auto'
-alias la='ls -a --color=auto'
+# alias ls='ls --color=auto '
+alias ll='ls -l'
+alias la='ls -a'
 alias lla='ls -al --color=auto'
 alias cls='clear'
 alias cls='clear'
@@ -79,6 +80,7 @@ alias logs="find /var/log -type f -exec file {} \; | grep 'text' | cut -d' ' -f1
 alias histg="history | grep"
 alias lsl="ls -lhFA | less"
 alias chrome="chromium"
+alias mux='tmuxinator'
 
 ### Bind keys
 #############
@@ -203,9 +205,9 @@ antigen bundle tmux_pane-words
 # antigen bundle docker
 
 # Use theme agnoster from oh-my-zsh
-antigen theme robbyrussell
+# antigen theme robbyrussell
 # antigen theme avit
-# antigen theme agnoster
+antigen theme agnoster
 
 # Apply the settings and it's done
 antigen apply
@@ -239,9 +241,37 @@ function vi_mode_prompt_info() {
 RPS1='$(vi_mode_prompt_info)'
 RPS2=$RPS1
 
+########
+# Set the name of vim session the terminal is tied up to
+eset(){
+    export VI_SERVER=$1
+}
+
+# Fire up a new server according to the argument supplied
+vs(){
+    eset $1
+    vim --servername $VI_SERVER
+}
+
+# Open up the files in the environment Vim server.
+es(){
+    vim --servername $VI_SERVER --remote-silent $*
+}
+
+# Reuse Vim ZSH completions for vim completions
+compdef _vim es
+
+########
+
 # Make Vi mode transitions faster (KEYTIMEOUT is in hundredths of a second)
 export KEYTIMEOUT=1
+
+# Export et source pour virtualenv et virtualenvwrapper
 export WORKON_HOME=$HOME/Documents/.virtualenvs
 export PROJECT_HOME=$HOME/Documents/Devel
 export VIRTUALENVWRAPPER_SCRIPT=/usr/bin/virtualenvwrapper.sh
 source /usr/bin/virtualenvwrapper_lazy.sh
+
+# pour permettre à vim-multi-cursor de fonctionner
+# avec la touche <C-s>
+stty -ixon

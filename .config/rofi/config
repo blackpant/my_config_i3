@@ -1,12 +1,12 @@
-rofi.combi-modi:            run, drun, ssh
-rofi.modi:                  combi,window,clipboard:greenclip print
+rofi.combi-modi:            window,run
+rofi.modi:                  drun,combi,clipboard:greenclip print
 rofi.drun-icon-theme:       Font Awesome 5 Free
 rofi.terminal:              terminator
 rofi.font:                  Font Awesome 5 Free Regular 10
 rofi.ssh-command:           {terminal} -e "{ssh-client} {host}"
 rofi.parse-known-hosts      true
-! rofi.parse-hosts:           true
+! rofi.parse-hosts:         true
 rofi.window-format:         {w}: {t}
 
 
-rofi.theme: /usr/share/rofi/themes/arthur.rasi
+rofi.theme: /usr/share/rofi/themes/lb.rasi

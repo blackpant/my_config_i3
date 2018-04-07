@@ -1,0 +1,18 @@
+# ~/.tmuxinator/hard_way.yml
+
+name: hard_way
+root: ~/
+
+pre_window: workon hard_way_python
+
+windows:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim --servername hard_way
+        - vim --servername hard_way --remote-tab-silent $(fzf)
+        - ls
+  - server: 
+      panes:
+        - ls
+        - pip freeze > requirements.txt

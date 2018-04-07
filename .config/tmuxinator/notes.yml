@@ -40,7 +40,7 @@ startup_pane: 2
 # attach: false
 
 # Runs after everything. Use it to attach to tmux with custom options etc.
-post: tmux select-pane -L
+# post: tmux select-pane -L
 
 windows:
   - editor:
@@ -50,5 +50,5 @@ windows:
       # synchronize: after
       panes:
         - vim Notes.md
-        - neofetch
+        - screenfetch -p
         - tmux clock-mode

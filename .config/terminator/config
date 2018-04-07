@@ -6,12 +6,13 @@
   title_transmit_bg_color = "#1c232b"
   title_transmit_fg_color = "#98971a"
 [keybindings]
+  hide_window = F11
   next_profile = <Shift>F1
 [layouts]
   [[default]]
     [[[child1]]]
       parent = window0
-      profile = Nouveau profil
+      profile = solarized
       type = Terminal
     [[[window0]]]
       parent = ""
@@ -37,12 +38,12 @@
 [plugins]
 [profiles]
   [[default]]
+    allow_bold = False
     background_color = "#1c232b"
     background_darkness = 0.93
-    background_type = transparent
     copy_on_selection = True
     cursor_color = "#aaaaaa"
-    font = Source Code Pro for Powerline Semi-Bold 10
+    font = Hack 9
     foreground_color = "#ebdbb2"
     icon_bell = False
     palette = "#282828:#cc241d:#98971a:#d79921:#458588:#b16286:#689d6a:#a89984:#928374:#fb4934:#b8bb26:#fabd2f:#83a598:#d3869b:#8ec07c:#ebdbb2"
@@ -51,19 +52,21 @@
     show_titlebar = False
     use_system_font = False
   [[black]]
-    background_darkness = 0.67
+    allow_bold = False
+    background_darkness = 0.79
     background_type = transparent
     cursor_color = "#aaaaaa"
-    font = Source Code Pro for Powerline Semi-Bold 10
+    font = Hack 9
     icon_bell = False
     scrollbar_position = hidden
     show_titlebar = False
     use_system_font = False
   [[solarized]]
+    allow_bold = False
     background_color = "#002b36"
     background_darkness = 1.0
-    cursor_color = "#aaaaaa"
-    font = Source Code Pro for Powerline Semi-Bold 10
+    cursor_color = "#eee8d5"
+    font = Hack 9
     foreground_color = "#839496"
     icon_bell = False
     palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
@@ -71,9 +74,10 @@
     show_titlebar = False
     use_system_font = False
   [[solarized-light]]
+    allow_bold = False
     background_color = "#eee8d5"
     cursor_color = "#002b36"
-    font = Source Code Pro for Powerline Semi-Bold 10
+    font = Hack 9
     foreground_color = "#002b36"
     icon_bell = False
     palette = "#073642:#dc322f:#859900:#b58900:#268bd2:#d33682:#2aa198:#eee8d5:#002b36:#cb4b16:#586e75:#657b83:#839496:#6c71c4:#93a1a1:#fdf6e3"
