@@ -34,6 +34,8 @@ def updateFilesGit():
     subprocess.call(["cp", "-uR", userPath + "/.config/vlc", "./.config"])
     subprocess.call(["cp", "-uR", userPath + "/.config/tmux", "./.config"])
     subprocess.call(["cp", "-uR", userPath + "/.config/tmuxinator", "./.config"])
+    subprocess.call(["cp", "-uR", userPath + "/.config/dunst", "./.config"])
+
 
 
 def Main():
