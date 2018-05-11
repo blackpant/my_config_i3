@@ -24,24 +24,24 @@ endif
 
 
 " Colorscheme
-syntax enable
-let g:solarized_termtrans = 1
-let g:solarized_contrast="high"    "default value is normal
-let g:solarized_visibility="high"    "default value is normal
-let g:solarized_hitrail=1    "default value is 0
-set background=dark
+syntax      enable
+let         g:solarized_termtrans  = 1
+let         g:solarized_contrast   = "high"    "default value is normal
+let         g:solarized_visibility = "high"    "default value is normal
+let         g:solarized_hitrail    = 1    "default value is 0
+set         background             = dark
 colorscheme solarized
-call togglebg#map("<F5>")
+call        togglebg#map("<F5>")
 
-set number
+set         number
 
 " syntastic python checker
-let g:syntastic_python_checkers = ['flake8']
+let         g:syntastic_python_checkers = ['flake8']
 
 " open-browser plugin binding key
-let g:netrw_nogx = 1 " disable netrw's gx mapping
-nmap gx <Plug>(openbrowser-smart-search)
-vmap gx <Plug>(openbrowser-smart-search)
+let         g:netrw_nogx = 1 " disable netrw's gx mapping
+nmap        gx <Plug>(openbrowser-smart-search)
+vmap        gx <Plug>(openbrowser-smart-search)
 
 " vv to generate new vertical split
 nnoremap <silent> vv <C-w>v
@@ -73,6 +73,6 @@ let g:task_rc_override = 'rc.defaultheight=0'
 set listchars=tab:ˉ\ ,eol:¬
 set list
 
-inoremap <expr> <Tab> pumvisible() ? "\<C-n>" : "\<Tab>"
-inoremap <expr> <S-Tab> pumvisible() ? "\<C-p>" : "\<S-Tab>"
-inoremap <expr> <cr> pumvisible() ? "\<C-y>\<cr>" : "\<cr>"
+inoremap <expr> <Tab>       pumvisible() ? "\<C-n>"      : "\<Tab>"
+inoremap <expr> <S-Tab>     pumvisible() ? "\<C-p>"      : "\<S-Tab>"
+inoremap <expr> <cr>        pumvisible() ? "\<C-y>\<cr>" : "\<cr>"

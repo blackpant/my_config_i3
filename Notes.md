@@ -22,21 +22,25 @@
 ```
 
 # Applications principales
-* Web browser : Firefox
-* File Manager : Nemo + ranger
-* Desktop background : feh
-* Text and Code Editor : vim
-* Music Player : Cmus + Spotify
-* Launcher : Rofi
-* Email Client : Thunderbird
-* Bureautique : LibreOffice
-* Réseaux :
+* Web browser           : Firefox
+* File Manager          : Thunar + ranger
+* Desktop background    : Feh
+* Text and Code Editor  : Vim, spacemacs
+* Music Player          : Cmus + Spotify + ncmpcpp + mpd
+* Launcher              : Rofi
+* Email Client          : Thunderbird
+* Bureautique           : LibreOffice
+* Réseaux               :
     - Wireshark
     - Tshark
     - Ntop
-* Session Manager : Slim
-* Screen Recorder : byzanz
-* xclip
+    - Scapy
+* Session Manager       : Slim
+* Screen Recorder       : Byzanz
+* Clipboard manager     : Xclip
+* Bar de status         : I3blocks
+* Windows manager       : I3-gaps
+* Terminal              : Termite, Terminator, URxvt
 
 
 # Fichier de config
@@ -874,4 +878,153 @@ S'inspirer de cette commande !!
 
 Une ligne mis en commentaire pour invoquer rofi et tout de suite apres faire un screen, pour pouvoir faire un screen de rofi.
 Maim + xclip + notify-send => permet de faire un screenshot, le mettre dans le clipboard, envoyer une notification comme quoi un screenshot a été fait !!(la notification precise si c'est un screenshot d'une fenetre active ou de tout l'écran).
+
+xdotool
+installer xdotool.  
+utile pour faire une capture d'écran de la fenetre active avec maim !!
+Mais pour servir à plein d'autres choses.
+
+history des commandes pour voir comment il serait possible de sélectionner juste l'écran actif pour faire une capture !!!
+les deux écrans sont considérés comme un seul écran sur la machine virtuelle.
+> peut etre different sur une machine physique !!!  
+
+```sh
+    maim | feh - -x & maim -s cropped.png
+    maim | feh - -x & maim -s cropped.png
+    maim -x 0.0 | xclip -selection clipboard -t image/png
+    maim -x .0.0 | xclip -selection clipboard -t image/png
+    maim -x :0.0 | xclip -selection clipboard -t image/png
+    maim -x $DISPLAY.1 | xclip -selection clipboard -t image/png
+    maim -x :0.1 | xclip -selection clipboard -t image/png
+    xrandr --listmonitors
+    maim -s | xclip -selection clipboard -t image/png | notify-send "$f Screen shot taken"
+    maim -s | xclip -selection clipboard -t image/png
+    maim -x :0.1 | xclip -selection clipboard -t image/png
+    maim -x :.1 | xclip -selection clipboard -t image/png
+    maim -x :O.1 | xclip -selection clipboard -t image/png
+    maim -x :O.0 | xclip -selection clipboard -t image/png
+    maim -x :0.1 | xclip -selection clipboard -t image/png
+    maim -x :0.0 | xclip -selection clipboard -t image/png
+    maim -x :0.1 | xclip -selection clipboard -t image/png
+    man convert
+    man maim
+    maim -g 1366x768
+    maim -g 1366x768 | xclip -selection clipboard -t image/png
+    man xdotool
+    xdotool getmouselocation --shell
+    xdotool get_num_desktops
+    xdotool get_desktop_viewport --shell
+    xdotool get_desktop_viewport
+    xdotool get_desktop
+    xdotool get_desktop_for_window $(xdotool getacwindow)
+    xdotool get_desktop_for_window $(xdotool getactivewindow)
+    man maim
+    xdotool getactivewindow get_desktop_for_window
+    xdotool getactivewindow
+    xdotool getactivewindow --shell
+    xdotool getactivewindow
+    man slop
+    man maim
+    xwininfo
+    xwininfo -children
+    xwininfo -children -tree
+    xwininfo -tree
+    xwininfo -root
+    echo $DISPLAY
+```
+
+python + xdotool
+pip install python-libxdo -> pour utiliser xdotool avec python 
+https://rshk.github.io/python-libxdo/library.html
+
+vim plugin multi-cursor 
+ajout d'un ligne dans zshrc pour désactiver une ancienne fonction des terminaux et pour que multi-cursor plugin de vim fonctionne.  
+```sh
+  # pour permettre à vim-multi-cursor de fonctionner
+  # avec la touche <C-s>
+  stty -ixon
+```
+
+outils pour aider a la configuration de i3 avec les fenetres.  
+- xwinfo
+- xdotool
+- xprop
+
+# CMUS - Console Music PLayer CLI
+fichier de configuration dans $HOME/.config/cmus/.  
+
+pour enregistrer la capture d'écran dans un fichier.  
+clippaste > toto.png
+
+vlc config
+demarrage en mode minimaliste
+skin minimaliste
+choisir meilleur skin !!!
+voir vlc notification avec dunst ??
+
+playerctl - cli tool pour controller les media player. Spotify, Vlc etc.
+
+[vim bootstrap](http://5.vim-bootstrap.appspot.com/)
+pour générer un .vimrc personnalisé !!! 
+A tester de facon urgente !!!
+
+
+installation de calendar.vim
+un calendrier dans vim + clock, peux synchro avec compte google.
+
+il existe un outil CLI pour google keep ?! A VOIR
+[CLI Google Keep](https://github.com/Nekmo/gkeep)
+
+installation d'un colorscheme papercolor.
+
+mise a jour du fichier de config i3.
+Ajout d'un workspace 10.
+Gaps personnalisé pour le workspace 7 - Musics / Media.
+Ajout de for_window pour termite et terminator, pour les focus à l'ouverture. Comme en générale on les ouvrent pour faire quelque chose de ponctuel ou pas mais dans tout les cas c'est pour les utiliser directement.
+Ajout d'un for_window pour les fenetres de dialogs de GVIM, qu'elles s'afichent dans le mem workspace que le GVIM focus, et qu'elles soient focus.
+Assign VLC au workspace 7 - Musics / Media.
+urxvt n'est plus assigné au workpsace 3 - Term.
+
+Changement de la config de vim.
+theme solarized_visibility mis à "normal".
+
+erreurs yahourt
+Quand il y a une erreur yaourt lors de l'installation d'un package :
+- Editer le PKGBUILD, pour avoir la clé pgp.
+- Ensuite l'ajouter à l'aide de :
+  - `gpg --recv-keys <KEYID - See 'validpgpkeys' array in PKGBUILD>`.
+- Ensuite reessayer d'installer le package.!
+
+clipboard vim
+[vim clipboard](https://wiki.archlinux.org/index.php/Vim#Clipboard)
+mettre dans my_config.vim :
+```
+   set clipboard=unnamedplus
+```
+
+clipboard linux explication
+[linux archlinux clipboard](https://wiki.archlinux.org/index.php/Clipboard)
+
+pour vlc il doit y avoir un systeme de serveur-client un peu comme vim.
+
+SPACEMACS
+a voir !! 
+[spacemacs](http://spacemacs.org/#)
+Assez sympa va surement plair à un mickatronic xD
+
+Music Player Daemon (MPD)
+installation
+
+
+NCMPCPP ( MPD Client)
+installer mpd avant.
+configurer le fichier `/etc/mpd.conf`.
+`cd ~ && mkdir .ncmpcpp`.
+`cp /usr/share/doc/ncmpcpp/config ~/.ncmpcpp/`.
+quand nouveau fichier de music ajouté dans le dossier de musique, base de données mpd n'est pas bien mis à jour !!?
+problem a voir.
+plus tard c'est chiant !!! Peut etre sur Arch juste !!! A voir sur debian ?!
+
+
+Mise en forme en claire du fichier de config i3. Avec indentations et tout.
 
