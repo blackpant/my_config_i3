@@ -23,9 +23,9 @@
 
 # Applications principales
 * Web browser           : Firefox
-* File Manager          : Thunar + ranger
-* Desktop background    : Feh
-* Text and Code Editor  : Vim, spacemacs
+* File Manager          : Thunar + Ranger
+* Desktop background    : Feh + Nitrogen
+* Text and Code Editor  : Vim + Spacemacs
 * Music Player          : Cmus + Spotify + ncmpcpp + mpd
 * Launcher              : Rofi
 * Email Client          : Thunderbird
@@ -41,6 +41,8 @@
 * Bar de status         : I3blocks
 * Windows manager       : I3-gaps
 * Terminal              : Termite, Terminator, URxvt
+* Notifications         : Dunst
+* Process Monitoring    : Htop
 
 
 # Fichier de config
@@ -48,17 +50,17 @@
 - .vimrc
 - .vim_runtime/sources_non_forked/
 - dossier .config
-    + compton.conf - ok
-    + i3-scrop.conf - ok
-    + i3/ - ok
-    + terminator/ - ok
-    + cava/ - ok
-    + cmus/ - ok
-    + htop/ - ok
-    + polybar/ - ok
-    + ranger/ - ok
-    + rofi/ - ok
-    + vlc/ - ok
+    + compton.conf  - ok
+    + i3_scrop.conf - ok
+    + i3/           - ok
+    + terminator/   - ok
+    + cava/         - ok
+    + cmus/         - ok
+    + htop/         - ok
+    + polybar/      - ok
+    + ranger/       - ok
+    + rofi/         - ok
+    + vlc/          - ok
     + nvim/
     + tmux/
 - dossier conky !!
@@ -93,10 +95,10 @@
     + A voir pour d'autre
 - Set alias
 ```sh
-  alias ls='ls --color=auto '
-  alias la='ls -a --color=auto'
-  alias ll='ls -l --color=auto'
-  alias cls='clear'
+  alias ls  = 'ls --color    = auto '
+  alias la  = 'ls -a --color = auto'
+  alias ll  = 'ls -l --color = auto'
+  alias cls = 'clear'
 ```
 
 - installation de polybar
@@ -1026,5 +1028,5 @@ problem a voir.
 plus tard c'est chiant !!! Peut etre sur Arch juste !!! A voir sur debian ?!
 
 
-Mise en forme en claire du fichier de config i3. Avec indentations et tout.
+Mise en forme en clair du fichier de config i3. Avec indentations et tout.
 
