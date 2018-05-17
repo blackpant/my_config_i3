@@ -982,3 +982,684 @@ time 1523121893
 old [description:"config dunst" entry:"1522395805" modified:"1522742207" project:"config" status:"pending" tags:"config,dunst,notification" uuid:"ebc91436-02b4-4a5d-a923-22de2861edc5"]
 new [description:"config dunst" end:"1523121893" entry:"1522395805" modified:"1523121893" project:"config" status:"completed" tags:"config,dunst,notification" uuid:"ebc91436-02b4-4a5d-a923-22de2861edc5"]
 ---
+time 1523257687
+new [description:"button test avec script python" entry:"1523257687" modified:"1523257687" project:"config" status:"pending" tags:"config,i3bar,i3blocks,python" uuid:"3d67b53e-0211-4c44-accf-981363224334"]
+---
+time 1523257719
+old [description:"dropdown menu compton" entry:"1522922229" modified:"1522922229" project:"config" status:"pending" tags:"config,compton" uuid:"80242582-b73f-43a8-a900-55172cf56512"]
+new [description:"dropdown menu compton" end:"1523257719" entry:"1522922229" modified:"1523257719" project:"config" status:"completed" tags:"config,compton" uuid:"80242582-b73f-43a8-a900-55172cf56512"]
+---
+time 1523266841
+old [description:"transparence en fonction si fenetre focus ou non" entry:"1522314694" modified:"1522314694" project:"config" status:"pending" tags:"micka,compton,focus,config" uuid:"5b33d7e1-fdc5-4a58-905d-a26ebec44f5d"]
+new [description:"transparence en fonction si fenetre focus ou non" end:"1523266841" entry:"1522314694" modified:"1523266841" project:"config" status:"completed" tags:"micka,compton,focus,config" uuid:"5b33d7e1-fdc5-4a58-905d-a26ebec44f5d"]
+---
+time 1523266858
+old [description:"notes vim-multi-cursor solution" entry:"1521729290" modified:"1521729369" project:"config" status:"pending" tags:"vim,config,zsh" uuid:"d8784d42-f112-4331-a373-6bafa5df6436"]
+new [description:"notes vim-multi-cursor solution" end:"1523266858" entry:"1521729290" modified:"1523266858" project:"config" status:"completed" tags:"vim,config,zsh" uuid:"d8784d42-f112-4331-a373-6bafa5df6436"]
+---
+time 1523266869
+old [description:"button test avec script python" entry:"1523257687" modified:"1523257687" project:"config" status:"pending" tags:"config,i3bar,i3blocks,python" uuid:"3d67b53e-0211-4c44-accf-981363224334"]
+new [description:"button test avec script python" end:"1523266869" entry:"1523257687" modified:"1523266869" project:"config" status:"completed" tags:"config,i3bar,i3blocks,python" uuid:"3d67b53e-0211-4c44-accf-981363224334"]
+---
+time 1523266921
+old [description:"problem xclip gros fichier image" entry:"1522941905" modified:"1522941905" status:"pending" uuid:"29ec55d2-4f5f-4390-89e4-15e0e685ae32"]
+new [description:"problem xclip gros fichier image" end:"1523266921" entry:"1522941905" modified:"1523266921" status:"completed" uuid:"29ec55d2-4f5f-4390-89e4-15e0e685ae32"]
+---
+time 1523266939
+old [description:"screencast start project tmuxinator" entry:"1521799128" modified:"1521799128" status:"pending" uuid:"10db8739-5bcb-4bf4-8863-a9b4850ee180"]
+new [description:"screencast start project tmuxinator" end:"1523266939" entry:"1521799128" modified:"1523266939" status:"completed" uuid:"10db8739-5bcb-4bf4-8863-a9b4850ee180"]
+---
+time 1523275611
+old [description:"list plugins \/ extensions" entry:"1522057581" modified:"1522057581" project:"wordpress" status:"pending" tags:"tapis,site,racontetapis,web" uuid:"fbfa37bd-fad9-4966-94e9-df72e5683851"]
+new [description:"list plugins \/ extensions" end:"1523275611" entry:"1522057581" modified:"1523275611" project:"wordpress" status:"completed" tags:"tapis,site,racontetapis,web" uuid:"fbfa37bd-fad9-4966-94e9-df72e5683851"]
+---
+time 1523275611
+old [description:"script image" entry:"1522075401" modified:"1522075411" project:"wordpress" status:"pending" tags:"raconte,scraping,web,img,python" uuid:"7b39397e-b4ad-4864-8add-11024c62d8e7"]
+new [description:"script image" end:"1523275611" entry:"1522075401" modified:"1523275611" project:"wordpress" status:"completed" tags:"raconte,scraping,web,img,python" uuid:"7b39397e-b4ad-4864-8add-11024c62d8e7"]
+---
+time 1523275643
+old [description:"completer keep notes avec notes.md" entry:"1521649539" modified:"1521649539" status:"pending" uuid:"60228dc5-149e-48d2-ad2c-d68a8fec1d50"]
+new [description:"completer keep notes avec notes.md" entry:"1521649539" modified:"1523275643" status:"pending" tags:"notes,keep,google,readme" uuid:"60228dc5-149e-48d2-ad2c-d68a8fec1d50"]
+---
+time 1523275650
+old [description:"changer police pour tous les profiles" entry:"1522922417" modified:"1522922417" status:"pending" tags:"terminator" uuid:"552172ea-9110-4992-b8db-3eb5998cc387"]
+new [description:"changer police pour tous les profiles" end:"1523275650" entry:"1522922417" modified:"1523275650" status:"completed" tags:"terminator" uuid:"552172ea-9110-4992-b8db-3eb5998cc387"]
+---
+time 1523955072
+new [description:"python pentest cours" entry:"1523955072" modified:"1523955072" status:"pending" tags:"python,testing,pentest,cours" uuid:"ad3af31e-0c40-4b56-ad87-e386c95af81c"]
+---
+time 1523968730
+new [description:"system pour prendre des notes" entry:"1523968730" modified:"1523968730" status:"pending" tags:"notes,config,keep" uuid:"aad3739c-667f-45bd-8f01-4f7c8c00f133"]
+---
+time 1523969013
+old [description:"system pour prendre des notes" entry:"1523968730" modified:"1523968730" status:"pending" tags:"notes,config,keep" uuid:"aad3739c-667f-45bd-8f01-4f7c8c00f133"]
+new [annotation_1523969013:"http:\/\/npoulain.fr\/notes_vim_et_android" description:"system pour prendre des notes" entry:"1523968730" modified:"1523969013" status:"pending" tags:"notes,config,keep" uuid:"aad3739c-667f-45bd-8f01-4f7c8c00f133"]
+---
+time 1523970910
+new [description:"ajout un keybindings pour switch entre deux colorscheme" entry:"1523970910" modified:"1523970910" status:"pending" tags:"vim,colors,config" uuid:"6157fdaa-4a7e-4b0d-bec9-5e8fd1564cae"]
+---
+time 1523971039
+new [description:"mettre a jour les principales applications de ma config" entry:"1523971039" modified:"1523971039" status:"pending" tags:"config,notes,maj" uuid:"5e6f98a9-db41-4edc-8796-c796b7127cd8"]
+---
+time 1523972280
+old [description:"doc elastic stack" entry:"1520594451" modified:"1520672060" project:"elastic" status:"pending" tags:"doc" uuid:"c1c850be-2dd4-4461-85f4-baceb70b91b3"]
+new [description:"doc elastic stack" end:"1523972275" entry:"1520594451" modified:"1523972280" project:"elastic" status:"deleted" tags:"doc" uuid:"c1c850be-2dd4-4461-85f4-baceb70b91b3"]
+---
+time 1523972280
+old [description:"ecrire config logstash jboss" entry:"1520612888" modified:"1520672102" project:"elastic" status:"pending" tags:"config,jboss" uuid:"b9aa218d-b6c5-4cca-9336-7d1ccf285742"]
+new [description:"ecrire config logstash jboss" end:"1523972280" entry:"1520612888" modified:"1523972280" project:"elastic" status:"deleted" tags:"config,jboss" uuid:"b9aa218d-b6c5-4cca-9336-7d1ccf285742"]
+---
+time 1523972280
+old [description:"creer user pour fichier de config logstash" entry:"1520612922" modified:"1521561768" project:"elastic" status:"pending" tags:"logstash,conf" uuid:"f5b9962d-27ea-4494-a919-668035e3def9"]
+new [description:"creer user pour fichier de config logstash" end:"1523972280" entry:"1520612922" modified:"1523972280" project:"elastic" status:"deleted" tags:"logstash,conf" uuid:"f5b9962d-27ea-4494-a919-668035e3def9"]
+---
+time 1523972280
+old [description:"step pour install winlogbeat sur win server 2016" entry:"1520613025" modified:"1520671891" project:"elastic" status:"pending" uuid:"75229a2a-18bf-453e-90cf-d5a75588320f"]
+new [description:"step pour install winlogbeat sur win server 2016" end:"1523972280" entry:"1520613025" modified:"1523972280" project:"elastic" status:"deleted" uuid:"75229a2a-18bf-453e-90cf-d5a75588320f"]
+---
+time 1523972280
+old [description:"ajout beats server web de docuemntation" entry:"1520613127" modified:"1520672132" project:"elastic" status:"pending" tags:"beats" uuid:"80651e55-3eda-41e1-9202-3c760005ae98"]
+new [description:"ajout beats server web de docuemntation" end:"1523972280" entry:"1520613127" modified:"1523972280" project:"elastic" status:"deleted" tags:"beats" uuid:"80651e55-3eda-41e1-9202-3c760005ae98"]
+---
+time 1523972335
+old [description:"cours c c++" entry:"1520776874" modified:"1521036101" project:"Perso" status:"pending" uuid:"72908137-96d8-45f4-b4d5-275da94805fe"]
+new [description:"cours c c++" entry:"1520776874" modified:"1523972335" project:"perso" status:"pending" uuid:"72908137-96d8-45f4-b4d5-275da94805fe"]
+---
+time 1523972335
+old [description:"notes probleme driver wifi linux" entry:"1520850143" modified:"1521036101" project:"Perso" status:"pending" uuid:"3f521188-ca18-40fc-a2f6-fe9859373d5c"]
+new [description:"notes probleme driver wifi linux" entry:"1520850143" modified:"1523972335" project:"perso" status:"pending" uuid:"3f521188-ca18-40fc-a2f6-fe9859373d5c"]
+---
+time 1523972335
+old [description:"video vim fugitive" entry:"1521634815" modified:"1522137198" project:"Perso" status:"pending" tags:"config,vim,plugin" uuid:"6920dc9c-6cf8-4122-b540-1436d789ab10"]
+new [description:"video vim fugitive" entry:"1521634815" modified:"1523972335" project:"perso" status:"pending" tags:"config,vim,plugin" uuid:"6920dc9c-6cf8-4122-b540-1436d789ab10"]
+---
+time 1523972335
+old [description:"comprendre vim-session plugin est-ce vraiment utile" entry:"1521638151" modified:"1522137198" project:"Perso" status:"pending" tags:"vim,plugin,config" uuid:"be3f0fdd-01eb-4687-9e46-07625027b6f1"]
+new [description:"comprendre vim-session plugin est-ce vraiment utile" entry:"1521638151" modified:"1523972335" project:"perso" status:"pending" tags:"vim,plugin,config" uuid:"be3f0fdd-01eb-4687-9e46-07625027b6f1"]
+---
+time 1523972335
+old [description:"trouver tool project management" end:"1521729600" entry:"1520852498" modified:"1521729600" project:"Perso" status:"completed" uuid:"294a5e63-eb1f-4547-ad6e-82ebf9cecab5"]
+new [description:"trouver tool project management" end:"1521729600" entry:"1520852498" modified:"1523972335" project:"perso" status:"completed" uuid:"294a5e63-eb1f-4547-ad6e-82ebf9cecab5"]
+---
+time 1523972335
+old [description:"cours automatetheboringstuff" end:"1521542016" entry:"1520776894" modified:"1521542016" project:"Perso" status:"completed" uuid:"944431d2-061c-45d3-bd47-f167475d0724"]
+new [description:"cours automatetheboringstuff" end:"1521542016" entry:"1520776894" modified:"1523972335" project:"perso" status:"completed" uuid:"944431d2-061c-45d3-bd47-f167475d0724"]
+---
+time 1523972335
+old [description:"reinstall de elastic stack" end:"1521036053" entry:"1521024286" modified:"1521036101" project:"Perso" status:"completed" uuid:"8573e8d9-0c27-4fa2-895c-ed52a3e5a4e1"]
+new [description:"reinstall de elastic stack" end:"1521036053" entry:"1521024286" modified:"1523972335" project:"perso" status:"completed" uuid:"8573e8d9-0c27-4fa2-895c-ed52a3e5a4e1"]
+---
+time 1523972335
+old [description:"kk" end:"1520958334" entry:"1520956548" modified:"1521036101" project:"Perso" status:"deleted" uuid:"258734db-1629-4bf2-beda-b19b5377a924"]
+new [description:"kk" end:"1520958334" entry:"1520956548" modified:"1523972335" project:"perso" status:"deleted" uuid:"258734db-1629-4bf2-beda-b19b5377a924"]
+---
+time 1523972335
+old [description:"toto" end:"1520958336" entry:"1520956971" modified:"1521036101" project:"Perso" status:"deleted" uuid:"b2270da5-bcb6-4752-9c86-5fcd4f3cc01c"]
+new [description:"toto" end:"1520958336" entry:"1520956971" modified:"1523972335" project:"perso" status:"deleted" uuid:"b2270da5-bcb6-4752-9c86-5fcd4f3cc01c"]
+---
+time 1523972335
+old [description:"coucou" end:"1520956508" entry:"1520955861" modified:"1521036101" project:"Perso" status:"deleted" uuid:"cbd1f764-ad3f-46f8-b4e6-9db2b198d4e0"]
+new [description:"coucou" end:"1520956508" entry:"1520955861" modified:"1523972335" project:"perso" status:"deleted" uuid:"cbd1f764-ad3f-46f8-b4e6-9db2b198d4e0"]
+---
+time 1523972335
+old [description:"coucou deux" end:"1520956500" entry:"1520955884" modified:"1521036101" project:"Perso" status:"deleted" uuid:"462328c1-e4af-426d-8b40-dd954e4abb1d"]
+new [description:"coucou deux" end:"1520956500" entry:"1520955884" modified:"1523972335" project:"perso" status:"deleted" uuid:"462328c1-e4af-426d-8b40-dd954e4abb1d"]
+---
+time 1523972335
+old [description:"heelo" end:"1520956489" entry:"1520956070" modified:"1521036101" project:"Perso" status:"deleted" uuid:"e4893805-b085-4579-bbb7-a18500457729"]
+new [description:"heelo" end:"1520956489" entry:"1520956070" modified:"1523972335" project:"perso" status:"deleted" uuid:"e4893805-b085-4579-bbb7-a18500457729"]
+---
+time 1523972335
+old [description:"heelodzzd" end:"1520956475" entry:"1520956146" modified:"1521036101" project:"Perso" status:"deleted" uuid:"49ee2f79-3b1b-4c82-92b9-6a17ebe54c14"]
+new [description:"heelodzzd" end:"1520956475" entry:"1520956146" modified:"1523972335" project:"perso" status:"deleted" uuid:"49ee2f79-3b1b-4c82-92b9-6a17ebe54c14"]
+---
+time 1523972335
+old [description:"install wireshark" end:"1520859132" entry:"1520852266" modified:"1521036101" project:"Perso" status:"completed" uuid:"77d1f312-2df5-47df-914e-c7af0f3e2bc7"]
+new [description:"install wireshark" end:"1520859132" entry:"1520852266" modified:"1523972335" project:"perso" status:"completed" uuid:"77d1f312-2df5-47df-914e-c7af0f3e2bc7"]
+---
+time 1523972335
+old [description:"install windows sur kvm lenovo" end:"1520858858" entry:"1520691255" modified:"1521036101" project:"Perso" status:"completed" uuid:"d4dd247c-fcc1-4446-bdd4-99f2da470484"]
+new [description:"install windows sur kvm lenovo" end:"1520858858" entry:"1520691255" modified:"1523972335" project:"perso" status:"completed" uuid:"d4dd247c-fcc1-4446-bdd4-99f2da470484"]
+---
+time 1523972335
+old [description:"install windows kvm" end:"1520858858" entry:"1520850162" modified:"1521036101" project:"Perso" status:"completed" uuid:"082a1f0c-3af2-448d-b93b-c56efa7a77d3"]
+new [description:"install windows kvm" end:"1520858858" entry:"1520850162" modified:"1523972335" project:"perso" status:"completed" uuid:"082a1f0c-3af2-448d-b93b-c56efa7a77d3"]
+---
+time 1523972335
+old [description:"install kvm lenovo" end:"1520852229" entry:"1520691239" modified:"1521036101" project:"Perso" status:"completed" uuid:"c23657a1-bf4f-4e7d-8e2f-bf72c80312a8"]
+new [description:"install kvm lenovo" end:"1520852229" entry:"1520691239" modified:"1523972335" project:"perso" status:"completed" uuid:"c23657a1-bf4f-4e7d-8e2f-bf72c80312a8"]
+---
+time 1523972335
+old [description:"coucou" end:"1520782760" entry:"1520782727" modified:"1521036101" project:"Perso" status:"deleted" uuid:"6b897354-a78b-461f-b276-9d56a2c4d94b"]
+new [description:"coucou" end:"1520782760" entry:"1520782727" modified:"1523972335" project:"perso" status:"deleted" uuid:"6b897354-a78b-461f-b276-9d56a2c4d94b"]
+---
+time 1523972335
+old [description:"coucoudz" end:"1520782762" entry:"1520782739" modified:"1521036101" project:"Perso" status:"deleted" uuid:"f9dc7147-882a-49e1-846c-ca8d9949db57"]
+new [description:"coucoudz" end:"1520782762" entry:"1520782739" modified:"1523972335" project:"perso" status:"deleted" uuid:"f9dc7147-882a-49e1-846c-ca8d9949db57"]
+---
+time 1523972335
+old [description:"test" end:"1520782657" entry:"1520780867" modified:"1521036101" project:"Perso" status:"deleted" uuid:"8f91d73e-9280-4dc4-88fc-f0170ec20aaf"]
+new [description:"test" end:"1520782657" entry:"1520780867" modified:"1523972335" project:"perso" status:"deleted" uuid:"8f91d73e-9280-4dc4-88fc-f0170ec20aaf"]
+---
+time 1523972335
+old [description:"teste" end:"1520782664" entry:"1520780921" modified:"1521036101" project:"Perso" status:"deleted" uuid:"8861bd8b-0211-4204-8e21-95d23e81dfd4"]
+new [description:"teste" end:"1520782664" entry:"1520780921" modified:"1523972335" project:"perso" status:"deleted" uuid:"8861bd8b-0211-4204-8e21-95d23e81dfd4"]
+---
+time 1523972335
+old [description:"install lenovo sans touches" end:"1520773774" entry:"1520691198" modified:"1521036101" project:"Perso" status:"completed" uuid:"cbfb5b88-9f29-45d1-94c8-2b21f1bebc5f"]
+new [description:"install lenovo sans touches" end:"1520773774" entry:"1520691198" modified:"1523972335" project:"perso" status:"completed" uuid:"cbfb5b88-9f29-45d1-94c8-2b21f1bebc5f"]
+---
+time 1523972335
+old [description:"modif vim statuslins lightline" end:"1520593896" entry:"1520519676" modified:"1521036101" project:"Perso" status:"completed" uuid:"095cad60-b5ab-47da-ac13-15f37cf708c6"]
+new [description:"modif vim statuslins lightline" end:"1520593896" entry:"1520519676" modified:"1523972335" project:"perso" status:"completed" uuid:"095cad60-b5ab-47da-ac13-15f37cf708c6"]
+---
+time 1523972335
+old [description:"modif config my_config.vim" end:"1520537095" entry:"1520521614" modified:"1521036101" project:"Perso" status:"completed" uuid:"c6be8b6f-4dc2-4df0-bb36-2e6cb4925368"]
+new [description:"modif config my_config.vim" end:"1520537095" entry:"1520521614" modified:"1523972335" project:"perso" status:"completed" uuid:"c6be8b6f-4dc2-4df0-bb36-2e6cb4925368"]
+---
+time 1523972335
+old [description:"plugin vim fzf" end:"1520519846" entry:"1520510925" modified:"1521036101" project:"Perso" status:"completed" uuid:"aab80292-e648-4278-b31a-717c4aa1091f"]
+new [description:"plugin vim fzf" end:"1520519846" entry:"1520510925" modified:"1523972335" project:"perso" status:"completed" uuid:"aab80292-e648-4278-b31a-717c4aa1091f"]
+---
+time 1523972335
+old [description:"choose theme for taskwarrior" end:"1520506506" entry:"1520506134" modified:"1521036101" project:"Perso" status:"completed" uuid:"040567b5-7f59-4df7-bff2-7945ecb36378"]
+new [description:"choose theme for taskwarrior" end:"1520506506" entry:"1520506134" modified:"1523972335" project:"perso" status:"completed" uuid:"040567b5-7f59-4df7-bff2-7945ecb36378"]
+---
+time 1523972335
+old [description:"translate doc powershell" end:"1520504599" entry:"1520503149" modified:"1521036101" project:"Perso" status:"completed" uuid:"17b7482d-1605-4f77-a355-5b7ed5e15019"]
+new [description:"translate doc powershell" end:"1520504599" entry:"1520503149" modified:"1523972335" project:"perso" status:"completed" uuid:"17b7482d-1605-4f77-a355-5b7ed5e15019"]
+---
+time 1523973154
+new [description:"trouver mieux que inthe.am" entry:"1523973154" modified:"1523973154" status:"pending" tags:"task,config,todo" uuid:"b3d1aca8-0634-4e8b-9a03-7b9103c2ca85"]
+---
+time 1524477714
+new [description:"tuto nmap pratique" entry:"1524477714" modified:"1524477714" status:"pending" uuid:"6faa7571-15b5-49be-94fa-6038714374b0"]
+---
+time 1524477737
+new [description:"lire script cedric scapy" entry:"1524477737" modified:"1524477737" status:"pending" uuid:"3d8e3f0d-c2db-4c9c-bc7e-4d8ceaa9315b"]
+---
+time 1524477772
+new [description:"installation IDA Pro" entry:"1524477772" modified:"1524477772" status:"pending" uuid:"3d935a69-b762-428d-9e5d-22728eb6b908"]
+---
+time 1524489718
+new [description:"create tcp ack port scan" entry:"1524489718" modified:"1524489718" status:"pending" tags:"scapy,python" uuid:"af802c1c-2a8f-45e2-9c92-4e79e9af5ace"]
+---
+time 1524489741
+new [description:"create tcp replay tool" entry:"1524489741" modified:"1524489741" status:"pending" tags:"scapy,python" uuid:"469b2b8f-6280-4704-8001-9d8275a4ef40"]
+---
+time 1524489785
+new [description:"create a udp ping tool" entry:"1524489785" modified:"1524489785" status:"pending" tags:"scapy,python" uuid:"e31def8b-2b7a-4c11-835e-ab37c5d5b8bc"]
+---
+time 1524489913
+new [description:"create a sniffer that filters based on user input" entry:"1524489913" modified:"1524489913" status:"pending" tags:"scapy,python" uuid:"a6d7f948-f9fa-4e40-a5c5-2945434b6b0f"]
+---
+time 1524489964
+new [description:"create a tool for HTTP Basic authentication : login, bruteforce" entry:"1524489964" modified:"1524489964" status:"pending" tags:"scapy,script,python" uuid:"7d62be83-fad1-433b-8473-766823ba3b63"]
+---
+time 1524490023
+new [description:"create a basic honeypot that logs all activities to a text file" entry:"1524490023" modified:"1524490023" status:"pending" tags:"scapy,python" uuid:"768e2025-e553-49d2-b300-9d82fd73ed14"]
+---
+time 1524493672
+old [description:"create tcp ack port scan" entry:"1524489718" modified:"1524489718" status:"pending" tags:"scapy,python" uuid:"af802c1c-2a8f-45e2-9c92-4e79e9af5ace"]
+new [description:"create tcp ack port scan" entry:"1524489718" modified:"1524493672" start:"1524493672" status:"pending" tags:"scapy,python" uuid:"af802c1c-2a8f-45e2-9c92-4e79e9af5ace"]
+---
+time 1524493672
+old [description:"create a udp ping tool" entry:"1524489785" modified:"1524489785" status:"pending" tags:"scapy,python" uuid:"e31def8b-2b7a-4c11-835e-ab37c5d5b8bc"]
+new [description:"create a udp ping tool" entry:"1524489785" modified:"1524493672" start:"1524493672" status:"pending" tags:"scapy,python" uuid:"e31def8b-2b7a-4c11-835e-ab37c5d5b8bc"]
+---
+time 1524558255
+old [description:"create tcp ack port scan" entry:"1524489718" modified:"1524493672" start:"1524493672" status:"pending" tags:"scapy,python" uuid:"af802c1c-2a8f-45e2-9c92-4e79e9af5ace"]
+new [description:"create tcp ack port scan" entry:"1524489718" modified:"1524558255" status:"pending" tags:"scapy,python" uuid:"af802c1c-2a8f-45e2-9c92-4e79e9af5ace"]
+---
+time 1524558255
+old [description:"create a udp ping tool" entry:"1524489785" modified:"1524493672" start:"1524493672" status:"pending" tags:"scapy,python" uuid:"e31def8b-2b7a-4c11-835e-ab37c5d5b8bc"]
+new [description:"create a udp ping tool" entry:"1524489785" modified:"1524558255" status:"pending" tags:"scapy,python" uuid:"e31def8b-2b7a-4c11-835e-ab37c5d5b8bc"]
+---
+time 1524561727
+old [description:"create a sniffer that filters based on user input" entry:"1524489913" modified:"1524489913" status:"pending" tags:"scapy,python" uuid:"a6d7f948-f9fa-4e40-a5c5-2945434b6b0f"]
+new [description:"create a sniffer that filters based on user input" entry:"1524489913" modified:"1524561727" start:"1524561727" status:"pending" tags:"scapy,python" uuid:"a6d7f948-f9fa-4e40-a5c5-2945434b6b0f"]
+---
+time 1524570967
+old [description:"create a sniffer that filters based on user input" entry:"1524489913" modified:"1524561727" start:"1524561727" status:"pending" tags:"scapy,python" uuid:"a6d7f948-f9fa-4e40-a5c5-2945434b6b0f"]
+new [description:"create a sniffer that filters based on user input" entry:"1524489913" modified:"1524570967" status:"pending" tags:"scapy,python" uuid:"a6d7f948-f9fa-4e40-a5c5-2945434b6b0f"]
+---
+time 1525680490
+new [description:"ajout ticket mycoach avril" entry:"1525680490" modified:"1525680490" project:"aurera" status:"pending" tags:"mycoach,aurera" uuid:"19e2a213-2855-42a0-ac49-5704e70a3698"]
+---
+time 1525680526
+new [description:"donner droits à la boite au lettre RH à brice" entry:"1525680526" modified:"1525680526" project:"aurera" status:"pending" tags:"aurera,admin" uuid:"8ba8ca0d-4564-406d-a3b0-d62e118b2c1f"]
+---
+time 1525680564
+new [description:"faire cv sur enhancv" entry:"1525680564" modified:"1525680564" project:"perso" status:"pending" tags:"cv,job" uuid:"8fcff8db-b47f-4557-8dde-1ab3527a6a6e"]
+---
+time 1525683805
+old [description:"donner droits à la boite au lettre RH à brice" entry:"1525680526" modified:"1525680526" project:"aurera" status:"pending" tags:"aurera,admin" uuid:"8ba8ca0d-4564-406d-a3b0-d62e118b2c1f"]
+new [description:"donner droits à la boite au lettre RH à brice" end:"1525683805" entry:"1525680526" modified:"1525683805" project:"aurera" status:"completed" tags:"aurera,admin" uuid:"8ba8ca0d-4564-406d-a3b0-d62e118b2c1f"]
+---
+time 1525683962
+old [description:"cours c c++" entry:"1520776874" modified:"1523972335" project:"perso" status:"pending" uuid:"72908137-96d8-45f4-b4d5-275da94805fe"]
+new [description:"+c++" entry:"1520776874" modified:"1525683962" project:"perso" status:"pending" tags:"c" uuid:"72908137-96d8-45f4-b4d5-275da94805fe"]
+---
+time 1525850551
+old [description:"ajout ticket mycoach avril" entry:"1525680490" modified:"1525680490" project:"aurera" status:"pending" tags:"mycoach,aurera" uuid:"19e2a213-2855-42a0-ac49-5704e70a3698"]
+new [description:"ajout ticket mycoach avril" end:"1525850551" entry:"1525680490" modified:"1525850551" project:"aurera" status:"completed" tags:"mycoach,aurera" uuid:"19e2a213-2855-42a0-ac49-5704e70a3698"]
+---
+time 1525851515
+old [description:"create tcp ack port scan" entry:"1524489718" modified:"1524558255" status:"pending" tags:"scapy,python" uuid:"af802c1c-2a8f-45e2-9c92-4e79e9af5ace"]
+new [description:"create tcp ack port scan" entry:"1524489718" modified:"1525851515" status:"pending" tags:"scapy,python,cours" uuid:"af802c1c-2a8f-45e2-9c92-4e79e9af5ace"]
+---
+time 1525851515
+old [description:"create tcp replay tool" entry:"1524489741" modified:"1524489741" status:"pending" tags:"scapy,python" uuid:"469b2b8f-6280-4704-8001-9d8275a4ef40"]
+new [description:"create tcp replay tool" entry:"1524489741" modified:"1525851515" status:"pending" tags:"scapy,python,cours" uuid:"469b2b8f-6280-4704-8001-9d8275a4ef40"]
+---
+time 1525851515
+old [description:"create a udp ping tool" entry:"1524489785" modified:"1524558255" status:"pending" tags:"scapy,python" uuid:"e31def8b-2b7a-4c11-835e-ab37c5d5b8bc"]
+new [description:"create a udp ping tool" entry:"1524489785" modified:"1525851515" status:"pending" tags:"scapy,python,cours" uuid:"e31def8b-2b7a-4c11-835e-ab37c5d5b8bc"]
+---
+time 1525851515
+old [description:"create a sniffer that filters based on user input" entry:"1524489913" modified:"1524570967" status:"pending" tags:"scapy,python" uuid:"a6d7f948-f9fa-4e40-a5c5-2945434b6b0f"]
+new [description:"create a sniffer that filters based on user input" entry:"1524489913" modified:"1525851515" status:"pending" tags:"scapy,python,cours" uuid:"a6d7f948-f9fa-4e40-a5c5-2945434b6b0f"]
+---
+time 1525851515
+old [description:"create a tool for HTTP Basic authentication : login, bruteforce" entry:"1524489964" modified:"1524489964" status:"pending" tags:"scapy,script,python" uuid:"7d62be83-fad1-433b-8473-766823ba3b63"]
+new [description:"create a tool for HTTP Basic authentication : login, bruteforce" entry:"1524489964" modified:"1525851515" status:"pending" tags:"scapy,script,python,cours" uuid:"7d62be83-fad1-433b-8473-766823ba3b63"]
+---
+time 1525851515
+old [description:"create a basic honeypot that logs all activities to a text file" entry:"1524490023" modified:"1524490023" status:"pending" tags:"scapy,python" uuid:"768e2025-e553-49d2-b300-9d82fd73ed14"]
+new [description:"create a basic honeypot that logs all activities to a text file" entry:"1524490023" modified:"1525851515" status:"pending" tags:"scapy,python,cours" uuid:"768e2025-e553-49d2-b300-9d82fd73ed14"]
+---
+time 1525851558
+old [description:"tuto nmap pratique" entry:"1524477714" modified:"1524477714" status:"pending" uuid:"6faa7571-15b5-49be-94fa-6038714374b0"]
+new [description:"tuto nmap pratique" entry:"1524477714" modified:"1525851558" status:"pending" tags:"cours" uuid:"6faa7571-15b5-49be-94fa-6038714374b0"]
+---
+time 1525851787
+new [description:"lire testing guide OWASP" entry:"1525851787" modified:"1525851787" status:"pending" tags:"cours,security,it,testing" uuid:"95801004-a53f-4b57-a345-dab6dcc5d0cb"]
+---
+time 1525852044
+new [description:"OWASP Zed Attack Proxy Project" entry:"1525852044" modified:"1525852044" status:"pending" tags:"lire,testing,cours,security" uuid:"3cbce732-76db-4f79-af39-7338edef62a5"]
+---
+time 1525868324
+new [description:"read web application security testing cheat sheet + security" entry:"1525868324" modified:"1525868324" status:"pending" tags:"owasp,web,cours" uuid:"47bd9b28-8e58-47a1-8812-0c02eb6d776b"]
+---
+time 1525870510
+new [description:"install github.com\/Hackademic\/hackademic clone" entry:"1525870510" modified:"1525870510" status:"pending" tags:"cours,testing,challenges" uuid:"c63da361-a5af-4d85-8777-3c570decb5fa"]
+---
+time 1525870950
+new [description:"OWASP Security Shepherd" entry:"1525870950" modified:"1525870950" status:"pending" tags:"testing,cours,security" uuid:"c4868394-6934-4ab3-9776-b231510f0c29"]
+---
+time 1525878917
+old [description:"+c++" entry:"1520776874" modified:"1525683962" project:"perso" status:"pending" tags:"c" uuid:"72908137-96d8-45f4-b4d5-275da94805fe"]
+new [description:"+c++" entry:"1520776874" modified:"1525878917" project:"perso" status:"pending" tags:"c,cours" uuid:"72908137-96d8-45f4-b4d5-275da94805fe"]
+---
+time 1525878965
+old [description:"cron schedule system" entry:"1521559867" modified:"1521559867" status:"pending" tags:"linux,tache" uuid:"c53758e3-b6cd-4d20-ba08-03ab218fd079"]
+new [description:"cron schedule system" entry:"1521559867" modified:"1525878965" status:"pending" tags:"linux,tache,cours" uuid:"c53758e3-b6cd-4d20-ba08-03ab218fd079"]
+---
+time 1525879092
+old [annotation_1523969013:"http:\/\/npoulain.fr\/notes_vim_et_android" description:"system pour prendre des notes" entry:"1523968730" modified:"1523969013" status:"pending" tags:"notes,config,keep" uuid:"aad3739c-667f-45bd-8f01-4f7c8c00f133"]
+new [annotation_1523969013:"http:\/\/npoulain.fr\/notes_vim_et_android" description:"system pour prendre des notes" entry:"1523968730" modified:"1525879092" project:"perso" status:"pending" tags:"notes,config,keep" uuid:"aad3739c-667f-45bd-8f01-4f7c8c00f133"]
+---
+time 1525879092
+old [description:"ajout un keybindings pour switch entre deux colorscheme" entry:"1523970910" modified:"1523970910" status:"pending" tags:"vim,colors,config" uuid:"6157fdaa-4a7e-4b0d-bec9-5e8fd1564cae"]
+new [description:"ajout un keybindings pour switch entre deux colorscheme" entry:"1523970910" modified:"1525879092" project:"perso" status:"pending" tags:"vim,colors,config" uuid:"6157fdaa-4a7e-4b0d-bec9-5e8fd1564cae"]
+---
+time 1525879092
+old [description:"mettre a jour les principales applications de ma config" entry:"1523971039" modified:"1523971039" status:"pending" tags:"config,notes,maj" uuid:"5e6f98a9-db41-4edc-8796-c796b7127cd8"]
+new [description:"mettre a jour les principales applications de ma config" entry:"1523971039" modified:"1525879092" project:"perso" status:"pending" tags:"config,notes,maj" uuid:"5e6f98a9-db41-4edc-8796-c796b7127cd8"]
+---
+time 1525879092
+old [description:"trouver mieux que inthe.am" entry:"1523973154" modified:"1523973154" status:"pending" tags:"task,config,todo" uuid:"b3d1aca8-0634-4e8b-9a03-7b9103c2ca85"]
+new [description:"trouver mieux que inthe.am" entry:"1523973154" modified:"1525879092" project:"perso" status:"pending" tags:"task,config,todo" uuid:"b3d1aca8-0634-4e8b-9a03-7b9103c2ca85"]
+---
+time 1525879092
+old [description:"ecrire config logstash jboss" end:"1523972280" entry:"1520612888" modified:"1523972280" project:"elastic" status:"deleted" tags:"config,jboss" uuid:"b9aa218d-b6c5-4cca-9336-7d1ccf285742"]
+new [description:"ecrire config logstash jboss" end:"1523972280" entry:"1520612888" modified:"1525879092" project:"perso" status:"deleted" tags:"config,jboss" uuid:"b9aa218d-b6c5-4cca-9336-7d1ccf285742"]
+---
+time 1525879092
+old [description:"button test avec script python" end:"1523266869" entry:"1523257687" modified:"1523266869" project:"config" status:"completed" tags:"config,i3bar,i3blocks,python" uuid:"3d67b53e-0211-4c44-accf-981363224334"]
+new [description:"button test avec script python" end:"1523266869" entry:"1523257687" modified:"1525879092" project:"perso" status:"completed" tags:"config,i3bar,i3blocks,python" uuid:"3d67b53e-0211-4c44-accf-981363224334"]
+---
+time 1525879092
+old [description:"notes vim-multi-cursor solution" end:"1523266858" entry:"1521729290" modified:"1523266858" project:"config" status:"completed" tags:"vim,config,zsh" uuid:"d8784d42-f112-4331-a373-6bafa5df6436"]
+new [description:"notes vim-multi-cursor solution" end:"1523266858" entry:"1521729290" modified:"1525879092" project:"perso" status:"completed" tags:"vim,config,zsh" uuid:"d8784d42-f112-4331-a373-6bafa5df6436"]
+---
+time 1525879092
+old [description:"transparence en fonction si fenetre focus ou non" end:"1523266841" entry:"1522314694" modified:"1523266841" project:"config" status:"completed" tags:"micka,compton,focus,config" uuid:"5b33d7e1-fdc5-4a58-905d-a26ebec44f5d"]
+new [description:"transparence en fonction si fenetre focus ou non" end:"1523266841" entry:"1522314694" modified:"1525879092" project:"perso" status:"completed" tags:"micka,compton,focus,config" uuid:"5b33d7e1-fdc5-4a58-905d-a26ebec44f5d"]
+---
+time 1525879092
+old [description:"dropdown menu compton" end:"1523257719" entry:"1522922229" modified:"1523257719" project:"config" status:"completed" tags:"config,compton" uuid:"80242582-b73f-43a8-a900-55172cf56512"]
+new [description:"dropdown menu compton" end:"1523257719" entry:"1522922229" modified:"1525879092" project:"perso" status:"completed" tags:"config,compton" uuid:"80242582-b73f-43a8-a900-55172cf56512"]
+---
+time 1525879092
+old [description:"config dunst" end:"1523121893" entry:"1522395805" modified:"1523121893" project:"config" status:"completed" tags:"config,dunst,notification" uuid:"ebc91436-02b4-4a5d-a923-22de2861edc5"]
+new [description:"config dunst" end:"1523121893" entry:"1522395805" modified:"1525879092" project:"perso" status:"completed" tags:"config,dunst,notification" uuid:"ebc91436-02b4-4a5d-a923-22de2861edc5"]
+---
+time 1525879092
+old [description:"change i3lock par i3lock-next" end:"1522742247" entry:"1522331879" modified:"1522742247" project:"config" status:"completed" tags:"config,lock,screen,i3" uuid:"e0492867-2c61-46a4-a944-70f3c6e51b92"]
+new [description:"change i3lock par i3lock-next" end:"1522742247" entry:"1522331879" modified:"1525879092" project:"perso" status:"completed" tags:"config,lock,screen,i3" uuid:"e0492867-2c61-46a4-a944-70f3c6e51b92"]
+---
+time 1526048454
+new [description:"computer forensics edx" entry:"1526048454" modified:"1526048454" status:"pending" tags:"cours,forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+---
+time 1526304174
+old [description:"computer forensics edx" entry:"1526048454" modified:"1526048454" status:"pending" tags:"cours,forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+new [description:"computer forensics edx" entry:"1526048454" modified:"1526304174" start:"1526304174" status:"pending" tags:"cours,forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+---
+time 1526371557
+old [description:"computer forensics edx" entry:"1526048454" modified:"1526304174" start:"1526304174" status:"pending" tags:"cours,forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+new [description:"computer forensics edx" entry:"1526048454" modified:"1526371557" status:"pending" tags:"cours,forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+---
+time 1526371582
+old [description:"notes probleme driver wifi linux" entry:"1520850143" modified:"1523972335" project:"perso" status:"pending" uuid:"3f521188-ca18-40fc-a2f6-fe9859373d5c"]
+new [description:"notes probleme driver wifi linux" end:"1526371582" entry:"1520850143" modified:"1526371582" project:"perso" status:"completed" uuid:"3f521188-ca18-40fc-a2f6-fe9859373d5c"]
+---
+time 1526374582
+new [description:"test" entry:"1526374582" modified:"1526374582" project:"perso.cours" status:"pending" uuid:"9f3b05ef-af16-4345-9e07-4c266aa4fbf4"]
+---
+time 1526374616
+old [description:"+c++" entry:"1520776874" modified:"1525878917" project:"perso" status:"pending" tags:"c,cours" uuid:"72908137-96d8-45f4-b4d5-275da94805fe"]
+new [description:"+c++" entry:"1520776874" modified:"1526374616" project:"perso.cours" status:"pending" tags:"c,cours" uuid:"72908137-96d8-45f4-b4d5-275da94805fe"]
+---
+time 1526374616
+old [description:"cron schedule system" entry:"1521559867" modified:"1525878965" status:"pending" tags:"linux,tache,cours" uuid:"c53758e3-b6cd-4d20-ba08-03ab218fd079"]
+new [description:"cron schedule system" entry:"1521559867" modified:"1526374616" project:"perso.cours" status:"pending" tags:"linux,tache,cours" uuid:"c53758e3-b6cd-4d20-ba08-03ab218fd079"]
+---
+time 1526374616
+old [description:"python pentest cours" entry:"1523955072" modified:"1523955072" status:"pending" tags:"python,testing,pentest,cours" uuid:"ad3af31e-0c40-4b56-ad87-e386c95af81c"]
+new [description:"python pentest cours" entry:"1523955072" modified:"1526374616" project:"perso.cours" status:"pending" tags:"python,testing,pentest,cours" uuid:"ad3af31e-0c40-4b56-ad87-e386c95af81c"]
+---
+time 1526374616
+old [description:"tuto nmap pratique" entry:"1524477714" modified:"1525851558" status:"pending" tags:"cours" uuid:"6faa7571-15b5-49be-94fa-6038714374b0"]
+new [description:"tuto nmap pratique" entry:"1524477714" modified:"1526374616" project:"perso.cours" status:"pending" tags:"cours" uuid:"6faa7571-15b5-49be-94fa-6038714374b0"]
+---
+time 1526374616
+old [description:"create tcp ack port scan" entry:"1524489718" modified:"1525851515" status:"pending" tags:"scapy,python,cours" uuid:"af802c1c-2a8f-45e2-9c92-4e79e9af5ace"]
+new [description:"create tcp ack port scan" entry:"1524489718" modified:"1526374616" project:"perso.cours" status:"pending" tags:"scapy,python,cours" uuid:"af802c1c-2a8f-45e2-9c92-4e79e9af5ace"]
+---
+time 1526374616
+old [description:"create tcp replay tool" entry:"1524489741" modified:"1525851515" status:"pending" tags:"scapy,python,cours" uuid:"469b2b8f-6280-4704-8001-9d8275a4ef40"]
+new [description:"create tcp replay tool" entry:"1524489741" modified:"1526374616" project:"perso.cours" status:"pending" tags:"scapy,python,cours" uuid:"469b2b8f-6280-4704-8001-9d8275a4ef40"]
+---
+time 1526374616
+old [description:"create a udp ping tool" entry:"1524489785" modified:"1525851515" status:"pending" tags:"scapy,python,cours" uuid:"e31def8b-2b7a-4c11-835e-ab37c5d5b8bc"]
+new [description:"create a udp ping tool" entry:"1524489785" modified:"1526374616" project:"perso.cours" status:"pending" tags:"scapy,python,cours" uuid:"e31def8b-2b7a-4c11-835e-ab37c5d5b8bc"]
+---
+time 1526374616
+old [description:"create a sniffer that filters based on user input" entry:"1524489913" modified:"1525851515" status:"pending" tags:"scapy,python,cours" uuid:"a6d7f948-f9fa-4e40-a5c5-2945434b6b0f"]
+new [description:"create a sniffer that filters based on user input" entry:"1524489913" modified:"1526374616" project:"perso.cours" status:"pending" tags:"scapy,python,cours" uuid:"a6d7f948-f9fa-4e40-a5c5-2945434b6b0f"]
+---
+time 1526374616
+old [description:"create a tool for HTTP Basic authentication : login, bruteforce" entry:"1524489964" modified:"1525851515" status:"pending" tags:"scapy,script,python,cours" uuid:"7d62be83-fad1-433b-8473-766823ba3b63"]
+new [description:"create a tool for HTTP Basic authentication : login, bruteforce" entry:"1524489964" modified:"1526374616" project:"perso.cours" status:"pending" tags:"scapy,script,python,cours" uuid:"7d62be83-fad1-433b-8473-766823ba3b63"]
+---
+time 1526374616
+old [description:"create a basic honeypot that logs all activities to a text file" entry:"1524490023" modified:"1525851515" status:"pending" tags:"scapy,python,cours" uuid:"768e2025-e553-49d2-b300-9d82fd73ed14"]
+new [description:"create a basic honeypot that logs all activities to a text file" entry:"1524490023" modified:"1526374616" project:"perso.cours" status:"pending" tags:"scapy,python,cours" uuid:"768e2025-e553-49d2-b300-9d82fd73ed14"]
+---
+time 1526374616
+old [description:"lire testing guide OWASP" entry:"1525851787" modified:"1525851787" status:"pending" tags:"cours,security,it,testing" uuid:"95801004-a53f-4b57-a345-dab6dcc5d0cb"]
+new [description:"lire testing guide OWASP" entry:"1525851787" modified:"1526374616" project:"perso.cours" status:"pending" tags:"cours,security,it,testing" uuid:"95801004-a53f-4b57-a345-dab6dcc5d0cb"]
+---
+time 1526374616
+old [description:"OWASP Zed Attack Proxy Project" entry:"1525852044" modified:"1525852044" status:"pending" tags:"lire,testing,cours,security" uuid:"3cbce732-76db-4f79-af39-7338edef62a5"]
+new [description:"OWASP Zed Attack Proxy Project" entry:"1525852044" modified:"1526374616" project:"perso.cours" status:"pending" tags:"lire,testing,cours,security" uuid:"3cbce732-76db-4f79-af39-7338edef62a5"]
+---
+time 1526374616
+old [description:"read web application security testing cheat sheet + security" entry:"1525868324" modified:"1525868324" status:"pending" tags:"owasp,web,cours" uuid:"47bd9b28-8e58-47a1-8812-0c02eb6d776b"]
+new [description:"read web application security testing cheat sheet + security" entry:"1525868324" modified:"1526374616" project:"perso.cours" status:"pending" tags:"owasp,web,cours" uuid:"47bd9b28-8e58-47a1-8812-0c02eb6d776b"]
+---
+time 1526374616
+old [description:"install github.com\/Hackademic\/hackademic clone" entry:"1525870510" modified:"1525870510" status:"pending" tags:"cours,testing,challenges" uuid:"c63da361-a5af-4d85-8777-3c570decb5fa"]
+new [description:"install github.com\/Hackademic\/hackademic clone" entry:"1525870510" modified:"1526374616" project:"perso.cours" status:"pending" tags:"cours,testing,challenges" uuid:"c63da361-a5af-4d85-8777-3c570decb5fa"]
+---
+time 1526374616
+old [description:"OWASP Security Shepherd" entry:"1525870950" modified:"1525870950" status:"pending" tags:"testing,cours,security" uuid:"c4868394-6934-4ab3-9776-b231510f0c29"]
+new [description:"OWASP Security Shepherd" entry:"1525870950" modified:"1526374616" project:"perso.cours" status:"pending" tags:"testing,cours,security" uuid:"c4868394-6934-4ab3-9776-b231510f0c29"]
+---
+time 1526374616
+old [description:"computer forensics edx" entry:"1526048454" modified:"1526371557" status:"pending" tags:"cours,forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+new [description:"computer forensics edx" entry:"1526048454" modified:"1526374616" project:"perso.cours" status:"pending" tags:"cours,forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+---
+time 1526374866
+old [description:"+c++" entry:"1520776874" modified:"1526374616" project:"perso.cours" status:"pending" tags:"c,cours" uuid:"72908137-96d8-45f4-b4d5-275da94805fe"]
+new [description:"+c++" entry:"1520776874" modified:"1526374866" project:"perso.cours" status:"pending" tags:"c" uuid:"72908137-96d8-45f4-b4d5-275da94805fe"]
+---
+time 1526374866
+old [description:"cron schedule system" entry:"1521559867" modified:"1526374616" project:"perso.cours" status:"pending" tags:"linux,tache,cours" uuid:"c53758e3-b6cd-4d20-ba08-03ab218fd079"]
+new [description:"cron schedule system" entry:"1521559867" modified:"1526374866" project:"perso.cours" status:"pending" tags:"linux,tache" uuid:"c53758e3-b6cd-4d20-ba08-03ab218fd079"]
+---
+time 1526374866
+old [description:"python pentest cours" entry:"1523955072" modified:"1526374616" project:"perso.cours" status:"pending" tags:"python,testing,pentest,cours" uuid:"ad3af31e-0c40-4b56-ad87-e386c95af81c"]
+new [description:"python pentest cours" entry:"1523955072" modified:"1526374866" project:"perso.cours" status:"pending" tags:"python,testing,pentest" uuid:"ad3af31e-0c40-4b56-ad87-e386c95af81c"]
+---
+time 1526374866
+old [description:"tuto nmap pratique" entry:"1524477714" modified:"1526374616" project:"perso.cours" status:"pending" tags:"cours" uuid:"6faa7571-15b5-49be-94fa-6038714374b0"]
+new [description:"tuto nmap pratique" entry:"1524477714" modified:"1526374866" project:"perso.cours" status:"pending" uuid:"6faa7571-15b5-49be-94fa-6038714374b0"]
+---
+time 1526374866
+old [description:"create tcp ack port scan" entry:"1524489718" modified:"1526374616" project:"perso.cours" status:"pending" tags:"scapy,python,cours" uuid:"af802c1c-2a8f-45e2-9c92-4e79e9af5ace"]
+new [description:"create tcp ack port scan" entry:"1524489718" modified:"1526374866" project:"perso.cours" status:"pending" tags:"scapy,python" uuid:"af802c1c-2a8f-45e2-9c92-4e79e9af5ace"]
+---
+time 1526374866
+old [description:"create tcp replay tool" entry:"1524489741" modified:"1526374616" project:"perso.cours" status:"pending" tags:"scapy,python,cours" uuid:"469b2b8f-6280-4704-8001-9d8275a4ef40"]
+new [description:"create tcp replay tool" entry:"1524489741" modified:"1526374866" project:"perso.cours" status:"pending" tags:"scapy,python" uuid:"469b2b8f-6280-4704-8001-9d8275a4ef40"]
+---
+time 1526374866
+old [description:"create a udp ping tool" entry:"1524489785" modified:"1526374616" project:"perso.cours" status:"pending" tags:"scapy,python,cours" uuid:"e31def8b-2b7a-4c11-835e-ab37c5d5b8bc"]
+new [description:"create a udp ping tool" entry:"1524489785" modified:"1526374866" project:"perso.cours" status:"pending" tags:"scapy,python" uuid:"e31def8b-2b7a-4c11-835e-ab37c5d5b8bc"]
+---
+time 1526374866
+old [description:"create a sniffer that filters based on user input" entry:"1524489913" modified:"1526374616" project:"perso.cours" status:"pending" tags:"scapy,python,cours" uuid:"a6d7f948-f9fa-4e40-a5c5-2945434b6b0f"]
+new [description:"create a sniffer that filters based on user input" entry:"1524489913" modified:"1526374866" project:"perso.cours" status:"pending" tags:"scapy,python" uuid:"a6d7f948-f9fa-4e40-a5c5-2945434b6b0f"]
+---
+time 1526374866
+old [description:"create a tool for HTTP Basic authentication : login, bruteforce" entry:"1524489964" modified:"1526374616" project:"perso.cours" status:"pending" tags:"scapy,script,python,cours" uuid:"7d62be83-fad1-433b-8473-766823ba3b63"]
+new [description:"create a tool for HTTP Basic authentication : login, bruteforce" entry:"1524489964" modified:"1526374866" project:"perso.cours" status:"pending" tags:"scapy,script,python" uuid:"7d62be83-fad1-433b-8473-766823ba3b63"]
+---
+time 1526374866
+old [description:"create a basic honeypot that logs all activities to a text file" entry:"1524490023" modified:"1526374616" project:"perso.cours" status:"pending" tags:"scapy,python,cours" uuid:"768e2025-e553-49d2-b300-9d82fd73ed14"]
+new [description:"create a basic honeypot that logs all activities to a text file" entry:"1524490023" modified:"1526374866" project:"perso.cours" status:"pending" tags:"scapy,python" uuid:"768e2025-e553-49d2-b300-9d82fd73ed14"]
+---
+time 1526374866
+old [description:"lire testing guide OWASP" entry:"1525851787" modified:"1526374616" project:"perso.cours" status:"pending" tags:"cours,security,it,testing" uuid:"95801004-a53f-4b57-a345-dab6dcc5d0cb"]
+new [description:"lire testing guide OWASP" entry:"1525851787" modified:"1526374866" project:"perso.cours" status:"pending" tags:"security,it,testing" uuid:"95801004-a53f-4b57-a345-dab6dcc5d0cb"]
+---
+time 1526374866
+old [description:"OWASP Zed Attack Proxy Project" entry:"1525852044" modified:"1526374616" project:"perso.cours" status:"pending" tags:"lire,testing,cours,security" uuid:"3cbce732-76db-4f79-af39-7338edef62a5"]
+new [description:"OWASP Zed Attack Proxy Project" entry:"1525852044" modified:"1526374866" project:"perso.cours" status:"pending" tags:"lire,testing,security" uuid:"3cbce732-76db-4f79-af39-7338edef62a5"]
+---
+time 1526374866
+old [description:"read web application security testing cheat sheet + security" entry:"1525868324" modified:"1526374616" project:"perso.cours" status:"pending" tags:"owasp,web,cours" uuid:"47bd9b28-8e58-47a1-8812-0c02eb6d776b"]
+new [description:"read web application security testing cheat sheet + security" entry:"1525868324" modified:"1526374866" project:"perso.cours" status:"pending" tags:"owasp,web" uuid:"47bd9b28-8e58-47a1-8812-0c02eb6d776b"]
+---
+time 1526374866
+old [description:"install github.com\/Hackademic\/hackademic clone" entry:"1525870510" modified:"1526374616" project:"perso.cours" status:"pending" tags:"cours,testing,challenges" uuid:"c63da361-a5af-4d85-8777-3c570decb5fa"]
+new [description:"install github.com\/Hackademic\/hackademic clone" entry:"1525870510" modified:"1526374866" project:"perso.cours" status:"pending" tags:"testing,challenges" uuid:"c63da361-a5af-4d85-8777-3c570decb5fa"]
+---
+time 1526374866
+old [description:"OWASP Security Shepherd" entry:"1525870950" modified:"1526374616" project:"perso.cours" status:"pending" tags:"testing,cours,security" uuid:"c4868394-6934-4ab3-9776-b231510f0c29"]
+new [description:"OWASP Security Shepherd" entry:"1525870950" modified:"1526374866" project:"perso.cours" status:"pending" tags:"testing,security" uuid:"c4868394-6934-4ab3-9776-b231510f0c29"]
+---
+time 1526374866
+old [description:"computer forensics edx" entry:"1526048454" modified:"1526374616" project:"perso.cours" status:"pending" tags:"cours,forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+new [description:"computer forensics edx" entry:"1526048454" modified:"1526374866" project:"perso.cours" status:"pending" tags:"forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+---
+time 1526374962
+old [description:"tuto nmap pratique" entry:"1524477714" modified:"1526374866" project:"perso.cours" status:"pending" uuid:"6faa7571-15b5-49be-94fa-6038714374b0"]
+new [description:"tuto nmap pratique" entry:"1524477714" modified:"1526374962" project:"perso.cours" status:"pending" tags:"nmap,network,scan" uuid:"6faa7571-15b5-49be-94fa-6038714374b0"]
+---
+time 1526374972
+old [description:"test" entry:"1526374582" modified:"1526374582" project:"perso.cours" status:"pending" uuid:"9f3b05ef-af16-4345-9e07-4c266aa4fbf4"]
+new [description:"test" end:"1526374969" entry:"1526374582" modified:"1526374972" project:"perso.cours" status:"deleted" uuid:"9f3b05ef-af16-4345-9e07-4c266aa4fbf4"]
+---
+time 1526375111
+new [description:"list lazy projects" entry:"1526375111" modified:"1526375111" project:"perso.boring" status:"pending" uuid:"b3bcdba2-e079-42b4-8961-04aab10b47b8"]
+---
+time 1526375155
+old [description:"list lazy projects" entry:"1526375111" modified:"1526375111" project:"perso.boring" status:"pending" uuid:"b3bcdba2-e079-42b4-8961-04aab10b47b8"]
+new [description:"list lazy projects" entry:"1526375111" modified:"1526375155" project:"perso.boring" start:"1526375155" status:"pending" uuid:"b3bcdba2-e079-42b4-8961-04aab10b47b8"]
+---
+time 1526375722
+new [description:"cracking code with python" entry:"1526375722" modified:"1526375722" project:"perso.cours" status:"pending" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1526386237
+old [description:"list lazy projects" entry:"1526375111" modified:"1526375155" project:"perso.boring" start:"1526375155" status:"pending" uuid:"b3bcdba2-e079-42b4-8961-04aab10b47b8"]
+new [description:"list lazy projects" entry:"1526375111" modified:"1526386237" project:"perso.boring" status:"pending" uuid:"b3bcdba2-e079-42b4-8961-04aab10b47b8"]
+---
+time 1526386470
+old [description:"list lazy projects" entry:"1526375111" modified:"1526386237" project:"perso.boring" status:"pending" uuid:"b3bcdba2-e079-42b4-8961-04aab10b47b8"]
+new [description:"list lazy projects" due:"1526335200" entry:"1526375111" modified:"1526386470" project:"perso.boring" status:"pending" uuid:"b3bcdba2-e079-42b4-8961-04aab10b47b8"]
+---
+time 1526386554
+old [description:"list lazy projects" due:"1526335200" entry:"1526375111" modified:"1526386470" project:"perso.boring" status:"pending" uuid:"b3bcdba2-e079-42b4-8961-04aab10b47b8"]
+new [description:"list lazy projects" due:"1526421600" entry:"1526375111" modified:"1526386554" project:"perso.boring" status:"pending" uuid:"b3bcdba2-e079-42b4-8961-04aab10b47b8"]
+---
+time 1526386626
+old [description:"cracking code with python" entry:"1526375722" modified:"1526375722" project:"perso.cours" status:"pending" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code with python" due:"1527803999" entry:"1526375722" modified:"1526386626" project:"perso.cours" status:"pending" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1526386670
+old [description:"new clipboard manger roficlip" entry:"1522922266" modified:"1522922266" project:"config" status:"pending" tags:"rofi,roficlip,clipboard" uuid:"8fcb19fb-a028-4984-8774-e09745efd8ee"]
+new [description:"new clipboard manger roficlip" end:"1526386670" entry:"1522922266" modified:"1526386670" project:"config" status:"completed" tags:"rofi,roficlip,clipboard" uuid:"8fcb19fb-a028-4984-8774-e09745efd8ee"]
+---
+time 1526392622
+old [description:"faire cv sur enhancv" entry:"1525680564" modified:"1525680564" project:"perso" status:"pending" tags:"cv,job" uuid:"8fcff8db-b47f-4557-8dde-1ab3527a6a6e"]
+new [description:"faire cv sur enhancv" entry:"1525680564" modified:"1526392622" priority:"H" project:"perso" status:"pending" tags:"cv,job" uuid:"8fcff8db-b47f-4557-8dde-1ab3527a6a6e"]
+---
+time 1526392662
+new [description:"faire cv en anglais" due:"1526767199" entry:"1526392662" modified:"1526392662" priority:"H" status:"pending" uuid:"9690dfea-fcb4-461d-8ce9-da4c63dffc68"]
+---
+time 1526392683
+old [description:"faire cv sur enhancv" entry:"1525680564" modified:"1526392622" priority:"H" project:"perso" status:"pending" tags:"cv,job" uuid:"8fcff8db-b47f-4557-8dde-1ab3527a6a6e"]
+new [description:"faire cv sur enhancv" due:"1526767199" entry:"1525680564" modified:"1526392683" priority:"H" project:"perso" status:"pending" tags:"cv,job" uuid:"8fcff8db-b47f-4557-8dde-1ab3527a6a6e"]
+---
+time 1526392785
+old [description:"+c++" entry:"1520776874" modified:"1526374866" project:"perso.cours" status:"pending" tags:"c" uuid:"72908137-96d8-45f4-b4d5-275da94805fe"]
+new [description:"+c++" end:"1526392785" entry:"1520776874" modified:"1526392785" project:"perso.cours" status:"completed" tags:"c" uuid:"72908137-96d8-45f4-b4d5-275da94805fe"]
+---
+time 1526461385
+old [description:"list lazy projects" due:"1526421600" entry:"1526375111" modified:"1526386554" project:"perso.boring" status:"pending" uuid:"b3bcdba2-e079-42b4-8961-04aab10b47b8"]
+new [description:"list lazy projects" due:"1526767199" entry:"1526375111" modified:"1526461385" project:"perso.boring" status:"pending" uuid:"b3bcdba2-e079-42b4-8961-04aab10b47b8"]
+---
+time 1526461408
+old [description:"cracking code with python" due:"1527803999" entry:"1526375722" modified:"1526386626" project:"perso.cours" status:"pending" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code with python" due:"1526767199" entry:"1526375722" modified:"1526461408" project:"perso.cours" status:"pending" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1526472996
+old [description:"cracking code with python" due:"1526767199" entry:"1526375722" modified:"1526461408" project:"perso.cours" status:"pending" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code with python" due:"1526767199" entry:"1526375722" modified:"1526472996" project:"perso.cours" start:"1526472996" status:"pending" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1526483181
+old [description:"list lazy projects" due:"1526767199" entry:"1526375111" modified:"1526461385" project:"perso.boring" status:"pending" uuid:"b3bcdba2-e079-42b4-8961-04aab10b47b8"]
+new [description:"list lazy projects" due:"1527803999" entry:"1526375111" modified:"1526483181" project:"perso.boring" status:"pending" uuid:"b3bcdba2-e079-42b4-8961-04aab10b47b8"]
+---
+time 1526483200
+old [description:"build project tmux panes for taskwarrior" entry:"1520681385" modified:"1520773828" project:"config" status:"pending" tags:"tmuxinator,taskwarrior" uuid:"5c5873c1-0266-4e44-9514-eefa5e9d8a0b"]
+new [description:"build project tmux panes for taskwarrior" end:"1526483200" entry:"1520681385" modified:"1526483200" project:"config" status:"completed" tags:"tmuxinator,taskwarrior" uuid:"5c5873c1-0266-4e44-9514-eefa5e9d8a0b"]
+---
+time 1526483219
+old [description:"create cheatsheet pour tmux" entry:"1521639302" modified:"1521639365" status:"pending" tags:"tmux,cheat" uuid:"e5a6c924-961c-4e08-8600-2d83240072f2"]
+new [description:"create cheatsheet pour tmux" end:"1526483219" entry:"1521639302" modified:"1526483219" status:"completed" tags:"tmux,cheat" uuid:"e5a6c924-961c-4e08-8600-2d83240072f2"]
+---
+time 1526483241
+new [description:"trouver un outil de cheatsheet" entry:"1526483241" modified:"1526483241" status:"pending" uuid:"dd9fae04-2cdf-4c12-93f8-d7f4d6fbcf14"]
+---
+time 1526483604
+new [description:"failles xss" entry:"1526483604" modified:"1526483604" project:"perso.cours" status:"pending" tags:"faille,security,hack" uuid:"757d1f41-a28d-4e53-bc46-f353590b933a"]
+---
+time 1526483679
+new [description:"failles xss python" entry:"1526483679" modified:"1526483679" project:"perso.cours" status:"pending" tags:"faille,security,hack,python,pentest" uuid:"3402fe39-03aa-47c0-8283-d27c65bbb392"]
+---
+time 1526484171
+old [description:"failles xss python" entry:"1526483679" modified:"1526483679" project:"perso.cours" status:"pending" tags:"faille,security,hack,python,pentest" uuid:"3402fe39-03aa-47c0-8283-d27c65bbb392"]
+new [description:"failles xss python" due:"1526767199" entry:"1526483679" modified:"1526484171" project:"perso.cours" status:"pending" tags:"faille,security,hack,python,pentest" uuid:"3402fe39-03aa-47c0-8283-d27c65bbb392"]
+---
+time 1526541185
+old [description:"config taskwarrior" entry:"1520440885" modified:"1520671956" project:"config" status:"pending" tags:"taskwarrior" uuid:"20f40396-7e78-482a-bdb1-ea8c3cd8d339"]
+new [description:"config taskwarrior" end:"1526541185" entry:"1520440885" modified:"1526541185" project:"config" status:"completed" tags:"taskwarrior" uuid:"20f40396-7e78-482a-bdb1-ea8c3cd8d339"]
+---
+time 1526541185
+old [description:"modif config task-dashboard.json" entry:"1520450820" modified:"1520672004" project:"config" status:"pending" tags:"taskwarrior" uuid:"00a5b7ce-3201-425b-81cc-cceabf3bb20f"]
+new [description:"modif config task-dashboard.json" end:"1526541185" entry:"1520450820" modified:"1526541185" project:"config" status:"completed" tags:"taskwarrior" uuid:"00a5b7ce-3201-425b-81cc-cceabf3bb20f"]
+---
+time 1526541236
+old [description:"review i3 config file" entry:"1520594415" modified:"1520671993" project:"config" status:"pending" tags:"i3" uuid:"af31640a-909d-4d27-9c18-f4044c647c93"]
+new [description:"review i3 config file" entry:"1520594415" modified:"1526541236" project:"perso.config" status:"pending" tags:"i3" uuid:"af31640a-909d-4d27-9c18-f4044c647c93"]
+---
+time 1526541236
+old [description:"config taskwarrior" end:"1526541185" entry:"1520440885" modified:"1526541185" project:"config" status:"completed" tags:"taskwarrior" uuid:"20f40396-7e78-482a-bdb1-ea8c3cd8d339"]
+new [description:"config taskwarrior" end:"1526541185" entry:"1520440885" modified:"1526541236" project:"perso.config" status:"completed" tags:"taskwarrior" uuid:"20f40396-7e78-482a-bdb1-ea8c3cd8d339"]
+---
+time 1526541236
+old [description:"modif config task-dashboard.json" end:"1526541185" entry:"1520450820" modified:"1526541185" project:"config" status:"completed" tags:"taskwarrior" uuid:"00a5b7ce-3201-425b-81cc-cceabf3bb20f"]
+new [description:"modif config task-dashboard.json" end:"1526541185" entry:"1520450820" modified:"1526541236" project:"perso.config" status:"completed" tags:"taskwarrior" uuid:"00a5b7ce-3201-425b-81cc-cceabf3bb20f"]
+---
+time 1526541236
+old [description:"build project tmux panes for taskwarrior" end:"1526483200" entry:"1520681385" modified:"1526483200" project:"config" status:"completed" tags:"tmuxinator,taskwarrior" uuid:"5c5873c1-0266-4e44-9514-eefa5e9d8a0b"]
+new [description:"build project tmux panes for taskwarrior" end:"1526483200" entry:"1520681385" modified:"1526541236" project:"perso.config" status:"completed" tags:"tmuxinator,taskwarrior" uuid:"5c5873c1-0266-4e44-9514-eefa5e9d8a0b"]
+---
+time 1526541236
+old [description:"new clipboard manger roficlip" end:"1526386670" entry:"1522922266" modified:"1526386670" project:"config" status:"completed" tags:"rofi,roficlip,clipboard" uuid:"8fcb19fb-a028-4984-8774-e09745efd8ee"]
+new [description:"new clipboard manger roficlip" end:"1526386670" entry:"1522922266" modified:"1526541236" project:"perso.config" status:"completed" tags:"rofi,roficlip,clipboard" uuid:"8fcb19fb-a028-4984-8774-e09745efd8ee"]
+---
+time 1526541236
+old [description:"saving restoring layout" end:"1522768428" entry:"1520773926" modified:"1522768428" project:"config" status:"completed" tags:"i3,layout" uuid:"6e787069-263a-442b-bebb-40fd2a0a66b1"]
+new [description:"saving restoring layout" end:"1522768428" entry:"1520773926" modified:"1526541236" project:"perso.config" status:"completed" tags:"i3,layout" uuid:"6e787069-263a-442b-bebb-40fd2a0a66b1"]
+---
+time 1526541236
+old [description:"supprimer module de langage que je nutilise pas" end:"1522768413" entry:"1520670956" modified:"1522768413" project:"config" status:"completed" tags:"vim" uuid:"af6c8ba9-6d11-457b-914b-24c7ff291902"]
+new [description:"supprimer module de langage que je nutilise pas" end:"1522768413" entry:"1520670956" modified:"1526541236" project:"perso.config" status:"completed" tags:"vim" uuid:"af6c8ba9-6d11-457b-914b-24c7ff291902"]
+---
+time 1526541236
+old [description:"supprimer module de langage que je nutilise pas" end:"1522768413" entry:"1520670956" modified:"1526541236" project:"perso.config" status:"completed" tags:"vim" uuid:"af6c8ba9-6d11-457b-914b-24c7ff291902"]
+new [description:"supprimer module de langage que je nutilise pas" end:"1522768413" entry:"1520670956" modified:"1526541236" project:"perso.config" status:"completed" tags:"vim" uuid:"af6c8ba9-6d11-457b-914b-24c7ff291902"]
+---
+time 1526541236
+old [description:"liste plugin vim avec lien github pour script plus tard" end:"1522766777" entry:"1521109581" modified:"1522766777" project:"config" status:"completed" tags:"vim,git,plugins" uuid:"43ad3cca-6d03-41da-999f-6d7bf190b06e"]
+new [description:"liste plugin vim avec lien github pour script plus tard" end:"1522766777" entry:"1521109581" modified:"1526541236" project:"perso.config" status:"completed" tags:"vim,git,plugins" uuid:"43ad3cca-6d03-41da-999f-6d7bf190b06e"]
+---
+time 1526541236
+old [description:"tmux command pane-active-border-fg colour" end:"1521710279" entry:"1520681255" modified:"1521710279" project:"config" status:"completed" tags:"tmux" uuid:"716ab42f-19c0-4acf-8c72-17cec118161b"]
+new [description:"tmux command pane-active-border-fg colour" end:"1521710279" entry:"1520681255" modified:"1526541236" project:"perso.config" status:"completed" tags:"tmux" uuid:"716ab42f-19c0-4acf-8c72-17cec118161b"]
+---
+time 1526541236
+old [description:"dev project" end:"1521628770" entry:"1520785992" modified:"1521628770" project:"config" status:"completed" tags:"tmux,tmuxinator,vim,fzf,ipython" uuid:"1b7e7108-598d-414e-958e-84529af57e4e"]
+new [description:"dev project" end:"1521628770" entry:"1520785992" modified:"1526541236" project:"perso.config" status:"completed" tags:"tmux,tmuxinator,vim,fzf,ipython" uuid:"1b7e7108-598d-414e-958e-84529af57e4e"]
+---
+time 1526541236
+old [description:"update config i3" end:"1521553973" entry:"1520448906" modified:"1521553973" project:"config" status:"completed" tags:"i3" uuid:"caab573b-9025-4f94-978a-373ec6f54360"]
+new [description:"update config i3" end:"1521553973" entry:"1520448906" modified:"1526541236" project:"perso.config" status:"completed" tags:"i3" uuid:"caab573b-9025-4f94-978a-373ec6f54360"]
+---
+time 1526541236
+old [description:"ajout nouveau fichiers de config à garder" end:"1521553958" entry:"1520448964" modified:"1521553958" project:"config" status:"completed" tags:"i3" uuid:"fc238897-ce57-4b14-a86b-ecb36efb8134"]
+new [description:"ajout nouveau fichiers de config à garder" end:"1521553958" entry:"1520448964" modified:"1526541236" project:"perso.config" status:"completed" tags:"i3" uuid:"fc238897-ce57-4b14-a86b-ecb36efb8134"]
+---
+time 1526541236
+old [description:"install virtualenv python" end:"1521128553" entry:"1521106970" modified:"1521128553" project:"config" status:"completed" tags:"python" uuid:"b6f188bd-f52c-4694-bed7-034710a2f7b2"]
+new [description:"install virtualenv python" end:"1521128553" entry:"1521106970" modified:"1526541236" project:"perso.config" status:"completed" tags:"python" uuid:"b6f188bd-f52c-4694-bed7-034710a2f7b2"]
+---
+time 1526541236
+old [description:"project notes" end:"1520785842" entry:"1520782903" modified:"1520785842" project:"config" status:"completed" tags:"tmux,tmuxinator" uuid:"eec05887-fcf4-41bf-8ad9-88b48f8efb60"]
+new [description:"project notes" end:"1520785842" entry:"1520782903" modified:"1526541236" project:"perso.config" status:"completed" tags:"tmux,tmuxinator" uuid:"eec05887-fcf4-41bf-8ad9-88b48f8efb60"]
+---
+time 1526541236
+old [description:"script install.py myconfig" end:"1520782632" entry:"1520594505" modified:"1520782632" project:"config" status:"completed" tags:"git,install,script" uuid:"4f97ffb1-6655-4253-99a5-becfd94cc435"]
+new [description:"script install.py myconfig" end:"1520782632" entry:"1520594505" modified:"1526541236" project:"perso.config" status:"completed" tags:"git,install,script" uuid:"4f97ffb1-6655-4253-99a5-becfd94cc435"]
+---
+time 1526541236
+old [description:"list application install" end:"1520778982" entry:"1520594349" modified:"1520778982" project:"config" status:"completed" tags:"app,archlinux,i3" uuid:"428593e8-297e-4b8c-95ff-4839f90779fc"]
+new [description:"list application install" end:"1520778982" entry:"1520594349" modified:"1526541236" project:"perso.config" status:"completed" tags:"app,archlinux,i3" uuid:"428593e8-297e-4b8c-95ff-4839f90779fc"]
+---
+time 1526541236
+old [description:"ajout dun bindkey pour task-dashboard Config i3wm" end:"1520773969" entry:"1520441140" modified:"1520773969" project:"config" status:"completed" tags:"taskwarrior" uuid:"129aea88-504c-446a-a31e-37dbb2ef0c09"]
+new [description:"ajout dun bindkey pour task-dashboard Config i3wm" end:"1520773969" entry:"1520441140" modified:"1526541236" project:"perso.config" status:"completed" tags:"taskwarrior" uuid:"129aea88-504c-446a-a31e-37dbb2ef0c09"]
+---
+time 1526541236
+old [description:"Ranger Notes.md my_config_i3" end:"1520593885" entry:"1520439261" modified:"1520671714" project:"config" status:"completed" uuid:"42a79a23-41d8-4f0d-a2d2-b77387b2259f"]
+new [description:"Ranger Notes.md my_config_i3" end:"1520593885" entry:"1520439261" modified:"1526541236" project:"perso.config" status:"completed" uuid:"42a79a23-41d8-4f0d-a2d2-b77387b2259f"]
+---
+time 1526541236
+old [description:"installation darkstat Config i3wm" end:"1520510564" entry:"1520439512" modified:"1520671714" project:"config" status:"completed" uuid:"8fbb2867-0efb-4d17-b493-dc87c361a6aa"]
+new [description:"installation darkstat Config i3wm" end:"1520510564" entry:"1520439512" modified:"1526541236" project:"perso.config" status:"completed" uuid:"8fbb2867-0efb-4d17-b493-dc87c361a6aa"]
+---

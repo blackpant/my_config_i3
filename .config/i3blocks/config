@@ -28,7 +28,8 @@
 command=/usr/lib/i3blocks/$BLOCK_NAME
 # separator_block_width=15
 # markup=none
-color=#232c31
+# color=#FAFAFA
+color=#000000
 separator=false
 separator_block_width=5
 border_top=0
@@ -80,6 +81,16 @@ command=/home/blackpant/Documents/scripts/screen.sh
 # min_width=button=1 x=1366 y=768
 # align=left
 
+[mpd]
+label=Music
+command=/home/blackpant/Documents/scripts/mpd.sh
+interval=2
+border=#DF0101
+# [clickpython]
+# full_text=Python Click
+# command=/home/blackpant/Documents/scripts/script.py
+# min_width=button=1 x=1366 y=768
+# align=left
 #[wifi]
 ##instance=wlp3s0
 #interval=10
@@ -91,11 +102,11 @@ command=/home/blackpant/Documents/scripts/screen.sh
 #interval=5
 
 # The battery instance defaults to 0.
-[battery]
-label=BAT
-label=⚡
-#instance=1
-interval=30
+#[battery]
+#label=BAT
+#label=⚡
+##instance=1
+#interval=30
 
 # Date Time
 #

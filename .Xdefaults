@@ -1,59 +1,38 @@
-! freetype2-infinality
-Xft.autohint: 0
-Xft.lcdfilter:  lcddefault
-Xft.hintstyle:  hintslight
-Xft.hinting: 1
-Xft.antialias: 1
+
+Xft.dpi: 96
+Xft.antialias: true
+Xft.hinting: true
 Xft.rgba: rgb
+Xft.autohint: false
+Xft.hintstyle: hintfull
+Xft.lcdfilter: lcddefault
 
 ! Tango colors for urxvt
-/* URxvt.foreground: #C0C0C0 */
-/* URxvt.background: #171717 */
-/* URxvt.color0:     #2E3436 */
-/* URxvt.color1:     #CC0000 */
-/* URxvt.color2:     #4E9A06 */
-/* URxvt.color3:     #C4A000 */
-/* URxvt.color4:     #3465A4 */
-/* URxvt.color5:     #75507B */
-/* URxvt.color6:     #06989A */
-/* URxvt.color7:     #D3D7CF */
-/* URxvt.color8:     #555753 */
-/* URxvt.color9:     #EF2929 */
-/* URxvt.color10:    #8AE234 */
-/* URxvt.color11:    #FCE94F */
-/* URxvt.color12:    #729FCF */
-/* URxvt.color13:    #AD7FA8 */
-/* URxvt.color14:    #34E2E2 */
-/* URxvt.color15:    #EEEEEC */
-
-
-! Dracula Xresources palette
-URxvt.foreground: #F8F8F2
-URxvt.background: #282A36
-URxvt.color0:     #000000
-URxvt.color8:     #4D4D4D
-URxvt.color1:     #FF5555
-URxvt.color9:     #FF6E67
-URxvt.color2:     #50FA7B
-URxvt.color10:    #5AF78E
-URxvt.color3:     #F1FA8C
-URxvt.color11:    #F4F99D
-URxvt.color4:     #BD93F9
-URxvt.color12:    #CAA9FA
-URxvt.color5:     #FF79C6
-URxvt.color13:    #FF92D0
-URxvt.color6:     #8BE9FD
-URxvt.color14:    #9AEDFE
-URxvt.color7:     #BFBFBF
-URxvt.color15:    #E6E6E6
+URxvt.foreground: #C0C0C0
+URxvt.background: #171717
+URxvt.color0:     #2E3436
+URxvt.color1:     #CC0000
+URxvt.color2:     #4E9A06
+URxvt.color3:     #C4A000
+URxvt.color4:     #3465A4
+URxvt.color5:     #75507B
+URxvt.color6:     #06989A
+URxvt.color7:     #D3D7CF
+URxvt.color8:     #555753
+URxvt.color9:     #EF2929
+URxvt.color10:    #8AE234
+URxvt.color11:    #FCE94F
+URxvt.color12:    #729FCF
+URxvt.color13:    #AD7FA8
+URxvt.color14:    #34E2E2
+URxvt.color15:    #EEEEEC
 
 URxvt.termName:    rxvt-256color
 URxvt.transparent: false
 URxvt.shading:     20
 URxvt.fading:      15
-! URxvt.font:        xft:Iosevka Medium:pixelsize=12.5, xft:Kochi Gothic:antialias=false,xft:Code2000:antialias=false
-URxvt.font:        xft:Source Code Pro for Powerline:pixelsize=11.5,xft:Source Code Pro Black:style=Black,Regular
-/* URxvt.font:        xft:Roboto Mono Light for Powerline Light:pixelsize=10 */
+/* URxvt.font:        xft:Source Code Pro for Powerline:pixelsize=11.5,xft:Source Code Pro Black:style=Black,Regular */
+URxvt.font:        xft:Hack:pixelsize=10
 
 
 URxvt.saveLines:         4096
@@ -64,47 +43,47 @@ URxvt.scrollTtyKeypress: true
 URxvt.urgentOnBell:      true
 URxvt.iconFile:          /usr/share/icons/Numix-Circle/48x48/apps/xterm-color_48x48.svg
 
-! URxvt.perl-lib:       /home/schnouki/.config/urxvt
-! URxvt.perl-ext:       default,cspace,font-size,url-select,tabbedex
+! rofi
+rofi.modi: run
+rofi.font: Hack 15
+rofi.width: 100
+rofi.lines: 5
+rofi.columns: 1
+rofi.opacity: 100
+!                    bg       fg      altbg    hlbg     hlfg
+rofi.color-normal: #282828, #ebdbb2, #282828, #ebdbb2, #282828
+rofi.color-urgent: #282828, #ebdbb2, #282828, #ebdbb2, #282828
+rofi.color-active: #282828, #ebdbb2, #282828, #ebdbb2, #282828
+rofi.color-window: #282828, #282828
+rofi.bw: 0
+rofi.location: 2
+rofi.padding: 100
+rofi.fuzzy: false
 
-URxvt.url-launcher:   /usr/bin/xdg-open
-
-! Tabbedex features
-URxvt.tabbed.new-button:       no
-URxvt.tabbed.autohide:         yes
-URxvt.tabbed.no-tabbedex-keys: yes
-
-! Tabbedex colors
-URxvt.tabbed.tabbar-fg:   244
-URxvt.tabbed.tabbar-bg:   16
-URxvt.tabbed.tab-fg:      255
-URxvt.tabbed.tab-bg:      52
-URxvt.tabbed.bell-tab-fg: 255
-URxvt.tabbed.bell-tab-bg: 160
-URxvt.tabbed.bell-fg:     244
-URxvt.tabbed.bell-bg:     17
-URxvt.tabbed.title-fg:    28
-URxvt.tabbed.title-bg:    16
-
-! Tabbedex keybindings (4-1: Super + Alt)
-URxvt.keysym.4-1-Down:    perl:tabbedex:new_tab
-URxvt.keysym.4-1-Left:    perl:tabbedex:prev_tab
-URxvt.keysym.4-1-Right:   perl:tabbedex:next_tab
-URxvt.keysym.4-1-Up:      perl:tabbedex:rename_tab
-URxvt.keysym.4-1-C-Left:  perl:tabbedex:move_tab_left
-URxvt.keysym.4-1-C-Right: perl:tabbedex:move_tab_right
-
-! Font-size (C-1: Ctrl + Alt)
-URxvt.keysym.C-1-Up:     perl:font-size:increase
-URxvt.keysym.C-1-Down:   perl:font-size:decrease
-URxvt.keysym.C-S-1-Up:   perl:font-size:incglobal
-URxvt.keysym.C-S-1-Down: perl:font-size:decglobal
-
-! url-select
-URxvt.keysym.M-u: perl:url-select:select_next
-URxvt.url-select.launcher: /usr/bin/xdg-open
-URxvt.url-select.underline: yes
-
-
-
-!(call-process-shell-command "xrdb -load ~/.Xresources")
+! === gruvbox color scheme ===
+*background             : #1d2021
+*foreground             : #ebdbb2
+! Black + DarkGrey
+*color0                 : #2828100
+*color8                 : #928374
+! DarkRed + Red
+*color1                 : #cc241d
+*color9                 : #fb4934
+! DarkGreen + Green
+*color2                 : #98971a
+*color10                : #b8bb26
+! DarkYellow + Yellow
+*color3                 : #d79921
+*color11                : #fabd2f
+! DarkBlue + Blue
+*color4                 : #458588
+*color12                : #83a598
+! DarkMagenta + Magenta
+*color5                 : #b16286
+*color13                : #d3869b
+! DarkCyan + Cyan
+*color6                 : #689d6a
+*color14                : #8ec07c
+! LightGrey + White
+*color7                 : #a89984
+*color15                : #ebdbb2

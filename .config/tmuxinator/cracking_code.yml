@@ -1,0 +1,18 @@
+# ~/.tmuxinator/cracking_code.yml
+
+name: cracking_code
+root: ~/
+
+pre_window: workon cracking_code_py
+
+windows:
+  - editor:
+      layout: main-vertical
+      panes:
+        - vim --servername crack_py
+        - vim --servername crack_py --remote-tab-silent $(fzf)
+        - lsl
+  - server: 
+      panes:
+        - lsl
+        - pip freeze > requirements.txt

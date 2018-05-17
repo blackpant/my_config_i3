@@ -55,8 +55,8 @@ color2 1994D1
 color3 1994D1 
 
 # Lua Load  ##${voffset 750}
-lua_load ~/conky/rings-v1.2.1.lua
-#lua_load ~/conky/rings-v1.3.1.lua
+# lua_load ~/conky/rings-v1.2.1.lua
+lua_load ~/conky/rings-v1.3.1.lua
 lua_draw_hook_pre ring_stats
 
 TEXT
@@ -80,4 +80,4 @@ ${font Xirod:size=8}${color0}${goto 68}${voffset 10}HARD DRIVE
 ${font Xirod:size=8}${goto 185}${voffset 78}${color0}${time %d} ${color0}${time %A}
 ${font Xirod:size=18}${goto 165}${color1}${voffset -3}${time %H}:${time %M}
 ${hr}
-${font pango:Source Code Pro:Regular:size=8}${goto 68}${color1}${execi 1 ssh aurera@localhost ipcs -mu}
+# ${font pango:Source Code Pro:Regular:size=8}${goto 68}${color1}${execi 1 ssh aurera@localhost ipcs -mu}

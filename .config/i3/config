@@ -15,20 +15,28 @@
 set $mod Mod1
 set $vim gvim
 
-# set gaps
-gaps inner 10
-gaps outer 1
-# smart_gaps on
-
-set_from_resource $darkred color1 #000000
-set_from_resource $white color15 #000000
+set_from_resource $darkred     color1  #000000
+set_from_resource $red         color9  #000000
+set_from_resource $darkgreen   color2  #000000
+set_from_resource $green       color10 #000000
+set_from_resource $darkyellow  color3  #000000
+set_from_resource $yellow      color11 #000000
+set_from_resource $darkblue    color4  #000000
+set_from_resource $blue        color12 #000000
+set_from_resource $darkmagenta color5  #000000
+set_from_resource $magenta     color13 #000000
+set_from_resource $darkcyan    color6  #000000
+set_from_resource $cyan        color14 #000000
+set_from_resource $darkwhite   color7  #000000
+set_from_resource $white       color15 #000000
 set $black       #282828
 set $darkblack   #1d2021
 set $transparent #00000000
 
 # keybindings perso
 bindsym Mod4+n exec --no-startup-id firefox # lance firefox
-bindsym Mod4+v exec --no-startup-id $vim #lancement de $vim
+bindsym Mod4+v exec --no-startup-id $vim    # lancement de $vim
+bindsym Mod4+e exec --no-startup-id emacs   # lancement de spacemacs
 # bindsym Mod4+n exec --no-startup-id chromium # lance chromium
 # bindsym Mod4+Return exec terminator # lance terminator
 # bindsym $mod+Return exec --no-startup-id urxvtc # lance urxvt client
@@ -60,10 +68,10 @@ bindsym $mod+l focus up
 bindsym $mod+m focus right
 
 # alternatively, you can use the cursor keys:
-bindsym $mod+Left focus left
-bindsym $mod+Down focus down
-bindsym $mod+Up focus up
-bindsym $mod+Right focus right
+bindsym $mod+Left   focus left
+bindsym $mod+Down   focus down
+bindsym $mod+Up     focus up
+bindsym $mod+Right  focus right
 
 # move focused window
 bindsym $mod+Shift+J move left
@@ -72,10 +80,10 @@ bindsym $mod+Shift+L move up
 bindsym $mod+Shift+M move right
 
 # alternatively, you can use the cursor keys:
-bindsym $mod+Shift+Left move left
-bindsym $mod+Shift+Down move down
-bindsym $mod+Shift+Up move up
-bindsym $mod+Shift+Right move right
+bindsym $mod+Shift+Left     move left
+bindsym $mod+Shift+Down     move down
+bindsym $mod+Shift+Up       move up
+bindsym $mod+Shift+Right    move right
 
 # split in horizontal orientation
 bindsym $mod+h split h
@@ -104,16 +112,16 @@ bindsym $mod+q focus parent
 #bindcode $mod+d focus child
 
 #set des workspace name
-set $tag1 "1: Web "
-set $tag2 "2: Gvim "
-set $tag3 "3: Term "
-set $tag4 "4: Office "
-set $tag5 "5: Task "
-set $tag6 "6: Monitor "
-set $tag7 "7: Music "
-set $tag8 "8 "
-set $tag9 "9 "
-set $tag0 "10 "
+set $tag1   "1: Web "
+set $tag2   "2: Gvim "
+set $tag3   "3: Term "
+set $tag4   "4: Office "
+set $tag5   "5: Task "
+set $tag6   "6: Monitor "
+set $tag7   "7: Music "
+set $tag8   "8: Keep "
+set $tag9   "9: Screenshots "
+set $tag10  "10: Files"
 
 # move workspace to specific screen
 # workspace $tag1 output 1
@@ -122,24 +130,24 @@ workspace $tag3 output Virtual2
 workspace $tag2 output Virtual2
 
 # switch to workspace
-bindsym $mod+ampersand workspace $tag1
-bindsym $mod+eacute workspace $tag2
-bindsym $mod+quotedbl workspace $tag3
-bindsym $mod+apostrophe workspace $tag4
-bindsym $mod+parenleft workspace $tag5
-bindsym $mod+minus workspace $tag6
-bindsym $mod+egrave workspace $tag7 
-bindsym $mod+underscore workspace $tag8
-bindsym $mod+ccedilla workspace $tag9
-bindsym $mod+agrave workspace $tag10
+bindsym $mod+ampersand      workspace $tag1
+bindsym $mod+eacute         workspace $tag2
+bindsym $mod+quotedbl       workspace $tag3
+bindsym $mod+apostrophe     workspace $tag4
+bindsym $mod+parenleft      workspace $tag5
+bindsym $mod+minus          workspace $tag6
+bindsym $mod+egrave         workspace $tag7
+bindsym $mod+underscore     workspace $tag8
+bindsym $mod+ccedilla       workspace $tag9
+bindsym $mod+agrave         workspace $tag10
 
 # moving to next workspace
 # bindsym Mod4+m workspace next
-bindsym Mod4+Right workspace next
+bindsym Mod4+Right  workspace next
 
 #moving to previous workspace
-bindsym Mod4+j workspace prev
-bindsym Mod4+Left workspace prev
+bindsym Mod4+j      workspace prev
+bindsym Mod4+Left   workspace prev
 
 #moving the windows
 bindsym Mod4+Down move scratchpad
@@ -161,31 +169,48 @@ bindsym $mod+Shift+0 move container to workspace $tag10
 
 # reload the configuration file
 bindsym $mod+Shift+C reload
+
 # restart i3 inplace (preserves your layout/session, can be used to upgrade i3)
 bindsym $mod+Shift+R restart
 # exit i3 (logs you out of your X session)
 bindsym $mod+Shift+E exit
 
+# bindsym --release Caps_Lock exec pkill -SIGRTMIN+11 i3blocks
+# bindsym --release Num_Lock  exec pkill -SIGRTMIN+11 i3blocks
+
+# GAPS SETTINGS
+# set gaps
+gaps inner 10
+gaps outer 1
+# smart_gaps on
+workspace $tag7 gaps inner 30
+
 
 # Start i3bar to display a workspace bar (plus the system information i3status
 # finds out, if available)
 bar {
+        # status_command py3status -c ~/.config/i3/i3status.conf
         status_command i3blocks -c ~/.config/i3blocks/config
         i3bar_command i3bar -t
-        # status_command py3status -c ~/.config/i3/i3status.conf
+        separator_symbol "■"
         font pango:Hack, FontAwesome 11
         tray_output primary
         colors {
-            statusline         $white
-            background         $transparent
-            separator          $transparent
-#                              BORDER       BACKGROUND   TEXT
-            # focused_workspace  $transparent $darkblack   $darkwhite
-            focused_workspace  $transparent #073642
-            inactive_workspace $transparent $transparent $white
-            active_workspace   $transparent $transparent $white
-            urgent_workspace   $darkred     $darkred     $transparent
-            binding_mode       $darkred     $darkred     $transparent
+            statusline          $white
+            background          $transparent
+            separator           $transparent
+            #                   BORDER       BACKGROUND   TEXT
+            focused_workspace   #073642      #073642      #EFECCA
+            inactive_workspace  $transparent $transparent #000000
+            active_workspace    $transparent $transparent #EFECCA
+            urgent_workspace    $darkred     $transparent $transp
+            binding_mode        $darkred     $darkred     $transparent
+            #binding_mode       $darkred     $darkwhite   $transparent
+            #focused_workspace  $transparent $darkblack   $darkyellow
+            #focused_workspace  $transparent #073642      $darkwhite
+            #inactive_workspace $transparent $transparent $white
+            #active_workspace   $transparent $transparent $white
+            #urgent_workspace   $darkred     $darkred     $transparent
         }
         height 30
         position top
@@ -206,17 +231,17 @@ mode "resize" {
         # Pressing right will grow the window’s width.
         # Pressing up will shrink the window’s height.
         # Pressing down will grow the window’s height.
-	
-        bindsym j resize shrink width 10 px or 10 ppt
-        bindsym k resize grow height 10 px or 10 ppt
-        bindsym l resize shrink height 10 px or 10 ppt
-        bindsym m resize grow width 10 px or 10 ppt
+
+        bindsym j resize shrink  width   10 px or 10 ppt
+        bindsym k resize grow    height  10 px or 10 ppt
+        bindsym l resize shrink  height  10 px or 10 ppt
+        bindsym m resize grow    width   10 px or 10 ppt
 
         # same bindings, but for the arrow keys
-        bindsym Left resize shrink width 10 px or 10 ppt
-        bindsym Down resize grow height 10 px or 10 ppt
-        bindsym Up resize shrink height 10 px or 10 ppt
-        bindsym Right resize grow width 10 px or 10 ppt
+        bindsym Left   resize shrink   width   10 px or 10 ppt
+        bindsym Down   resize grow     height  10 px or 10 ppt
+        bindsym Up     resize shrink   height  10 px or 10 ppt
+        bindsym Right  resize grow     width   10 px or 10 ppt
 
         # back to normal: Enter or Escape
         bindsym Return mode "default"
@@ -230,7 +255,7 @@ mode "Config" {
      bindsym s exec $vim --servername config --remote-tab-silent ~/.config/i3/i3status.conf
      bindsym b exec $vim --servername config --remote-tab-silent ~/.config/i3blocks/config
      bindsym x exec $vim --servername config --remote-tab-silent ~/.Xdefaults
-     bindsym c exec $vim --servername config --remote-tab-silent ~/.conkyrc 
+     bindsym c exec $vim --servername config --remote-tab-silent ~/.conkyrc
      bindsym v exec $vim --servername config --remote-tab-silent ~/.vim_runtime/my_configs.vim
      bindsym z exec $vim --servername config --remote-tab-silent ~/.zshrc
 
@@ -240,13 +265,12 @@ mode "Config" {
 bindsym Mod4+c mode "Config"
 
 mode "Focused" {
-     bindsym u [class="URxvt"] focus
-     bindsym v [class="Gvim"] focus
-     bindsym n [class="Firefox"] focus
-     bindsym t [class="Terminator"] focus
-     bindsym m [title="cmus"] focus
-     bindsym h [title="htop" class="Terminator"] focus
-     # bindsym h [title="htop" class="URxvt"] focus
+     bindsym v [class="Gvim"                      ] focus
+     bindsym n [window_role="browser"             ] focus
+     bindsym t [class="Termite"                   ] focus
+     bindsym m [title="cmus"                      ] focus
+     # bindsym h [title="htop" class="Terminator" ] focus
+     # bindsym h [title="htop" class="URxvt"      ] focus
 
      bindsym Return mode "default"
      bindsym Escape mode "default"
@@ -257,24 +281,23 @@ bindsym --release $mod+d exec --no-startup-id rofi -show
 # bindsym --release $mod+d exec --no-startup-id rofi -show && maim | xclip -selection clipboard -t image/png | notify-send "SCREENSHOT" "screenshot rofi taken"
 
 ##################################################
-#bindsym $mod+d mode "Rofi"
-#mode "Menu" {
-#    bindsym d exec --no-startup-id i3-dmenu-desktop
-#    bindsym r mode "Rofi"
-#
-#    bindsym Return mode "default"
-#    bindsym Escape mode "default"
-#}
-
-# mode "Rofi" {
-# bindsym r exec --no-startup-id rofi -show run
-# bindsym w exec --no-startup-id rofi -show window
-# bindsym s exec --no-startup-id rofi -show combi
-# bindsym d exec --no-startup-id rofi -show drun
-#
-# bindsym Return mode "default"
-# bindsym Escape mode "default"
+# bindsym $mod+d mode "Rofi"
+# mode "Menu" {
+#     bindsym d exec --no-startup-id i3-dmenu-desktop
+#     bindsym r mode "Rofi"
+# 
+#     bindsym Return mode "default"
+#     bindsym Escape mode "default"
 # }
+#  mode "Rofi" {
+#  bindsym r exec --no-startup-id rofi -show run
+#  bindsym w exec --no-startup-id rofi -show window
+#  bindsym s exec --no-startup-id rofi -show combi
+#  bindsym d exec --no-startup-id rofi -show drun
+# 
+#  bindsym Return mode "default"
+#  bindsym Escape mode "default"
+#  }
 ##################################################
 bindsym $mod+Return mode "Terminal"
 mode "Terminal" {
@@ -288,9 +311,6 @@ mode "Terminal" {
 
 bindcode 107 mode "screenshot"
 mode "screenshot" {
-#   bindsym f exec --no-startup-id scrot -f -e 'xclip $f -selection clipboard -t image/png'
-#   bindsym m exec --no-startup-id scrot -m -e 'xclip $f -selection clipboard -t image/png'
-#   bindsym t exec --no-startup-id maim -i $(xdotool getactivewindow) | xclip -selection clipboard -t image/png | notify-send "SCREENSHOT" "active windows screenshot taken"
     bindsym f exec --no-startup-id maim | xclip -selection clipboard -t image/png | notify-send "SCREENSHOT" "active workspace screenshot."
     bindsym s exec --no-startup-id maim -i $(xdotool getactivewindow)| xclip -selection clipboard -t image/png | notify-send "SCREENSHOT" "screenshot taken of the active window"
 
@@ -302,48 +322,48 @@ mode "screenshot" {
 # Trouver une combinaison de touches !!
 
 
-for_window [title="^htop$" class="URxvt"] move workspace $tag6, focus
-for_window [title="^htop$" class="Terminator"] move workspace $tag6, focus
-for_window [class="Nitrogen"] floating enable, focus
+for_window [class="Termite"                   ] focus
+for_window [class="Terminator"                ] focus
+for_window [title="^htop$" class="URxvt"      ] move workspace $tag6   , focus
+for_window [title="^htop$" class="Terminator" ] move workspace $tag6   , focus
+for_window [title="^htop$" class="Termite"    ] move workspace $tag6   , focus
+for_window [class="Nitrogen"                  ] floating enable        , focus
+# for_window [class="feh"                     ] floating enable        , focus
 
-for_window [window_role="pop-up"] floating enable
-for_window [window_role="Preferences"] floating enable
+for_window [window_role="pop-up"              ] floating enable        , focus
+for_window [window_role="Preferences"         ] floating enable        , focus
+# for_window [window_role="browser"           ] floating enable        , focus
+for_window [window_type="dialog"              ] move workspace current , focus # deplace les fenetres de dialogs vim dans le workspace courant.
 
 
 #workspace backandforth
 workspace_auto_back_and_forth yes
 
 # assign programmes à un workspace
-assign [class="Gvim"] $tag2 
-assign [class="URxvt"] $tag3
-assign [class="Terminator"] $tag3
-assign [class="Firefox"] $tag1
-assign [class="Chromium"] $tag1
-
-# assign [class="Conky"] $tag6
-
+assign [class = "Gvim"       ] $tag2
+assign [class = "Terminator" ] $tag3
+assign [class = "Termite"    ] $tag3
+assign [class = "Firefox"    ] $tag1
+assign [class = "Chromium"   ] $tag1
+assign [class = "vlc"        ] $tag7
 
 
-#nouvelle fenetre avec bordure 
-default_border pixel 0
-#nouvelle fenetre  flotante avec bordure 
+default_border          pixel 0
 default_floating_border pixel 0
 
 
-#exec --no-startup-id guake
-# exec_always --no-startup-id conky ~/.conkyrc
-# exec_always --no-startup-id python jedihttp.py --log 'debug'
 
 # Autostart Application
-#
-exec --no-startup-id urxvtd -q
-# exec --no-startup-id clipster -d
-# exec --no-startup-id compton -fb --config ~/.config/compton.conf -i 
 exec --no-startup-id compton -fb --config ~/.config/compton.conf -i 0.8 --inactive-opacity-override --inactive-dim 0.1 -G --sw-opti
 exec --no-startup-id feh --bg-fill ~/Images/Wallpapers/leopard2.jpg
-# exec --no-startup-id nm-applet
 exec --no-startup-id pa-applet
-# exec --no-startup-id ssh-add ~/.ssh/rsaopenssh
+exec --no-startup-id urxvtd -q
 exec --no-startup-id greenclip daemon
 exec --no-startup-id xfce4-power-manager
 exec --no-startup-id dunst
+# exec --no-startup-id clipster -d
+# exec --no-startup-id compton -fb --config ~/.config/compton.conf -i
+# exec --no-startup-id nm-applet
+# exec --no-startup-id ssh-add ~/.ssh/rsaopenssh
+# exec_always --no-startup-id conky ~/.conkyrc
+# exec_always --no-startup-id python jedihttp.py --log 'debug'

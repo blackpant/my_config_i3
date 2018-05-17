@@ -275,3 +275,4 @@ source /usr/bin/virtualenvwrapper_lazy.sh
 # pour permettre à vim-multi-cursor de fonctionner
 # avec la touche <C-s>
 stty -ixon
+# export TERM=termite
