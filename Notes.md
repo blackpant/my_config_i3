@@ -1033,3 +1033,23 @@ Mise en forme en clair du fichier de config i3. Avec indentations et tout.
 BLACKARCH DISTRIB
 distribution archlinux pour pentesting.
 installation : [Lien install](https://blackarch.org/downloads.html#install-repo)
+
+installation de bmenu
+dmenu like dans le terminal. Sorte de couteau suisse du menu xD.
+
+installation de maia theme
+install vibrancy theme
+install adapta theme
+
+utilisation de alsamixer
+install volumeicon
+pacmixer equivalent pour pulseaudio apparemment !!
+A ajout dans le fichier de config de rofi :
+configuration {
+    show-icons: true;
+    drun-icon-theme: "MY_ICON_THEME";
+}
+ou 
+rofi -show drun -show-icons -drun-icon-theme MY_ICON_THEME
+
+

@@ -86,10 +86,10 @@ bindsym $mod+Shift+Up       move up
 bindsym $mod+Shift+Right    move right
 
 # split in horizontal orientation
-bindsym $mod+h split h
+bindsym $mod+h split h;exec notify-send 'tile horizontally'
 
 # split in vertical orientation
-bindsym $mod+v split v
+bindsym $mod+v split v;exec notify-send 'tile vertically'
 
 # enter fullscreen mode for the focused container
 bindsym $mod+f fullscreen
@@ -201,9 +201,9 @@ bar {
             separator           $transparent
             #                   BORDER       BACKGROUND   TEXT
             focused_workspace   #073642      #073642      #EFECCA
-            inactive_workspace  $transparent $transparent #000000
+            inactive_workspace  $transparent $transparent $white
             active_workspace    $transparent $transparent #EFECCA
-            urgent_workspace    $darkred     $transparent $transp
+            urgent_workspace    $darkred     $transparent $darkred
             binding_mode        $darkred     $darkred     $transparent
             #binding_mode       $darkred     $darkwhite   $transparent
             #focused_workspace  $transparent $darkblack   $darkyellow
@@ -255,9 +255,9 @@ mode "Config" {
      bindsym s exec $vim --servername config --remote-tab-silent ~/.config/i3/i3status.conf
      bindsym b exec $vim --servername config --remote-tab-silent ~/.config/i3blocks/config
      bindsym x exec $vim --servername config --remote-tab-silent ~/.Xdefaults
-     bindsym c exec $vim --servername config --remote-tab-silent ~/.conkyrc
      bindsym v exec $vim --servername config --remote-tab-silent ~/.vim_runtime/my_configs.vim
      bindsym z exec $vim --servername config --remote-tab-silent ~/.zshrc
+     bindsym r exec $vim --servername config --remote-tab-silent ~/.config/rofi/config
 
      bindsym Return mode "default"
      bindsym Escape mode "default"
@@ -277,7 +277,8 @@ mode "Focused" {
 }
 bindsym Mod4+f mode "Focused"
 
-bindsym --release $mod+d exec --no-startup-id rofi -show
+bindsym --release $mod+d exec --no-startup-id rofi -show combi -show-icons
+# '/usr/share/icons/Numix-Light'
 # bindsym --release $mod+d exec --no-startup-id rofi -show && maim | xclip -selection clipboard -t image/png | notify-send "SCREENSHOT" "screenshot rofi taken"
 
 ##################################################
@@ -356,11 +357,11 @@ default_floating_border pixel 0
 # Autostart Application
 exec --no-startup-id compton -fb --config ~/.config/compton.conf -i 0.8 --inactive-opacity-override --inactive-dim 0.1 -G --sw-opti
 exec --no-startup-id feh --bg-fill ~/Images/Wallpapers/leopard2.jpg
-exec --no-startup-id pa-applet
 exec --no-startup-id urxvtd -q
 exec --no-startup-id greenclip daemon
-exec --no-startup-id xfce4-power-manager
 exec --no-startup-id dunst
+# exec --no-startup-id pa-applet
+# exec --no-startup-id xfce4-power-manager
 # exec --no-startup-id clipster -d
 # exec --no-startup-id compton -fb --config ~/.config/compton.conf -i
 # exec --no-startup-id nm-applet

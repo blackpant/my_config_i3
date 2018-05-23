@@ -1,4 +1,3 @@
-
 search termina
 search term
 search config
@@ -9,7 +8,19 @@ rename Faction.jpeg
 search mnt
 search flow
 search musi
-cd 
 open_with
 delete
+cd .config/
+cd  rofi
+rename Public
+search xdefa
+open_with vim
+open_with 
 cd /mnt/hgfs/Python pour les pentesteurs 2-2-2
+cd 
+cd /mnt/hgfs/Scripts/python-sample-send-mail
+shell 
+
+cd .config/ranger/
+cd /mnt/hgfs/Scripts/
+search env
