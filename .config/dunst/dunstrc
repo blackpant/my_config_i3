@@ -40,7 +40,7 @@
 
     ### Text ###
 
-    font = "Hack 10"
+    font = "Hack 8"
 
     line_height = 3
     markup = yes
@@ -108,7 +108,7 @@
     # Print a notification on startup.
     # This is mainly for error detection, since dbus (re-)starts dunst
     # automatically after a crash.
-    startup_notification = false
+    startup_notification = true
 
     ### Legacy
 

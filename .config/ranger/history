@@ -15,12 +15,30 @@ cd  rofi
 rename Public
 search xdefa
 open_with vim
-open_with 
 cd /mnt/hgfs/Python pour les pentesteurs 2-2-2
-cd 
 cd /mnt/hgfs/Scripts/python-sample-send-mail
-shell 
-
 cd .config/ranger/
 cd /mnt/hgfs/Scripts/
+search xdefau
+search doc
 search env
+cd /usr/share/conky/
+cd /usr/share/conky
+open_with gvim
+update_preview 
+update
+search docu
+search note
+cd /mnt/hgfs/
+shell vim --servername forensic --remote-silent-tab %s
+search termite
+cd .config/termite
+open_with 
+shell 
+touch linux_forensic_analysis.md
+search forens
+cd 
+cd /mnt/hgfs
+search foren
+
+shell gvim  %s

@@ -201,7 +201,7 @@ bar {
             separator           $transparent
             #                   BORDER       BACKGROUND   TEXT
             focused_workspace   #073642      #073642      #EFECCA
-            inactive_workspace  $transparent $transparent $white
+            inactive_workspace  $transparent $transparent $darkwhite
             active_workspace    $transparent $transparent #EFECCA
             urgent_workspace    $darkred     $transparent $darkred
             binding_mode        $darkred     $darkred     $transparent
@@ -212,7 +212,7 @@ bar {
             #active_workspace   $transparent $transparent $white
             #urgent_workspace   $darkred     $darkred     $transparent
         }
-        height 30
+        height 25
         position top
 }
 
@@ -258,6 +258,7 @@ mode "Config" {
      bindsym v exec $vim --servername config --remote-tab-silent ~/.vim_runtime/my_configs.vim
      bindsym z exec $vim --servername config --remote-tab-silent ~/.zshrc
      bindsym r exec $vim --servername config --remote-tab-silent ~/.config/rofi/config
+     bindsym c exec $vim --servername config --remote-tab-silent ~/.config/compton.conf
 
      bindsym Return mode "default"
      bindsym Escape mode "default"
@@ -268,7 +269,7 @@ mode "Focused" {
      bindsym v [class="Gvim"                      ] focus
      bindsym n [window_role="browser"             ] focus
      bindsym t [class="Termite"                   ] focus
-     bindsym m [title="cmus"                      ] focus
+     # bindsym m [title="cmus"                      ] focus
      # bindsym h [title="htop" class="Terminator" ] focus
      # bindsym h [title="htop" class="URxvt"      ] focus
 
@@ -277,7 +278,9 @@ mode "Focused" {
 }
 bindsym Mod4+f mode "Focused"
 
-bindsym --release $mod+d exec --no-startup-id rofi -show combi -show-icons
+bindsym --release $mod+d exec --no-startup-id rofi -show drun -show-icons 
+bindsym --release Mod4+Shift+b exec --no-startup-id termite -e bmenu
+bindsym --release Mod4+Shift+m exec --no-startup-id morc_menu
 # '/usr/share/icons/Numix-Light'
 # bindsym --release $mod+d exec --no-startup-id rofi -show && maim | xclip -selection clipboard -t image/png | notify-send "SCREENSHOT" "screenshot rofi taken"
 
@@ -286,7 +289,7 @@ bindsym --release $mod+d exec --no-startup-id rofi -show combi -show-icons
 # mode "Menu" {
 #     bindsym d exec --no-startup-id i3-dmenu-desktop
 #     bindsym r mode "Rofi"
-# 
+#
 #     bindsym Return mode "default"
 #     bindsym Escape mode "default"
 # }
@@ -295,7 +298,7 @@ bindsym --release $mod+d exec --no-startup-id rofi -show combi -show-icons
 #  bindsym w exec --no-startup-id rofi -show window
 #  bindsym s exec --no-startup-id rofi -show combi
 #  bindsym d exec --no-startup-id rofi -show drun
-# 
+#
 #  bindsym Return mode "default"
 #  bindsym Escape mode "default"
 #  }
@@ -329,11 +332,9 @@ for_window [title="^htop$" class="URxvt"      ] move workspace $tag6   , focus
 for_window [title="^htop$" class="Terminator" ] move workspace $tag6   , focus
 for_window [title="^htop$" class="Termite"    ] move workspace $tag6   , focus
 for_window [class="Nitrogen"                  ] floating enable        , focus
-# for_window [class="feh"                     ] floating enable        , focus
 
 for_window [window_role="pop-up"              ] floating enable        , focus
 for_window [window_role="Preferences"         ] floating enable        , focus
-# for_window [window_role="browser"           ] floating enable        , focus
 for_window [window_type="dialog"              ] move workspace current , focus # deplace les fenetres de dialogs vim dans le workspace courant.
 
 
@@ -342,7 +343,7 @@ workspace_auto_back_and_forth yes
 
 # assign programmes à un workspace
 assign [class = "Gvim"       ] $tag2
-assign [class = "Terminator" ] $tag3
+# assign [class = "Terminator" ] $tag3
 assign [class = "Termite"    ] $tag3
 assign [class = "Firefox"    ] $tag1
 assign [class = "Chromium"   ] $tag1
@@ -355,11 +356,15 @@ default_floating_border pixel 0
 
 
 # Autostart Application
-exec --no-startup-id compton -fb --config ~/.config/compton.conf -i 0.8 --inactive-opacity-override --inactive-dim 0.1 -G --sw-opti
-exec --no-startup-id feh --bg-fill ~/Images/Wallpapers/leopard2.jpg
+exec --no-startup-id compton -fb --config ~/.config/compton.conf -i 0.6 --inactive-opacity-override --inactive-dim 0.1 -G --sw-opti --focus-exclude '_NET_WM_NAME@:s = "rofi"'
 exec --no-startup-id urxvtd -q
 exec --no-startup-id greenclip daemon
 exec --no-startup-id dunst
+exec --no-startup-id nitrogen --restore
+exec --no-startup-id volumeicon -c ~/.config/volumeicon/volumeicon
+exec --no-startup-id conky -c ~/.conky/conky_maia
+exec --no-startup-id conky -c ~/.conky/conky_shortcuts_live_maia
+# exec --no-startup-id feh --bg-fill ~/Images/Wallpapers/leopard2.jpg
 # exec --no-startup-id pa-applet
 # exec --no-startup-id xfce4-power-manager
 # exec --no-startup-id clipster -d

@@ -35,7 +35,7 @@ separator_block_width=5
 border_top=0
 border_left=0
 border_right=0
-border_bottom=4
+border_bottom=3
 # border=#073642
 
 # Volume indicator
@@ -50,12 +50,12 @@ border_bottom=4
 ##instance=PCM
 #interval=once
 #signal=10
-[volume]
-label=
-interval=once
-# interval=5
-signal=1
-markup=pango
+# [volume]
+# label=
+# interval=once
+# # interval=5
+# signal=1
+# markup=pango
 # border=#cc241d
 
 # Network interface monitoring

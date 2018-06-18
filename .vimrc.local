@@ -1,0 +1,76 @@
+set noshowmode
+let g:lightline = {
+    \ 'colorscheme': 'powerline',
+    \ 'separator': {'left':'', 'right': ''},
+    \ 'subseparator': {'left':'', 'right': ''},
+    \ }
+
+let g:lightline.tabline = {
+    \ 'left': [ ['tabs'] ],
+    \ 'right' : [ ['helloworld'] ]
+    \ }
+set showtabline=2 " show tabline
+set guioptions-=e " dont use gui tabline
+
+
+" let g:lightline.component = {
+"     \ 'helloworld': 'Hello Goolge'
+"     \ }
+
+" let g:lightline.component_function = {
+"     \ 'gitbranch': 'fugitive#head'
+"     \ }
+
+" let g:lightline.active = {
+"     \ 'left': [['mode','paste'],
+"     \       ['readonly', 'filename', 'modified', 'gitbranch']]
+"     \ }
+
+" let g:solarized_termcolors=16
+" color solarized
+" Set font according to system
+if has("mac") || has("macunix")
+    set gfn=Hack:h14,Source\ Code\ Pro:h15,Menlo:h15
+elseif has("win16") || has("win32")
+    set gfn=Hack:h14,Source\ Code\ Pro:h12,Bitstream\ Vera\ Sans\ Mono:h11
+elseif has("gui_gtk2")
+    set gfn=Hack\ 9,Source\ Code\ Pro\ 9
+elseif has("gui_gtk")
+    set gfn=Hack\ 10,Source\ Code\ Pro\ 10
+elseif has("linux")
+    set gfn=Hack\ 11,Source\ Code\ Pro\ 11
+elseif has("unix")
+    set gfn=Hack\ 14,Source\ Code\ Pro\ 11
+endif
+
+call togglebg#map("<F5>")
+
+" vv to generate new vertical split
+nnoremap <silent> vv <C-w>v
+
+" Tagbar setting
+nmap <F8> :TagbarToggle<CR>
+
+" Escape character remap exit mode insert
+inoremap kj <Esc>
+
+" set new line caracter
+set listchars=tab:ˉ\ ,eol:¬
+set list
+
+" set clipboard=unnamedplus
+" Hide the menu bar
+set guioptions-=m " remove menu bar
+set guioptions-=r " remove the right scroll-bar
+set guioptions-=R " remove the left scroll-bar
+
+let g:airline_theme='base16_spacemacs'
+
+" let g:airline_powerline_fonts = 1
+let g:airline_left_sep = ""
+let g:airline_right_sep = ""
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#tabline#left_sep = ""
+let g:airline#extensions#tabline#left_alt_sep = ""
+
+let g:bufferline_echo = 0

@@ -179,7 +179,8 @@ bindkey -v
 
 ### Source plugins
 ##################
-source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+# source zsh-users/zsh-syntax-highlighting
 source /usr/share/zsh/share/antigen.zsh
 
 # load the oh-my-zsh library
@@ -187,6 +188,7 @@ antigen use oh-my-zsh
 
 # Bundles from the default repo oh-my-zsh repo
 #
+antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle git
 antigen bundle pip
 antigen bundle colored-man-pages
@@ -205,8 +207,6 @@ antigen bundle tmux_pane-words
 # antigen bundle docker
 
 # Use theme agnoster from oh-my-zsh
-# antigen theme robbyrussell
-# antigen theme avit
 antigen theme agnoster
 
 # Apply the settings and it's done
@@ -270,7 +270,7 @@ export KEYTIMEOUT=1
 export WORKON_HOME=$HOME/Documents/.virtualenvs
 export PROJECT_HOME=$HOME/Documents/Devel
 export VIRTUALENVWRAPPER_SCRIPT=/usr/bin/virtualenvwrapper.sh
-source /usr/bin/virtualenvwrapper_lazy.sh
+# source /usr/bin/virtualenvwrapper_lazy.sh
 
 # pour permettre à vim-multi-cursor de fonctionner
 # avec la touche <C-s>

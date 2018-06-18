@@ -127,7 +127,7 @@
   yaourt -S dmenu
 ```
 
-- ROFI install
+- ROFI **install**
 ```sh
   install de compton
   yaourt -S compton
@@ -1045,11 +1045,21 @@ utilisation de alsamixer
 install volumeicon
 pacmixer equivalent pour pulseaudio apparemment !!
 A ajout dans le fichier de config de rofi :
-configuration {
-    show-icons: true;
-    drun-icon-theme: "MY_ICON_THEME";
-}
+```
+    configuration {
+        show-icons: true;
+        drun-icon-theme: "MY_ICON_THEME";
+    }
+```
 ou 
-rofi -show drun -show-icons -drun-icon-theme MY_ICON_THEME
+`rofi -show drun -show-icons -drun-icon-theme MY_ICON_THEME`.
+juste :
+`rofi -show drun -show-icons`
 
+renommer `.Xdefaults` par `.Xresources`.
+
+tasknc - ncurses wrapper for taskwarrior. Installation.
+
+[collection de theme termite](https://github.com/khamer/base16-termite/tree/master/themes)
+[using rofi with compton](https://github.com/DaveDavenport/rofi/wiki/Using-rofi-with-compton)
 

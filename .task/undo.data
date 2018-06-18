@@ -1726,3 +1726,653 @@ new [description:"failles xss python" due:"1526767199" end:"1526562768" entry:"1
 time 1526652367
 new [description:"installation liste and script tool" entry:"1526652367" modified:"1526652367" project:"perso.config" status:"pending" tags:"tool,install" uuid:"acd28ec5-46bb-44b3-a119-5dc7fcf9aea0"]
 ---
+time 1527665701
+new [description:"tuto dd command" entry:"1527589436" modified:"1527589436" project:"perso.cours" status:"pending" tags:"forensic,tool,imaging" uuid:"8c92428c-4830-4cdc-a770-722e13010995"]
+---
+time 1527665701
+old [description:"tuto dd command" entry:"1527589436" modified:"1527589436" project:"perso.cours" status:"pending" tags:"forensic,tool,imaging" uuid:"8c92428c-4830-4cdc-a770-722e13010995"]
+new [description:"tuto dd command" due:"1527976799" entry:"1527589436" modified:"1527589528" project:"perso.cours" status:"pending" tags:"forensic,tool,imaging" uuid:"8c92428c-4830-4cdc-a770-722e13010995"]
+---
+time 1527665701
+old [description:"tuto dd command" due:"1527976799" entry:"1527589436" modified:"1527589528" project:"perso.cours" status:"pending" tags:"forensic,tool,imaging" uuid:"8c92428c-4830-4cdc-a770-722e13010995"]
+new [description:"tuto dd command" due:"1527976799" end:"1527665095" entry:"1527589436" modified:"1527665095" project:"perso.cours" status:"completed" tags:"forensic,tool,imaging" uuid:"8c92428c-4830-4cdc-a770-722e13010995"]
+---
+time 1527665701
+old [description:"computer forensics edx" entry:"1526048454" modified:"1526374866" project:"perso.cours" status:"pending" tags:"forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+new [description:"computer forensics edx" entry:"1526048454" modified:"1527665108" project:"perso.cours" start:"1527665108" status:"pending" tags:"forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+---
+time 1527665701
+old [description:"computer forensics edx" entry:"1526048454" modified:"1527665108" project:"perso.cours" start:"1527665108" status:"pending" tags:"forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+new [description:"computer forensics edx" entry:"1526048454" modified:"1527665128" priority:"M" project:"perso.cours" start:"1527665108" status:"pending" tags:"forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+---
+time 1527669668
+old [description:"continuer installation blackarch" due:"1526767199" entry:"1526559236" modified:"1526559256" project:"perso" status:"pending" tags:"arch,blackarch,config,testing,pentest" uuid:"f47b1326-c9f3-4dfa-a165-789603f62ada"]
+new [description:"continuer installation blackarch" due:"1527803999" entry:"1526559236" modified:"1527669668" project:"perso" status:"pending" tags:"arch,blackarch,config,testing,pentest" uuid:"f47b1326-c9f3-4dfa-a165-789603f62ada"]
+---
+time 1527848285
+new [description:"cracking code python chap 10" due:"1527890399" entry:"1527848285" imask:"1" modified:"1526561302" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"a54f19fa-3229-449e-8312-1c543ebe7ae8"]
+---
+time 1527848285
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+" modified:"1526561302" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+-" modified:"1527848285" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1527848290
+new [description:"cracking code python chap 10" due:"1527890399" entry:"1527838275" imask:"1.000000" modified:"1526561302" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"a469f6f5-ea9f-4ea5-a206-f964116195c9"]
+---
+time 1527848290
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+-" modified:"1527848285" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+-" modified:"1527838275" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1527848290
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+-" modified:"1527838275" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+-" modified:"1527848285" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1527848328
+new [description:"new task" entry:"1527848328" modified:"1527848328" status:"pending" uuid:"75524b82-7d4f-44ea-9c9f-58fcea823a62"]
+---
+time 1527848441
+old [description:"install SIFT VM" entry:"1526562760" modified:"1526562760" project:"perso" status:"pending" uuid:"5e8a8031-2eb2-4705-9b90-0f6cd5302dcd"]
+new [description:"install SIFT VM" end:"1527848441" entry:"1526562760" modified:"1527848441" project:"perso" status:"completed" uuid:"5e8a8031-2eb2-4705-9b90-0f6cd5302dcd"]
+---
+time 1527848451
+old [description:"new task" entry:"1527848328" modified:"1527848328" status:"pending" uuid:"75524b82-7d4f-44ea-9c9f-58fcea823a62"]
+new [description:"new task" end:"1527848451" entry:"1527848328" modified:"1527848451" status:"completed" uuid:"75524b82-7d4f-44ea-9c9f-58fcea823a62"]
+---
+time 1527848512
+new [description:"lire pdf SHIFT forensic vm" entry:"1527848512" modified:"1527848512" project:"perso.cours" status:"pending" tags:"forensic,lire,doc" uuid:"2b33b79a-61d5-4bb5-8c3d-857de94498f7"]
+---
+time 1527848537
+old [description:"lire pdf SHIFT forensic vm" entry:"1527848512" modified:"1527848512" project:"perso.cours" status:"pending" tags:"forensic,lire,doc" uuid:"2b33b79a-61d5-4bb5-8c3d-857de94498f7"]
+new [description:"lire pdf SHIFT forensic vm" due:"1530395999" entry:"1527848512" modified:"1527848537" project:"perso.cours" status:"pending" tags:"forensic,lire,doc" uuid:"2b33b79a-61d5-4bb5-8c3d-857de94498f7"]
+---
+time 1527855444
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+-" modified:"1527848285" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++" modified:"1527855444" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1527855444
+old [description:"cracking code python chap 10" due:"1527890399" entry:"1527838275" imask:"1.000000" modified:"1526561302" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"a469f6f5-ea9f-4ea5-a206-f964116195c9"]
+new [description:"cracking code python chap 10" due:"1527890399" end:"1527855444" entry:"1527838275" imask:"1.000000" modified:"1527855444" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"completed" tags:"python,crypto,hacking,hack" uuid:"a469f6f5-ea9f-4ea5-a206-f964116195c9"]
+---
+time 1527855539
+old [description:"computer forensics edx" entry:"1526048454" modified:"1527665128" priority:"M" project:"perso.cours" start:"1527665108" status:"pending" tags:"forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+new [description:"computer forensics edx" due:"1529065139" entry:"1526048454" modified:"1527855539" priority:"M" project:"perso.cours" start:"1527665108" status:"pending" tags:"forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+---
+time 1527855581
+old [description:"continuer installation blackarch" due:"1527803999" entry:"1526559236" modified:"1527669668" project:"perso" status:"pending" tags:"arch,blackarch,config,testing,pentest" uuid:"f47b1326-c9f3-4dfa-a165-789603f62ada"]
+new [description:"continuer installation blackarch" due:"1527803999" end:"1527855581" entry:"1526559236" modified:"1527855581" project:"perso" status:"completed" tags:"arch,blackarch,config,testing,pentest" uuid:"f47b1326-c9f3-4dfa-a165-789603f62ada"]
+---
+time 1527855633
+old [description:"create tcp ack port scan" entry:"1524489718" modified:"1526374866" project:"perso.cours" status:"pending" tags:"scapy,python" uuid:"af802c1c-2a8f-45e2-9c92-4e79e9af5ace"]
+new [description:"create tcp ack port scan" end:"1527855631" entry:"1524489718" modified:"1527855633" project:"perso.cours" status:"completed" tags:"scapy,python" uuid:"af802c1c-2a8f-45e2-9c92-4e79e9af5ace"]
+---
+time 1527855633
+old [description:"create tcp replay tool" entry:"1524489741" modified:"1526374866" project:"perso.cours" status:"pending" tags:"scapy,python" uuid:"469b2b8f-6280-4704-8001-9d8275a4ef40"]
+new [description:"create tcp replay tool" end:"1527855633" entry:"1524489741" modified:"1527855633" project:"perso.cours" status:"completed" tags:"scapy,python" uuid:"469b2b8f-6280-4704-8001-9d8275a4ef40"]
+---
+time 1527855633
+old [description:"create a udp ping tool" entry:"1524489785" modified:"1526374866" project:"perso.cours" status:"pending" tags:"scapy,python" uuid:"e31def8b-2b7a-4c11-835e-ab37c5d5b8bc"]
+new [description:"create a udp ping tool" end:"1527855633" entry:"1524489785" modified:"1527855633" project:"perso.cours" status:"completed" tags:"scapy,python" uuid:"e31def8b-2b7a-4c11-835e-ab37c5d5b8bc"]
+---
+time 1527855633
+old [description:"create a sniffer that filters based on user input" entry:"1524489913" modified:"1526374866" project:"perso.cours" status:"pending" tags:"scapy,python" uuid:"a6d7f948-f9fa-4e40-a5c5-2945434b6b0f"]
+new [description:"create a sniffer that filters based on user input" end:"1527855633" entry:"1524489913" modified:"1527855633" project:"perso.cours" status:"completed" tags:"scapy,python" uuid:"a6d7f948-f9fa-4e40-a5c5-2945434b6b0f"]
+---
+time 1527855633
+old [description:"create a tool for HTTP Basic authentication : login, bruteforce" entry:"1524489964" modified:"1526374866" project:"perso.cours" status:"pending" tags:"scapy,script,python" uuid:"7d62be83-fad1-433b-8473-766823ba3b63"]
+new [description:"create a tool for HTTP Basic authentication : login, bruteforce" end:"1527855633" entry:"1524489964" modified:"1527855633" project:"perso.cours" status:"completed" tags:"scapy,script,python" uuid:"7d62be83-fad1-433b-8473-766823ba3b63"]
+---
+time 1527855684
+old [description:"completer keep notes avec notes.md" entry:"1521649539" modified:"1523275643" status:"pending" tags:"notes,keep,google,readme" uuid:"60228dc5-149e-48d2-ad2c-d68a8fec1d50"]
+new [description:"completer keep notes avec notes.md" end:"1527855684" entry:"1521649539" modified:"1527855684" status:"completed" tags:"notes,keep,google,readme" uuid:"60228dc5-149e-48d2-ad2c-d68a8fec1d50"]
+---
+time 1527855698
+old [description:"create cheatsheet pour vim" entry:"1521639310" modified:"1521639340" status:"pending" tags:"vim,cheat" uuid:"c64f9364-9844-458b-b41a-52cf425be9a9"]
+new [description:"create cheatsheet pour vim" end:"1527855698" entry:"1521639310" modified:"1527855698" status:"completed" tags:"vim,cheat" uuid:"c64f9364-9844-458b-b41a-52cf425be9a9"]
+---
+time 1527855709
+old [description:"create cheatsheet pour config i3" entry:"1521639281" modified:"1521819956" status:"pending" tags:"cheat,i3" uuid:"cef7aae7-6fb3-4160-954d-053db73b02fa"]
+new [description:"create cheatsheet pour config i3" end:"1527855709" entry:"1521639281" modified:"1527855709" status:"completed" tags:"cheat,i3" uuid:"cef7aae7-6fb3-4160-954d-053db73b02fa"]
+---
+time 1528270148
+new [description:"cracking code python chap 10" due:"1527976799" entry:"1528270148" imask:"2" modified:"1527855444" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"3184cb16-4bce-40b5-8066-ee064f372bc9"]
+---
+time 1528270148
+new [description:"cracking code python chap 10" due:"1528063199" entry:"1528270148" imask:"3" modified:"1527855444" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"b03c580e-f41d-49ca-ae34-d4610ecb6529"]
+---
+time 1528270148
+new [description:"cracking code python chap 10" due:"1528149599" entry:"1528270148" imask:"4" modified:"1527855444" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"3419489d-535d-44ea-b418-1c4ad9b44858"]
+---
+time 1528270148
+new [description:"cracking code python chap 10" due:"1528235999" entry:"1528270148" imask:"5" modified:"1527855444" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"24809def-32f9-4a4f-a27b-014ff9fff8bd"]
+---
+time 1528270148
+new [description:"cracking code python chap 10" due:"1528322399" entry:"1528270148" imask:"6" modified:"1527855444" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"f71d4835-a0d1-475f-bf89-68a6a78debb4"]
+---
+time 1528270148
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++" modified:"1527855444" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++-----" modified:"1528270148" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528270155
+new [description:"screenrecord bmenu use" entry:"1527593216" modified:"1527593216" project:"perso.config" status:"pending" tags:"config,bmenu,screen" uuid:"6cfd1de5-2986-4fee-91c6-38adfcaeb505"]
+---
+time 1528270155
+new [description:"exemple dd command forensic use" entry:"1527593378" modified:"1527593378" project:"perso.cours" status:"pending" tags:"forensic,tool" uuid:"0345359a-b746-48ad-b655-63ffb59a369f"]
+---
+time 1528270155
+new [description:"cracking code python chap 10" due:"1527890399" entry:"1528103191" imask:"1.000000" modified:"1526561302" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"86097f08-542a-4bb9-b073-7f90d95b39e1"]
+---
+time 1528270155
+new [description:"cracking code python chap 10" due:"1527976799" entry:"1528103191" imask:"2.000000" modified:"1526561302" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"5130ae2d-9418-4c55-bccb-a80bbdac78ba"]
+---
+time 1528270155
+new [description:"cracking code python chap 10" due:"1528063199" entry:"1528103191" imask:"3.000000" modified:"1526561302" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"aaf7929c-8cc6-40bb-94e9-030e5a46dab9"]
+---
+time 1528270155
+new [description:"cracking code python chap 10" due:"1528149599" entry:"1528103191" imask:"4.000000" modified:"1526561302" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"72656edf-7d86-4beb-bddf-0a51ee50ab92"]
+---
+time 1528270155
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++-----" modified:"1528270148" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+----" modified:"1528103191" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528270155
+new [description:"info cut command linux" entry:"1528103252" modified:"1528103252" project:"perso.cours" status:"pending" tags:"command,linux" uuid:"1e841b2a-594f-420b-9e5c-50754ed3f711"]
+---
+time 1528270155
+old [description:"info cut command linux" entry:"1528103252" modified:"1528103252" project:"perso.cours" status:"pending" tags:"command,linux" uuid:"1e841b2a-594f-420b-9e5c-50754ed3f711"]
+new [annotation_1528103576:"https:\/\/www.computerhope.com\/unix\/ucut.htm" description:"info cut command linux" entry:"1528103252" modified:"1528103608" project:"perso.cours" status:"pending" tags:"command,linux" uuid:"1e841b2a-594f-420b-9e5c-50754ed3f711"]
+---
+time 1528270155
+new [description:"fonctionnement de netfilter" entry:"1528114472" modified:"1528114472" project:"perso.cours" status:"pending" tags:"linux,firewall,principe" uuid:"6162b723-870c-4e25-86da-4cf68ad687cb"]
+---
+time 1528270155
+old [description:"fonctionnement de netfilter" entry:"1528114472" modified:"1528114472" project:"perso.cours" status:"pending" tags:"linux,firewall,principe" uuid:"6162b723-870c-4e25-86da-4cf68ad687cb"]
+new [annotation_1528114506:"https:\/\/fr.wikipedia.org\/wiki\/Netfilter#\/media\/File:Netfilter-components.svg" description:"fonctionnement de netfilter" entry:"1528114472" modified:"1528114540" project:"perso.cours" status:"pending" tags:"linux,firewall,principe" uuid:"6162b723-870c-4e25-86da-4cf68ad687cb"]
+---
+time 1528270155
+new [description:"explication iptables" entry:"1528114718" modified:"1528114718" project:"perso.cours" status:"pending" tags:"command,linux" uuid:"75abc22d-3e7c-4075-bd5e-7a8f913517a6"]
+---
+time 1528270155
+old [description:"explication iptables" entry:"1528114718" modified:"1528114718" project:"perso.cours" status:"pending" tags:"command,linux" uuid:"75abc22d-3e7c-4075-bd5e-7a8f913517a6"]
+new [annotation_1528114721:"http:\/\/lea-linux.org\/documentations\/Iptables" description:"explication iptables" entry:"1528114718" modified:"1528114733" project:"perso.cours" status:"pending" tags:"command,linux" uuid:"75abc22d-3e7c-4075-bd5e-7a8f913517a6"]
+---
+time 1528270155
+old [annotation_1528114721:"http:\/\/lea-linux.org\/documentations\/Iptables" description:"explication iptables" entry:"1528114718" modified:"1528114733" project:"perso.cours" status:"pending" tags:"command,linux" uuid:"75abc22d-3e7c-4075-bd5e-7a8f913517a6"]
+new [annotation_1528114721:"http:\/\/lea-linux.org\/documentations\/Iptables" annotation_1528114801:"http:\/\/lea-linux.org\/documentations\/Iptables" description:"explication iptables" entry:"1528114718" modified:"1528114817" project:"perso.cours" status:"pending" tags:"command,linux" uuid:"75abc22d-3e7c-4075-bd5e-7a8f913517a6"]
+---
+time 1528270155
+old [annotation_1528114721:"http:\/\/lea-linux.org\/documentations\/Iptables" annotation_1528114801:"http:\/\/lea-linux.org\/documentations\/Iptables" description:"explication iptables" entry:"1528114718" modified:"1528114817" project:"perso.cours" status:"pending" tags:"command,linux" uuid:"75abc22d-3e7c-4075-bd5e-7a8f913517a6"]
+new [annotation_1528114721:"http:\/\/lea-linux.org\/documentations\/Iptables" annotation_1528114801:"http:\/\/lea-linux.org\/documentations\/Iptables" annotation_1528114834:"https:\/\/community.dedimax.com\/index.php\/2016\/05\/03\/configurer-iptables-pour-plus-de-securite\/" description:"explication iptables" entry:"1528114718" modified:"1528114842" project:"perso.cours" status:"pending" tags:"command,linux" uuid:"75abc22d-3e7c-4075-bd5e-7a8f913517a6"]
+---
+time 1528270155
+old [description:"cron schedule system" entry:"1521559867" modified:"1526374866" project:"perso.cours" status:"pending" tags:"linux,tache" uuid:"c53758e3-b6cd-4d20-ba08-03ab218fd079"]
+new [annotation_1528115334:"https:\/\/www.tldp.org\/LDP\/lame\/LAME\/linux-admin-made-easy\/using-cron.html" description:"cron schedule system" entry:"1521559867" modified:"1528115350" project:"perso.cours" status:"pending" tags:"linux,tache" uuid:"c53758e3-b6cd-4d20-ba08-03ab218fd079"]
+---
+time 1528270155
+new [description:"lire linux redhat docu" entry:"1528115542" modified:"1528115542" project:"perso.cours" status:"pending" tags:"linux,command,documentation,redhat" uuid:"55616b62-14d3-45a3-85f4-353a5dce2ab7"]
+---
+time 1528270155
+old [description:"lire linux redhat docu" entry:"1528115542" modified:"1528115542" project:"perso.cours" status:"pending" tags:"linux,command,documentation,redhat" uuid:"55616b62-14d3-45a3-85f4-353a5dce2ab7"]
+new [annotation_1528115551:"https:\/\/www.tldp.org\/LDP\/lame\/LAME\/linux-admin-made-easy\/index.html" description:"lire linux redhat docu" entry:"1528115542" modified:"1528115560" project:"perso.cours" status:"pending" tags:"linux,command,documentation,redhat" uuid:"55616b62-14d3-45a3-85f4-353a5dce2ab7"]
+---
+time 1528270155
+old [annotation_1528115334:"https:\/\/www.tldp.org\/LDP\/lame\/LAME\/linux-admin-made-easy\/using-cron.html" description:"cron schedule system" entry:"1521559867" modified:"1528115350" project:"perso.cours" status:"pending" tags:"linux,tache" uuid:"c53758e3-b6cd-4d20-ba08-03ab218fd079"]
+new [annotation_1528115334:"https:\/\/www.tldp.org\/LDP\/lame\/LAME\/linux-admin-made-easy\/using-cron.html" annotation_1528116202:"https:\/\/www.tldp.org\/LDP\/intro-linux\/html\/sect_04_04.html" description:"cron schedule system" entry:"1521559867" modified:"1528116211" project:"perso.cours" status:"pending" tags:"linux,tache" uuid:"c53758e3-b6cd-4d20-ba08-03ab218fd079"]
+---
+time 1528270155
+new [description:"cracking code python chap 10" due:"1528235999" entry:"1528190788" imask:"5.000000" modified:"1528103191" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"50972954-a5e4-4843-9c49-88b550b87954"]
+---
+time 1528270155
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+----" modified:"1528103191" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+-----" modified:"1528190788" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528270155
+new [description:"read about the boot process of linux system" entry:"1528190834" modified:"1528190834" project:"perso.cours" status:"pending" tags:"linux,boot,process,doc" uuid:"54eaffc4-95c3-4cb3-96d6-f245a51ae732"]
+---
+time 1528270155
+new [description:"get details info about MBR structure" entry:"1528191361" modified:"1528191361" project:"perso.cours" status:"pending" tags:"linux,forensic" uuid:"1f3518f1-ad22-4af5-9016-a64d904ea3bb"]
+---
+time 1528270155
+new [description:"how difficult it is to recover a deleted file depending of the filesystem" entry:"1528211149" modified:"1528211149" project:"perso.cours" status:"pending" tags:"delete,forensic,recover" uuid:"b12f45e0-5c96-4fe8-993d-e09d7ab57225"]
+---
+time 1528270155
+new [description:"cracking code python chap 10" due:"1528322399" entry:"1528269883" imask:"6.000000" modified:"1528190788" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"d36287c3-009e-421e-8d01-581481905a74"]
+---
+time 1528270155
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+-----" modified:"1528190788" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+------" modified:"1528269883" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528270155
+old [description:"cracking code python chap 10" due:"1527890399" entry:"1528103191" imask:"1.000000" modified:"1526561302" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"86097f08-542a-4bb9-b073-7f90d95b39e1"]
+new [description:"cracking code python chap 10" due:"1527890399" entry:"1528103191" imask:"1.000000" modified:"1528269898" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"pending" tags:"python,crypto,hacking,hack" uuid:"86097f08-542a-4bb9-b073-7f90d95b39e1"]
+---
+time 1528270155
+old [description:"cracking code python chap 10" due:"1527890399" entry:"1527848285" imask:"1" modified:"1526561302" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"a54f19fa-3229-449e-8312-1c543ebe7ae8"]
+new [description:"cracking code python chap 10" due:"1527890399" entry:"1527848285" imask:"1.000000" modified:"1528269903" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"pending" tags:"python,crypto,hacking,hack" uuid:"a54f19fa-3229-449e-8312-1c543ebe7ae8"]
+---
+time 1528270155
+old [description:"cracking code python chap 10" due:"1527976799" entry:"1528103191" imask:"2.000000" modified:"1526561302" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"5130ae2d-9418-4c55-bccb-a80bbdac78ba"]
+new [description:"cracking code python chap 10" due:"1527976799" entry:"1528103191" imask:"2.000000" modified:"1528269908" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"pending" tags:"python,crypto,hacking,hack" uuid:"5130ae2d-9418-4c55-bccb-a80bbdac78ba"]
+---
+time 1528270155
+old [description:"cracking code python chap 10" due:"1528149599" entry:"1528103191" imask:"4.000000" modified:"1526561302" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"72656edf-7d86-4beb-bddf-0a51ee50ab92"]
+new [description:"cracking code python chap 10" due:"1528149599" entry:"1528103191" imask:"4.000000" modified:"1528269910" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"pending" tags:"python,crypto,hacking,hack" uuid:"72656edf-7d86-4beb-bddf-0a51ee50ab92"]
+---
+time 1528270155
+old [description:"cracking code python chap 10" due:"1528063199" entry:"1528103191" imask:"3.000000" modified:"1526561302" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"aaf7929c-8cc6-40bb-94e9-030e5a46dab9"]
+new [description:"cracking code python chap 10" due:"1528063199" entry:"1528103191" imask:"3.000000" modified:"1528269912" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"pending" tags:"python,crypto,hacking,hack" uuid:"aaf7929c-8cc6-40bb-94e9-030e5a46dab9"]
+---
+time 1528270155
+old [description:"cracking code python chap 10" due:"1528322399" entry:"1528269883" imask:"6.000000" modified:"1528190788" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"d36287c3-009e-421e-8d01-581481905a74"]
+new [description:"cracking code python chap 10" due:"1528322399" entry:"1528269883" imask:"6.000000" modified:"1528269914" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"pending" tags:"python,crypto,hacking,hack" uuid:"d36287c3-009e-421e-8d01-581481905a74"]
+---
+time 1528270155
+old [description:"cracking code python chap 10" due:"1528235999" entry:"1528190788" imask:"5.000000" modified:"1528103191" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"50972954-a5e4-4843-9c49-88b550b87954"]
+new [description:"cracking code python chap 10" due:"1528235999" entry:"1528190788" imask:"5.000000" modified:"1528269917" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"pending" tags:"python,crypto,hacking,hack" uuid:"50972954-a5e4-4843-9c49-88b550b87954"]
+---
+time 1528270155
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+------" modified:"1528269883" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+----+-" modified:"1528269954" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528270155
+old [description:"cracking code python chap 10" due:"1528235999" entry:"1528190788" imask:"5.000000" modified:"1528269917" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"pending" tags:"python,crypto,hacking,hack" uuid:"50972954-a5e4-4843-9c49-88b550b87954"]
+new [description:"cracking code python chap 10" due:"1528235999" end:"1528269954" entry:"1528190788" imask:"5.000000" modified:"1528269954" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"completed" tags:"python,crypto,hacking,hack" uuid:"50972954-a5e4-4843-9c49-88b550b87954"]
+---
+time 1528270155
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+----+-" modified:"1528269954" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+----++" modified:"1528269958" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528270155
+old [description:"cracking code python chap 10" due:"1528322399" entry:"1528269883" imask:"6.000000" modified:"1528269914" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"pending" tags:"python,crypto,hacking,hack" uuid:"d36287c3-009e-421e-8d01-581481905a74"]
+new [description:"cracking code python chap 10" due:"1528322399" end:"1528269958" entry:"1528269883" imask:"6.000000" modified:"1528269958" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"completed" tags:"python,crypto,hacking,hack" uuid:"d36287c3-009e-421e-8d01-581481905a74"]
+---
+time 1528270155
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+----++" modified:"1528269958" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+---+++" modified:"1528269965" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528270155
+old [description:"cracking code python chap 10" due:"1528149599" entry:"1528103191" imask:"4.000000" modified:"1528269910" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"pending" tags:"python,crypto,hacking,hack" uuid:"72656edf-7d86-4beb-bddf-0a51ee50ab92"]
+new [description:"cracking code python chap 10" due:"1528149599" end:"1528269965" entry:"1528103191" imask:"4.000000" modified:"1528269965" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"completed" tags:"python,crypto,hacking,hack" uuid:"72656edf-7d86-4beb-bddf-0a51ee50ab92"]
+---
+time 1528270155
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+---+++" modified:"1528269965" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+--++++" modified:"1528269968" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528270155
+old [description:"cracking code python chap 10" due:"1528063199" entry:"1528103191" imask:"3.000000" modified:"1528269912" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"pending" tags:"python,crypto,hacking,hack" uuid:"aaf7929c-8cc6-40bb-94e9-030e5a46dab9"]
+new [description:"cracking code python chap 10" due:"1528063199" end:"1528269968" entry:"1528103191" imask:"3.000000" modified:"1528269968" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"completed" tags:"python,crypto,hacking,hack" uuid:"aaf7929c-8cc6-40bb-94e9-030e5a46dab9"]
+---
+time 1528270155
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+--++++" modified:"1528269968" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+-+++++" modified:"1528269971" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528270155
+old [description:"cracking code python chap 10" due:"1527976799" entry:"1528103191" imask:"2.000000" modified:"1528269908" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"pending" tags:"python,crypto,hacking,hack" uuid:"5130ae2d-9418-4c55-bccb-a80bbdac78ba"]
+new [description:"cracking code python chap 10" due:"1527976799" end:"1528269971" entry:"1528103191" imask:"2.000000" modified:"1528269971" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"completed" tags:"python,crypto,hacking,hack" uuid:"5130ae2d-9418-4c55-bccb-a80bbdac78ba"]
+---
+time 1528270155
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+-+++++" modified:"1528269971" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+++++++" modified:"1528269996" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528270155
+old [description:"cracking code python chap 10" due:"1527890399" entry:"1528103191" imask:"1.000000" modified:"1528269898" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"pending" tags:"python,crypto,hacking,hack" uuid:"86097f08-542a-4bb9-b073-7f90d95b39e1"]
+new [description:"cracking code python chap 10" due:"1527890399" end:"1528269996" entry:"1528103191" imask:"1.000000" modified:"1528269996" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"completed" tags:"python,crypto,hacking,hack" uuid:"86097f08-542a-4bb9-b073-7f90d95b39e1"]
+---
+time 1528270155
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+++++++" modified:"1528269996" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++-----" modified:"1528270148" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528270209
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++-----" modified:"1528270148" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+++----" modified:"1528270209" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528270209
+old [description:"cracking code python chap 10" due:"1527976799" entry:"1528270148" imask:"2" modified:"1527855444" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"3184cb16-4bce-40b5-8066-ee064f372bc9"]
+new [description:"cracking code python chap 10" due:"1527976799" end:"1528270209" entry:"1528270148" imask:"2" modified:"1528270209" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"completed" tags:"python,crypto,hacking,hack" uuid:"3184cb16-4bce-40b5-8066-ee064f372bc9"]
+---
+time 1528270226
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+++----" modified:"1528270209" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++---" modified:"1528270226" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528270226
+old [description:"cracking code python chap 10" due:"1528063199" entry:"1528270148" imask:"3" modified:"1527855444" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"b03c580e-f41d-49ca-ae34-d4610ecb6529"]
+new [description:"cracking code python chap 10" due:"1528063199" end:"1528270226" entry:"1528270148" imask:"3" modified:"1528270226" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"completed" tags:"python,crypto,hacking,hack" uuid:"b03c580e-f41d-49ca-ae34-d4610ecb6529"]
+---
+time 1528270230
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++---" modified:"1528270226" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+++++--" modified:"1528270230" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528270230
+old [description:"cracking code python chap 10" due:"1528149599" entry:"1528270148" imask:"4" modified:"1527855444" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"3419489d-535d-44ea-b418-1c4ad9b44858"]
+new [description:"cracking code python chap 10" due:"1528149599" end:"1528270230" entry:"1528270148" imask:"4" modified:"1528270230" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"completed" tags:"python,crypto,hacking,hack" uuid:"3419489d-535d-44ea-b418-1c4ad9b44858"]
+---
+time 1528270236
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+++++--" modified:"1528270230" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++-" modified:"1528270236" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528270236
+old [description:"cracking code python chap 10" due:"1528235999" entry:"1528270148" imask:"5" modified:"1527855444" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"24809def-32f9-4a4f-a27b-014ff9fff8bd"]
+new [description:"cracking code python chap 10" due:"1528235999" end:"1528270236" entry:"1528270148" imask:"5" modified:"1528270236" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"completed" tags:"python,crypto,hacking,hack" uuid:"24809def-32f9-4a4f-a27b-014ff9fff8bd"]
+---
+time 1528270250
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++-" modified:"1528270236" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+++++++" modified:"1528270250" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528270250
+old [description:"cracking code python chap 10" due:"1528322399" entry:"1528270148" imask:"6" modified:"1527855444" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"f71d4835-a0d1-475f-bf89-68a6a78debb4"]
+new [description:"cracking code python chap 10" due:"1528322399" end:"1528270250" entry:"1528270148" imask:"6" modified:"1528270250" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"completed" tags:"python,crypto,hacking,hack" uuid:"f71d4835-a0d1-475f-bf89-68a6a78debb4"]
+---
+time 1528270305
+old [description:"computer forensics edx" due:"1529065139" entry:"1526048454" modified:"1527855539" priority:"M" project:"perso.cours" start:"1527665108" status:"pending" tags:"forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+new [description:"computer forensics edx" due:"1529065139" entry:"1526048454" modified:"1528270305" priority:"M" project:"perso.cours" recur:"daily" start:"1527665108" status:"recurring" tags:"forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+---
+time 1528270305
+new [description:"computer forensics edx" due:"1529065139" entry:"1528270305" imask:"0" modified:"1528270305" parent:"50955885-a08b-439a-9579-82f1685649ff" priority:"M" project:"perso.cours" recur:"daily" start:"1527665108" status:"pending" tags:"forensic,computer,tools" uuid:"9371034d-993d-40e1-b918-9a7e5c889c70"]
+---
+time 1528270305
+old [description:"computer forensics edx" due:"1529065139" entry:"1526048454" modified:"1528270305" priority:"M" project:"perso.cours" recur:"daily" start:"1527665108" status:"recurring" tags:"forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+new [description:"computer forensics edx" due:"1529065139" entry:"1526048454" mask:"-" modified:"1528270305" priority:"M" project:"perso.cours" recur:"daily" start:"1527665108" status:"recurring" tags:"forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+---
+time 1528270577
+old [description:"faire cv en anglais" due:"1526767199" entry:"1526392662" modified:"1526392662" priority:"H" status:"pending" uuid:"9690dfea-fcb4-461d-8ce9-da4c63dffc68"]
+new [description:"faire cv en anglais" due:"1526767199" entry:"1526392662" modified:"1528270577" priority:"H" project:"perso" status:"pending" uuid:"9690dfea-fcb4-461d-8ce9-da4c63dffc68"]
+---
+time 1528270596
+old [description:"faire cv en anglais" due:"1526767199" entry:"1526392662" modified:"1528270577" priority:"H" project:"perso" status:"pending" uuid:"9690dfea-fcb4-461d-8ce9-da4c63dffc68"]
+new [description:"faire cv en anglais" due:"1526767199" entry:"1526392662" modified:"1528270596" priority:"H" project:"perso" status:"pending" tags:"job,cv,anglais" uuid:"9690dfea-fcb4-461d-8ce9-da4c63dffc68"]
+---
+time 1528270633
+old [description:"faire cv sur enhancv" due:"1526767199" entry:"1525680564" modified:"1526392683" priority:"H" project:"perso" status:"pending" tags:"cv,job" uuid:"8fcff8db-b47f-4557-8dde-1ab3527a6a6e"]
+new [description:"faire cv sur enhancv" due:"1530395999" entry:"1525680564" modified:"1528270633" priority:"H" project:"perso" status:"pending" tags:"cv,job" uuid:"8fcff8db-b47f-4557-8dde-1ab3527a6a6e"]
+---
+time 1528270633
+old [description:"faire cv en anglais" due:"1526767199" entry:"1526392662" modified:"1528270596" priority:"H" project:"perso" status:"pending" tags:"job,cv,anglais" uuid:"9690dfea-fcb4-461d-8ce9-da4c63dffc68"]
+new [description:"faire cv en anglais" due:"1530395999" entry:"1526392662" modified:"1528270633" priority:"H" project:"perso" status:"pending" tags:"job,cv,anglais" uuid:"9690dfea-fcb4-461d-8ce9-da4c63dffc68"]
+---
+time 1528272139
+old [description:"exemple dd command forensic use" entry:"1527593378" modified:"1527593378" project:"perso.cours" status:"pending" tags:"forensic,tool" uuid:"0345359a-b746-48ad-b655-63ffb59a369f"]
+new [annotation_1528272087:"https:\/\/www.linuxnix.com\/what-you-should-know-about-linux-dd-command\/" description:"exemple dd command forensic use" entry:"1527593378" modified:"1528272139" project:"perso.cours" status:"pending" tags:"forensic,tool" uuid:"0345359a-b746-48ad-b655-63ffb59a369f"]
+---
+time 1528276928
+old [description:"computer forensics edx" due:"1529065139" entry:"1526048454" mask:"-" modified:"1528270305" priority:"M" project:"perso.cours" recur:"daily" start:"1527665108" status:"recurring" tags:"forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+new [description:"computer forensics edx" due:"1529065139" entry:"1526048454" mask:"+" modified:"1528276928" priority:"M" project:"perso.cours" recur:"daily" start:"1527665108" status:"recurring" tags:"forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+---
+time 1528276928
+old [description:"computer forensics edx" due:"1529065139" entry:"1528270305" imask:"0" modified:"1528270305" parent:"50955885-a08b-439a-9579-82f1685649ff" priority:"M" project:"perso.cours" recur:"daily" start:"1527665108" status:"pending" tags:"forensic,computer,tools" uuid:"9371034d-993d-40e1-b918-9a7e5c889c70"]
+new [description:"computer forensics edx" due:"1529065139" end:"1528276928" entry:"1528270305" imask:"0" modified:"1528276928" parent:"50955885-a08b-439a-9579-82f1685649ff" priority:"M" project:"perso.cours" recur:"daily" status:"completed" tags:"forensic,computer,tools" uuid:"9371034d-993d-40e1-b918-9a7e5c889c70"]
+---
+time 1528277659
+old [annotation_1528114721:"http:\/\/lea-linux.org\/documentations\/Iptables" annotation_1528114801:"http:\/\/lea-linux.org\/documentations\/Iptables" annotation_1528114834:"https:\/\/community.dedimax.com\/index.php\/2016\/05\/03\/configurer-iptables-pour-plus-de-securite\/" description:"explication iptables" entry:"1528114718" modified:"1528114842" project:"perso.cours" status:"pending" tags:"command,linux" uuid:"75abc22d-3e7c-4075-bd5e-7a8f913517a6"]
+new [annotation_1528114721:"http:\/\/lea-linux.org\/documentations\/Iptables" annotation_1528114834:"https:\/\/community.dedimax.com\/index.php\/2016\/05\/03\/configurer-iptables-pour-plus-de-securite\/" description:"explication iptables" entry:"1528114718" modified:"1528277659" project:"perso.cours" status:"pending" tags:"command,linux" uuid:"75abc22d-3e7c-4075-bd5e-7a8f913517a6"]
+---
+time 1528277704
+old [description:"how difficult it is to recover a deleted file depending of the filesystem" entry:"1528211149" modified:"1528211149" project:"perso.cours" status:"pending" tags:"delete,forensic,recover" uuid:"b12f45e0-5c96-4fe8-993d-e09d7ab57225"]
+new [description:"how difficult it is to recover a deleted file depending of the filesystem" end:"1528277704" entry:"1528211149" modified:"1528277704" project:"perso.cours" status:"completed" tags:"delete,forensic,recover" uuid:"b12f45e0-5c96-4fe8-993d-e09d7ab57225"]
+---
+time 1528294564
+new [description:"find netwars challenge video" entry:"1528294564" modified:"1528294564" project:"perso" status:"pending" tags:"forensic,security,linux,sans,challenge" uuid:"cc335c56-6c58-4315-8402-f36d65f82b6a"]
+---
+time 1528451637
+new [description:"cracking code python chap 10" due:"1528408799" entry:"1528451637" imask:"7" modified:"1528270250" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"f9941d0c-5b0f-4b38-a35e-15d0118a64d3"]
+---
+time 1528451637
+new [description:"cracking code python chap 10" due:"1528495199" entry:"1528451637" imask:"8" modified:"1528270250" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"298db310-d527-454d-9c21-7364b26eee36"]
+---
+time 1528451637
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+++++++" modified:"1528270250" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+++++++--" modified:"1528451637" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528451728
+new [description:"forensic course edx" due:"1530395999" entry:"1528451728" modified:"1528451728" project:"perso.cours" recur:"daily" status:"recurring" tags:"forensic,cours" uuid:"c6765b7f-a453-4ea6-9fa7-db28b22b040d"]
+---
+time 1528451728
+new [description:"forensic course edx" due:"1530395999" entry:"1528451728" imask:"0" modified:"1528451728" parent:"c6765b7f-a453-4ea6-9fa7-db28b22b040d" project:"perso.cours" recur:"daily" status:"pending" tags:"forensic,cours" uuid:"025477d3-6ec1-4469-9dae-9d3415b1ad45"]
+---
+time 1528451728
+old [description:"forensic course edx" due:"1530395999" entry:"1528451728" modified:"1528451728" project:"perso.cours" recur:"daily" status:"recurring" tags:"forensic,cours" uuid:"c6765b7f-a453-4ea6-9fa7-db28b22b040d"]
+new [description:"forensic course edx" due:"1530395999" entry:"1528451728" mask:"-" modified:"1528451728" project:"perso.cours" recur:"daily" status:"recurring" tags:"forensic,cours" uuid:"c6765b7f-a453-4ea6-9fa7-db28b22b040d"]
+---
+time 1528451797
+old [description:"cracking code python chap 10" due:"1527890399" entry:"1527848285" imask:"1.000000" modified:"1528269903" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"pending" tags:"python,crypto,hacking,hack" uuid:"a54f19fa-3229-449e-8312-1c543ebe7ae8"]
+new [description:"cracking code python chap 10" due:"1527890399" end:"1528451795" entry:"1527848285" imask:"1.000000" modified:"1528451797" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"completed" tags:"python,crypto,hacking,hack" uuid:"a54f19fa-3229-449e-8312-1c543ebe7ae8"]
+---
+time 1528451797
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+++++++--" modified:"1528451637" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++++-" modified:"1528451797" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528451797
+old [description:"cracking code python chap 10" due:"1528408799" entry:"1528451637" imask:"7" modified:"1528270250" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"f9941d0c-5b0f-4b38-a35e-15d0118a64d3"]
+new [description:"cracking code python chap 10" due:"1528408799" end:"1528451797" entry:"1528451637" imask:"7" modified:"1528451797" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"completed" tags:"python,crypto,hacking,hack" uuid:"f9941d0c-5b0f-4b38-a35e-15d0118a64d3"]
+---
+time 1528451797
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++++-" modified:"1528451797" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+++++++++" modified:"1528451797" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528451797
+old [description:"cracking code python chap 10" due:"1528495199" entry:"1528451637" imask:"8" modified:"1528270250" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"298db310-d527-454d-9c21-7364b26eee36"]
+new [description:"cracking code python chap 10" due:"1528495199" end:"1528451797" entry:"1528451637" imask:"8" modified:"1528451797" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"completed" tags:"python,crypto,hacking,hack" uuid:"298db310-d527-454d-9c21-7364b26eee36"]
+---
+time 1528451918
+new [description:"vim exercises tips" due:"1546297199" entry:"1528451918" modified:"1528451918" project:"perso" recur:"daily" status:"recurring" tags:"vim,exercise,tips" uuid:"ecaf6833-5d50-40d8-b31a-99d6e365626e"]
+---
+time 1528451918
+new [description:"vim exercises tips" due:"1546297199" entry:"1528451918" imask:"0" modified:"1528451918" parent:"ecaf6833-5d50-40d8-b31a-99d6e365626e" project:"perso" recur:"daily" status:"pending" tags:"vim,exercise,tips" uuid:"3ed78387-9798-4ccf-9e8e-1b5329b5b069"]
+---
+time 1528451918
+old [description:"vim exercises tips" due:"1546297199" entry:"1528451918" modified:"1528451918" project:"perso" recur:"daily" status:"recurring" tags:"vim,exercise,tips" uuid:"ecaf6833-5d50-40d8-b31a-99d6e365626e"]
+new [description:"vim exercises tips" due:"1546297199" entry:"1528451918" mask:"-" modified:"1528451918" project:"perso" recur:"daily" status:"recurring" tags:"vim,exercise,tips" uuid:"ecaf6833-5d50-40d8-b31a-99d6e365626e"]
+---
+time 1528704318
+new [description:"cracking code python chap 10" due:"1528581599" entry:"1528704318" imask:"9" modified:"1528451797" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"fb0c1543-59e1-4d0a-8cc2-f26b583622b3"]
+---
+time 1528704318
+new [description:"cracking code python chap 10" due:"1528667999" entry:"1528704318" imask:"10" modified:"1528451797" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"70f8b85c-665b-4364-9262-6292d66303e9"]
+---
+time 1528704318
+new [description:"cracking code python chap 10" due:"1528754399" entry:"1528704318" imask:"11" modified:"1528451797" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"83ebdf39-a217-4ffb-bb88-8dd6d0083b3a"]
+---
+time 1528704318
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+++++++++" modified:"1528451797" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+++++++++---" modified:"1528704318" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528704395
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+++++++++---" modified:"1528704318" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++++++--" modified:"1528704395" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528704395
+old [description:"cracking code python chap 10" due:"1528581599" entry:"1528704318" imask:"9" modified:"1528451797" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"fb0c1543-59e1-4d0a-8cc2-f26b583622b3"]
+new [description:"cracking code python chap 10" due:"1528581599" end:"1528704392" entry:"1528704318" imask:"9" modified:"1528704395" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"completed" tags:"python,crypto,hacking,hack" uuid:"fb0c1543-59e1-4d0a-8cc2-f26b583622b3"]
+---
+time 1528704395
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++++++--" modified:"1528704395" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+++++++++++-" modified:"1528704395" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528704395
+old [description:"cracking code python chap 10" due:"1528667999" entry:"1528704318" imask:"10" modified:"1528451797" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"70f8b85c-665b-4364-9262-6292d66303e9"]
+new [description:"cracking code python chap 10" due:"1528667999" end:"1528704395" entry:"1528704318" imask:"10" modified:"1528704395" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"completed" tags:"python,crypto,hacking,hack" uuid:"70f8b85c-665b-4364-9262-6292d66303e9"]
+---
+time 1528704395
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+++++++++++-" modified:"1528704395" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++++++++" modified:"1528704395" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528704395
+old [description:"cracking code python chap 10" due:"1528754399" entry:"1528704318" imask:"11" modified:"1528451797" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"83ebdf39-a217-4ffb-bb88-8dd6d0083b3a"]
+new [description:"cracking code python chap 10" due:"1528754399" end:"1528704395" entry:"1528704318" imask:"11" modified:"1528704395" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"completed" tags:"python,crypto,hacking,hack" uuid:"83ebdf39-a217-4ffb-bb88-8dd6d0083b3a"]
+---
+time 1528704634
+old [description:"get details info about MBR structure" entry:"1528191361" modified:"1528191361" project:"perso.cours" status:"pending" tags:"linux,forensic" uuid:"1f3518f1-ad22-4af5-9016-a64d904ea3bb"]
+new [annotation_1528704574:"\"https:\/\/en.wikipedia.org\/wiki\/Master_boot_record\"" description:"get details info about MBR structure" entry:"1528191361" modified:"1528704634" project:"perso.cours" status:"pending" tags:"linux,forensic" uuid:"1f3518f1-ad22-4af5-9016-a64d904ea3bb"]
+---
+time 1528704737
+new [description:"config raccourci tmux zoom sur zz ou alt-z" entry:"1528704737" modified:"1528704737" project:"perso.config" status:"pending" tags:"config,tmux,keybind" uuid:"e85d65ec-4ccd-43e1-aae3-79126e815cb5"]
+---
+time 1528792402
+new [description:"cracking code python chap 10" due:"1528840799" entry:"1528792402" imask:"12" modified:"1528704395" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"39d6726c-7b13-48f2-ad09-bf55d47b256d"]
+---
+time 1528792402
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++++++++" modified:"1528704395" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++++++++-" modified:"1528792402" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528792723
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++++++++-" modified:"1528792402" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+++++++++++++" modified:"1528792723" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528792723
+old [description:"cracking code python chap 10" due:"1528840799" entry:"1528792402" imask:"12" modified:"1528704395" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"39d6726c-7b13-48f2-ad09-bf55d47b256d"]
+new [description:"cracking code python chap 10" due:"1528840799" end:"1528792723" entry:"1528792402" imask:"12" modified:"1528792723" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"completed" tags:"python,crypto,hacking,hack" uuid:"39d6726c-7b13-48f2-ad09-bf55d47b256d"]
+---
+time 1528792976
+old [description:"comprendre vim-session plugin est-ce vraiment utile" entry:"1521638151" modified:"1523972335" project:"perso" status:"pending" tags:"vim,plugin,config" uuid:"be3f0fdd-01eb-4687-9e46-07625027b6f1"]
+new [description:"comprendre vim-session plugin est-ce vraiment utile" end:"1528792976" entry:"1521638151" modified:"1528792976" project:"perso" status:"completed" tags:"vim,plugin,config" uuid:"be3f0fdd-01eb-4687-9e46-07625027b6f1"]
+---
+time 1528891432
+new [description:"cracking code python chap 10" due:"1528927199" entry:"1528891432" imask:"13" modified:"1528792723" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"e03bdc0f-6d11-40c0-aefd-f7fb9fce0843"]
+---
+time 1528891432
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+++++++++++++" modified:"1528792723" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+++++++++++++-" modified:"1528891432" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528891477
+old [description:"forensic course edx" due:"1530395999" entry:"1528451728" mask:"-" modified:"1528451728" project:"perso.cours" recur:"daily" status:"recurring" tags:"forensic,cours" uuid:"c6765b7f-a453-4ea6-9fa7-db28b22b040d"]
+new [description:"forensic course edx" due:"1530395999" entry:"1528451728" mask:"+" modified:"1528891477" project:"perso.cours" recur:"daily" status:"recurring" tags:"forensic,cours" uuid:"c6765b7f-a453-4ea6-9fa7-db28b22b040d"]
+---
+time 1528891477
+old [description:"forensic course edx" due:"1530395999" entry:"1528451728" imask:"0" modified:"1528451728" parent:"c6765b7f-a453-4ea6-9fa7-db28b22b040d" project:"perso.cours" recur:"daily" status:"pending" tags:"forensic,cours" uuid:"025477d3-6ec1-4469-9dae-9d3415b1ad45"]
+new [description:"forensic course edx" due:"1530395999" end:"1528891477" entry:"1528451728" imask:"0" modified:"1528891477" parent:"c6765b7f-a453-4ea6-9fa7-db28b22b040d" project:"perso.cours" recur:"daily" status:"completed" tags:"forensic,cours" uuid:"025477d3-6ec1-4469-9dae-9d3415b1ad45"]
+---
+time 1528891486
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+++++++++++++-" modified:"1528891432" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++++++++++" modified:"1528891486" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1528891486
+old [description:"cracking code python chap 10" due:"1528927199" entry:"1528891432" imask:"13" modified:"1528792723" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"e03bdc0f-6d11-40c0-aefd-f7fb9fce0843"]
+new [description:"cracking code python chap 10" due:"1528927199" end:"1528891486" entry:"1528891432" imask:"13" modified:"1528891486" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"completed" tags:"python,crypto,hacking,hack" uuid:"e03bdc0f-6d11-40c0-aefd-f7fb9fce0843"]
+---
+time 1528891534
+new [description:"try speedtest-cli at home" entry:"1528891534" modified:"1528891534" project:"perso" status:"pending" tags:"test,internet,speed,speedtest" uuid:"153e38fb-3a67-47b5-a027-2af599fe878b"]
+---
+time 1528891549
+old [description:"try speedtest-cli at home" entry:"1528891534" modified:"1528891534" project:"perso" status:"pending" tags:"test,internet,speed,speedtest" uuid:"153e38fb-3a67-47b5-a027-2af599fe878b"]
+new [description:"try speedtest-cli at home" due:"1528927199" entry:"1528891534" modified:"1528891549" project:"perso" status:"pending" tags:"test,internet,speed,speedtest" uuid:"153e38fb-3a67-47b5-a027-2af599fe878b"]
+---
+time 1529062878
+new [description:"cracking code python chap 10" due:"1529013599" entry:"1529062878" imask:"14" modified:"1528891486" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"a7b93039-6c2f-479b-a76d-2aa7bbe1190f"]
+---
+time 1529062878
+new [description:"cracking code python chap 10" due:"1529099999" entry:"1529062878" imask:"15" modified:"1528891486" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"a70d1c14-f8a6-4f6b-8fd4-59790f8b25f6"]
+---
+time 1529062878
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++++++++++" modified:"1528891486" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++++++++++--" modified:"1529062878" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1529062878
+new [description:"cracking code python chap 10" due:"1529013599" entry:"1529062878" imask:"14" modified:"1528891486" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"13a9ff09-00cf-48be-82f1-c30ccaa9ae7b"]
+---
+time 1529062878
+new [description:"cracking code python chap 10" due:"1529099999" entry:"1529062878" imask:"15" modified:"1528891486" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"a342ece4-b8d4-4354-b50e-5d488260ba1d"]
+---
+time 1529062878
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++++++++++" modified:"1528891486" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++++++++++--" modified:"1529062878" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1529062878
+new [description:"cracking code python chap 10" due:"1529013599" entry:"1529062878" imask:"14" modified:"1528891486" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"3160f155-4523-4945-996e-d7f45bd1ab9b"]
+---
+time 1529062878
+new [description:"cracking code python chap 10" due:"1529099999" entry:"1529062878" imask:"15" modified:"1528891486" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"a54e9ee6-466d-41dd-b06d-1931943fd79e"]
+---
+time 1529062878
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++++++++++" modified:"1528891486" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++++++++++--" modified:"1529062878" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1529062985
+new [description:"forensic course" due:"1530395999" entry:"1529062985" modified:"1529062985" project:"perso.cours" recur:"daily" status:"recurring" tags:"forensic,course" uuid:"5071cf8c-0892-4166-8292-de841de00e35"]
+---
+time 1529062985
+new [description:"forensic course" due:"1530395999" entry:"1529062985" imask:"0" modified:"1529062985" parent:"5071cf8c-0892-4166-8292-de841de00e35" project:"perso.cours" recur:"daily" status:"pending" tags:"forensic,course" uuid:"cdff31f7-300f-4d57-8056-4d13e68e2289"]
+---
+time 1529062985
+old [description:"forensic course" due:"1530395999" entry:"1529062985" modified:"1529062985" project:"perso.cours" recur:"daily" status:"recurring" tags:"forensic,course" uuid:"5071cf8c-0892-4166-8292-de841de00e35"]
+new [description:"forensic course" due:"1530395999" entry:"1529062985" mask:"-" modified:"1529062985" project:"perso.cours" recur:"daily" status:"recurring" tags:"forensic,course" uuid:"5071cf8c-0892-4166-8292-de841de00e35"]
+---
+time 1529062985
+new [description:"forensic course" due:"1530395999" entry:"1529062985" imask:"0" modified:"1529062985" parent:"5071cf8c-0892-4166-8292-de841de00e35" project:"perso.cours" recur:"daily" status:"pending" tags:"forensic,course" uuid:"f88b846a-252b-4951-bfbd-d672a8d564d4"]
+---
+time 1529062985
+old [description:"forensic course" due:"1530395999" entry:"1529062985" modified:"1529062985" project:"perso.cours" recur:"daily" status:"recurring" tags:"forensic,course" uuid:"5071cf8c-0892-4166-8292-de841de00e35"]
+new [description:"forensic course" due:"1530395999" entry:"1529062985" mask:"-" modified:"1529062985" project:"perso.cours" recur:"daily" status:"recurring" tags:"forensic,course" uuid:"5071cf8c-0892-4166-8292-de841de00e35"]
+---
+time 1529063027
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++++++++++--" modified:"1529062878" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++++++++++-+" modified:"1529063027" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1529063027
+old [description:"cracking code python chap 10" due:"1529099999" entry:"1529062878" imask:"15" modified:"1528891486" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"a54e9ee6-466d-41dd-b06d-1931943fd79e"]
+new [description:"cracking code python chap 10" due:"1529099999" end:"1529063027" entry:"1529062878" imask:"15" modified:"1529063027" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"completed" tags:"python,crypto,hacking,hack" uuid:"a54e9ee6-466d-41dd-b06d-1931943fd79e"]
+---
+time 1529063030
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++++++++++-+" modified:"1529063027" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++++++++++++" modified:"1529063030" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1529063030
+old [description:"cracking code python chap 10" due:"1529013599" entry:"1529062878" imask:"14" modified:"1528891486" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"3160f155-4523-4945-996e-d7f45bd1ab9b"]
+new [description:"cracking code python chap 10" due:"1529013599" end:"1529063030" entry:"1529062878" imask:"14" modified:"1529063030" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"completed" tags:"python,crypto,hacking,hack" uuid:"3160f155-4523-4945-996e-d7f45bd1ab9b"]
+---
+time 1529065452
+new [description:"computer forensics edx" due:"1529151539" entry:"1529065452" imask:"1" modified:"1528276928" parent:"50955885-a08b-439a-9579-82f1685649ff" priority:"M" project:"perso.cours" recur:"daily" start:"1527665108" status:"pending" tags:"forensic,computer,tools" uuid:"b21f0024-97b9-4fe8-894a-a875ec461dad"]
+---
+time 1529065452
+old [description:"computer forensics edx" due:"1529065139" entry:"1526048454" mask:"+" modified:"1528276928" priority:"M" project:"perso.cours" recur:"daily" start:"1527665108" status:"recurring" tags:"forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+new [description:"computer forensics edx" due:"1529065139" entry:"1526048454" mask:"+-" modified:"1529065452" priority:"M" project:"perso.cours" recur:"daily" start:"1527665108" status:"recurring" tags:"forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+---
+time 1529141077
+new [description:"computer forensics edx" due:"1529151539" entry:"1529065461" imask:"1.000000" modified:"1528276928" parent:"50955885-a08b-439a-9579-82f1685649ff" priority:"M" project:"perso.cours" recur:"daily" start:"1527665108" status:"pending" tags:"forensic,computer,tools" uuid:"9d8dd585-4a74-4385-b107-c200ed4e0ab7"]
+---
+time 1529141077
+old [description:"computer forensics edx" due:"1529065139" entry:"1526048454" mask:"+-" modified:"1529065452" priority:"M" project:"perso.cours" recur:"daily" start:"1527665108" status:"recurring" tags:"forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+new [description:"computer forensics edx" due:"1529065139" entry:"1526048454" mask:"+-" modified:"1529065461" priority:"M" project:"perso.cours" recur:"daily" start:"1527665108" status:"recurring" tags:"forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+---
+time 1529141077
+new [description:"cracking code python chap 10" due:"1529186399" entry:"1529141077" imask:"16" modified:"1529063030" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"b7e14903-992e-4705-876d-401e735d2c33"]
+---
+time 1529141077
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++++++++++++" modified:"1529063030" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++++++++++++-" modified:"1529141077" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1529141111
+old [description:"computer forensics edx" due:"1529065139" entry:"1526048454" mask:"+-" modified:"1529065461" priority:"M" project:"perso.cours" recur:"daily" start:"1527665108" status:"recurring" tags:"forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+new [description:"computer forensics edx" due:"1529065139" entry:"1526048454" mask:"++" modified:"1529141111" priority:"M" project:"perso.cours" recur:"daily" start:"1527665108" status:"recurring" tags:"forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+---
+time 1529141111
+old [description:"computer forensics edx" due:"1529151539" entry:"1529065452" imask:"1" modified:"1528276928" parent:"50955885-a08b-439a-9579-82f1685649ff" priority:"M" project:"perso.cours" recur:"daily" start:"1527665108" status:"pending" tags:"forensic,computer,tools" uuid:"b21f0024-97b9-4fe8-894a-a875ec461dad"]
+new [description:"computer forensics edx" due:"1529151539" end:"1529141111" entry:"1529065452" imask:"1" modified:"1529141111" parent:"50955885-a08b-439a-9579-82f1685649ff" priority:"M" project:"perso.cours" recur:"daily" status:"completed" tags:"forensic,computer,tools" uuid:"b21f0024-97b9-4fe8-894a-a875ec461dad"]
+---
+time 1529141116
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++++++++++++-" modified:"1529141077" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+++++++++++++++++" modified:"1529141116" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1529141116
+old [description:"cracking code python chap 10" due:"1529186399" entry:"1529141077" imask:"16" modified:"1529063030" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"b7e14903-992e-4705-876d-401e735d2c33"]
+new [description:"cracking code python chap 10" due:"1529186399" end:"1529141116" entry:"1529141077" imask:"16" modified:"1529141116" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" status:"completed" tags:"python,crypto,hacking,hack" uuid:"b7e14903-992e-4705-876d-401e735d2c33"]
+---
+time 1529141218
+new [description:"cracking code python chap 10" due:"1529186399" entry:"1529141084" imask:"16.000000" modified:"1529063030" parent:"32d9d635-b983-4c88-8fd7-315d6a7040bd" project:"perso.cours" recur:"daily" start:"1526561073" status:"pending" tags:"python,crypto,hacking,hack" uuid:"2c1a3fa6-bb6d-4836-832f-6b38acc392f5"]
+---
+time 1529141218
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+++++++++++++++++" modified:"1529141116" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++++++++++++-" modified:"1529141084" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1529141218
+old [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"++++++++++++++++-" modified:"1529141084" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+new [description:"cracking code python chap 10" due:"1527803999" entry:"1526375722" mask:"+++++++++++++++++" modified:"1529141116" project:"perso.cours" recur:"daily" start:"1526561073" status:"recurring" tags:"python,crypto,hacking,hack" uuid:"32d9d635-b983-4c88-8fd7-315d6a7040bd"]
+---
+time 1529141248
+old [description:"try speedtest-cli at home" due:"1528927199" entry:"1528891534" modified:"1528891549" project:"perso" status:"pending" tags:"test,internet,speed,speedtest" uuid:"153e38fb-3a67-47b5-a027-2af599fe878b"]
+new [description:"try speedtest-cli at home" due:"1528927199" end:"1529141248" entry:"1528891534" modified:"1529141248" project:"perso" status:"completed" tags:"test,internet,speed,speedtest" uuid:"153e38fb-3a67-47b5-a027-2af599fe878b"]
+---
+time 1529155271
+new [description:"computer forensics edx" due:"1529237939" entry:"1529155271" imask:"2" modified:"1529141111" parent:"50955885-a08b-439a-9579-82f1685649ff" priority:"M" project:"perso.cours" recur:"daily" start:"1527665108" status:"pending" tags:"forensic,computer,tools" uuid:"f5fd05cd-8a7c-422a-95ea-7c8bca604465"]
+---
+time 1529155271
+old [description:"computer forensics edx" due:"1529065139" entry:"1526048454" mask:"++" modified:"1529141111" priority:"M" project:"perso.cours" recur:"daily" start:"1527665108" status:"recurring" tags:"forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+new [description:"computer forensics edx" due:"1529065139" entry:"1526048454" mask:"++-" modified:"1529155271" priority:"M" project:"perso.cours" recur:"daily" start:"1527665108" status:"recurring" tags:"forensic,computer,tools" uuid:"50955885-a08b-439a-9579-82f1685649ff"]
+---

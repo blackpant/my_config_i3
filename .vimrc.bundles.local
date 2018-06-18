@@ -1,0 +1,8 @@
+Plugin 'junegunn/fzf.vim'
+Plugin 'hyiltiz/vim-plugins-profile'
+Plugin 'edkolev/tmuxline.vim'
+Plugin 'itchyny/lightline.vim'
+" UnBundle 'vim-airline/vim-airline'
+" Plugin 'maralla/completor-neosnippet'
+" Plugin 'maralla/completor.vim'
+" Plugin 'w0rp/ale'

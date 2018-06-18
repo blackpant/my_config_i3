@@ -1,0 +1,13 @@
+!_TAG_FILE_SORTED	2	/0=unsorted, 1=sorted, 2=foldcase/
+CheckFolder	/home/blackpant/Documents/my_config_i3/install.py	/^def CheckFolder():$/;"	f	language:Python
+concurrent	/home/blackpant/Documents/my_config_i3/install.py	/^import concurrent.futures as futures$/;"	i	language:Python
+futures	/home/blackpant/Documents/my_config_i3/install.py	/^import concurrent.futures as futures$/;"	i	language:Python
+install_git_plugin	/home/blackpant/Documents/my_config_i3/install.py	/^def install_git_plugin(url):$/;"	f	language:Python
+install_vim_ult	/home/blackpant/Documents/my_config_i3/install.py	/^def install_vim_ult():$/;"	f	language:Python
+Main	/home/blackpant/Documents/my_config_i3/import.py	/^def Main():$/;"	f	language:Python
+os	/home/blackpant/Documents/my_config_i3/import.py	/^import os$/;"	i	language:Python
+os	/home/blackpant/Documents/my_config_i3/install.py	/^import os$/;"	i	language:Python
+subprocess	/home/blackpant/Documents/my_config_i3/import.py	/^import subprocess$/;"	i	language:Python
+subprocess	/home/blackpant/Documents/my_config_i3/install.py	/^import subprocess$/;"	i	language:Python
+updateFilesGit	/home/blackpant/Documents/my_config_i3/import.py	/^def updateFilesGit():$/;"	f	language:Python
+user_home	/home/blackpant/Documents/my_config_i3/install.py	/^user_home = os.getenv('HOME')$/;"	v	language:Python
