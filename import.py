@@ -37,7 +37,6 @@ def updateFilesGit():
     subprocess.call(["cp", "-uR", userPath + "/.config/dunst", "./.config"])
 
 
-
 def Main():
     try:
         updateFilesGit()
