@@ -1,0 +1,43 @@
+[options]
+# font = Roboto Mono Light for Powerline Light 9
+font = Hack 9
+
+[colors]
+
+# special
+foreground      = #fdf6e3
+foreground_bold = #fdf6e3
+cursor          = #fdf6e3
+background      = #272827
+
+# black
+color0  = #232423
+color8  = #282928
+
+# red
+color1  = #ba2922
+color9  = #cc372c
+
+# green
+color2  = #7e807e
+color10 = #8d8f8d
+
+# yellow
+color3  = #4c4f4d
+color11 = #4e524f
+
+# blue
+color4  = #16a085
+color12 = #13bf9d
+
+# magenta
+color5  = #43746a
+color13 = #487d72
+
+# cyan
+color6  = #00cccc
+color14 = #00d1d1
+
+# white
+color7  = #e0e0e0
+color15 = #e8e8e8
