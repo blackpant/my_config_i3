@@ -276,3 +276,4 @@ export VIRTUALENVWRAPPER_SCRIPT=/usr/bin/virtualenvwrapper.sh
 # avec la touche <C-s>
 stty -ixon
 # export TERM=termite
+export PATH=$HOME/bin:$PATH

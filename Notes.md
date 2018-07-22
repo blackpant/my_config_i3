@@ -1063,3 +1063,6 @@ tasknc - ncurses wrapper for taskwarrior. Installation.
 [collection de theme termite](https://github.com/khamer/base16-termite/tree/master/themes)
 [using rofi with compton](https://github.com/DaveDavenport/rofi/wiki/Using-rofi-with-compton)
 
+HDMI Manjaro solution
+quand je connecte un ecran rien ne se passait.
+la commande `xrandr --output HDMI1 --auto`, résouds en partie mon problème en dupliquant mon écran sur le second écran.

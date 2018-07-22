@@ -61,10 +61,11 @@ XTerm*reverseVideo:               on
 XTerm*faceName:                   Terminus:size=11:antialias=true
 XTerm*selectToClipboard:          true
 
-URxvt.font:                       xft:Hack Nerd Font:style=Regular:size=9
+!! URxvt.font:                       xft:Hack Nerd Font:style=Regular:size=10
+!! URxvt.font:                       Terminus:size=10:antialias=true
 
 ! alternative font settings with 'terminus':
-!URxvt.font:      -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
+URxvt.font:      -xos4-terminus-medium-r-normal--16-160-72-72-c-80-iso10646-1
 !URxvt.bold.font: -xos4-terminus-bold-r-normal--16-160-72-72-c-80-iso10646-1
 !! terminus names see end of file!
 

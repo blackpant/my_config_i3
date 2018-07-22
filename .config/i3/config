@@ -36,7 +36,7 @@ set $transparent #00000000
 # keybindings perso
 bindsym Mod4+n exec --no-startup-id firefox # lance firefox
 bindsym Mod4+v exec --no-startup-id $vim    # lancement de $vim
-bindsym Mod4+e exec --no-startup-id emacs   # lancement de spacemacs
+# bindsym Mod4+e exec --no-startup-id emacs   # lancement de spacemacs
 # bindsym Mod4+n exec --no-startup-id chromium # lance chromium
 # bindsym Mod4+Return exec terminator # lance terminator
 # bindsym $mod+Return exec --no-startup-id urxvtc # lance urxvt client
@@ -122,6 +122,7 @@ set $tag7   "7: Music "
 set $tag8   "8: Keep "
 set $tag9   "9: Screenshots "
 set $tag10  "10: Files"
+set $office "Office "
 
 # move workspace to specific screen
 # workspace $tag1 output 1
@@ -204,7 +205,7 @@ bar {
             inactive_workspace  $transparent $transparent $darkwhite
             active_workspace    $transparent $transparent #EFECCA
             urgent_workspace    $darkred     $transparent $darkred
-            binding_mode        $darkred     $darkred     $transparent
+            binding_mode        $darkred     $darkred     $black
             #binding_mode       $darkred     $darkwhite   $transparent
             #focused_workspace  $transparent $darkblack   $darkyellow
             #focused_workspace  $transparent #073642      $darkwhite
@@ -327,27 +328,29 @@ mode "screenshot" {
 
 
 for_window [class="Termite"                   ] focus
-for_window [class="Terminator"                ] focus
 for_window [title="^htop$" class="URxvt"      ] move workspace $tag6   , focus
 for_window [title="^htop$" class="Terminator" ] move workspace $tag6   , focus
 for_window [title="^htop$" class="Termite"    ] move workspace $tag6   , focus
 for_window [class="Nitrogen"                  ] floating enable        , focus
-
 for_window [window_role="pop-up"              ] floating enable        , focus
 for_window [window_role="Preferences"         ] floating enable        , focus
 for_window [window_type="dialog"              ] move workspace current , focus # deplace les fenetres de dialogs vim dans le workspace courant.
+for_window [title="^ncmpcpp$" class="Termite" ] move workspace $tag7   , focus
+for_window [title="^itask$" class="Termite"   ] move workspace $tag5   , focus
+for_window [title="task-dashboard" class="Termite"   ] move workspace $tag5
 
 
 #workspace backandforth
 workspace_auto_back_and_forth yes
 
 # assign programmes à un workspace
-assign [class = "Gvim"       ] $tag2
-# assign [class = "Terminator" ] $tag3
-assign [class = "Termite"    ] $tag3
-assign [class = "Firefox"    ] $tag1
-assign [class = "Chromium"   ] $tag1
-assign [class = "vlc"        ] $tag7
+assign [class = "Gvim"        ] $tag2
+assign [class = "Termite"     ] $tag3
+assign [class = "Firefox"     ] $tag1
+assign [class = "Chromium"    ] $tag1
+assign [class = "vlc"         ] $tag7
+assign [class = "Pcmanfm"     ] $tag10
+assign [class = "libreoffice" ] $office
 
 
 default_border          pixel 0
@@ -364,12 +367,12 @@ exec --no-startup-id nitrogen --restore
 exec --no-startup-id volumeicon -c ~/.config/volumeicon/volumeicon
 exec --no-startup-id conky -c ~/.conky/conky_maia
 exec --no-startup-id conky -c ~/.conky/conky_shortcuts_live_maia
+exec --no-startup-id nm-applet
 # exec --no-startup-id feh --bg-fill ~/Images/Wallpapers/leopard2.jpg
 # exec --no-startup-id pa-applet
 # exec --no-startup-id xfce4-power-manager
 # exec --no-startup-id clipster -d
 # exec --no-startup-id compton -fb --config ~/.config/compton.conf -i
-# exec --no-startup-id nm-applet
 # exec --no-startup-id ssh-add ~/.ssh/rsaopenssh
 # exec_always --no-startup-id conky ~/.conkyrc
 # exec_always --no-startup-id python jedihttp.py --log 'debug'

@@ -1,9 +1,3 @@
-search termina
-search term
-search config
-search image
-search
-echo
 rename Faction.jpeg
 search mnt
 search flow
@@ -20,25 +14,37 @@ cd /mnt/hgfs/Scripts/python-sample-send-mail
 cd .config/ranger/
 cd /mnt/hgfs/Scripts/
 search xdefau
-search doc
 search env
 cd /usr/share/conky/
 cd /usr/share/conky
 open_with gvim
-update_preview 
 update
 search docu
 search note
 cd /mnt/hgfs/
 shell vim --servername forensic --remote-silent-tab %s
-search termite
 cd .config/termite
 open_with 
-shell 
 touch linux_forensic_analysis.md
 search forens
-cd 
 cd /mnt/hgfs
 search foren
-
 shell gvim  %s
+update_preview 
+search doc
+cd 
+search zsr
+search zs
+search bin
+
+set_bookmark 
+search range
+search xre
+search image
+search ranger
+search rc
+shell 
+search vimrc
+search termite
+cd Images/Wallpapers/
+search ima
