@@ -1,25 +1,4 @@
-rename Faction.jpeg
-search mnt
-search flow
-search musi
-open_with
-delete
-cd .config/
-cd  rofi
-rename Public
-search xdefa
-open_with vim
-cd /mnt/hgfs/Python pour les pentesteurs 2-2-2
-cd /mnt/hgfs/Scripts/python-sample-send-mail
-cd .config/ranger/
-cd /mnt/hgfs/Scripts/
-search xdefau
-search env
-cd /usr/share/conky/
-cd /usr/share/conky
-open_with gvim
 update
-search docu
 search note
 cd /mnt/hgfs/
 shell vim --servername forensic --remote-silent-tab %s
@@ -29,14 +8,10 @@ touch linux_forensic_analysis.md
 search forens
 cd /mnt/hgfs
 search foren
-shell gvim  %s
 update_preview 
-search doc
-cd 
 search zsr
 search zs
 search bin
-
 set_bookmark 
 search range
 search xre
@@ -44,7 +19,32 @@ search image
 search ranger
 search rc
 shell 
-search vimrc
 search termite
 cd Images/Wallpapers/
+cd  config
+cd config
+cd ..
+search do
+search bur
+search docu
+search nin
+search m
+search mydr
+search mydrive
+search rclo
+search bu
+search us
+cd /
+search mus
+search conf
+search musi
+
 search ima
+search impo
+cd .config/
+search rea
+search read
+search doc
+cd 
+search vimrc
+shell gvim  %s

@@ -8,4 +8,4 @@ rofi.parse-known-hosts      true
 ! rofi.parse-hosts:         true
 rofi.window-format:         {w}: {t}
 
-rofi.theme: /usr/share/rofi/themes/Adapta-Nokto.rasi
+rofi.theme: /usr/share/rofi/themes/paper-float.rasi

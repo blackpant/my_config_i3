@@ -1,0 +1,16 @@
+termite
+python-pip
+i3blocks-gaps-git
+pip install pyperclip
+pip install termcolor
+tmux
+task
+nerd-fonts-complete
+tasksh
+rofi
+rofi-greenclip
+i3lock-fancy-git
+tty-clock
+neofetch
+tmuxinator
+

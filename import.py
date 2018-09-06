@@ -10,8 +10,8 @@ def updateFilesGit():
 
     subprocess.call(["cp", "-u", userPath + "/.zshrc", "."])
     # subprocess.call(["cp", "-u", userPath + "/.vimrc", "."])
-    subprocess.call(["cp", "-u", userPath + "/.vim_runtime/my_configs.vim", "."])
-    subprocess.call(["cp", "-u", userPath + "/.conkyrc", "."])
+    # subprocess.call(["cp", "-u", userPath + "/.vim_runtime/my_configs.vim", "."])
+    # subprocess.call(["cp", "-u", userPath + "/.conkyrc", "."])
     subprocess.call(["cp", "-u", userPath + "/.Xdefaults", "."])
     subprocess.call(["cp", "-u", userPath + "/tmuxline", "."])
     subprocess.call(["cp", "-u", userPath + "/.xinitrc", "."])
@@ -35,7 +35,8 @@ def updateFilesGit():
     subprocess.call(["cp", "-uR", userPath + "/.config/tmux", "./.config"])
     subprocess.call(["cp", "-uR", userPath + "/.config/tmuxinator", "./.config"])
     subprocess.call(["cp", "-uR", userPath + "/.config/dunst", "./.config"])
-
+    subprocess.call(["cp", "-u", userPath + "/.vimrc.local", "."])
+    subprocess.call(["cp", "-u", userPath + "/.vimrc.bundles.local", "."])
 
 def Main():
     try:

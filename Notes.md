@@ -1018,14 +1018,6 @@ Music Player Daemon (MPD)
 installation
 
 
-NCMPCPP ( MPD Client)
-installer mpd avant.
-configurer le fichier `/etc/mpd.conf`.
-`cd ~ && mkdir .ncmpcpp`.
-`cp /usr/share/doc/ncmpcpp/config ~/.ncmpcpp/`.
-quand nouveau fichier de music ajouté dans le dossier de musique, base de données mpd n'est pas bien mis à jour !!?
-problem a voir.
-plus tard c'est chiant !!! Peut etre sur Arch juste !!! A voir sur debian ?!
 
 
 Mise en forme en clair du fichier de config i3. Avec indentations et tout.
@@ -1066,3 +1058,49 @@ tasknc - ncurses wrapper for taskwarrior. Installation.
 HDMI Manjaro solution
 quand je connecte un ecran rien ne se passait.
 la commande `xrandr --output HDMI1 --auto`, résouds en partie mon problème en dupliquant mon écran sur le second écran.
+
+#Gestion du son sur manjaro 
+[Lien à suivre](https://wiki.manjaro.org/index.php?title=Setting_the_Default_Sound_Device)
+```
+ 0 [HDMI           ]: HDA-Intel - HDA Intel HDMI
+                      HDA Intel HDMI at 0xd1710000 irq 34
+ 1 [PCH            ]: HDA-Intel - HDA Intel PCH
+                      HDA Intel PCH at 0xd1714000 irq 31
+```
+
+#Rclone Browser
+permet d'acceder à different service de stockage cloud comme dropbox ou drive.k
+
+#NCMPCPP
+NCMPCPP ( MPD Client)
+installer mpd avant.
+configurer le fichier `/etc/mpd.conf`.
+`cd ~ && mkdir .ncmpcpp`.
+`cp /usr/share/doc/ncmpcpp/config ~/.ncmpcpp/`.
+quand nouveau fichier de music ajouté dans le dossier de musique, base de données mpd n'est pas bien mis à jour !!?
+problem a voir.
+plus tard c'est chiant !!! Peut etre sur Arch juste !!! A voir sur debian ?!
+
+#MPD and MOPIDY
+(Lien article blog)[http://ellengummesson.com/blog/2014/08/31/mopidy-and-ncmpcpp/]
+- Mopidy remplace mpd ?
+- Est-ce que mopidy est mieux que mpd du coup ?
+
+#MOPIDY
+installer mopidy
+installer mopidy-spotify
+
+Mopidy permet avec ses pligins de lire des musics sur le cloud comme spotify ou soudclound par exemple.
+Mais apparemment le maintient n'est pas très actif !!
+
+
+#Simple Terminal
+>Un terminal qui a l'air pas mal à voir !!
+
+#NETTOYER LE CACHE DES PACKAGES SUR ARCHLINUX
+(Lien à lire)[https://www.ostechnix.com/recommended-way-clean-package-cache-arch-linux/]
+
+
+#VIM AND PYTHON 
+(lien de l'article)[https://realpython.com/vim-and-python-a-match-made-in-heaven/#auto-complete]
+
