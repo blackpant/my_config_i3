@@ -1,0 +1,101 @@
+set background=dark
+set termguicolors
+colorscheme solarized8_flat
+let g:airline_theme = 'base16_solarized'
+" set AirlineTheme base16_solarized
+" let g:solarized_termcolors=16
+
+" vv to generate new vertical split
+nnoremap <silent> vv <C-w>v
+
+" Tagbar setting
+nmap <F8> :TagbarToggle<CR>
+
+" Escape character remap exit mode insert
+inoremap kj <Esc>
+
+
+let g:airline_powerline_fonts = 1
+
+let g:vim_markdown_folding_style_pythonic = 1
+
+let g:instant_markdown_browser = "qutebrowser --target window"
+
+let g:startify_bookmarks = [ {'c': '~/.vimrc.local'}, '~/.zshrc' , {'n':'~/Documents/Notes/README.md'}, {'i': '~/.config/i3/config'}, {'cc': '~/.vimrc.local.bundles'}]
+
+
+" Trigger configuration. Do not use <tab> if you use https://github.com/Valloric/YouCompleteMe.
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
+
+let g:ycm_filetype_blacklist = {}
+
+" make YCM compatible with UltiSnips (using supertab)
+let g:ycm_key_list_select_completion = ['<C-n>', '<Down>']
+let g:ycm_key_list_previous_completion = ['<C-p>', '<Up>']
+
+nmap <Leader>st :Startify<CR>
+nmap = I#<space>kj
+nmap == I#kj
+
+" tell vim where to put swap files
+set dir=~/.vim/swp/
+
+let g:tagbar_type_markdown = {
+    \ 'ctagstype' : 'markdown',
+    \ 'kinds' : [
+        \ 'h:Heading_L1',
+        \ 'i:Heading_L2',
+        \ 'k:Heading_L3'
+    \ ]
+\ }
+
+let g:tagbar_type_ansible = {
+	\ 'ctagstype' : 'ansible',
+	\ 'kinds' : [
+		\ 't:tasks'
+	\ ],
+	\ 'sort' : 0
+\ }
+
+let g:vim_markdown_new_list_item_indent = 0
+
+" :let g:vim_diary_basedir = expand("~/Documents/Notes/work/diary/")
+" :let g:vim_diary_pattern = "**/*.md"
+
+" Diary plugin
+let g:ephemeris_diary = '~/Documents/Notes/work/diary'
+
+" Taskwarrior Plugin
+"
+" whether the field under the cursor is highlighted
+let g:task_highlight_field = 1
+
+" allows user to override task configurations. Seperated by space. Defaults to ''
+" let g:task_rc_override     = 'rc.defaultwidth=999'
+let g:task_rc_override = 'rc.defaultwidth=0'
+
+" whether the info window is splited vertically
+let g:task_info_vsplit     = 1
+
+" info window size
+let g:task_info_size       = 15
+
+" vim built-in term for task undo in gvim
+let g:task_gui_term        = 1
+
+
+" Terraform file 
+" https://github.com/hashivim/vim-terraform
+" Allow vim-terraform to align settings automatically with Tabularize.
+let g:terraform_align=1
+
+" Allow vim-terraform to automatically fold (hide until unfolded) sections of
+" terraform code.
+" Defaults to 0 which is off.
+let g:terraform_fold_sections=1
+

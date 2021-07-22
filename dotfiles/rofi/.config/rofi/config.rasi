@@ -1,0 +1,7 @@
+configuration {
+    modi:   "window,drun,run,ssh,combi";
+    font:   "Hack Nerd Font 12";
+    /* combi-modi: "window,drun,run,ssh"; */
+    matching:   "fuzzy";
+}
+@import "~/.config/rofi/material.rasi"

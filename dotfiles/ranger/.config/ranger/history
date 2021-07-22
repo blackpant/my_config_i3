@@ -1,0 +1,50 @@
+search rdeh
+search mar
+search perso
+search test
+rename 2020-12-10---personnal-notes
+search fw_sw
+shell  %s
+rename command_sw.md
+search build
+shell mkdir stalupula
+search sta
+search re
+search iam
+shell touch process_revalidation_notes.md
+search reval
+cd 
+search S1
+search vmi
+search vmish
+search in
+shell 
+find *iso
+search Dow
+open_with n
+search lver
+search doc
+search lve
+search templa
+search cent
+search centos
+search Cen
+search cen
+search Té
+search htem
+search ksmirnov
+search ksmir
+search svov
+search nth
+search 
+search IBM
+search ihamm
+search iham
+search pas
+search buil
+search albi
+search bui
+cd -
+search mdi
+search mdia
+delete
